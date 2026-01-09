@@ -1,0 +1,260 @@
+{
+  "id": "2908-sandy-ln-santa-cruz-ca-95062-20260108214545",
+  "url": "https://www.zillow.com/homedetails/2908-Sandy-Ln-Santa-Cruz-CA-95062/16128934_zpid/",
+  "address": "2908 Sandy Ln, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1287500,
+  "description": "Tucked near the end of a quiet cul-de-sac in Live Oak, this 4 bed, 2 bath home sits on a generous lot. Separate family room with fireplace. Hardwood, laminate and vinyl flooring. 1 story single family residence built in 1951 with character and charm. Large 10,019 sqft lot.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 1926,
+    "lot_sqft": 10019,
+    "year_built": 1951,
+    "property_type": "Single Family Residence",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/42d8c127cbf076cd81dd546460e0f907-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5bfd95340180037f2a35a58f9d40f6bf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/be86aa5b51bcb86a2b07fea652120eb6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/35227b5695f6320e672792eb9c9c0ade-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1bb4518eb183ff3c3337bc3fd39e2466-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/119fbadf5d605be67dedb66e70d6a772-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4efdb42229d58ffea2555703e5b8a4d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88bb064044285d50bc78740f504bf278-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/28efc8d9cf14f122cd6572288a9101be-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/949a13ce2546acb3efb8781f89fcc298-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/647ac2eaead95951b1d9c558efc124ba-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4465045d146dba306d925e138bb5b147-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8c73ca101dabf11fff62487eb3fa96da-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5bd845fbf2c2496b70204c813e3c3d1c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/42af0b491da72af60f57fc1db45c2d26-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/91ee55b33b73016093f1ded65c17b414-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/70a5bb666768e8d8d4216c51d2ef8601-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2743903591b4160b2c4918dae831dd16-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7c3facd00165d9349b6b7492bb96d12e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7752c6385a19145d9fd01be9ff75eaeb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6333c021980f80b365f145288c08cf26-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8623fb3eb63d87ac05963ad0c2771266-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/77cd27d5f7a2d99a794f63d7cc98273f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c89d57a61c386cefe3c699b568345b69-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5a4deea37a3ee351876987c0ec66c017-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d8fef20b649eaaba41273031bec97961-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/72b8a36ba0a602872ee6befbb3b20e6b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/605d82e00cc0bc70ebdce59e762384d1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a05c72ac955d3f1bc2cf67c778bb8409-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/06a07d647c9f4f072fa028b716aab671-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/19ed3d864ec6d4f87c61f3f45a643c9f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b4cf3bfea2b967e9a32ee88e925537db-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5fbaa365d23d6dcf67a77f6545b6cf11-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ad6c2a92ff7f0fab9d8a86097ce2bc1c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fb2cb03e413ed812f1057848c3b73f79-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/86eb9f33e93da7f3223caa84c19e3501-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/088cc9e2fcd81e6f16c31d3cf487ebff-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4,
+        "materials": [
+          "oak cabinetry",
+          "white tile countertops",
+          "stainless appliances",
+          "linoleum/vinyl flooring"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Original 80s/90s style oak cabinets with grout lines in tiled counters which are difficult to clean. Appliances have been upgraded to stainless but the layout and cabinetry are dated."
+      },
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 8,
+        "materials": [
+          "narrow-plank hardwood floors",
+          "brick fireplace",
+          "open beam wood ceiling"
+        ],
+        "light_quality": "abundant",
+        "condition": "well-maintained",
+        "notes": "Excellent architectural character with the vaulted wood-and-beam ceilings. Large sliding glass doors provide great indoor-outdoor flow."
+      },
+      {
+        "room_type": "nursery/bedroom 2",
+        "aesthetic_quality": 7,
+        "materials": [
+          "hardwood floors",
+          "wood beam ceiling"
+        ],
+        "light_quality": "abundant",
+        "condition": "excellent",
+        "notes": "Features a built-in window seat and consistent vaulted wood ceilings. Very bright with dual aspect windows."
+      },
+      {
+        "room_type": "primary bedroom",
+        "aesthetic_quality": 6,
+        "materials": [
+          "hardwood floors",
+          "plaster/drywall"
+        ],
+        "light_quality": "good",
+        "condition": "clean",
+        "notes": "Located on the upper level (per floorplan), this room has sloped ceilings and simpler finishes than the main floor living areas."
+      },
+      {
+        "room_type": "bathroom",
+        "aesthetic_quality": 5,
+        "materials": [
+          "patterned wall tile",
+          "integrated laminate sink",
+          "glass shower door"
+        ],
+        "light_quality": "fair",
+        "condition": "vintage",
+        "notes": "The blue patterned wall tile and vanity suggest a mid-century or 70s era bathroom that has not been fully modernized."
+      },
+      {
+        "room_type": "exterior/backyard",
+        "aesthetic_quality": 7,
+        "materials": [
+          "wood decking",
+          "concrete patio",
+          "wood fencing"
+        ],
+        "light_quality": "excellent",
+        "condition": "good",
+        "notes": "Multiple outdoor zones including a raised deck with pergola and a flat lawn area. The landscaping is mature and provides privacy."
+      }
+    ],
+    "overall_aesthetic": 6,
+    "architectural_style": "Mid-Century Ranch / California Bungalow",
+    "red_flags": [
+      "Mismatch between high-quality architectural ceilings and dated 'builder-grade' kitchen/baths",
+      "Wall heaters visible in several rooms (no central HVAC mentioned or visible)",
+      "Tile countertops in kitchen with wide grout lines"
+    ],
+    "positive_signals": [
+      "Original tongue-and-groove wood beam ceilings",
+      "Real hardwood flooring (not LVP)",
+      "Large windows and window seats",
+      "Spacious, private backyard with multiple seating areas",
+      "Functional floor plan with distinct living zones"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"oak cabinetry\",\n        \"white tile countertops\",\n        \"stainless appliances\",\n        \"linoleum/vinyl flooring\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"dated\",\n      \"notes\": \"Original 80s/90s style oak cabinets with grout lines in tiled counters which are difficult to clean. Appliances have been upgraded to stainless but the layout and cabinetry are dated.\"\n    },\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"narrow-plank hardwood floors\",\n        \"brick fireplace\",\n        \"open beam wood ceiling\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Excellent architectural character with the vaulted wood-and-beam ceilings. Large sliding glass doors provide great indoor-outdoor flow.\"\n    },\n    {\n      \"room_type\": \"nursery/bedroom 2\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"hardwood floors\",\n        \"wood beam ceiling\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Features a built-in window seat and consistent vaulted wood ceilings. Very bright with dual aspect windows.\"\n    },\n    {\n      \"room_type\": \"primary bedroom\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"hardwood floors\",\n        \"plaster/drywall\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"clean\",\n      \"notes\": \"Located on the upper level (per floorplan), this room has sloped ceilings and simpler finishes than the main floor living areas.\"\n    },\n    {\n      \"room_type\": \"bathroom\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"patterned wall tile\",\n        \"integrated laminate sink\",\n        \"glass shower door\"\n      ],\n      \"light_quality\": \"fair\",\n      \"condition\": \"vintage\",\n      \"notes\": \"The blue patterned wall tile and vanity suggest a mid-century or 70s era bathroom that has not been fully modernized.\"\n    },\n    {\n      \"room_type\": \"exterior/backyard\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood decking\",\n        \"concrete patio\",\n        \"wood fencing\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"good\",\n      \"notes\": \"Multiple outdoor zones including a raised deck with pergola and a flat lawn area. The landscaping is mature and provides privacy.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Mid-Century Ranch / California Bungalow\",\n  \"red_flags\": [\n    \"Mismatch between high-quality architectural ceilings and dated 'builder-grade' kitchen/baths\",\n    \"Wall heaters visible in several rooms (no central HVAC mentioned or visible)\",\n    \"Tile countertops in kitchen with wide grout lines\"\n  ],\n  \"positive_signals\": [\n    \"Original tongue-and-groove wood beam ceilings\",\n    \"Real hardwood flooring (not LVP)\",\n    \"Large windows and window seats\",\n    \"Spacious, private backyard with multiple seating areas\",\n    \"Functional floor plan with distinct living zones\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.8,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Abundant windows throughout; large sliders and dual-aspect windows in bedrooms provide significant natural illumination."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.2,
+        "weight": 0.18,
+        "notes": "Strong mid-century character with exposed wood-and-beam ceilings, vaulted spaces, and built-in window seats."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.5,
+        "weight": 0.15,
+        "notes": "High quality hardwood and wood beams are offset by low-quality dated kitchen tile, linoleum, and vintage laminate vanities."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.5,
+        "weight": 0.12,
+        "notes": "The brick fireplace and interior wood elements provide significant warmth, avoiding a sterile or 'flipped' feel."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Good indoor-outdoor flow on the main floor; however, the secondary story appears to have simpler finishes and potentially disjointed feel."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 8.0,
+        "weight": 0.1,
+        "notes": "Located on a quiet cul-de-sac in a desirable Santa Cruz neighborhood (Live Oak), avoiding high fire risk forest zones."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.8,
+        "weight": 0.08,
+        "notes": "Generous 10,000+ sqft lot with mature landscaping and usable multi-zone decking."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "Clean but dated; lack of central HVAC (visible wall heaters) and original 80s-style kitchen represent 'present-fit' compromises."
+      }
+    ],
+    "justification": "This house is a strong 'bones' match based on your preference for architectural character and wood elements, but is penalized significantly for its lack of modern functional updates. While it avoids 'flip-style' cheapness, the kitchen and bathrooms are in a state of 'functional obsolescence' relative to the price point, requiring immediate aesthetic compromise. The presence of wall heaters rather than central HVAC is a notable functional drawback for present-fit.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Main Flow",
+        "current_state": "Dated oak cabinetry, white tile counters, and linoleum flooring that clashes with the home's architectural bones.",
+        "proposed_change": "Complete gut renovation. Install walnut or white oak cabinetry to match the ceiling's warmth, quartz or soapstone countertops with a seamless backsplash, and high-end lighting to bridge the gap between the kitchen and the vaulted living room.",
+        "impact": "High. It removes the 'builder-grade' feel and aligns the kitchen with the high-quality MCM ceilings and hardwood floors.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Primary Bathroom & Guest Bath",
+        "current_state": "Vintage 70s-era tile and integrated laminate sinks.",
+        "proposed_change": "Modernize with walk-in showers featuring vertical stack tile, floating wood vanities, and brass or matte black fixtures. Maintain a 'retro-organic' vibe to keep the quirky character the user enjoys.",
+        "impact": "High. Transforms the house from 'well-kept vintage' to 'designed luxury.'",
+        "difficulty": "medium"
+      },
+      {
+        "area": "HVAC & Energy Efficiency",
+        "current_state": "Outdated wall heaters and visible lack of central climate control.",
+        "proposed_change": "Install a multi-zone mini-split system. This avoids the need for bulky ductwork that would ruin the beautiful wood-and-beam ceilings.",
+        "impact": "Medium. Essential for modern comfort and removes unsightly wall units.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring Harmonization",
+        "current_state": "Hardwood looks good but different materials in kitchen and bath create a choppy feel.",
+        "proposed_change": "Refinish existing hardwood with a matte clear coat and carry matching wood into the kitchen area for a seamless open-concept feel.",
+        "impact": "Medium. Makes the 1,926 sqft feel significantly larger and more cohesive.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "1951 construction likely contains lead paint or asbestos in popcorn ceilings/flooring mastic.",
+      "Electrical panel may need an upgrade to support a modern kitchen and mini-split HVAC.",
+      "Renovating around vaulted T&G ceilings requires care to avoid damaging the original wood finish."
+    ],
+    "upside_narrative": "This is a 'diamond in the rough' for a fan of Mid-Century Modern design. The most expensive elements to replicate\u2014the vaulted tongue-and-groove ceilings and original narrow-plank hardwoods\u2014are already in excellent shape. By allocating the $150k budget toward a high-end kitchen and bath overhaul, this property transforms from a dated bungalow into a sophisticated California Modern retreat. The 'quirky' elements like the window seats and multi-level layout perfectly align with the user's taste, offering a soulfulness that modern flip-houses lack."
+  },
+  "brief": "# House Brief: 2908 Sandy Ln, Santa Cruz\n\n## Executive Summary\nThis 1951 Mid-Century Ranch is a \"character-first\" property located on a quiet cul-de-sac in Live Oak. While the home boasts exceptional original architectural bones, including vaulted tongue-and-groove ceilings and narrow-plank hardwoods, the interior systems and finishes (kitchen/baths) are dated and lack modern functionality. It is a high-potential project for a buyer who values soul over move-in-ready convenience.\n\n## Aesthetic Alignment\nThe property aligns strongly with the user\u2019s preference for **architectural character and natural materials**. The vaulted wood ceilings and brick fireplace provide a \"cozy warmth\" that is difficult to replicate in modern builds. Large windows, window seats, and a 10,000+ sqft lot ensure the \"abundant natural light\" and indoor-outdoor flow the user seeks. It successfully avoids the \"boxiness\" and \"cheap flip\" aesthetic of the current market.\n\n## Strengths\n*   **Original Craftsmanship:** Rare, high-quality tongue-and-groove wood beam ceilings and authentic hardwood flooring.\n*   **Spatial Interest:** Far from a generic layout; features distinct living zones, built-in window seating, and a multi-level feel.\n*   **Expansive Lot:** The 10,000+ sqft lot is roughly double the size of many neighboring parcels, offering significant privacy and landscaping potential.\n*   **Location:** End of a cul-de-sac location avoids through-traffic and high-fire-risk forest zones.\n\n## Weaknesses\n*   **Functional Obsolescence:** The kitchen and bathrooms feature \"builder-grade\" tile and dated fixtures that clash with the home's architectural quality.\n*   **Climate Control:** The home relies on dated wall heaters; there is no evidence of central HVAC or mini-split systems.\n*   **Deferred Modernization:** At a $1.28M price point, the lack of a modern electrical panel or updated window glazing (likely) represents a significant hidden cost.\n\n## Deal-Breakers\n*   **None identified.** However, buyers sensitive to \"project homes\" may find the immediate need for a kitchen/bath overhaul (estimated $100k-$200k) to be a financial deterrent.\n\n## Renovation Paths\n*   **The \"California Modern\" Transformation:** Focus the budget on a high-end kitchen remodel (removing the tile countertops/wide grout) and a primary bath overhaul. \n*   **Systems Upgrade:** Prioritize an electrical panel upgrade and the installation of a multi-zone mini-split HVAC system to replace wall heaters.\n*   **Safety/Abatement:** Given the 1951 build date, factor in testing for lead and asbestos before disturbing any flooring or popcorn ceiling textures.\n\n## Who This House Is For\nThis property is for the **design-forward buyer** who is willing to trade a \"turn-key\" experience for a home with a soul. If you hate gray laminate \"flipper\" houses and want a canvas with legitimate mid-century pedigree, this is your house.\n\n## Verdict\n**Pursue, but price in the work.** This is an 82/100 potential-score property. The \"bones\" are exactly what you are looking for, and the lot size is a rare find in Live Oak. Do not pay \"renovated\" prices for this home; negotiate based on the $150k+ required to bring the systems and finishes up to the level of the architecture.",
+  "annotations": [
+    "9/10 - wooden beams, bricks for fireplace, quite a lot of light, great price"
+  ],
+  "user_verdict": "liked",
+  "ingested_at": "2026-01-08T21:45:45.467930",
+  "scored_at": "2026-01-09T08:52:18.459723"
+}

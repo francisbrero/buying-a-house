@@ -1,0 +1,294 @@
+{
+  "id": "2241-albert-ln-capitola-ca-95010-20260108214504",
+  "url": "https://www.zillow.com/homedetails/2241-Albert-Ln-Capitola-CA-95010/16131292_zpid/",
+  "address": "2241 Albert Ln, Capitola, CA 95010",
+  "city": "Capitola",
+  "state": "CA",
+  "zip_code": "95010",
+  "price": 1658500,
+  "description": "Desirable Capitola location at the end of a quiet cul-de-sac, perfect for a big family. With a newly updated kitchen and solar panels. 2 stories with separate family room. 2 fireplaces (gas and wood burning). Water softener included.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 2105,
+    "lot_sqft": 5140,
+    "year_built": 1997,
+    "property_type": "Single Family Residence",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/d5f259b8eef4038575beaa37f76e34a8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6329f89148439f245f234129fccd7fe2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95c3e07026e59f31bce6aff0157b378e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/44a4e56f6e1f5f4a01a92530b941b77b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fa159381eb51f9b8836107ca52fdecf0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/180d8260e71bbe54082536328831403c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/184f8f61f23ed51cf32ac64d654695f2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c9ea12b67a5b2c4e8fbb00d0af7600a2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c7cf8a34c32c5d48380645bbe4a81add-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1f092d78fd0de45e50531f0d83525860-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cd6c6a2e80057be2636493b0439cc1c4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/54654400dc0566ee781cce54777c453f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6f4d69cffe4739d81fd084a50b60c5bd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/386778439b2631b852725ee6f146b2e4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/185c2fdf5eec04a1f098c4f994ec06cc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ba8d17da391014f054fe3dae1f102e42-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4a8ee3e578bfb86d0ce5ec55ec18c42e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/db2b62471cda29a3d8b98b618eb3ec35-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/55e8ca0fba49c89fb584b09ddafe1877-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d5481ab5713a8a207d46ee5c09484b4f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7c2df86040f04561c47d7933136e75d3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e708167d071d688f1adf00f210cdb562-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/39cbb572cc4e403d0963fde25d6cd4b1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bc77f1f0470a0178fb2b61d35733a3fb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2772a30dec0e4171e596b71fc3210ae1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/10038cc6da262e1f25ebd1fe0e9e5f82-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/100e31e1a5c89968c8a383ad815b7394-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bcaacfb618c2bee42d7c8866b6961b0e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/36420782952a4a3789f18d09890c28f4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c026039804b2d4f65fbe5b9f057c2881-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6b146995601b6b7528cb99c1364b4fe3-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 8,
+        "materials": [
+          "stucco",
+          "wood siding",
+          "concrete driveway",
+          "asphalt shingles"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Large, multi-story traditional suburban home with professional landscaping and a cul-de-sac location."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 8,
+        "materials": [
+          "marble-effect quartz countertops",
+          "full-height stone backsplash",
+          "shaker cabinets",
+          "hardwood floors",
+          "stainless steel appliances"
+        ],
+        "light_quality": "abundant",
+        "condition": "recently renovated",
+        "notes": "Modern white kitchen with high-end stone surfaces and a Peninsula. Integration with the dining area creates good flow."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 7,
+        "materials": [
+          "hardwood floors",
+          "stone fireplace surround",
+          "drywall"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Spacious with a corner fireplace and large windows. Mix of modern recessed lighting and natural light."
+      },
+      {
+        "room_type": "dining_room",
+        "aesthetic_quality": 7,
+        "materials": [
+          "hardwood floors",
+          "modern pendant lighting",
+          "built-in storage"
+        ],
+        "light_quality": "bright",
+        "condition": "updated",
+        "notes": "Includes a built-in wine fridge and storage unit. Open plan connects to kitchen."
+      },
+      {
+        "room_type": "primary_bedroom",
+        "aesthetic_quality": 6,
+        "materials": [
+          "carpet",
+          "drywall",
+          "ceiling fan"
+        ],
+        "light_quality": "moderate",
+        "condition": "good",
+        "notes": "Vaulted ceilings add volume, but wall-to-wall carpeting and beige paint are standard builder-grade choices."
+      },
+      {
+        "room_type": "primary_bathroom",
+        "aesthetic_quality": 9,
+        "materials": [
+          "large format marble-look porcelain tile",
+          "double vanity with stone top",
+          "glass shower enclosure",
+          "soaking tub"
+        ],
+        "light_quality": "bright",
+        "condition": "newly renovated",
+        "notes": "High-end renovation with floor-to-ceiling tile work in the shower and vanity area. Very spa-like aesthetic."
+      },
+      {
+        "room_type": "secondary_bathroom",
+        "aesthetic_quality": 5,
+        "materials": [
+          "granite countertop",
+          "dark wood vanity",
+          "standard tile tub surround"
+        ],
+        "light_quality": "average",
+        "condition": "semi-updated",
+        "notes": "Lower quality than the primary bath; shower curtain suggests a basic tub/shower combo."
+      },
+      {
+        "room_type": "office_studio",
+        "aesthetic_quality": 6,
+        "materials": [
+          "hardwood floors",
+          "drywall"
+        ],
+        "light_quality": "good",
+        "condition": "good",
+        "notes": "Currently staged as a hair/beauty studio; shows versatility of the space."
+      },
+      {
+        "room_type": "backyard_patio",
+        "aesthetic_quality": 8,
+        "materials": [
+          "concrete",
+          "wood fencing",
+          "wicker outdoor furniture",
+          "stone fire pit"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Very lush, private landscaping with a dedicated dining area, built-in BBQ, and fire pit lounge area."
+      }
+    ],
+    "overall_aesthetic": 7,
+    "architectural_style": "Contemporary Suburban / Traditional",
+    "red_flags": [
+      "Varying levels of renovation (primary bath is high-end, second bath is dated)",
+      "Wall-to-wall carpeting in bedrooms contrasts with high-end finishes in common areas",
+      "Visible solar panels on roof - check if owned or leased"
+    ],
+    "positive_signals": [
+      "High-end kitchen and primary bath renovations",
+      "Lush, mature landscaping providing significant privacy",
+      "Natural light through large windows and vaulted ceilings",
+      "View property (visible in aerial shot)"
+    ],
+    "renovation_state": "mostly_renovated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"stucco\",\n        \"wood siding\",\n        \"concrete driveway\",\n        \"asphalt shingles\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Large, multi-story traditional suburban home with professional landscaping and a cul-de-sac location.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"marble-effect quartz countertops\",\n        \"full-height stone backsplash\",\n        \"shaker cabinets\",\n        \"hardwood floors\",\n        \"stainless steel appliances\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"recently renovated\",\n      \"notes\": \"Modern white kitchen with high-end stone surfaces and a Peninsula. Integration with the dining area creates good flow.\"\n    },\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"hardwood floors\",\n        \"stone fireplace surround\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"Spacious with a corner fireplace and large windows. Mix of modern recessed lighting and natural light.\"\n    },\n    {\n      \"room_type\": \"dining_room\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"hardwood floors\",\n        \"modern pendant lighting\",\n        \"built-in storage\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"updated\",\n      \"notes\": \"Includes a built-in wine fridge and storage unit. Open plan connects to kitchen.\"\n    },\n    {\n      \"room_type\": \"primary_bedroom\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"carpet\",\n        \"drywall\",\n        \"ceiling fan\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"good\",\n      \"notes\": \"Vaulted ceilings add volume, but wall-to-wall carpeting and beige paint are standard builder-grade choices.\"\n    },\n    {\n      \"room_type\": \"primary_bathroom\",\n      \"aesthetic_quality\": 9,\n      \"materials\": [\n        \"large format marble-look porcelain tile\",\n        \"double vanity with stone top\",\n        \"glass shower enclosure\",\n        \"soaking tub\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"newly renovated\",\n      \"notes\": \"High-end renovation with floor-to-ceiling tile work in the shower and vanity area. Very spa-like aesthetic.\"\n    },\n    {\n      \"room_type\": \"secondary_bathroom\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"granite countertop\",\n        \"dark wood vanity\",\n        \"standard tile tub surround\"\n      ],\n      \"light_quality\": \"average\",\n      \"condition\": \"semi-updated\",\n      \"notes\": \"Lower quality than the primary bath; shower curtain suggests a basic tub/shower combo.\"\n    },\n    {\n      \"room_type\": \"office_studio\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"hardwood floors\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"good\",\n      \"notes\": \"Currently staged as a hair/beauty studio; shows versatility of the space.\"\n    },\n    {\n      \"room_type\": \"backyard_patio\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"concrete\",\n        \"wood fencing\",\n        \"wicker outdoor furniture\",\n        \"stone fire pit\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Very lush, private landscaping with a dedicated dining area, built-in BBQ, and fire pit lounge area.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"Contemporary Suburban / Traditional\",\n  \"red_flags\": [\n    \"Varying levels of renovation (primary bath is high-end, second bath is dated)\",\n    \"Wall-to-wall carpeting in bedrooms contrasts with high-end finishes in common areas\",\n    \"Visible solar panels on roof - check if owned or leased\"\n  ],\n  \"positive_signals\": [\n    \"High-end kitchen and primary bath renovations\",\n    \"Lush, mature landscaping providing significant privacy\",\n    \"Natural light through large windows and vaulted ceilings\",\n    \"View property (visible in aerial shot)\"\n  ],\n  \"renovation_state\": \"mostly_renovated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 74.8,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light exposure throughout common areas; vaulted ceilings in the primary bedroom and large window banks in the living room maximize brightness."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.8,
+        "weight": 0.18,
+        "notes": "While a suburban traditional form, it avoids a 'boxy' feel with vaulted ceilings, a separate family room, and interesting roof lines. Lacks unique historic character."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 7.2,
+        "weight": 0.15,
+        "notes": "High points for the marble-look porcelain and quartz in the kitchen/primary bath. Significant point deduction for standard wall-to-wall carpeting in bedrooms and a lower-quality secondary bathroom."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.0,
+        "weight": 0.12,
+        "notes": "The dual fireplaces (wood/gas) and hardwood floors add warmth, though the stark white kitchen and beige bedroom paint lean slightly clinical."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 8.0,
+        "weight": 0.1,
+        "notes": "Modernized open plan between kitchen and dining, with clear separation for the family room and upstairs bedrooms. Good for privacy and entertaining."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 9.0,
+        "weight": 0.1,
+        "notes": "Ideal cul-de-sac location in a highly desirable coastal community; low traffic and high safety profile."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.2,
+        "weight": 0.08,
+        "notes": "Mature, lush landscaping creates a private enclave. The built-in BBQ and fire pit area are high-quality lifestyle additions."
+      },
+      {
+        "dimension": "condition",
+        "score": 7.5,
+        "weight": 0.07,
+        "notes": "Uneven renovation state. Kitchen and primary bath are 9/10, but bedrooms and secondary bath are 5/10. Requires some immediate cohesion work."
+      }
+    ],
+    "justification": "This property is a strong present-fit due to its excellent natural light and high-end core renovations (kitchen/primary bath). It meets the soft constraints for a cul-de-sac location and multiple stories. However, it fails to achieve a higher score because of the 'uneven' renovation quality; the discrepancy between the spa-like primary bath and the builder-grade carpeting/secondary bath creates a disjointed aesthetic that will require minor immediate investment to harmonize. It avoids the 'grey-flip' trap by using stone and wood but remains somewhat suburban-generic.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Secondary Bathroom & Bedroom Level",
+        "current_state": "Disjointed quality; secondary bath is dated with granite/dark wood, bedrooms have builder-grade carpet.",
+        "proposed_change": "Full gut of secondary bath to match the primary's spa-like aesthetic; replace all bedroom carpet with wide-plank hardwood or reclaimed wood to satisfy 'Wood Elements' principle.",
+        "impact": "Unifies the home's luxury feel and eliminates the 'renovation patchwork' currently present.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Ceiling Details",
+        "current_state": "Spacious but visually 'flat' drywall vaults and standard lighting.",
+        "proposed_change": "Introduce architectural character by adding decorative wood collar ties or faux-exposed beams to the vaulted ceilings; swap the corner fireplace surround for a floor-to-ceiling textured stone or brick hearth.",
+        "impact": "Adds the 'Cozy Warmth' and 'Architectural Character' missing from the 1990s suburban template.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen & Flow Enhancement",
+        "current_state": "Newly renovated but standard white shaker/marble aesthetic.",
+        "proposed_change": "Replace the peninsula with a reclaimed wood island or add wood shelving to the stone backsplash; swap recessed lighting for oversized architectural pendants.",
+        "impact": "Briefly transitions the kitchen from 'standard high-end' to 'quirky character' consistent with the user's taste.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Master Suite & Studio Integration",
+        "current_state": "Staged studio and somewhat bland primary bedroom.",
+        "proposed_change": "Install bespoke built-in cabinetry and window seats to leverage natural light; refine the studio space with glass-and-steel interior partitions to maintain light flow while defining work/rest zones.",
+        "impact": "Increases functional floor plan interest and capitalizes on the 'multiple stories with good flow' principle.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Matching 1990s hardwood flooring during additions can be difficult; may require a full sand/refinish of the entire level.",
+      "Solar lease terms must be vetted to ensure no interference with potential roof/structural modifications.",
+      "Upgrading to heavy wood features/beams may require localized structural framing reinforcement in vaulted areas."
+    ],
+    "upside_narrative": "This home is a 'close second' that just needs an architectural soul. While the major heavy lifting (Kitchen/Primary Bath) is done, the home currently feels like a high-end flip. By investing $125k-$150k into wood-centric architectural details\u2014ceiling beams, masonry fireplace upgrades, and replacing carpets with premium wood\u2014you can transform this from a 1997 cul-de-sac house into a textured, warm, coastal-contemporary sanctuary that feels custom-built."
+  },
+  "brief": "# House Brief: 2241 Albert Ln, Capitola\n\n### Executive Summary\nThis 4-bedroom contemporary suburban home offers a high-functioning layout at the end of a quiet cul-de-sac in a prime Capitola location. While the kitchen and primary suite have been renovated to a high standard, the rest of the home remains in a \"transition state\" with dated finishes. It is a strong candidate for a buyer who wants a move-in-ready core but is willing to perform cosmetic \"soul-infusion\" to elevate the home\u2019s architectural character.\n\n### Aesthetic Alignment\nThe property sits at a **74.8% alignment** with your preferences. It succeeds brilliantly with **natural light**, featuring vaulted ceilings and expansive windows that avoid the \"boxy\" feel you dislike. However, it currently leans more toward \"Suburban Traditional\" than \"Textured Coastal.\" While it avoids the \"grey-flip\" aesthetic by using stone and wood, the presence of wall-to-wall carpeting and standard drywall finishes lacks the architectural depth (beams, masonry, woodwork) you value.\n\n### Strengths\n*   **High-End Core Renovation:** The kitchen and primary bathroom are already done to a high standard, saving you the most expensive and disruptive parts of a remodel.\n*   **Natural Light & Volume:** Vaulted ceilings and large windows create an airy, bright interior that meets your top priority.\n*   **Privacy & Landscaping:** The lot features mature, lush greenery and a \"view property\" feel that provides a sense of sanctuary often missing in cul-de-sacs.\n*   **Safety & Location:** Situated away from high-fire-risk forest zones while remaining in a highly desirable coastal pocket.\n\n### Weaknesses\n*   **Renovation Disparity:** There is a jarring \"quality gap\" between the spa-like primary bath and the dated, builder-grade secondary bathrooms and bedrooms.\n*   **Flooring Inconsistency:** The mix of hardwood and wall-to-wall carpeting breaks the flow of the home and feels less premium.\n*   **Suburban Genericism:** Without further customization, the home lacks unique architectural \"moments\" like exposed beams or textured masonry.\n\n### Deal-Breakers\n*   **None identified.** The home passes all core requirements. (Note: Ensure solar panel ownership/lease terms are reviewed during due diligence).\n\n### Renovation Paths: \"The Character Infusion\"\nTo bring this home to its **78.0/100 potential**, an investment of **$100k\u2013$200k** is recommended:\n1.  **Uniform Flooring:** Replace all bedroom carpeting with hardwood to match the existing common areas (requires sanding/refinishing for a seamless look).\n2.  **Architectural Detail:** Add structural interest through reclaimed wood ceiling beams in the vaulted living area and upgrading the fireplaces with natural stone or brick masonry.\n3.  **Hardware & Lighting:** Replace standard fixtures with \"living finishes\" (brass, bronze) and wood-centric lighting to add warmth.\n\n### Who This House Is For\nThis home is ideal for a buyer who prioritizes **location and light** and wants a functional family layout that isn't a \"project house,\" but who has the vision to layered-in textures and architectural details over time.\n\n### Verdict\n**PROCEED.** This is a \"close second\" property that provides a solid, light-filled canvas. It avoids your \"anti-principles\" (dark, boxy, cheap-flip) and offers a clear path to becoming a high-character coastal sanctuary with relatively low-friction cosmetic upgrades.",
+  "annotations": [
+    "8/10 - location in a cul de sac, quite a bit of light coming in, multiple stories"
+  ],
+  "user_verdict": "liked",
+  "ingested_at": "2026-01-08T21:45:04.295095",
+  "scored_at": "2026-01-09T08:53:06.280738"
+}

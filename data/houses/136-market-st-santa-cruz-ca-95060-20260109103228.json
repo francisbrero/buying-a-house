@@ -1,0 +1,222 @@
+{
+  "id": "136-market-st-santa-cruz-ca-95060-20260109103228",
+  "url": "https://www.zillow.com/homedetails/136-Market-St-Santa-Cruz-CA-95060/16108856_zpid/",
+  "address": "136 Market St, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1995000,
+  "description": "Single family residence with 6 bedrooms.",
+  "features": {
+    "bedrooms": 6,
+    "bathrooms": 3.0,
+    "sqft": 2250,
+    "lot_sqft": 9409,
+    "year_built": 1976,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/aa50c8647f70fce6bf13f3ae74b09337-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/613d512000a1a8917df0dd2fcff453f4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/55590f6409b2d89796b9377875bbf62a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b018eada200d00408078d5a43c5b7115-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6719934cc1ab4abeb7948a36ee02be0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e74c42bdfe224f0ffe0b587ad4c7e9ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dd9f87c4eb890255813a3a0ab16f994c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aa83c43e1ed39e6465705a3d14033af9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7964a3ec769da953bbc55fd7e3417e5b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/35ee29960b7805cc111f38b3920c774a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/87846d4e95950626e29d717b19e72538-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a80fdbc87b471e80d2da29220530e6aa-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b5e95ec27defe5182402b2e0aee9ff51-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2be502b4331eab34db5aa7d5e88f51cb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/24aaaafc342d7eea147001393dc88300-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_fa\u00e7ade_various",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "wood siding",
+          "stucco",
+          "concrete driveways",
+          "asphalt shingles"
+        ],
+        "light_quality": "harsh daylight",
+        "condition": "mixed",
+        "notes": "The grid shows a collection of different properties rather than a single listing. Styles range from 1970s multi-unit complexes to single-family bungalows and a modern 3D rendering."
+      },
+      {
+        "room_type": "outdoor_living_spaces",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "redwood pergola",
+          "pavers",
+          "artificial turf",
+          "composite decking"
+        ],
+        "light_quality": "bright direct sun",
+        "condition": "well-maintained",
+        "notes": "Several images feature renovated backyards with low-maintenance landscaping and entertainment areas."
+      },
+      {
+        "room_type": "aerial_neighborhood_view",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "coastal terrain",
+          "mature trees"
+        ],
+        "light_quality": "hazy afternoon light",
+        "condition": "N/A",
+        "notes": "Aerial shot suggests a suburban coastal California location with significant tree canopy."
+      },
+      {
+        "room_type": "multi_unit_residential",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "T1-11 siding",
+          "aluminum windows",
+          "concrete"
+        ],
+        "light_quality": "flat",
+        "condition": "dated",
+        "notes": "Several images show older apartment or condo complexes with dated utility-focused architecture."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "mixed - multi-property portfolio",
+    "red_flags": [
+      "collection of unrelated properties",
+      "presence of agent/team headshots in listing grid",
+      "3D architectural rendering mixed with real photos",
+      "dated multi-unit exteriors with visible utility meters"
+    ],
+    "positive_signals": [
+      "some properties show high-end landscaping",
+      "varied inventory",
+      "coastal proximity in aerial shots"
+    ],
+    "renovation_state": "mixed",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_fa\u00e7ade_various\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"wood siding\", \"stucco\", \"concrete driveways\", \"asphalt shingles\"],\n      \"light_quality\": \"harsh daylight\",\n      \"condition\": \"mixed\",\n      \"notes\": \"The grid shows a collection of different properties rather than a single listing. Styles range from 1970s multi-unit complexes to single-family bungalows and a modern 3D rendering.\"\n    },\n    {\n      \"room_type\": \"outdoor_living_spaces\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"redwood pergola\", \"pavers\", \"artificial turf\", \"composite decking\"],\n      \"light_quality\": \"bright direct sun\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Several images feature renovated backyards with low-maintenance landscaping and entertainment areas.\"\n    },\n    {\n      \"room_type\": \"aerial_neighborhood_view\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"coastal terrain\", \"mature trees\"],\n      \"light_quality\": \"hazy afternoon light\",\n      \"condition\": \"N/A\",\n      \"notes\": \"Aerial shot suggests a suburban coastal California location with significant tree canopy.\"\n    },\n    {\n      \"room_type\": \"multi_unit_residential\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\"T1-11 siding\", \"aluminum windows\", \"concrete\"],\n      \"light_quality\": \"flat\",\n      \"condition\": \"dated\",\n      \"notes\": \"Several images show older apartment or condo complexes with dated utility-focused architecture.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"mixed - multi-property portfolio\",\n  \"red_flags\": [\n    \"collection of unrelated properties\",\n    \"presence of agent/team headshots in listing grid\",\n    \"3D architectural rendering mixed with real photos\",\n    \"dated multi-unit exteriors with visible utility meters\"\n  ],\n  \"positive_signals\": [\n    \"some properties show high-end landscaping\",\n    \"varied inventory\",\n    \"coastal proximity in aerial shots\"\n  ],\n  \"renovation_state\": \"mixed\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 48.2,
+    "passed": false,
+    "violations": [
+      "Boxy, generic layouts",
+      "Dated multi-unit exteriors with visible utility meters",
+      "Mixed architectural styles lacking cohesion",
+      "Potential lack of natural light in older multi-unit structures"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 4.5,
+        "weight": 0.2,
+        "notes": "Hard to verify as the listing shows a mix of properties; older multi-unit visuals suggest flat lighting and standard/small window placements."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 4.0,
+        "weight": 0.18,
+        "notes": "Lacks consistent character; shifts between dated 1970s apartment styles and generic modern 3D renders."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.0,
+        "weight": 0.15,
+        "notes": "Evidence of cheap T1-11 siding and dated aluminum windows; some higher-end landscaping doesn't offset building material quality."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 4.0,
+        "weight": 0.12,
+        "notes": "Utility-focused architecture and multi-unit feel create a sterile, commercial atmosphere rather than a cozy home."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Fragmented portfolio presentation makes assessing internal flow impossible, suggesting disjointed living spaces."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Strongest point; Santa Cruz coastal proximity and mature tree canopy are desirable."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.5,
+        "weight": 0.08,
+        "notes": "Renovated backyard areas with pergolas and turf are functional but feel somewhat artificial/engineered."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "Mixed bag; some units look well-maintained, others look dated and in need of exterior updates."
+      }
+    ],
+    "justification": "This listing is a 'Present-Fit' failure due to its nature as a multi-property portfolio or fragmented multi-unit complex rather than a cohesive residence. It violates the core aesthetic preference for unique architectural character and cozy warmth. The prevalence of dated 'utility-focused' architecture (T1-11 siding, visible meters) and the confusion of 3D renders mixed with real photos signal a lack of immediate aesthetic quality. Since the user values wood elements and non-boxy designs, this collection of generic, older apartment-style buildings is a significant mismatch.",
+    "deal_breakers": [
+      "Asset is a multi-unit portfolio/unrelated properties, not a single cohesive home",
+      "Boxy/Generic architectural style"
+    ]
+  },
+  "potential_score": {
+    "score": 62.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Fa\u00e7ade & Siding (Multi-Unit Focus)",
+        "current_state": "Dated T1-11 siding, visible utility meters, and aluminum windows from 1976.",
+        "proposed_change": "Replace T1-11 with vertical cedar or shiplap wood siding. Re-route or screen utility meters with custom wood slats. Upgrade to black-frame windows.",
+        "impact": "Shifts the aesthetic from 'utility apartment' to 'coastal architectural'\u2014meeting the user's wood element principle.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Natural Light & Orientation",
+        "current_state": "Standard 1970s window sizing, likely dark interiors given the heavy tree canopy.",
+        "proposed_change": "Install skylights or solar tubes in upper-floor living areas and replace standard sliders with larger bifold or French doors to the decks.",
+        "impact": "Crucial for 'Abundant Natural Light' principle; connects the indoor flow to the existing outdoor redwoodpergolas.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Interior Warmth & Character",
+        "current_state": "Mixed materials, potentially drywall-heavy with standard 'boxy' 70s rooms.",
+        "proposed_change": "Expose ceiling joists if possible or add reclaimed wood beams; replace flooring with wide-plank oak; install a brick or stone hearth for a fireplace.",
+        "impact": "Injects the 'cozy warmth' and 'architectural character' missing from the current 5.0/10 aesthetic.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "The listing includes unrelated properties and renderings, suggesting the $1.99M price may be for a specific unit or the whole portfolio, creating high uncertainty on specific 'bones'.",
+      "1976 construction often contains asbestos in popcorn ceilings or floor tiles which requires costly abatement.",
+      "Coastal Santa Cruz location may have strict permitting for exterior changes or window expansions."
+    ],
+    "upside_narrative": "This property represents a 'diamond in the rough' for a buyer looking for a multi-story coastal retreat. While currently lacking soul and appearing as a utility-focused rental, the existing redwood decks and mature trees provide a foundation for a high-end 'Modern Rustic' transformation. By focusing the $150k budget on wood siding, window upgrades, and internal warming elements like beams and brick, you can pivot this from a dated complex into a quirky, character-rich home that feels intentionally designed rather than mass-produced."
+  },
+  "brief": "# House Brief: 136 Market St, Santa Cruz\n\n### Executive Summary\nThis listing is a fragmented multi-unit portfolio disguised as a single-family residence, priced at $1,995,000. While the Santa Cruz location is premium, the property lacks architectural cohesion, appearing more like a collection of utility-focused rentals than a curated home. \n\n### Aesthetic Alignment\nThe property scores a **5.0/10** for aesthetic alignment. It fundamentally clashes with the \"Cozy Warmth\" and \"Architectural Character\" principles. Instead of the desired wood-forward, interesting forms, you are met with boxy 1970s utility-style architecture, T1-11 siding, and visible external meters. The presence of 3D renderings mixed with real photos suggests the current \"lived-in\" reality does not match the marketing vision.\n\n### Strengths\n*   **Coastal Proximity:** Excellent location in a highly desirable Santa Cruz pocket.\n*   **Mature Greenery:** The presence of redwood trees and established landscaping provides a natural \"buffer\" and a foundation for a rustic aesthetic.\n*   **Outdoor Potential:** Existing redwood decks offer a starting point for the \"Modern Rustic\" feel the user values.\n\n### Weaknesses\n*   **Lack of Cohesion:** This is not a single home; it is a collection of units with mismatched styles and \"boxy\" configurations.\n*   **Poor Material Quality:** Visible \"cheap\" finishes and dated exteriors (T1-11 siding) lack the tactile warmth of natural wood or brick.\n*   **Ambiguous Listing:** The inclusion of agent headshots and speculative renderings in the photo gallery is a red flag, indicating the property may not stand on its own visual merits.\n*   **Utility-Forward Design:** Exposed meters and generic apartment-style layouts prioritize functional density over architectural beauty.\n\n### Deal-Breakers\n*   **Asset Type:** This is a **multi-unit investment portfolio**, not a cohesive single-family residence.\n*   **Architectural Style:** The \"boxy/generic\" layouts explicitly violate the user's anti-principles.\n*   **Uncertainty:** The listing's mix of unrelated properties and renders makes it nearly impossible to determine what exactly is being purchased for $2M.\n\n### Renovation Paths\nIf pursued, a **$150k+ \"Modern Rustic\" Pivot** would be required:\n*   **Exterior:** Replace T1-11 siding with natural cedar or charred wood (Shou Sugi Ban) to break up the boxy silhouette.\n*   **Interior:** Install exposed ceiling beams and structural wood elements to introduce the \"cozy warmth\" currently missing.\n*   **Structural:** Expand windows to improve natural light, though Santa Cruz coastal permitting will make this costly and slow.\n\n### Who This House Is For\nThis property is suited for a **yield-focused investor** looking for a multi-unit rental income stream in a college town. It is **not** for a homeowner seeking a soulful, architecturally unique sanctuary.\n\n### Verdict\n**ABANDON.** This property fails on almost every core principle. It is a utility-focused multi-unit complex that would require a massive, high-risk investment to even begin to approach your aesthetic standards. Your budget is better spent on a property with actual \"architectural bones\" rather than trying to fix a boxy apartment portfolio.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.349751",
+  "scored_at": "2026-01-09T10:37:04.823997"
+}

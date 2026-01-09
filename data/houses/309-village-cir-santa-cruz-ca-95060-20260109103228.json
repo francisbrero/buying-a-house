@@ -1,0 +1,239 @@
+{
+  "id": "309-village-cir-santa-cruz-ca-95060-20260109103228",
+  "url": "https://www.zillow.com/homedetails/309-Village-Cir-Santa-Cruz-CA-95060/16106812_zpid/",
+  "address": "309 Village Cir, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1435000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 1902,
+    "lot_sqft": 3223,
+    "year_built": 1996,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b08896844160970c2e8c173be98a1fc4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e83c115d5e1d8a42d0cb6122708b6992-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/13bf603667df593a549c2297275f4632-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/28f771b179869d94109096b37fbc11c4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c9ced5f7e136133ba45bb56a74f3ff36-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6804efd53575ff873a32e79098294aa7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/75aa2b3345ea090fc0b2c162f28009d9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d64383c9aa9cf0e9c10917e65c8b37fd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a7a25ebf8560fad5504c630ecd32b240-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cbcfd72bcd1b584b296d6d8488cfdc1b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2844ccb3652540006c197a0a7ef05ec0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fa952a32c9ff46ed5f502e5a8b44aa3b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/158363cb3dd0b35fcdcbbe1865a50002-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c05dacf17ee18f33430e2c2ebec8c532-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room_1",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "light oak laminate flooring",
+          "painted drywall",
+          "glass coffee table"
+        ],
+        "light_quality": "good",
+        "condition": "refreshed",
+        "notes": "Small footprint, staged with neutral furniture to maximize space. Standard modern apartment aesthetic."
+      },
+      {
+        "room_type": "dining_room_connection",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "ceramic tile transitions",
+          "laminate flooring",
+          "arched drywall openings"
+        ],
+        "light_quality": "moderate",
+        "condition": "maintained",
+        "notes": "Shows a transition from tiled entry/kitchen to wood-look living area. Arched doorways suggest late 90s/early 2000s construction."
+      },
+      {
+        "room_type": "living_room_2",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "luxury vinyl plank (LVP)",
+          "gas fireplace insert",
+          "white trim"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Very clean, bright space with multiple windows. Clearly staged for sale."
+      },
+      {
+        "room_type": "living_room_3_mediterranean",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "saltillo tile",
+          "plaster walls",
+          "kiva-style fireplace",
+          "decorative accent tiles"
+        ],
+        "light_quality": "natural",
+        "condition": "original/well-kept",
+        "notes": "Distinctly different architectural style from other interior shots. Authentic material palette with character."
+      },
+      {
+        "room_type": "exteriors_multi_unit",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco",
+          "wood siding",
+          "asphalt shingles",
+          "concrete driveways"
+        ],
+        "light_quality": "varied",
+        "condition": "average",
+        "notes": "The grid contains multiple different properties (townhomes, single-family homes, and cottages), suggesting a portfolio or brokerage overview rather than a single listing."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "mixed-portfolio",
+    "red_flags": [
+      "inconsistent property types (this is a collage of multiple different homes/listings)",
+      "ubiquitous grey/beige 'flipper' color palette in interior shots",
+      "cheap commercial-grade LVP flooring in several units"
+    ],
+    "positive_signals": [
+      "mature landscaping in exterior shots",
+      "presence of solar panels on one unit",
+      "one unit features authentic saltillo tile and architectural character"
+    ],
+    "renovation_state": "mixed",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room_1\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"light oak laminate flooring\", \"painted drywall\", \"glass coffee table\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"refreshed\",\n      \"notes\": \"Small footprint, staged with neutral furniture to maximize space. Standard modern apartment aesthetic.\"\n    },\n    {\n      \"room_type\": \"dining_room_connection\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"ceramic tile transitions\", \"laminate flooring\", \"arched drywall openings\"],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"maintained\",\n      \"notes\": \"Shows a transition from tiled entry/kitchen to wood-look living area. Arched doorways suggest late 90s/early 2000s construction.\"\n    },\n    {\n      \"room_type\": \"living_room_2\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"luxury vinyl plank (LVP)\", \"gas fireplace insert\", \"white trim\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Very clean, bright space with multiple windows. Clearly staged for sale.\"\n    },\n    {\n      \"room_type\": \"living_room_3_mediterranean\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"saltillo tile\", \"plaster walls\", \"kiva-style fireplace\", \"decorative accent tiles\"],\n      \"light_quality\": \"natural\",\n      \"condition\": \"original/well-kept\",\n      \"notes\": \"Distinctly different architectural style from other interior shots. Authentic material palette with character.\"\n    },\n    {\n      \"room_type\": \"exteriors_multi_unit\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"stucco\", \"wood siding\", \"asphalt shingles\", \"concrete driveways\"],\n      \"light_quality\": \"varied\",\n      \"condition\": \"average\",\n      \"notes\": \"The grid contains multiple different properties (townhomes, single-family homes, and cottages), suggesting a portfolio or brokerage overview rather than a single listing.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"mixed-portfolio\",\n  \"red_flags\": [\n    \"inconsistent property types (this is a collage of multiple different homes/listings)\",\n    \"ubiquitous grey/beige 'flipper' color palette in interior shots\",\n    \"cheap commercial-grade LVP flooring in several units\"\n  ],\n  \"positive_signals\": [\n    \"mature landscaping in exterior shots\",\n    \"presence of solar panels on one unit\",\n    \"one unit features authentic saltillo tile and architectural character\"\n  ],\n  \"renovation_state\": \"mixed\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.8,
+    "passed": false,
+    "violations": [
+      "Flip-quality renovation with cheap materials",
+      "Inconsistent property types in listing (red flag for accuracy)",
+      "Ubiquitous grey/beige 'flipper' color palette"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 6.5,
+        "weight": 0.2,
+        "notes": "Decent natural light in most rooms, but lacks standout features like floor-to-ceiling windows or skylights."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 4.5,
+        "weight": 0.18,
+        "notes": "Most units shown are boxy and generic with typical 90s/2000s speculative builder details like arched drywall."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.0,
+        "weight": 0.15,
+        "notes": "Heavy reliance on light oak laminate and LVP; several red flags for 'cheap flip' finishes."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.0,
+        "weight": 0.12,
+        "notes": "Staged neutrality feels sterile. The saltillo tile unit is an outlier that doesn't match the rest of the portfolio."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Standard multi-story layout but transitions between materials (tile to laminate) are clunky."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz village location is generally desirable, though site-specific fire risk in SC mountains is a concern."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.5,
+        "weight": 0.08,
+        "notes": "Mature landscaping is present, but mostly consists of common areas/driveways."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.0,
+        "weight": 0.07,
+        "notes": "Refreshed for sale but appears thin/cosmetic rather than substantive."
+      }
+    ],
+    "justification": "The property fails primarily on the 'Violation Pattern' of cheap flip finishes and inconsistent architectural identity. While the Saltillo tile room shows promise, the rest of the listing is dominated by 'flipper grey' aesthetics, LVP flooring, and generic layouts that directly oppose the user's preference for authentic wood elements and quirky character. Furthermore, the vision analysis indicates this listing is a collage of multiple units, making a 'Present-Fit' evaluation of a single cohesive home impossible and highly risky.",
+    "deal_breakers": [
+      "Flip-quality renovation with cheap materials",
+      "Generic/Boxy layout",
+      "Inconsistent material palette (Grey laminate/drywall focus)"
+    ]
+  },
+  "potential_score": {
+    "score": 68.0,
+    "renovation_ideas": [
+      {
+        "area": "Common Living Areas",
+        "current_state": "Disconnected flooring (LVP and laminate) with generic grey/beige tones.",
+        "proposed_change": "Replace cheap LVP with wide-plank white oak flooring; remove 90s arched drywall transitions to create cleaner, squared-off openings.",
+        "impact": "Unifies the floor plan and upgrades the tactile quality from 'flipper' to 'custom home'.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Mediterranean Living Room",
+        "current_state": "Authentic saltillo tile and kiva fireplace, high character but disconnected from the rest of the house.",
+        "proposed_change": "Incorporate natural wood ceiling beams and reclaimed wood mantel; use this room's palette (warmth) as a template for the rest of the home's renovation.",
+        "impact": "Lean into the 'quirky character' the user desires, making the house feel like a cohesive Mediterranean-inspired retreat rather than a generic build.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Lighting and Flow",
+        "current_state": "Standard 1996 window placement; potential for better light penetration.",
+        "proposed_change": "Enlarge rear-facing windows or install French doors to the garden; replace standard builder-grade lighting with architectural fixtures.",
+        "impact": "Achieves the 'abundant natural light' principle and improves the connection to the mature landscaping.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Master Suite / Bath",
+        "current_state": "Likely builder-grade finishes consistent with the 1996 era.",
+        "proposed_change": "Full wet-room conversion with handmade tile (Zellige) and reclaimed wood vanities to introduce 'natural materials' and 'cozy warmth'.",
+        "impact": "Adds luxury value and removes the 'cookie-cutter' feel of the 1990s layout.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Inconsistent property types in listing photos suggest the actual floor plan of 309 Village Cir may vary from the Pinterest-style unit shown.",
+      "Santa Cruz permitting can be slow for structural changes (windows/doors).",
+      "Cost of material logistics in a townhome/cluster development environment."
+    ],
+    "upside_narrative": "This property offers a rare chance to bridge the gap between a standard 1990s build and a soulful, Mediterranean-inspired residence. By stripping away the 'grey flipper' aesthetic and leaning into the warmth of the saltillo and kiva elements already present in parts of the home, the $150k budget can transform this from a generic multi-unit dwelling into a bespoke sanctuary with the 'quirky character' and 'natural warmth' the user seeks."
+  },
+  "brief": "# House Brief: 309 Village Cir, Santa Cruz\n\n### Executive Summary\nThis property is a high-risk listing that presents a \"flipper\" aesthetic within a multi-unit complex. While it hints at some architectural character and Mediterranean influence, the listing is plagued by inconsistent photos and cheap finishes that directly oppose your preference for authentic materials.\n\n### Aesthetic Alignment\nThe property scores a low **5.0/10** for aesthetic alignment. It suffers from a \"mixed-portfolio\" identity; while one area features soulful Saltillo tile and a Kiva-style fireplace, the rest of the home is dominated by \"flipper grey\" LVP flooring, generic drywall, and a bland, boxy color palette. It lacks the cohesive wood elements and \"quirky character\" you value, leaning instead into institutional, low-cost modernism.\n\n### Strengths\n*   **Architectural Features:** Presence of Saltillo tile and a unique fireplace indicates the bones have more character than a standard tract home.\n*   **Sustainability:** Exterior shots show existing solar panels (on at least one of the units pictured).\n*   **Outdoor Maturity:** The surrounding landscaping is well-established, offering a sense of privacy and \"nestling\" that new builds lack.\n*   **Location:** Situated in Santa Cruz, avoiding the high-fire-risk dense forest zones while remaining coastal.\n\n### Weaknesses\n*   **Material Quality:** Heavy use of commercial-grade grey laminate flooring and basic white cabinetry.\n*   **Visual Inconsistency:** The listing appears to be a collage of multiple different units, making it nearly impossible to determine the actual layout or condition of 309 Village Cir without a physical walkthrough.\n*   **Lack of Warmth:** The \"grey/beige\" palette creates a sterile environment that lacks the cozy, natural warmth of exposed wood and brick.\n\n### Deal-Breakers\n*   **Cheap Flip Finishes:** The ubiquitous use of grey laminate and standard builder-grade materials is a direct violation of your anti-principles.\n*   **Misleading Listing Data:** The inclusion of photos from different properties is a major red flag regarding the accuracy of the representation. \n*   **Boxy Layout:** Despite the few \"quirky\" details, the primary living spaces appear generic and lack architectural interest.\n\n### Renovation Paths\nTo bring this home up to your standards, a **$100k\u2013$200k** investment is required.\n1.  **Warmth Restoration:** Replace all LVP/grey laminate with wide-plank hardwood or reclaimed wood flooring.\n2.  **Highlighting Character:** Lean into the Mediterranean elements; expand the Saltillo tile footprint and replace standard trim with natural wood.\n3.  **Light Optimization:** Given the \"mixed\" layout, strategic window placement or skylights may be needed to satisfy the \"abundant natural light\" requirement.\n\n### Who This House Is For\nThis property is for a buyer who is willing to look past a confusing sales listing and perform a \"reverse-flip\"\u2014stripping away cheap modern finishes to find the architectural soul underneath.\n\n### Verdict\n**PASS.** The combination of \"flipper grey\" aesthetics and the significant red flag of inconsistent listing photos makes this too high-risk. Better value and more authentic character can be found elsewhere without the immediate need to gut brand-new (but cheap) renovations.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.358643",
+  "scored_at": "2026-01-09T10:33:08.144187"
+}

@@ -1,0 +1,274 @@
+{
+  "id": "3300-crystal-heights-dr-soquel-ca-95073-20260108214410",
+  "url": "https://www.zillow.com/homedetails/3300-Crystal-Heights-Dr-Soquel-CA-95073/16133798_zpid/",
+  "address": "3300 Crystal Heights Dr, Soquel, CA 95073",
+  "city": "Soquel",
+  "state": "CA",
+  "zip_code": "95073",
+  "price": 1649000,
+  "description": "Big Views from this Soquel Home! Panoramic ocean, mountain, and Soquel area views from nearly every room. Contemporary/Custom/Mediterranean style home with high ceilings, skylights, vaulted ceilings, open beam ceiling, walk-in closets. Features include hardwood, laminate, and tile flooring, granite countertops, kitchen island, fireplace in living room. Primary suite retreat with walk-in closet. Updated bathrooms with double sinks. Bay, Forest/Woods, Greenbelt, Hills, Mountain, Ocean, Park/Greenbelt, Ridge views. Balcony/Patio, Back Yard, Barbecue.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 2001,
+    "lot_sqft": 11326,
+    "year_built": 1983,
+    "property_type": "Single Family Residence",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/2c7927f9067676a6292b1e63458cbf5c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6725337ad09d94ff1ffd7d2e96b64ae3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0981c8967d680b0ed089a17045d39fbd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/14bea4417583bf02da32ba198fa1c724-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/641d0389cab65b42463799894424236d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/180d8260e71bbe54082536328831403c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a34a07e7781acfe6ff1f4e790dd224fa-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/69dd20e3ccb49a8a936b7ac1fa661efb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/14a0ce7e0c72eb3c2b86ab740ddc9fcd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5273d6e56ef4c68cf7b7b4dd452c58d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/15c10c0d61e982b5bcba81cc8b51539c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/93474f5a17ff6bf9c75e14a90aabb6ae-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0ad54c7787d965db70610c143317f6e4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4f1da3dbef149eaed3c0239ab9d8eadb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aad72448e3a103f8f5771b119117d928-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a956fdcfdaffe230174ad7d0702c36fe-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30de102e9297c5f90aad8650b1ee1fe2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/998d9fb78690892c03ef83c444561a0a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/67360fb9c626189154603d01a6c723bf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/be241dddac4af4e9cf0812fbbde0ed56-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8099dee1a934d4be0390aea17ab68ad0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/89df60930c527232eb676d0c34b925d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f5979b5de87ff14f995218128b1e0e7f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d2a64e5c31c8873aa45be4c24c508a62-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/68a6a513f3d7ace048fe5819f713567f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c6aa295c296d85e4e9dc8573562623e5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c338cbf96fc7ff40112d89516e337f57-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4330cf3c2a0a97bd5d4e171ca806d4dc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/112d2f9f2c5f89d56257a31f6a19e7c3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45e4d12eebc755594e4e93ca33ac1be5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a6a99ac4e9450b70a8449ada6a4f2073-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c689fdde33780916bdbc04e8ecda776b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a2d32284bce690165e3ab516974b001b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bdc4958ed233a6f0466a17aac785a2c6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7beaa808369720305ad7176cbcdaec6a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aa541f409d1bf0df0ecb07715bc9f996-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/65460e4d007ce3cd42984115949e366f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9ea1ac5bc769a0a7a2173fd50d264b3b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1e8376fdaf84829b1b116bc818e3f857-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/063a8be39ec84cee713c999fcecdcfa4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/53806519612fa1dba35a66eb5d46ed16-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/00ec79c5fa0c5267925094d1f85c3c84-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/35e6f37d98dd54d077ce5005cfe820f6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d3a4852f64378fc89a6fdbb6b4f55178-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aea5f50fce2fdcd21d88ee94fa7e8315-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7298dd3f989282d910898eef0f9e5646-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d94f4dccdccb384103fb6ba27f15154c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/adddd74783295dbb4cfd8e836a8d2be2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/86cd04dafeb528cc64e364d15840bcba-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/21515fc1a7f7e208f06bbbd86fcbe2e0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b4524ceb015558f98293e8046dd47c72-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ea024fe3d84616b3f32c3cf1af74d4a7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/985803a0e36e25f8562f9b6e7bc5e866-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dcd27b34022f8c732a2b2b65d83a86cf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ecae7b547178e24b121ad6d197175687-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4e25d386d0ed66be86299208cad2410c-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "exposed wood beams",
+          "tongue and groove ceiling",
+          "wood-burning stove",
+          "hardwood floors",
+          "natural stone hearth"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Large floor-to-ceiling windows and vaulted ceilings create a spacious, airy feel. The mid-century modern influence is clear."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "granite or quartz counters",
+          "shaker-style cabinets",
+          "stainless steel appliances",
+          "pendant lighting",
+          "hardwood floors"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Transition-style kitchen. While functional and updated, the cabinet hardware and counter thickness look slightly dated compared to the rest of the home."
+      },
+      {
+        "room_type": "dining room",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "hardwood floors",
+          "mid-century modern furniture",
+          "skylights"
+        ],
+        "light_quality": "abundant",
+        "condition": "excellent",
+        "notes": "Integration with the living area is seamless; skylights provide great vertical light."
+      },
+      {
+        "room_type": "bedroom",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "carpet",
+          "painted wood ceilings",
+          "sliding glass doors"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Direct access to outdoor terraces; clean, minimalist aesthetic with neutral tones."
+      },
+      {
+        "room_type": "exterior / deck",
+        "aesthetic_quality": 9.0,
+        "materials": [
+          "wood decking",
+          "glass railings",
+          "stone pavers",
+          "stucco siding"
+        ],
+        "light_quality": "excellent",
+        "condition": "excellent",
+        "notes": "Multiple levels of terraced decking maximize the hillside view. High-quality glass railings maintain sightlines."
+      }
+    ],
+    "overall_aesthetic": 8.0,
+    "architectural_style": "Mid-Century Modern / Coastal Hillside",
+    "red_flags": [
+      "Sloping lot may present drainage or foundation complexities common to hillside builds",
+      "Visible mini-split AC units on bedroom walls suggest a lack of central HVAC integration"
+    ],
+    "positive_signals": [
+      "Expansive glass and panoramic views",
+      "Vaulted tongue-and-groove ceilings",
+      "High-quality hardscaping and outdoor living spaces",
+      "Architectural character preserved rather than stripped for a generic flip"
+    ],
+    "renovation_state": "fully renovated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"exposed wood beams\",\n        \"tongue and groove ceiling\",\n        \"wood-burning stove\",\n        \"hardwood floors\",\n        \"natural stone hearth\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Large floor-to-ceiling windows and vaulted ceilings create a spacious, airy feel. The mid-century modern influence is clear.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"granite or quartz counters\",\n        \"shaker-style cabinets\",\n        \"stainless steel appliances\",\n        \"pendant lighting\",\n        \"hardwood floors\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Transition-style kitchen. While functional and updated, the cabinet hardware and counter thickness look slightly dated compared to the rest of the home.\"\n    },\n    {\n      \"room_type\": \"dining room\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"hardwood floors\",\n        \"mid-century modern furniture\",\n        \"skylights\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Integration with the living area is seamless; skylights provide great vertical light.\"\n    },\n    {\n      \"room_type\": \"bedroom\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"carpet\",\n        \"painted wood ceilings\",\n        \"sliding glass doors\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"Direct access to outdoor terraces; clean, minimalist aesthetic with neutral tones.\"\n    },\n    {\n      \"room_type\": \"exterior / deck\",\n      \"aesthetic_quality\": 9,\n      \"materials\": [\n        \"wood decking\",\n        \"glass railings\",\n        \"stone pavers\",\n        \"stucco siding\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Multiple levels of terraced decking maximize the hillside view. High-quality glass railings maintain sightlines.\"\n    }\n  ],\n  \"overall_aesthetic\": 8,\n  \"architectural_style\": \"Mid-Century Modern / Coastal Hillside\",\n  \"red_flags\": [\n    \"Sloping lot may present drainage or foundation complexities common to hillside builds\",\n    \"Visible mini-split AC units on bedroom walls suggest a lack of central HVAC integration\"\n  ],\n  \"positive_signals\": [\n    \"Expansive glass and panoramic views\",\n    \"Vaulted tongue-and-groove ceilings\",\n    \"High-quality hardscaping and outdoor living spaces\",\n    \"Architectural character preserved rather than stripped for a generic flip\"\n  ],\n  \"renovation_state\": \"fully renovated\",\n  \"notes\": \"This appears to be a high-end renovation that respects the home's original mid-century proportions while modernizing the kitchen and baths. The focus is clearly on indoor-outdoor living.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 76.4,
+    "passed": true,
+    "violations": [
+      "Mixed material quality (granite/shaker kitchen is a stylistic mismatch with MCM bones)",
+      "Potential fire risk zone (standard for Soquel hills, but a negative signal)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 9.5,
+        "weight": 0.2,
+        "notes": "Exceptional. Floor-to-ceiling windows, skylights, and vaulted ceilings maximize light from multiple angles."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.8,
+        "weight": 0.18,
+        "notes": "Strong MCM/Coastal influence with open beams, interesting rooflines, and multi-level terracing. Not cookie-cutter."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.2,
+        "weight": 0.15,
+        "notes": "Penalty for inconsistent finishes. High-quality wood ceilings/beams contrast with dated kitchen granite and basic shaker cabinets."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.5,
+        "weight": 0.12,
+        "notes": "Wood-burning stove and natural wood ceilings provide warmth, though the white paint and tile are slightly sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Open living/dining is great; however, hillside multi-level layouts can feel fragmented."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 5.5,
+        "weight": 0.1,
+        "notes": "Hillside location raises concerns about drainage/erosion and high fire risk typical of forest-adjacent Soquel."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 9.2,
+        "weight": 0.08,
+        "notes": "Excellent panoramic views and high-quality hardscaping. Glass railings are a premium touch."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Well-maintained and updated, though mini-split AC units are a visible compromise."
+      }
+    ],
+    "justification": "The house is an excellent match for architectural character and natural light, meeting the most critical taste model principles. It avoids the 'gray flip' trap, retaining organic wood elements and vaulted ceilings. The score is tempered by a 'transitional' kitchen that feels stylistically confused compared to the MCM architecture, and the inherent risks associated with hillside Soquel properties (fire/drainage). It passes the present-fit test but requires accepting mid-tier kitchen finishes in a high-tier architectural shell.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Culinary Integration",
+        "current_state": "Functional but 'transitional' shaker style that feels slightly generic and disconnected from the MCM architecture.",
+        "proposed_change": "Replace shaker doors with walnut or oak flat-panel cabinetry. Install a slimmer, mitered-edge porcelain or honed marble countertop. Replace existing pendant lights with period-correct sculptural fixtures.",
+        "impact": "Aligns the kitchen with the high-architectural value of the living room's wood ceilings and beams.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "HVAC & Visual Continuity",
+        "current_state": "Visible mini-split units on bedroom walls disrupting the clean lines of the wood ceilings.",
+        "proposed_change": "Evaluate the possibility of routing slim-duct concealed HVAC units or, at minimum, custom-painting/recessing the mini-splits to blend with the wall/ceiling tones.",
+        "impact": "Removes 'visual noise' in the primary relaxation spaces and improves climate control efficiency.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Secondary Bedroom Flooring & Texture",
+        "current_state": "Standard carpet and painted wood ceilings in bedrooms feel less premium than the main living areas.",
+        "proposed_change": "Strip paint from wood ceilings (if feasible) or apply a light pickling wash to restore wood grain warmth. Replace carpet with wide-plank hardwood to match the living area.",
+        "impact": "Creates a continuous flow of natural materials throughout the home, enhancing the 'cozy warmth' and 'wood elements' principles.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room Hearth Refinement",
+        "current_state": "Natural stone hearth and wood-burning stove are charming but could be elevated.",
+        "proposed_change": "Extend the hearth material into a built-in low bench or storage for firewood. Swap the wood-burning stove for a high-efficiency floating Malm-style fireplace if a more 'quirky character' is desired.",
+        "impact": "Enhances the 'architectural character' and creates a stronger focal point for the main volume of the house.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Hillside drainage: Any heavy interior work should be preceded by a thorough inspection of the downslope retaining elements and foundation.",
+      "Refining painted wood: Stripping paint from tongue-and-groove ceilings is labor-intensive and expensive; a high-quality wood veneer or replacement might be necessary if the existing wood is damaged.",
+      "Mini-split relocation: Moving refrigerant lines in a hillside house with limited crawlspace/attic access can be complex."
+    ],
+    "upside_narrative": "This house is currently an '8/10' that suffers from a slight identity crisis between its high-design MCM shell and its 'standard-renovation' kitchen. With a $150k budget, you aren't fighting the house; you are simply finishing the story it wants to tell. By focusing on material continuity\u2014specifically pulling the walnut and natural wood tones from the ceilings into the kitchen and bedrooms\u2014this property transforms from a 'nicely updated hillside home' into a cohesive, high-end architectural retreat that feels custom-built for the landscape."
+  },
+  "brief": "# House Brief: 3300 Crystal Heights Dr, Soquel\n\n## Executive Summary\nThis 2,001 sq. ft. hillside retreat offers a high-character architectural shell with world-class panoramic views of the Monterey Bay. While the home avoids the \"cheap flip\" aesthetic by retaining its vaulted tongue-and-groove ceilings and organic MCM lines, it suffers from a slight identity crisis due to conventional kitchen and bath finishes. At $1.65M, you are paying for the irreplaceable vista and the architectural volume, with some aesthetic refinement still required.\n\n## Aesthetic Alignment\nThe property leans heavily into your preference for **architectural character and natural light**. With its vaulted ceilings, open beams, and expansive glass, it rejects the \"boxy\" layout you dislike. However, the kitchen\u2014featuring traditional granite and shaker cabinets\u2014is a stylistic mismatch with the house\u2019s Mid-Century Modern bones. It hits the \"wood and warmth\" marks through its ceilings and floors, but misses on material continuity.\n\n## Strengths\n*   **Irreplaceable Volume:** Soaring wood-clad ceilings and clerestory windows provide the \"architectural soul\" often stripped from modern renovations.\n*   **Outdoor Living:** High-quality hardscaping and multiple viewing decks maximize the steep lot and provided much-needed flat usable outdoor space.\n*   **Light & Views:** Almost every room features a view; the orientation ensures the \"abundant natural light\" you prioritize.\n*   **Non-Generic:** It avoids the \"gray laminate\" trap, using real hardwood and preserving unique structural elements.\n\n## Weaknesses\n*   **Stylistic Inconsistency:** The kitchen and \"updated\" bathrooms feel like standard suburban choices that don't match the high-design exterior and ceiling structure.\n*   **HVAC Integration:** The visible wall-mounted mini-split units are a functional eyesore in rooms with such clean architectural lines.\n*   **Site Complexity:** Hillside living in Soquel brings inherent risks regarding drainage, foundation pressure, and steep-slope landscaping maintenance.\n\n## Deal-Breakers\n*   **Fire Risk:** Located in a hillside/greenbelt area, this property carries a high fire-risk profile. If you are strictly adhering to your anti-principle regarding forest/fire zones, this requires a close look at insurance availability.\n*   **Downslope Lot:** For those wary of foundation/drainage complexities on steep terrain, the topography here may be a deterrent.\n\n## Renovation Paths: \"The Finishing Touch\"\nThe house is currently a \"Level 8\" that needs a \"Level 10\" kitchen to match its shell.\n*   **The Kitchen (High Impact):** Replace the granite and shaker cabinets with walnut or oak cabinetry and integrated appliances to bridge the gap between the kitchen and the wood-clad ceilings.\n*   **HVAC Stealth:** Explore options to better integrate or hide the mini-split units to clean up the interior sightlines.\n*   **Structural Due Diligence:** Prioritize a geological and foundation inspection to ensure the hillside drainage systems are robust before investing in interior cosmetics.\n\n## Who This House Is For\nThis home is for the buyer who prioritizes **form and atmosphere** over a \"perfect\" turnkey interior. If you want a house that feels like a coastal treehouse and are willing to swap out some \"safe\" renovation choices for high-design elements, this is an ideal canvas.\n\n## Verdict\n**Pursue, but with a renovation budget.** The architectural \"bones\" here are superior to almost anything in this price bracket. You aren't fighting a bad layout; you are simply finishing a story that the current renovation left incomplete. If you can stomach the Soquel hill insurance premiums, this is a rare find that aligns with your taste for warm, light-filled, character-rich spaces.",
+  "annotations": [
+    "10/10 - absolute favorite! Great luminosity, great location, quirky"
+  ],
+  "user_verdict": "liked",
+  "ingested_at": "2026-01-08T21:44:10.447901",
+  "scored_at": "2026-01-09T08:55:16.443406"
+}

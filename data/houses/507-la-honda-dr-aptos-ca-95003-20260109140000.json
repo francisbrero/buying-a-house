@@ -1,0 +1,279 @@
+{
+  "id": "507-la-honda-dr-aptos-ca-95003-20260109140000",
+  "url": "https://www.zillow.com/homedetails/507-La-Honda-Dr-Aptos-CA-95003/16140907_zpid/",
+  "address": "507 La Honda Dr, Aptos, CA 95003",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "price": 1595000,
+  "description": "Craftsman-style home with stained glass windows, lush landscaping, and multi-level decks.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 1725,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/1ad6eca3c4a0ba963bbb0679fa378cf7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/853705b0f8d08e137119108b262b32ca-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/152ad94d17978573d018e4cc7a69b5de-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d99c7f72efdeea09d5b62c75fe51e2dc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/35a0740599574a070b1e4a30d7e69d6a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a5e7e298573e23da3a2594ca576d5667-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6fbb6a5805fca87b23aaf0e2ad7b1937-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0e88359b8564aa2ad7a4b81fd35a09a5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e3956d7b44aa94e9717627e8597904c3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ea0c019c0ff62c75772ae1e43b481927-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4e66e7c595dcab464ecdcb9dc4faecd6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ca888e4123b1525290c87f85b26fd78c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/485d5f82058b3a66a3d4600dfe1d1128-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/78e76f503933fc7b29ad41a40dfe13b6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bbad218b54ebe59a0d668db970edc05a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/555daab9f1444d2f7b65ae424922c556-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5436f85c07ca58e120722702c206d605-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/122b2ed61ee3c044d18f14feae1bbe99-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/73c095f637378cd00a50cf878a62ad1a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/20bacae652ffebb41c9f569a0cfeb931-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5bafb6762eaea092eb6aa1570bf0608e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1dc50394a52c724490b733559ccfc813-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6ed4006dad6cc0fd75f08d63845fe598-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/24d9d8a39e23ca40fe5d7357ec1cc003-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/56a5868361b9aca33ddc626f075f4e58-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bd0e1236ea67ba1a694a1a7dec4e7602-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/25e2ce9029846ca9e0539bab325637a6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4bdf632afe572abb09b3d0bab6eab599-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/77830250abee055c8d7a21c26f8ba74e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/29590128151b7dcedf7394ee452c4084-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4382d91d6ca46dc64ba8943113dd23f0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3f0327f17435cd4cad08bcceb5f0184e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ffa8646c832032a8f949ff77b1d3153c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d303058374c156f27d403cca276f9ace-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ea8e623b1a85c845824237638cb466b0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b51809edf5d75e1198f42b8fb59e6c0f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4ca34b8bf8e030ead22218da7af027e8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/11f5e21722684c10facaa8154cca4de9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/699b01dc24090dcd990698577e21e98b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d81ccb4590b263ea7409a5f16d87f953-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c2aadd19963c7cc7a8874e0d9a4dc175-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3f0a08b5fab340f383b25eaa1d7b1075-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/04c6739700ef32e997aeb811ec51ff79-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4,
+        "materials": [
+          "oak cabinetry",
+          "ceramic tile countertops",
+          "matching tile flooring",
+          "stainless steel refrigerator",
+          "standard electric range"
+        ],
+        "light_quality": "good",
+        "condition": "dated but functional",
+        "notes": "Classic 1980s aesthetic with heavy wood use and grout-heavy tile surfaces. Features some stained glass accents consistent with the house's theme."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 7,
+        "materials": [
+          "wall-to-wall carpeting",
+          "exposed wood beam ceilings",
+          "tongue-and-groove wood paneling",
+          "brick fireplace surround"
+        ],
+        "light_quality": "abundant",
+        "condition": "original/well-maintained",
+        "notes": "Excellent volume with vaulted ceilings and clerestory windows. Carpet appears dated but the architectural bones are strong."
+      },
+      {
+        "room_type": "primary_bedroom",
+        "aesthetic_quality": 6,
+        "materials": [
+          "wood plank ceiling",
+          "carpet",
+          "floral wallpaper",
+          "wooden shutters"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Features outdoor access via sliding doors. The wallpaper and carpet suggest a need for cosmetic updates."
+      },
+      {
+        "room_type": "bathroom",
+        "aesthetic_quality": 3,
+        "materials": [
+          "wood vanity",
+          "teal laminate or tile counters",
+          "blue floor tile",
+          "wallpaper"
+        ],
+        "light_quality": "fair",
+        "condition": "dated",
+        "notes": "The blue/teal color palette is highly specific to the era of construction. Features a skylight for natural light."
+      },
+      {
+        "room_type": "exterior",
+        "aesthetic_quality": 6,
+        "materials": [
+          "wood siding",
+          "paver driveway",
+          "large wood decks",
+          "stained glass inserts"
+        ],
+        "light_quality": "excellent",
+        "condition": "fair to good",
+        "notes": "The property has an eclectic, custom feel with significant 'Crafstman-meets-Mid-Century' influences. Some wood rot/weathering visible on older deck sections."
+      },
+      {
+        "room_type": "laundry_room",
+        "aesthetic_quality": 5,
+        "materials": [
+          "white laminate cabinetry",
+          "front-load washer and dryer"
+        ],
+        "light_quality": "poor",
+        "condition": "functional",
+        "notes": "Basic utility space that appears cleaner/more modern than the kitchen/baths."
+      }
+    ],
+    "overall_aesthetic": 5,
+    "architectural_style": "Custom Mid-Century / Rustic Contemporary",
+    "red_flags": [
+      "extensive use of tile countertops (maintenance/hygiene issue)",
+      "heavy floral wallpaper and dated carpeting throughout",
+      "mismatched exterior photos suggest several different properties or very inconsistent design phases",
+      "presence of a rendering in the listing photos suggests possible development potential or unbuilt plans"
+    ],
+    "positive_signals": [
+      "unique stained glass features",
+      "massive vaulted wood ceilings",
+      "large windows and skylights provide great natural light",
+      "multiple deck spaces for indoor-outdoor flow"
+    ],
+    "renovation_state": "original_vintage",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"oak cabinetry\",\n        \"ceramic tile countertops\",\n        \"matching tile flooring\",\n        \"stainless steel refrigerator\",\n        \"standard electric range\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"dated but functional\",\n      \"notes\": \"Classic 1980s aesthetic with heavy wood use and grout-heavy tile surfaces. Features some stained glass accents consistent with the house's theme.\"\n    },\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wall-to-wall carpeting\",\n        \"exposed wood beam ceilings\",\n        \"tongue-and-groove wood paneling\",\n        \"brick fireplace surround\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"original/well-maintained\",\n      \"notes\": \"Excellent volume with vaulted ceilings and clerestory windows. Carpet appears dated but the architectural bones are strong.\"\n    },\n    {\n      \"room_type\": \"primary_bedroom\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"wood plank ceiling\",\n        \"carpet\",\n        \"floral wallpaper\",\n        \"wooden shutters\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"dated\",\n      \"notes\": \"Features outdoor access via sliding doors. The wallpaper and carpet suggest a need for cosmetic updates.\"\n    },\n    {\n      \"room_type\": \"bathroom\",\n      \"aesthetic_quality\": 3,\n      \"materials\": [\n        \"wood vanity\",\n        \"teal laminate or tile counters\",\n        \"blue floor tile\",\n        \"wallpaper\"\n      ],\n      \"light_quality\": \"fair\",\n      \"condition\": \"dated\",\n      \"notes\": \"The blue/teal color palette is highly specific to the era of construction. Features a skylight for natural light.\"\n    },\n    {\n      \"room_type\": \"exterior\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"wood siding\",\n        \"paver driveway\",\n        \"large wood decks\",\n        \"stained glass inserts\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"fair to good\",\n      \"notes\": \"The property has an eclectic, custom feel with significant 'Crafstman-meets-Mid-Century' influences. Some wood rot/weathering visible on older deck sections.\"\n    },\n    {\n      \"room_type\": \"laundry_room\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"white laminate cabinetry\",\n        \"front-load washer and dryer\"\n      ],\n      \"light_quality\": \"poor\",\n      \"condition\": \"functional\",\n      \"notes\": \"Basic utility space that appears cleaner/more modern than the kitchen/baths.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"Custom Mid-Century / Rustic Contemporary\",\n  \"red_flags\": [\n    \"extensive use of tile countertops (maintenance/hygiene issue)\",\n    \"heavy floral wallpaper and dated carpeting throughout\",\n    \"mismatched exterior photos suggest several different properties or very inconsistent design phases\",\n    \"presence of a rendering in the listing photos suggests possible development potential or unbuilt plans\"\n  ],\n  \"positive_signals\": [\n    \"unique stained glass features\",\n    \"massive vaulted wood ceilings\",\n    \"large windows and skylights provide great natural light\",\n    \"multiple deck spaces for indoor-outdoor flow\"\n  ],\n  \"renovation_state\": \"original_vintage\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.7,
+    "passed": true,
+    "violations": [
+      "dated interior finishes (carpet/wallpaper)",
+      "extensive tile countertops"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light from vaulted ceilings, clerestory windows, and skylights. Meets the hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.2,
+        "weight": 0.18,
+        "notes": "Strong custom character with stained glass, exposed beams, and interesting multi-level volumes. Not a boxy layout."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "While wood elements are good, the high presence of 80s tile, floral wallpaper, and wall-to-wall carpeting lowers the present-fit significantly."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.0,
+        "weight": 0.12,
+        "notes": "Brick fireplace and wood ceilings provide warmth, though the dated bathroom colors/materials feel 'cold' and stuck in time."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Multi-level design fits the taste for flow, though the kitchen appears somewhat enclosed compared to the living volume."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.0,
+        "weight": 0.1,
+        "notes": "Aptos/La Honda location is heavily forested, which triggers the 'High fire risk zone' anti-principle/violation pattern."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.0,
+        "weight": 0.08,
+        "notes": "Multiple decks and lush landscaping, but evidence of wood rot on older sections indicates immediate maintenance needs."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "The home is 'original/vintage' but suffers from deferred cosmetic updates and visible exterior weathering."
+      }
+    ],
+    "justification": "While the house has exceptional architectural bones and natural light that meet the user's core principles, the present-fit score is heavily penalized for its 'original vintage' condition. The extensive wallpaper, carpeted bedrooms, and 1980s teal/oak kitchen require significant work to reach an acceptable aesthetic standard. Furthermore, the heavily forested Aptos location is a direct match for the 'High fire risk' anti-principle.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Main Living Flow",
+        "current_state": "Heavy oak cabinetry, grout-heavy tile counters, and dated carpet separating the living areas.",
+        "proposed_change": "Gut kitchen; install flat-panel walnut or white oak cabinetry to match existing ceiling beams; replace tile with stone/quartz. Remove all carpeting and install wide-plank hardwood throughout the main floor.",
+        "impact": "Unifies the 'Rustic Contemporary' architecture and creates a cohesive, high-end mountain-modern feel.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Bathrooms",
+        "current_state": "Dated teal laminate, blue floor tiles, and wallpaper with basic wood vanities.",
+        "proposed_change": "",
+        "impact": "Removes the biggest 'dated' detractors while leaning into the quirky, bespoke character of the home.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Ceiling & Woodwork Restoration",
+        "current_state": "Beautiful vaulted wood ceilings paired with dated floral wallpaper and heavy shutters.",
+        "proposed_change": "Sand and lightly refinish (or deep clean) exposed beams; strip all wallpaper and paint walls a warm, gallery white to reflect light from clerestory windows.",
+        "impact": "Maximizes the user's desire for natural light and architectural character without structural changes.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Decks and Exterior",
+        "current_state": "Large wood decks with visible weathering and mismatched design elements.",
+        "proposed_change": "Structural assessment of decks; sand and stain to a uniform dark cedar or black-brown; replace outdated deck railings with cable rail to improve views.",
+        "impact": "Enhances the 'indoor-outdoor flow' and modernizes the curb appeal significantly.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Unclear age of roof and mechanicals; 'original' state suggests likely HVAC/Electrical upgrades needed during kitchen bath Reno.",
+      "Stained glass restoration can be expensive if frames are rotting.",
+      "Deck weathering may hide structural rot in Aptos' coastal/forest climate."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' for someone who appreciates the California Rustic/Sea Ranch aesthetic. By stripping away the 80s-era updates (tile counters, floral wallpaper) and highlighting the stunning vaulted wood ceilings and stained glass, this transitions from a dated cabin to a high-end designer retreat. The bones perfectly match the user's desire for 'quirky character' and 'warm wood elements' without requiring a full structural rebuild."
+  },
+  "brief": "# House Brief: 507 La Honda Dr, Aptos\n\n### Executive Summary\nThis is a high-character \"diamond in the rough\" that offers exceptional architectural bones but suffers from a heavy layer of dated 1980s finishes. While the structural elements like vaulted ceilings and stained glass align perfectly with your taste, the property requires a significant cosmetic overhaul and sits in a high-fire-risk zone.\n\n### Aesthetic Alignment\nThe home is a textbook example of **California Rustic / Sea Ranch style**. It masters the \"quirky character\" and \"exposed wood\" principles you value, specifically through its massive vaulted ceilings and unique stained glass. However, the current interior aesthetic is stuck in a \"vintage-original\" time warp (think teal tile, floral wallpaper, and wall-to-wall carpet) that obscures its true architectural potential.\n\n### Strengths\n*   **Volumetric Drama:** The high, wood-planked ceilings and geometric window placements create the \"not boxy\" feel you crave.\n*   **Natural Light:** Large windows, skylights, and multiple glass doors provide the interior brightness that is a core requirement for you.\n*   **Authentic Elements:** The stained glass features and wood craftsmanship are impossible to replicate in modern builds and provide immediate \"soul.\"\n*   **Indoor-Outdoor Flow:** Multiple levels of decking expand the living space into the surrounding forest.\n\n### Weaknesses\n*   **Dated Finishes:** The kitchen and bathrooms are dominated by high-maintenance tile countertops and 80s-era oak cabinetry.\n*   **Maintenance Concerns:** Extensive exterior decking in a damp coastal forest environment is prone to rot; the age of the roof and mechanical systems is a looming question mark.\n*   **Inconsistent Presentation:** The listing includes a rendering and mismatched photos, which may suggest unpermitted work or complex development history that requires due diligence.\n\n### Deal-Breakers\n*   **Fire Risk:** This property directly triggers your anti-principle regarding **high-fire-risk forest locations**. Insurance costs and vegetation management will be significant, ongoing burdens.\n*   **Total Cosmetic Refresh Needed:** If you are looking for \"move-in ready,\" this is not it. Every surface needs attention to meet modern standards.\n\n### Renovation Paths\n*   **The \"Surface Lean-In\" ($100k\u2013$150k):** Strip the wallpaper, replace all carpeting with wide-plank hardwood, and swap the tile countertops for stone. This preserves the \"bones\" while modernizing the feel.\n*   **The Designer Retreat ($200k+):** A full kitchen and bath gut-renovation to replace the teal/oak 80s aesthetic with contemporary natural materials (slate, walnut, zellige tile) to match the high-end architectural shell.\n\n### Who This House Is For\nThis property is for a buyer who prioritizes **architectural integrity over convenience**. You must be willing to manage a multi-month renovation and accept the logistical and financial realities of living in a high-fire-hazard zone in exchange for a truly unique, light-filled sanctuary.\n\n### Verdict\n**PROCEED WITH CAUTION.** The architectural \"bones\" are a 9/10 match for your principles, but the location is a 10/10 match for your fire-risk anti-principle. If you can stomach the renovation costs and the insurance premiums, this will be a stunning, one-of-a-kind home. If fire risk is a non-negotiable, walk away now.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T14:00:00",
+  "scored_at": "2026-01-09T08:49:56.052729"
+}

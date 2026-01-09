@@ -1,0 +1,257 @@
+{
+  "id": "33-edgewood-way-santa-cruz-ca-95060-20260109103228",
+  "url": "https://www.zillow.com/homedetails/33-Edgewood-Way-Santa-Cruz-CA-95060/451808238_zpid/",
+  "address": "33 Edgewood Way, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1395000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 1510,
+    "lot_sqft": 6621,
+    "year_built": 1999,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f2f3e05ad2b456bc0de5434745aeb7de-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/18b2afb8a71104a2dcaea68b14258fd8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f84f53599610e640093590a95b00aea6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/36d0aae9958f33f43261fa9d15c66aba-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c04f0b7bbba5121aa3d802a313a7ca2c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/df464d31f319f453db9c7aa07d7e71bb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d9914b403994c992f8ac3feb82bda510-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45f330b61a2d1bbd019a706ef90c4526-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fa952a32c9ff46ed5f502e5a8b44aa3b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0f6bb18b25f8fa53275fae7b12d94d16-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/56a735c6a97b33f0e79f4c666355b1c5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7f9cbc489074c44684b38ee7d08a1b35-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ca70d84156c42ad6e6c81c03f34a3e8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c6e6c412a299d398cd34655177ad2c74-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/783bd327ba6caf00b5f138bc1d8cf422-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2999ea5017fb99b090fd365a2a50d8d9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/20183cb8d2a91b3898b0c5494c1b3187-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aadf8dfabc0f89bbdd883b8089f1a9c9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/52136155b3e7333f580baef2b2469ba2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c1145a3cf60bbc65b7b0aa07969f8ae9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/80a800343838002a67ae3f8b21e059a0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/98884dc85266fbf95e93d7ed51b02eec-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "oak-faced cabinetry",
+          "beige laminate countertops",
+          "ceramic tile flooring",
+          "white appliances",
+          "drop-in stainless sink"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated but clean",
+        "notes": "The kitchen features a 1990s aesthetic with golden oak cabinets and basic white appliances. The bi-level countertop/peninsula creates a visual barrier to the living area."
+      },
+      {
+        "room_type": "living_dining_area",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "beige wall-to-wall carpeting",
+          "white drywall",
+          "track lighting",
+          "aluminum window frames"
+        ],
+        "light_quality": "good",
+        "condition": "maintained",
+        "notes": "Large open-concept space. Note that several images are virtually staged with modern furniture to hide the dated wall-to-wall carpeting. Includes a built-in window seat/ledge."
+      },
+      {
+        "room_type": "bedroom",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "beige carpeting",
+          "white walls",
+          "track lighting"
+        ],
+        "light_quality": "abundant",
+        "condition": "maintained",
+        "notes": "Virtually staged image. The room is a standard 'white box' with functional but uninspired finishes."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "horizontal siding",
+          "concrete driveway",
+          "mature trees"
+        ],
+        "light_quality": "natural",
+        "condition": "good",
+        "notes": "The property appears to be a multi-unit or townhome structure with a purple/grey color scheme and a large concrete apron for parking."
+      },
+      {
+        "room_type": "deck_patio",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wrought iron fencing",
+          "outdoor wicker furniture"
+        ],
+        "light_quality": "excellent",
+        "condition": "good",
+        "notes": "Spacious elevated deck overlooking a yard/pool area. This is a strong functional feature of the home."
+      },
+      {
+        "room_type": "closet",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "wood shelving",
+          "bifold doors"
+        ],
+        "light_quality": "low",
+        "condition": "functional",
+        "notes": "Standard reach-in closet with basic utilitarian shelving units."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "contemporary multi-unit / townhouse",
+    "red_flags": [
+      "virtually staged furniture masks dated beige carpeting",
+      "dated 90s kitchen with laminate counters",
+      "white appliances suggest a lack of recent investment",
+      "track lighting throughout is functional but dated"
+    ],
+    "positive_signals": [
+      "large outdoor deck space",
+      "abundant natural light from large windows",
+      "clean, move-in ready condition",
+      "mature landscaping and trees"
+    ],
+    "renovation_state": "original/well-maintained",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"kitchen\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\n                \"oak-faced cabinetry\",\n                \"beige laminate countertops\",\n                \"ceramic tile flooring\",\n                \"white appliances\",\n                \"drop-in stainless sink\"\n            ],\n            \"light_quality\": \"moderate\",\n            \"condition\": \"dated but clean\",\n            \"notes\": \"The kitchen features a 1990s aesthetic with golden oak cabinets and basic white appliances. The bi-level countertop/peninsula creates a visual barrier to the living area.\"\n        },\n        {\n            \"room_type\": \"living_dining_area\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\n                \"beige wall-to-wall carpeting\",\n                \"white drywall\",\n                \"track lighting\",\n                \"aluminum window frames\"\n            ],\n            \"light_quality\": \"good\",\n            \"condition\": \"maintained\",\n            \"notes\": \"Large open-concept space. Note that several images are virtually staged with modern furniture to hide the dated wall-to-wall carpeting. Includes a built-in window seat/ledge.\"\n        },\n        {\n            \"room_type\": \"bedroom\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\n                \"beige carpeting\",\n                \"white walls\",\n                \"track lighting\"\n            ],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"maintained\",\n            \"notes\": \"Virtually staged image. The room is a standard 'white box' with functional but uninspired finishes.\"\n        },\n        {\n            \"room_type\": \"exterior_front\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\n                \"horizontal siding\",\n                \"concrete driveway\",\n                \"mature trees\"\n            ],\n            \"light_quality\": \"natural\",\n            \"condition\": \"good\",\n            \"notes\": \"The property appears to be a multi-unit or townhome structure with a purple/grey color scheme and a large concrete apron for parking.\"\n        },\n        {\n            \"room_type\": \"deck_patio\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\n                \"wood decking\",\n                \"wrought iron fencing\",\n                \"outdoor wicker furniture\"\n            ],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"good\",\n            \"notes\": \"Spacious elevated deck overlooking a yard/pool area. This is a strong functional feature of the home.\"\n        },\n        {\n            \"room_type\": \"closet\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\n                \"wood shelving\",\n                \"bifold doors\"\n            ],\n            \"light_quality\": \"low\",\n            \"condition\": \"functional\",\n            \"notes\": \"Standard reach-in closet with basic utilitarian shelving units.\"\n        }\n    ],\n    \"overall_aesthetic\": 5,\n    \"architectural_style\": \"contemporary multi-unit / townhouse\",\n    \"red_flags\": [\n        \"virtually staged furniture masks dated beige carpeting\",\n        \"dated 90s kitchen with laminate counters\",\n        \"white appliances suggest a lack of recent investment\",\n        \"track lighting throughout is functional but dated\"\n    ],\n    \"positive_signals\": [\n        \"large outdoor deck space\",\n        \"abundant natural light from large windows\",\n        \"clean, move-in ready condition\",\n        \"mature landscaping and trees\"\n    ],\n    \"renovation_state\": \"original/well-maintained\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.4,
+    "passed": true,
+    "violations": [
+      "dated 90s kitchen with laminate counters",
+      "ubiquitous beige wall-to-wall carpeting",
+      "virtually staged furniture masking uninspired interior finishes"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Strongest feature of the home; large windows and abundant light in bedrooms and living areas."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.0,
+        "weight": 0.18,
+        "notes": "Multi-level layout adds interest, but the interior spaces feel like 'white boxes' without unique molding or structural details."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 3.5,
+        "weight": 0.15,
+        "notes": "Low-quality finishes for the price point: laminate countertops, oak-faced builder-grade cabinets, and extensive beige carpeting."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 4.5,
+        "weight": 0.12,
+        "notes": "Relies on virtual staging for warmth. The actual materials (white drywall, track lighting) feel clinical rather than cozy."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.5,
+        "weight": 0.1,
+        "notes": "Open concept living/dining is good, but the bi-level kitchen peninsula acts as a dated visual barrier."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz location is desirable, though density of multi-unit structure reduces privacy."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.0,
+        "weight": 0.08,
+        "notes": "Large elevated deck and mature trees are a significant highlight."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Well-maintained and clean, despite being aesthetically dated."
+      }
+    ],
+    "justification": "The house passes hard constraints due to excellent natural light, but fails significantly on aesthetic present-fit. The interior is heavily defined by dated 1990s materials\u2014specifically golden oak, laminate, and wall-to-wall beige carpet\u2014which directly contradicts the user's preference for quality wood elements and architectural character. The use of virtual staging suggests the 'bare' house lacks the cozy warmth sought by the taste model.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Main Level Flow",
+        "current_state": "Dated 1990s golden oak cabinetry with a bi-level laminate peninsula that creates a visual and social barrier.",
+        "proposed_change": "Demolish the bi-level bar to create a single-level waterfall island. Replace oak cabinets with rift-sawn oak or dark walnut cabinetry, install stone counters, and integrate panel-ready appliances.",
+        "impact": "Unlocks the 'open concept' potential and connects the kitchen to the natural light of the living area.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring & Architectural Character",
+        "current_state": "Dull beige wall-to-wall carpeting and 'white box' drywall throughout.",
+        "proposed_change": "Replace all carpeting with wide-plank engineered hardwood. Add architectural interest by installing wood-slat feature walls or exposed faux-timber ceiling beams to satisfy the user's desire for 'non-cookie-cutter' character.",
+        "impact": "Eliminates the 'rental grade' feel and introduces the organic warmth and wood elements the user prioritizes.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Lighting & Atmosphere",
+        "current_state": "Dated, clinical track lighting and basic white fixtures.",
+        "proposed_change": "Switch track lighting for recessed pin-lights and high-end architectural pendants. Replace the white-framed windows with black or bronze frames (or paint) to frame the mature tree views.",
+        "impact": "Enhances the 'cozy warmth' principle and modernizes the 1999 aesthetic without structural changes.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Deck & Transition",
+        "current_state": "Sturdy but basic wood deck overlooking greenery.",
+        "proposed_change": "Install larger sliding glass doors or 'NanaWall' style folding doors to the deck. Upgrade deck railing to cable rail for an unobstructed view of the trees.",
+        "impact": "Leverages the home's best asset (outdoor space) and maximizes the 'abundant natural light' requirement.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "HOA/Multi-unit restrictions may limit exterior window/door modifications",
+      "Potential for outdated plumbing manifolds behind 90s cabinetry",
+      "The $150k budget is tight for a full kitchen + whole-house flooring + lighting; prioritization will be necessary."
+    ],
+    "upside_narrative": "Built in 1999, this home lacks the 'quirky character' the user seeks, but it offers a clean, structurally sound canvas to build it. By stripping away the 90s beige-and-oak palette and injecting rich wood textures and modern glazing, this 'boxy' townhouse can be transformed into a sophisticated, light-filled treehouse. The upside is a high-functioning modern residence in a prime Santa Cruz location that feels custom-built rather than mass-produced."
+  },
+  "brief": "# House Brief: 33 Edgewood Way, Santa Cruz\n\n### Executive Summary\n33 Edgewood Way is a well-maintained 1999 contemporary residence that offers a clean, light-filled \"blank canvas\" in a premium location. While it meets structural and lighting requirements, the interior is currently stalled in a 1990s time capsule of beige carpet and laminate. It presents a medium-effort renovation opportunity to transform a \"boxy\" townhouse into a sophisticated, modern treehouse.\n\n### Aesthetic Alignment\nThe home currently scores low (**53.4/100**) on immediate aesthetic fit. It lacks the architectural soul and \"cozy warmth\" you prioritize. Instead of the rich wood elements and exposed beams you desire, the home is defined by golden oak trim, white appliances, and wall-to-wall carpeting. However, the abundant natural light and large windows provide the essential \"good bones\" needed to eventually meet your taste profile.\n\n### Strengths\n*   **Light Volume:** The home excels in natural light, featuring large windows and glass doors that integrate the surrounding greenery. \n*   **Outdoor Living:** Large deck spaces provide significant \"treehouse\" appeal and expand the living square footage.\n*   **Functional Layout:** A clean, multi-story flow that is move-in ready, allowing for a \"phase-as-you-go\" renovation approach.\n*   **Structural Integrity:** Built in 1999, it avoids many of the systemic issues found in older Santa Cruz cottages (plumbing, foundation, etc.).\n\n### Weaknesses\n*   **Dated Finishes:** The kitchen is heavily dated with laminate countertops and white appliances; track lighting throughout feels utilitarian rather than architectural.\n*   **Material Mismatch:** The ubiquitous beige carpeting and light oak finishes directly contradict your preference for high-quality wood and character.\n*   **Deceptive Staging:** The listing uses virtual staging to mask an uninspired interior; the \"bare\" reality of the house is much colder than the photos suggest.\n\n### Deal-Breakers\n*   **HOA Restrictions:** As a contemporary townhouse/multi-unit structure, there may be strict limitations on exterior modifications (windows, siding, or deck changes) that could limit your ability to add exterior \"character.\"\n*   **Fire Risk:** While not a dense forest, Santa Cruz hillside locations carry inherent fire risks\u2014a noted anti-principle for your search.\n\n### Renovation Paths\nTo bring this home to its **78.0/100 potential**, a budget of **$100k\u2013$200k** is required:\n1.  **Level 1 (Flooring & Paint):** Immediately strip the beige carpet and replace with wide-plank hardwood to introduce the \"wood elements\" you value.\n2.  **Level 2 (The Kitchen):** A full gut of the 90s kitchen is necessary. Transition to natural wood cabinetry and stone counters to create \"cozy warmth.\"\n3.  **Level 3 (Lighting & Hardware):** Replace dated track lighting with architectural fixtures and swap golden oak trim for more contemporary or substantial wood detailing.\n\n### Who This House Is For\nThis property is for a buyer who prioritizes **location and light** over immediate character. It is ideal for someone unwilling to deal with the structural headaches of a 100-year-old home but possesses the vision to overwrite a generic 90s interior with custom finishes.\n\n### Verdict\n**PROCEED WITH CAUTION.** This is a \"logic over heart\" purchase. If you are willing to spend the first year renovating, the light and layout will reward you. However, if you are looking for immediate architectural inspiration and \"cozy\" vibes, this house will feel disappointingly generic upon arrival. Only tour if you are prepared to overhaul the interior finishes entirely.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.345053",
+  "scored_at": "2026-01-09T10:39:12.506781"
+}

@@ -1,0 +1,236 @@
+{
+  "id": "631-park-way-santa-cruz-ca-95065-20260109103228",
+  "url": "https://www.zillow.com/homedetails/631-Park-Way-Santa-Cruz-CA-95065/16109729_zpid/",
+  "address": "631 Park Way, Santa Cruz, CA 95065",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95065",
+  "price": 1595000,
+  "description": "Mid-century home with wood beamed ceilings.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 2157,
+    "lot_sqft": 6926,
+    "year_built": 1961,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95afd4c274b48a19393121a7a59691d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5474e6475607bf1b442419dc4e33772a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ead96c3b3e832b443810eaebff73f597-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/be4f026adabf583bf8dc1cffc4ad7c37-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e6f71506b12c4c4a84e06c166adacfe7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3661f2ad2ca401aa33b2ff3015d9e589-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3b392aeffadba90d85df663217086396-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/afcfe73d72cc8cbd5204d42773727bc4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/608acd1cf26352766c6fffd8cd4b4c6d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e1ca8654871edebb425939ca794955bc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30bae77662c4b57a31f1b89b0104c4f3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9f6e68842feeb7e288233435fd677e4d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e22ba47d644ca98113869ac6266451ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room_primary",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "polished hardwood floors",
+          "floor-to-ceiling glass",
+          "wood paneling",
+          "built-in shelving"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained original/vintage",
+        "notes": "Large floor-to-ceiling windows create a seamless indoor-outdoor connection. Rare Mid-Century Modern architectural integrity."
+      },
+      {
+        "room_type": "living_room_secondary",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "painted brick fireplace",
+          "exposed wood beams",
+          "recessed lighting"
+        ],
+        "light_quality": "bright",
+        "condition": "updated",
+        "notes": "Features a dual-sided fireplace and dramatic high-sloped ceilings with heavy timber beams."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "oak cabinetry",
+          "ceramic tile flooring",
+          "stainless steel appliances",
+          "laminate or solid surface counters"
+        ],
+        "light_quality": "adequate",
+        "condition": "dated",
+        "notes": "The kitchen lacks the architectural sophistication of the living areas; cabinets look like 1990s-era builder grade."
+      },
+      {
+        "room_type": "exterior_front_multiple_properties",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "composite siding",
+          "asphalt shingles",
+          "drought-tolerant landscaping"
+        ],
+        "light_quality": "full sun",
+        "condition": "good",
+        "notes": "The grid contains several different ranch-style and mid-century suburban homes, mostly featuring low-maintenance landscaping and attached garages."
+      },
+      {
+        "room_type": "exterior_backyard_deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wrought iron fencing",
+          "outdoor wicker furniture"
+        ],
+        "light_quality": "bright natural",
+        "condition": "maintained",
+        "notes": "Spacious deck area with mature trees providing a natural screen."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "Mid-Century Modern / Suburban Ranch",
+    "red_flags": [
+      "disjointed interior styles: high-end MCM living room vs. basic developer kitchen",
+      "composite image showing multiple different houses suggests a marketing collage rather than a single listing",
+      "popcorn ceiling texture visible in some interior shots"
+    ],
+    "positive_signals": [
+      "authentic mid-century architectural features (floor-to-ceiling glass)",
+      "vaulted ceilings with exposed beams",
+      "well-established, mature landscaping",
+      "hardwood floors in primary living spaces"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room_primary\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"polished hardwood floors\",\n        \"floor-to-ceiling glass\",\n        \"wood paneling\",\n        \"built-in shelving\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained original/vintage\",\n      \"notes\": \"Large floor-to-ceiling windows create a seamless indoor-outdoor connection. Rare Mid-Century Modern architectural integrity.\"\n    },\n    {\n      \"room_type\": \"living_room_secondary\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"painted brick fireplace\",\n        \"exposed wood beams\",\n        \"recessed lighting\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"updated\",\n      \"notes\": \"Features a dual-sided fireplace and dramatic high-sloped ceilings with heavy timber beams.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"oak cabinetry\",\n        \"ceramic tile flooring\",\n        \"stainless steel appliances\",\n        \"laminate or solid surface counters\"\n      ],\n      \"light_quality\": \"adequate\",\n      \"condition\": \"dated\",\n      \"notes\": \"The kitchen lacks the architectural sophistication of the living areas; cabinets look like 1990s-era builder grade.\"\n    },\n    {\n      \"room_type\": \"exterior_front_multiple_properties\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"stucco\",\n        \"composite siding\",\n        \"asphalt shingles\",\n        \"drought-tolerant landscaping\"\n      ],\n      \"light_quality\": \"full sun\",\n      \"condition\": \"good\",\n      \"notes\": \"The grid contains several different ranch-style and mid-century suburban homes, mostly featuring low-maintenance landscaping and attached garages.\"\n    },\n    {\n      \"room_type\": \"exterior_backyard_deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood decking\",\n        \"wrought iron fencing\",\n        \"outdoor wicker furniture\"\n      ],\n      \"light_quality\": \"bright natural\",\n      \"condition\": \"maintained\",\n      \"notes\": \"Spacious deck area with mature trees providing a natural screen.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Mid-Century Modern / Suburban Ranch\",\n  \"red_flags\": [\n    \"disjointed interior styles: high-end MCM living room vs. basic developer kitchen\",\n    \"composite image showing multiple different houses suggests a marketing collage rather than a single listing\",\n    \"popcorn ceiling texture visible in some interior shots\"\n  ],\n  \"positive_signals\": [\n    \"authentic mid-century architectural features (floor-to-ceiling glass)\",\n    \"vaulted ceilings with exposed beams\",\n    \"well-established, mature landscaping\",\n    \"hardwood floors in primary living spaces\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 64.2,
+    "passed": true,
+    "violations": [
+      "disjointed interior styles: high-end MCM living room vs. basic developer kitchen",
+      "90s-era builder grade cabinets in kitchen"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Strongest feature; floor-to-ceiling glass in primary living areas and high-sloped ceilings with bright light."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.5,
+        "weight": 0.18,
+        "notes": "High MCM integrity in living spaces with beams and dual-sided fireplace, though the kitchen is generic."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.5,
+        "weight": 0.15,
+        "notes": "Sharp contrast between high-quality polished hardwoods and 1990s-era cheap laminate/oak kitchen finishes."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.2,
+        "weight": 0.12,
+        "notes": "Wood paneling and brick fireplaces provide warmth, though the kitchen feels sterile and dated."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "The transition from architectural MCM to suburban ranch kitchen creates a jarring flow experience."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Located in Santa Cruz heights/wooded area; moderate to high fire risk concerns for this region."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.0,
+        "weight": 0.08,
+        "notes": "Spacious deck and mature screening trees create a good private environment."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.8,
+        "weight": 0.07,
+        "notes": "Mixed maintenance levels; authentic features are well-kept but 'updated' areas used low-quality materials."
+      }
+    ],
+    "justification": "The house passes on the strength of its natural light and architectural bones, which are core priorities. However, it earns a lower score due to the 'present-fit' requirement: the kitchen and some 'updated' elements are a significant aesthetic mismatch for someone seeking a cohesive mid-century look. The jarring transition from high-quality architectural glass to 90s builder-grade oak cabinets represents a major functional and aesthetic compromise that would require immediate renovation to achieve a cohesive feel.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Great Room Integration",
+        "current_state": "1990s-era builder-grade oak cabinetry and tile that clashes with the MCM architecture.",
+        "proposed_change": "Complete gut renovation. Install flat-panel walnut or rift-sawn oak cabinetry, quartz countertops with a waterfall edge, and integrated appliances. Remove any non-structural partitions to fully open the kitchen to the vaulted living area.",
+        "impact": "Eliminates the 'disjointed interior' red flag and aligns the kitchen with the high-end architectural character of the living room.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Ceilings and Lighting",
+        "current_state": "Dated popcorn texture and basic recessed lighting.",
+        "proposed_change": "Scrape popcorn ceilings, skip-trowel to a smooth finish, and wrap or refinish the exposed beams to enhance the 'wood elements' principle. Upgrade to high-CRI architectural LED lighting.",
+        "impact": "Crucial for modernization; emphasizes the 'vaulted ceiling' positive signal and increases perceived ceiling height.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Fireplace Modernization",
+        "current_state": "Dual-sided painted brick fireplace.",
+        "proposed_change": "Strip paint to reveal original brick or mantel with natural stone/veneer. Add a custom raw steel or thick wood mantel to satisfy the 'cozy warmth' and 'natural materials' preference.",
+        "impact": "Elevates the secondary living space from 'updated' to 'architectural feature'.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Indoor-Outdoor Flow (Secondary Living)",
+        "current_state": "Standard windows/doors in the secondary living area.",
+        "proposed_change": "Replace existing sliders leading to the deck with large black-frame accordion or multi-slide doors to match the primary living room's floor-to-ceiling glass.",
+        "impact": "Maximizes natural light and creates the seamless flow characteristic of high-end MCM homes.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Multiple homes in marketing photos may hide the true condition of the specific lot's exterior.",
+      "1961 construction likely contains lead/asbestos in the popcorn ceilings and floor tiles.",
+      "Upgrading to large glass sliders may require header reinforcement for the wide spans."
+    ],
+    "upside_narrative": "This property is an MCM gem hidden by a mediocre 90s remodel. By focusing the budget on the kitchen and ceiling finishes, you bridge the gap between the stunning original 'glass-house' bones and the dated utility areas. The result would be a 'Glass and Timber' sanctuary that hits every one of your aesthetic principles: dramatic ceiling heights, rich natural wood, and a sophisticated indoor-outdoor lifestyle that is quintessentially Santa Cruz."
+  },
+  "brief": "# House Brief: 631 Park Way, Santa Cruz\n\n### Executive Summary\nThis is a mid-century modern (MCM) \"diamond in the rough\" that offers spectacular architectural bones and the coveted \"glass house\" aesthetic. While the core living spaces feature soaring beamed ceilings and floor-to-ceiling windows, the home suffers from a disjointed identity due to a dated, low-quality 90s renovation in the kitchen and utility areas.\n\n### Aesthetic Alignment\nThe property is a strong match for your **architectural character** and **natural light** requirements. It avoids the \"boxy\" feel you dislike, utilizing vaulted ceilings and timber beams to create vertical interest. However, it currently violates your anti-principle regarding **cheap finishes**; the 90s builder-grade oak cabinetry and popcorn ceilings sharply contrast with the sophisticated MCM structure.\n\n### Strengths\n*   **Architectural Integrity:** Authentic 1960s post-and-beam construction with dramatic floor-to-ceiling glass.\n*   **Natural Light:** Exceptional light penetration throughout the primary living zones.\n*   **Natural Materials:** Features original hardwood flooring and warm wood-beamed ceilings that provide the \"cozy warmth\" you value.\n*   **Outdoor Integration:** Mature landscaping and large glass spans create a seamless indoor-outdoor flow characteristic of high-end Santa Cruz MCM homes.\n\n### Weaknesses\n*   **Stylistic Inconsistency:** The transition from the high-end architectural living room to the \"basic developer\" kitchen is jarring and diminishes the home\u2019s luxury feel.\n*   **Dated Finishes:** Popcorn ceilings are present, which likely contain asbestos given the 1961 build date.\n*   **Marketing Ambiguity:** The listing uses a collage of images that may include neighboring properties; a physical site visit is mandatory to confirm the specific lot's condition and privacy.\n\n### Deal-Breakers\n*   **None identified.** The home passes the \"present-fit\" test based on its structural bones, though it requires significant cosmetic alignment to meet your standards.\n\n### Renovation Paths\nTo reach this home\u2019s **82/100 potential**, a budget of **$100k\u2013$200k** is recommended:\n1.  **The Kitchen Bridge:** Replace the 90s oak cabinets and basic counters with a modern, integrated kitchen that reflects the MCM era (e.g., walnut cabinetry, stone surfaces).\n2.  **Ceiling Remediation:** Scrape the popcorn ceilings and refinish the wood beams to emphasize the \"Glass and Timber\" sanctuary aesthetic.\n3.  **Modern Glazing:** If budget allows, upgrading to high-efficiency large-span sliders would improve both thermal performance and the indoor-outdoor connection.\n\n### Who This House Is For\nThis house is for a buyer who prioritizes **architectural soul** over \"turn-key\" convenience. You must be willing to endure a kitchen remodel and ceiling remediation to bridge the gap between \"suburban ranch\" and \"design-forward MCM.\"\n\n### Verdict\n**PROCEED WITH CAUTION.** The architectural bones are exactly what you are looking for\u2014dramatic, light-filled, and rich with wood. However, you are paying a premium ($1.59M) for a house that essentially requires a total kitchen and surface overhaul to feel cohesive. \n\n**Next Step:** Schedule a viewing specifically to assess the kitchen's layout and the condition of the exterior glass. If the structural integrity of the windows and beams is solid, the renovation path is straightforward and highly rewarding.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.355703",
+  "scored_at": "2026-01-09T10:34:19.689706"
+}

@@ -1,0 +1,226 @@
+{
+  "id": "1612-escalona-dr-santa-cruz-ca-95060-20260109103228",
+  "url": "https://www.zillow.com/homedetails/1612-Escalona-Dr-Santa-Cruz-CA-95060/16101018_zpid/",
+  "address": "1612 Escalona Dr, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1549000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 1.0,
+    "sqft": 1390,
+    "lot_sqft": 7057,
+    "year_built": 1951,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bc05d9fd254fe0fe9900b5d5823ecfc4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1e6819e631aedf7f3baf392d0b00b7f0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b8c90b6946bbaeeca3d61f781b92fe0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b87e0091255eaa483369164c2514204b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/81d981f1185fc25c9ac254578307c8b9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7e797d3c8974dac0d6e74d2f0c8561ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/586c0d1695c6955c59b14aba312baea8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d2480ad5b2e1155285aee416ae850140-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e19d082c4537586c4bae11a1264b31d8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8b966bc060c77abcac4da4d71c91e78f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45de5e2eacada7a448172664e8775ba8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2be502b4331eab34db5aa7d5e88f51cb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e5333d3b034e817145340726ee3691b7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "golden oak hardwood floors",
+          "stone fireplace surround",
+          "drywall"
+        ],
+        "light_quality": "good",
+        "condition": "well-maintained",
+        "notes": "Open concept layout leading into the kitchen area. The fireplace has a dated split-face stone aesthetic common in the late 90s/early 2000s."
+      },
+      {
+        "room_type": "exterior - front facade (main)",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "wood decking",
+          "concrete driveway",
+          "glass front door"
+        ],
+        "light_quality": "bright",
+        "condition": "good",
+        "notes": "Mid-century ranch style with a modern grey paint job. The drought-tolerant landscaping and tiered entry add curb appeal."
+      },
+      {
+        "room_type": "exterior - backyard/deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "metal fencing",
+          "concrete pool surround"
+        ],
+        "light_quality": "filtered sunlight",
+        "condition": "good",
+        "notes": "Spacious deck area with outdoor furniture and a pool in the background, surrounded by mature trees."
+      },
+      {
+        "room_type": "porch/entry",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "composite decking",
+          "painted siding"
+        ],
+        "light_quality": "shaded",
+        "condition": "clean",
+        "notes": "Small functional entry deck with a glimpse of the neighborhood view."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "mid-century ranch / contemporary eclectic",
+    "red_flags": [
+      "mixed architectural styles in the portfolio suggest a developer or agent compilation rather than a single cohesive property",
+      "modern 'grey-out' exterior paint (Trend/Flip signal)",
+      "visible rendering for a new build suggests potential lot sale or major development project"
+    ],
+    "positive_signals": [
+      "established drought-tolerant landscaping",
+      "elevated lot with potential views",
+      "outdoor living spaces (decks/patios) appear well-integrated",
+      "natural light in living areas"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"golden oak hardwood floors\",\n        \"stone fireplace surround\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Open concept layout leading into the kitchen area. The fireplace has a dated split-face stone aesthetic common in the late 90s/early 2000s.\"\n    },\n    {\n      \"room_type\": \"exterior - front facade (main)\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"stucco\",\n        \"wood decking\",\n        \"concrete driveway\",\n        \"glass front door\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"good\",\n      \"notes\": \"Mid-century ranch style with a modern grey paint job. The drought-tolerant landscaping and tiered entry add curb appeal.\"\n    },\n    {\n      \"room_type\": \"exterior - backyard/deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood decking\",\n        \"metal fencing\",\n        \"concrete pool surround\"\n      ],\n      \"light_quality\": \"filtered sunlight\",\n      \"condition\": \"good\",\n      \"notes\": \"Spacious deck area with outdoor furniture and a pool in the background, surrounded by mature trees.\"\n    },\n    {\n      \"room_type\": \"porch/entry\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"composite decking\",\n        \"painted siding\"\n      ],\n      \"light_quality\": \"shaded\",\n      \"condition\": \"clean\",\n      \"notes\": \"Small functional entry deck with a glimpse of the neighborhood view.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"mid-century ranch / contemporary eclectic\",\n  \"red_flags\": [\n    \"mixed architectural styles in the portfolio suggest a developer or agent compilation rather than a single cohesive property\",\n    \"modern 'grey-out' exterior paint (Trend/Flip signal)\",\n    \"visible rendering for a new build suggests potential lot sale or major development project\"\n  ],\n  \"positive_signals\": [\n    \"established drought-tolerant landscaping\",\n    \"elevated lot with potential views\",\n    \"outdoor living spaces (decks/patios) appear well-integrated\",\n    \"natural light in living areas\"\n  ],\n  \"renovation_state\": \"partial\",\n  \"notes\": \"The grid is a composite of multiple properties or a development portfolio, ranging from updated mid-century ranchers to modern new-build renderings. The primary residence shown features typical 2010s-era updates like grey exterior paint and mixed stone textures.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.7,
+    "passed": false,
+    "violations": [
+      "modern 'grey-out' exterior paint (Trend/Flip signal)",
+      "dated split-face stone fireplace (clashes with MCM roots)",
+      "single story layout (violates 'multiple stories preferred' soft constraint)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Good window placement and orientation; interiors appear bright despite some shaded areas."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.5,
+        "weight": 0.18,
+        "notes": "Standard mid-century ranch footprint. Lacks the 'interesting shapes' or 'exposed beams' sought in the model."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.0,
+        "weight": 0.15,
+        "notes": "Hardwood floors are a plus, but combined with the 90s stone fireplace and trend-chasing grey exterior, the material palette feels incoherent."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "Wood floors provide some warmth, but the 'grey-out' exterior and generic drywall interiors feel sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Open concept layout between kitchen and living is functional for modern living."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz upper west side is desirable, but the vision analysis notes a high fire risk/forest-adjacent concern common to this taste model and area."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "Strongest feature. Pool, mature trees, and tiered landscaping provide good utility."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Well-maintained with recent updates, though the updates are aesthetically mismatched."
+      }
+    ],
+    "justification": "The property falls into a marginal range primarily due to aesthetic incoherence and failure to meet key soft constraints. While it passes the natural light hard constraint, the 'grey-out' trend signals and the dated stone fireplace violate the preference for authentic architectural character and natural warmth. The single-story, somewhat boxy ranch layout also fails the preference for multi-story, quirky designs. It is a functional house, but a poor match for this specific aesthetic profile.",
+    "deal_breakers": [
+      "Single story layout (soft constraint violation)",
+      "Flip-style grey exterior paint",
+      "Dated 90s masonry in a mid-century shell"
+    ]
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room & Fireplace",
+        "current_state": "1990s era split-face stone fireplace and golden oak floors that clash with the mid-century shell.",
+        "proposed_change": "Reface fireplace with vertical cedar slats or hand-glazed ceramic tile; strip and refinish oak floors to a natural/matte clear coat to highlight the wood grain.",
+        "impact": "Eliminates the 'flip' aesthetic and introduces the 'architectural character' and 'wood elements' the user prioritizes.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Indoor-Outdoor Flow (Living to Deck)",
+        "current_state": "Standard door access to the spacious backyard/deck area.",
+        "proposed_change": "Replace existing window/door combo with a large black-frame accordion or sliding glass wall system.",
+        "impact": "Unlocks the 'abundant natural light' principle and maximizes the value of the elevated lot and existing mature trees.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Interior Ceiling/Structure",
+        "current_state": "Standard flat drywall ceilings in a mid-century ranch footprint.",
+        "proposed_change": "Investigate attic cavity for vaulting potential or add decorative structural wood beams to create vertical interest and 'quirky character'.",
+        "impact": "Addresses the desire for 'not boxy' shapes and adds the 'exposed beams' listed in the user's principles.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Exterior Facade Re-warm",
+        "current_state": "Generic 'grey-out' modern flip paint scheme.",
+        "proposed_change": "Introduce warm wood siding accents (IPE or Cedar) around the entry and replace the glass door with a custom mid-century white oak door.",
+        "impact": "Softens the cold exterior and aligns the home with a high-end contemporary eclectic aesthetic rather than a trend-chasing flip.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "The presence of a new-build rendering in the listing suggests potential underlying issues with the 1951 structure or significant unutilized lot value.",
+      "Renovating a 1951 build often reveals galvanized plumbing or ungrounded electrical behind the walls.",
+      "Opening walls for glass sliders on an elevated lot may require structural seismic retrofitting."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' for someone who hates cookie-cutter flips. By stripping away the generic 90s stone and grey paint, you can lean into the 1951 bones to create a warm, wood-forward mid-century sanctuary. The $150k budget is perfectly positioned to handle high-impact structural openings (glass walls) and premium finishes (beams/natural wood) that would satisfy the user's craving for architectural character and light."
+  },
+  "brief": "# House Brief: 1612 Escalona Dr, Santa Cruz\n\n### Executive Summary\nA 1951 mid-century ranch situated on an elevated lot in a prime Santa Cruz neighborhood. While the home possesses strong \"bones\" and excellent natural light, it currently suffers from a lack of architectural identity due to dated 90s renovations and a generic \"investor-grey\" exterior. At $1.55M, it represents a high-potential project for a design-forward buyer, though it lacks the multi-story complexity you typically prefer.\n\n### Aesthetic Alignment\nThe house is a mixed bag. It hits your requirement for **abundant natural light** through large windows and a bright living area, but misses on **architectural character**. The current aesthetic is \"confused\"\u2014the exterior has been flattened by trendy grey paint, and the interior features a heavy, dated split-face stone fireplace that clashes with the home\u2019s mid-century roots. It feels more \"boxy ranch\" than \"dynamic sanctuary\" in its current state.\n\n### Strengths\n*   **Natural Light:** Large apertures and good orientation ensure the living spaces are airy and bright.\n*   **Outdoor Integration:** Drought-tolerant landscaping and well-integrated decks provide an immediate indoor-outdoor flow.\n*   **Elevation:** The lot\u2019s position offers potential views and a sense of privacy from the street.\n*   **MCM Potential:** Beneath the grey paint and 90s stone, the 1951 structure offers a clean slate for a high-end mid-century modern restoration.\n\n### Weaknesses\n*   **The \"Flip\" Look:** The \"grey-out\" exterior paint is an immediate red flag for low-effort aesthetic updates.\n*   **Aesthetic Incoherence:** The masonry and finishes feel dated and do not honor the architectural era of the house.\n*   **Single-Story Layout:** This is a direct violation of your preference for multiple stories and vertical flow.\n*   **Hidden Risks:** The inclusion of new-build renderings in the listing suggests the current structure may have unaddressed maintenance issues or that the value is primarily in the land.\n\n### Deal-Breakers\n*   **Single Story:** If multiple levels are a non-negotiable requirement for your lifestyle, this layout will feel overly horizontal and \"boxy.\"\n*   **Bathroom-to-Bedroom Ratio:** 3 bedrooms served by only 1.0 bathroom is a significant functional bottleneck for a $1.5M home.\n\n### Renovation Paths\nTo bring this house into alignment with your taste, a **Medium-Scale Renovation ($100k\u2013$200k)** is required:\n1.  **De-Grey the Exterior:** Strip the generic paint in favor of natural wood siding or a warmer, era-appropriate palette.\n2.  **Fireplace Overhaul:** Replace the heavy 90s stone with vertical wood slatted features or sleek Roman brick to restore \"cozy warmth.\"\n3.  **Structural Glass:** Replace standard windows with floor-to-ceiling glass sliders to maximize the \"light\" hard constraint.\n4.  **The Bath Problem:** Investigate adding a second bathroom to make the floor plan viable for long-term residency.\n\n### Who This House Is For\nThis home is for the **visionary rehabilitator** who wants to rescue a mid-century gem from bad 90s choices. It is for someone who prioritizes a \"Westside\" Santa Cruz location and natural light over a multi-story layout.\n\n### Verdict\n**PASS.** \nWhile the potential score is high (78/100), the house currently violates too many of your core preferences\u2014specifically the desire for multiple stories and architectural character. The presence of new-build renderings suggests you may be paying a premium for \"development potential\" rather than a home you can move into and enjoy today. Unless you are prepared to perform a total aesthetic \"exorcism,\" keep looking for a property with more innate quirky character.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.351130",
+  "scored_at": "2026-01-09T10:36:18.168391"
+}

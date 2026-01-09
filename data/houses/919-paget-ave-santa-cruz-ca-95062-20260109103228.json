@@ -1,0 +1,222 @@
+{
+  "id": "919-paget-ave-santa-cruz-ca-95062-20260109103228",
+  "url": "https://www.zillow.com/homedetails/919-Paget-Ave-Santa-Cruz-CA-95062/16125695_zpid/",
+  "address": "919 Paget Ave, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1050000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1470,
+    "lot_sqft": 4443,
+    "year_built": 1982,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/a6cc23abf287aa29e99ae8b2351f2e6c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/690918eb54805b21f15c4013833781fb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/839220194a7c8c1d3dbef7289cdfb3bb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c7d85553106153c50d84493c632e10a1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/96b39d0b57683d2ebe4157e9143e0b5b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/374e6708555e4507a31d79d76ed6af5e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/623fe3e23ac59cbbb877e483b1488644-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f87132023300b022b3d66a0cd5386dd1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/782849be7ec64e2a93ca9c9e83e950d9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/19d0f3e0e541eab39fd71f73bd611930-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9aba45a89d193631490b7e2f55e608e8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f3c2148016dd3d7f7a5aefc6a97ffcee-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "LVP flooring",
+          "ceramic tile fireplace surround",
+          "drywall",
+          "wood mantel"
+        ],
+        "light_quality": "excellent",
+        "condition": "recent budget refresh",
+        "notes": "Double-height ceilings and clerestory windows provide great volume, but the fireplace tile and flooring look like budget-grade materials."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "oak cabinetry",
+          "faux-marble laminate or thin quartz",
+          "stainless steel sink",
+          "white appliances"
+        ],
+        "light_quality": "moderate",
+        "condition": "partially updated",
+        "notes": "A 'refresh' rather than a renovation. The original 80s/90s honey oak cabinets remain, paired with modern counters and a new sink. Mismatched white and stainless appliances."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "T1-11 or horizontal siding",
+          "composition shingle roof",
+          "concrete driveway"
+        ],
+        "light_quality": "bright",
+        "condition": "maintained",
+        "notes": "Typical suburban 1980s PUD/Townhome aesthetic. Garage door looks dated."
+      },
+      {
+        "room_type": "backyard_deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wrought iron fencing",
+          "patio furniture"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "Well-staged outdoor living area with a pool in the background, though the pool may be communal given the aerial view."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "1980s contemporary suburban / PUD",
+    "red_flags": [
+      "cheap LVP flooring with high pattern repetition",
+      "partial kitchen update (new counters on old cabinets)",
+      "mismatched appliances",
+      "fluorescent light box in kitchen",
+      "grid contains multiple unrelated properties suggesting a generic or multi-unit marketing blast"
+    ],
+    "positive_signals": [
+      "vaulted ceilings",
+      "large windows and good natural light",
+      "clean and move-in ready",
+      "functional open floor plan"
+    ],
+    "renovation_state": "partial_light_refresh",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"LVP flooring\", \"ceramic tile fireplace surround\", \"drywall\", \"wood mantel\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"recent budget refresh\",\n      \"notes\": \"Double-height ceilings and clerestory windows provide great volume, but the fireplace tile and flooring look like budget-grade materials.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\"oak cabinetry\", \"faux-marble laminate or thin quartz\", \"stainless steel sink\", \"white appliances\"],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"partially updated\",\n      \"notes\": \"A 'refresh' rather than a renovation. The original 80s/90s honey oak cabinets remain, paired with modern counters and a new sink. Mismatched white and stainless appliances.\"\n    },\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"T1-11 or horizontal siding\", \"composition shingle roof\", \"concrete driveway\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"maintained\",\n      \"notes\": \"Typical suburban 1980s PUD/Townhome aesthetic. Garage door looks dated.\"\n    },\n    {\n      \"room_type\": \"backyard_deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"wood decking\", \"wrought iron fencing\", \"patio furniture\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"good\",\n      \"notes\": \"Well-staged outdoor living area with a pool in the background, though the pool may be communal given the aerial view.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"1980s contemporary suburban / PUD\",\n  \"red_flags\": [\n    \"cheap LVP flooring with high pattern repetition\",\n    \"partial kitchen update (new counters on old cabinets)\",\n    \"mismatched appliances\",\n    \"fluorescent light box in kitchen\",\n    \"grid contains multiple unrelated properties suggesting a generic or multi-unit marketing blast\"\n  ],\n  \"positive_signals\": [\n    \"vaulted ceilings\",\n    \"large windows and good natural light\",\n    \"clean and move-in ready\",\n    \"functional open floor plan\"\n  ],\n  \"renovation_state\": \"partial_light_refresh\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.4,
+    "passed": true,
+    "violations": [
+      "cheap LVP flooring with high pattern repetition",
+      "partial kitchen update (new counters on old cabinets)",
+      "mismatched appliances / cheap flip-style refresh"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Strongest feature. Double-height ceilings and clerestory windows provide excellent volume and sun exposure."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.5,
+        "weight": 0.18,
+        "notes": "1980s PUD styling is somewhat boxy/generic, though vaulted ceilings add some interest."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 3.0,
+        "weight": 0.15,
+        "notes": "High penalty for budget LVP flooring, oak cabinets with 'lipstick' updates, and fluorescent kitchen lighting."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 4.5,
+        "weight": 0.12,
+        "notes": "The high light helps, but the budget finishes feel sterile and lack the authentic wood/brick character desired."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Functional open floor plan typical of this era; good connection to the deck."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz location is desirable, though it appears to be part of a dense PUD/townhome cluster."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.0,
+        "weight": 0.08,
+        "notes": "Nice deck area, but appears to share communal space (pool), reducing privacy."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "Move-in ready but aesthetically compromised by low-tier refresh choices."
+      }
+    ],
+    "justification": "While the house meets the hard constraint for natural light, it suffers heavily from 'cheap flip' aesthetics which is a primary anti-principle. The combination of budget LVP, mismatched appliances, and dated oak cabinetry makes the present-fit poor for a user seeking architectural character and high-quality materials. It scores in the marginal range because it requires significant aesthetic undoing to meet the desired taste level.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "living room & fireplace",
+        "current_state": "budget-grade LVP flooring and dated ceramic tile surround with a basic wood mantel.",
+        "proposed_change": "Replace LVP with wide-plank engineered white oak; replace the fireplace surround with floor-to-ceiling textured stone or handmade Zellige tile to emphasize the double-height volume.",
+        "impact": "Unlocks the 'architectural character' and 'cozy warmth' principles by making the vertical space a high-end focal point instead of a budget refresh.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "kitchen",
+        "current_state": "Mismatched appliances, a fluorescent light box, and new counters sitting on original honey oak cabinets.",
+        "proposed_change": "Gut renovation. Remove the fluorescent soffit to gain ceiling height; install custom wood cabinetry that ties into the living room aesthetic, integrated appliances, and a minimalist island.",
+        "impact": "Removes the 'cookie-cutter' feel and creates the 'wood elements' and 'functional flow' the user desires.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "lighting & windows",
+        "current_state": "Standard 1980s windows and dated lighting fixtures.",
+        "proposed_change": "Upgrade to black-framed or wood-clad windows to lean into the 'contemporary' vibe; add architectural sconces and recessed LED pin lights to accentuate the vaulted ceilings.",
+        "impact": "Amplifies natural light and adds the 'quirky character' that sets it apart from a standard suburban PUD.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "exterior & garage",
+        "current_state": "Typical 80s T1-11 siding and a dated garage door.",
+        "proposed_change": "Paint the siding a sophisticated dark charcoal or forest green to contrast with the light interior; replace the garage door with a modern wood-slat or glass-panel option.",
+        "impact": "Significantly improves curb appeal and signals a custom, architecturally-led home rather than a developer unit.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "HOA/PUD restrictions may limit exterior material changes or window colors.",
+      "Removing the kitchen fluorescent light box may reveal plumbing or venting that requires creative bulkheading.",
+      "The multi-unit marketing context suggests communal wall/roof responsibilities which may restrict structural alterations."
+    ],
+    "upside_narrative": "This house is a perfect 'inner-shell' candidate. While the recent budget refresh is aesthetically underwhelming, the 'bones'\u2014specifically the vaulted ceilings and clerestory windows\u2014provide a volumetric quality rarely found at this price point in Santa Cruz. With a $150k budget, you can strip away the cheap LVP and dated oak to create a warm, Scandinavian-modern sanctuary that leans into its verticality and natural light. It transitions from a 'faded 80s PUD' to a high-design, multi-level architectural home."
+  },
+  "brief": "# House Brief: 919 Paget Ave, Santa Cruz\n\n## Executive Summary\nThis property is a quintessential \"diamond in the rough\" trapped in a \"cheap flip\" skin. While it boasts the vaulted ceilings and abundant natural light you crave, the current aesthetic is dominated by low-quality finishes and dated 1980s suburban elements. It is a high-potential project for someone willing to strip away the surface-level updates to reveal the architectural volumes underneath.\n\n## Aesthetic Alignment\nThe house currently scores a **5.3/10** for alignment. It satisfies your requirement for \"interesting shapes\" and \"not boxy\" architecture, but fails catastrophically on materials. Instead of the warm wood and natural textures you prefer, you will find high-repetition gray LVP flooring and a mismatched \"lipstick on a pig\" kitchen update. However, the verticality and clerestory windows provide an excellent canvas for a Scandinavian-modern or warm-contemporary transformation.\n\n## Strengths\n*   **Volumetric Interest:** Vaulted ceilings and a multi-level layout prevent the \"boxy\" feel of a standard suburban home.\n*   **Natural Light:** Excellent window placement, including high-set windows that pull light deep into the living spaces.\n*   **Open Flow:** The floor plan is functional and airy, providing a strong foundation for a high-design renovation.\n*   **Move-in Ready:** Despite the aesthetic drawbacks, the home is clean and functional, allowing you to live in it while planning renovations.\n\n## Weaknesses\n*   **Low-Quality Finishes:** The recent \"refresh\" uses budget materials (generic LVP, mismatched appliances) that clash with your preference for quality.\n*   **Dated Architecture:** Features like the fluorescent light box in the kitchen and the old oak cabinetry scream \"1980s PUD.\"\n*   **Potential Restrictions:** As part of a Planned Unit Development (PUD), you may face HOA hurdles regarding exterior changes or structural alterations.\n*   **Aesthetic \"In-Between\":** It\u2019s neither a charming original nor a high-end renovation; it\u2019s currently in an awkward middle ground.\n\n## Deal-Breakers\n*   **None.** There are no structural or location-based deal-breakers, but the **\"cheap flip\" aesthetic** is a significant hurdle that requires a specific mindset to overcome.\n\n## Renovation Paths: The \"Shell\" Strategy\nTo reach the **78/100 potential score**, you should treat this as an \"inner-shell\" project.\n1.  **Floor-to-Ceiling Swap:** Replace the repetitive LVP with wide-plank light oak or reclaimed wood to add the warmth you desire.\n2.  **Kitchen De-evolution:** Remove the fluorescent light box and the dated oak cabinets. Replace with clean-lined cabinetry and integrated appliances.\n3.  **Accentuate Volume:** Lean into the verticality by adding wood cladding to the vaulted ceilings or exposing structural beams where possible.\n4.  **Hardware & Lighting:** Replace all \"contractor-grade\" fixtures with architectural-quality hardware.\n\n## Who This House Is For\nThis house is for the **visionary buyer** who prioritizes \"volume and light\" over \"turnkey finishes.\" If you have a $150k renovation budget and the patience to undo a bad flip, you can create a high-design architectural sanctuary that would otherwise cost $1.5M+ in this market.\n\n## Verdict\n**PROCEED WITH CAUTION.** Only pursue this if you are prepared to renovate. Buying this house for its current interior state will likely lead to \"buyer's remorse\" given your anti-principles. However, if you are looking for the best *spatial* deal in Santa Cruz and intend to remodel, this is a rare opportunity to secure architectural character at a lower entry price.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.357189",
+  "scored_at": "2026-01-09T10:33:42.550786"
+}

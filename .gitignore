@@ -1,0 +1,28 @@
+# venv
+venv/
+.venv/
+
+# env files
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Generated files
+report.html
+
+# OS files
+.DS_Store
+Thumbs.db

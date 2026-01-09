@@ -1,0 +1,252 @@
+{
+  "id": "1430-merrill-st-santa-cruz-ca-95062-20260109140000",
+  "url": "https://www.zillow.com/homedetails/1430-Merrill-St-Santa-Cruz-CA-95062/455772485_zpid/",
+  "address": "1430 Merrill St, Santa Cruz, CA 95062",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "price": 1995000,
+  "description": "Colorful cottage with blue siding, red trim, mature trees, and large lot.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 1630,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b95d2281e55a5c6257c834829514b7d4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/214b32868c24eb87fafa220fd1643a5b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2a20bc85a6523048d1ce1b40e08638e8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/117a003d0ef4639026b51477e728b0f1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/adf0b350045d7f452e06c70e9f1df955-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0777a85782d988e79787758a2b42f0b2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/27573ec5ac70c2770856d82d635f4498-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1c4343690ae7b67ac2367769a4578cf4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/071ae023d29f6135d6d7a7ce7ff7010c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aa50c8647f70fce6bf13f3ae74b09337-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/485d5f82058b3a66a3d4600dfe1d1128-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/50ae2c4c1b67327fb2834d4e90041ed4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b437c2f329501d55d446b14f66452650-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/21713f7bb87dd5ac2d7396a2d85ba019-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5f177d75a0dca0ab387e4423962623c9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/994d27865796e320ee1c83773a7dfc41-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88d5f0cb5a196e766e4ea7aac82b7fbe-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a818bac1f8c1d18a721e0bd041db2fe7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/56a9a4bee6ccc022aea36f97262d9e59-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/af9cfbe0cd063e45fcf90ab5d6e177ed-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b21a2f16cc7b8abc6789e5dbef60201e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0593680a505d2ab836dd273022113e15-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8bd4f1c1d55a4bfc57fe64b2e339b604-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e3fb5bc7a2c8b7a3b82ed27922a03331-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ecc0c46e52d251d65fa4d321a69fc1d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1cf9eef2c3127f8ac2471e271bd2e7c1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d202091509a85ed60ac08885c1c6aa35-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2cc0fa344a9c67b6e8fb2df8b946f4e7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0f396b888cd3059777bd9160250252e7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a80892e0e05a04b69c34902a4a0b35b7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/865f5e76653ff1970e2e24cdcba4c5c4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/629f7aa984fa7a8285680ec8f418fc29-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2c3effc1f691467a1d1bc3be62e16623-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8733bea86075eda163544460fcf0ce9b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/096a16fab9120826081a670b14723f09-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dcaac81a94c1b0a8b380d78f08468813-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e4b59017812bc7e4a97a5c28059e3672-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/057c09d9f275e361aa78a52ee3baf05f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4920b2913c1ba7417dba1bcb150a8f90-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_area_studio",
+        "aesthetic_quality": 3,
+        "materials": [
+          "wall-to-wall carpet",
+          "painted drywall",
+          "hollow core door"
+        ],
+        "light_quality": "sufficient",
+        "condition": "dated",
+        "notes": "Very basic, small studio-like interior with low-cost finishes and a wall-mounted heater."
+      },
+      {
+        "room_type": "kitchenette",
+        "aesthetic_quality": 3,
+        "materials": [
+          "laminate cabinetry",
+          "formica or laminate countertop",
+          "standard white appliances"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Minimalist 'landlord special' style cabinetry and finishes. Lacks a full range in view."
+      },
+      {
+        "room_type": "exterior_grounds",
+        "aesthetic_quality": 2,
+        "materials": [
+          "dirt",
+          "dry grass",
+          "chain link fencing",
+          "deteriorated wood siding"
+        ],
+        "light_quality": "bright/exposed",
+        "condition": "poor",
+        "notes": "The lot appears overgrown and unmanicured with dead vegetation and debris. Very high 'lot value' vibes rather than functional yard."
+      },
+      {
+        "room_type": "exterior_buildings",
+        "aesthetic_quality": 2,
+        "materials": [
+          "painted wood siding",
+          "composition shingles",
+          "mismatched trim"
+        ],
+        "light_quality": "natural light",
+        "condition": "poor",
+        "notes": "Structure appears to be a small, possibly unpermitted or dilapidated cottage/shack. Siding is weathered and color palettes are dated."
+      }
+    ],
+    "overall_aesthetic": 2,
+    "architectural_style": "beach bungalow / fixer-upper",
+    "red_flags": [
+      "extensive debris in yard",
+      "dilapidated exterior structures",
+      "dead/overgrown vegetation suggests neglect",
+      "extreme discrepancy between interior (entry-level/cheap) and neighborhood location",
+      "listing includes stock/area photos to compensate for property condition"
+    ],
+    "positive_signals": [
+      "ocean proximity and views/lifestyle potential",
+      "large lot size for the area",
+      "potential for complete redevelopment"
+    ],
+    "renovation_state": "unrenovated / tear-down",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_area_studio\",\n      \"aesthetic_quality\": 3,\n      \"materials\": [\"wall-to-wall carpet\", \"painted drywall\", \"hollow core door\"],\n      \"light_quality\": \"sufficient\",\n      \"condition\": \"dated\",\n      \"notes\": \"Very basic, small studio-like interior with low-cost finishes and a wall-mounted heater.\"\n    },\n    {\n      \"room_type\": \"kitchenette\",\n      \"aesthetic_quality\": 3,\n      \"materials\": [\"laminate cabinetry\", \"formica or laminate countertop\", \"standard white appliances\"],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"dated\",\n      \"notes\": \"Minimalist 'landlord special' style cabinetry and finishes. Lacks a full range in view.\"\n    },\n    {\n      \"room_type\": \"exterior_grounds\",\n      \"aesthetic_quality\": 2,\n      \"materials\": [\"dirt\", \"dry grass\", \"chain link fencing\", \"deteriorated wood siding\"],\n      \"light_quality\": \"bright/exposed\",\n      \"condition\": \"poor\",\n      \"notes\": \"The lot appears overgrown and unmanicured with dead vegetation and debris. Very high 'lot value' vibes rather than functional yard.\"\n    },\n    {\n      \"room_type\": \"exterior_buildings\",\n      \"aesthetic_quality\": 2,\n      \"materials\": [\"painted wood siding\", \"composition shingles\", \"mismatched trim\"],\n      \"light_quality\": \"natural light\",\n      \"condition\": \"poor\",\n      \"notes\": \"Structure appears to be a small, possibly unpermitted or dilapidated cottage/shack. Siding is weathered and color palettes are dated.\"\n    }\n  ],\n  \"overall_aesthetic\": 2,\n  \"architectural_style\": \"beach bungalow / fixer-upper\",\n  \"red_flags\": [\n    \"extensive debris in yard\",\n    \"dilapidated exterior structures\",\n    \"dead/overgrown vegetation suggests neglect\",\n    \"extreme discrepancy between interior (entry-level/cheap) and neighborhood location\",\n    \"listing includes stock/area photos to compensate for property condition\"\n  ],\n  \"positive_signals\": [\n    \"ocean proximity and views/lifestyle potential\",\n    \"large lot size for the area\",\n    \"potential for complete redevelopment\"\n  ],\n  \"renovation_state\": \"unrenovated / tear-down\",\n  \"summary\": \"This listing is primarily a land-value play near the Santa Cruz coast. The existing structures are in poor condition with low-grade interior finishes. The value lies in the site location and potential for a new build.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 18.4,
+    "passed": false,
+    "violations": [
+      "Neglected maintenance/deferred care",
+      "Cheap/low-quality interior materials",
+      "Dilapidated exterior structures",
+      "Listing uses area photos to mask property condition"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 4.0,
+        "weight": 0.2,
+        "notes": "While the lot is exposed, the small cottage windows and dated interiors limit the perceived quality of light."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 2.0,
+        "weight": 0.18,
+        "notes": "Lacks the desired Wood architectural elements; feels like a neglected shack rather than a character-rich cottage."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 1.5,
+        "weight": 0.15,
+        "notes": "Wall-to-wall carpet, laminate, and hollow core doors are the antithesis of the wood/natural materials preference."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 2.0,
+        "weight": 0.12,
+        "notes": "Clinical 'landlord special' interior finishes and a neglected exterior create zero aesthetic warmth."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 2.0,
+        "weight": 0.1,
+        "notes": "Basic, cramped studio-style layout; lacks the multiple stories and flow requested."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.0,
+        "weight": 0.1,
+        "notes": "While in an expensive zip code, the specific property state (debris, chain link) feels unmaintained and insecure."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 1.0,
+        "weight": 0.08,
+        "notes": "Overgrown, dead vegetation and debris. Functionally unusable in its present state."
+      },
+      {
+        "dimension": "condition",
+        "score": 1.0,
+        "weight": 0.07,
+        "notes": "Poor condition; essentially a tear-down or major fixer-upper being sold at lot value."
+      }
+    ],
+    "justification": "This property is a significant mismatch for a 'present-fit' evaluation. It is a redevelopment opportunity, not a home. The interior materials (hollow core doors, wall-to-wall carpet, formica) directly violate the preference for high-quality wood elements and architectural character. The exterior is in a state of neglect that incurs heavy penalties for both aesthetic and functional use. At nearly $2M, the discrepancy between price and present-state quality is extreme.",
+    "deal_breakers": [
+      "Condition is poor/dilapidated",
+      "Total lack of requested wood architectural elements",
+      "Interior finishes are low-cost/dated (Anti-Principal)"
+    ]
+  },
+  "potential_score": {
+    "score": 45.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Envelope & Natural Light",
+        "current_state": "Deteriorated wood siding with mismatched trim and small, basic windows.",
+        "proposed_change": "Incorporate vertical cedar siding or Shou Sugi Ban accents, and replace existing windows with black-framed expansive glazing and a folding glass door system to the yard.",
+        "impact": "Addresses the lack of character and light, transforming a 'shack' into a high-end coastal modern retreat.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Main Studio/Living Area",
+        "current_state": "Wall-to-wall carpet, hollow core doors, and low-cost finishes.",
+        "proposed_change": "Vault the ceilings to expose structural beams, install light oak wide-plank hardwood floors, and add a central brick or stone hearth for cozy warmth.",
+        "impact": "Injects the 'architectural character' and 'wood elements' required by the taste model while removing the rental-grade feel.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Kitchenette to Gourmet Galley",
+        "current_state": "Laminate surfaces and 'landlord special' cabinetry lacking full appliances.",
+        "proposed_change": "Complete redesign with rift-sawn oak cabinetry, stone countertops, and integrated high-end appliances to maximize the small footprint.",
+        "impact": "Crucial for turning a 'studio' feel into a legitimate luxury residential experience.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Landscape & Indoor-Outdoor Flow",
+        "current_state": "Overgrown dirt, debris, and chain-link fencing.",
+        "proposed_change": "Clear debris for a xeriscaped coastal garden, add a wraparound wooden deck, and install a cedar soaking tub or outdoor shower.",
+        "impact": "Capitalizes on the $2M location and 'beach bungalow' identity; essential for coastal lifestyle.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "heavy",
+    "cost_class": "200k+",
+    "risk_notes": [
+      "The $150k budget is likely insufficient for the scale of neglect and the user's aesthetic requirements.",
+      "Potentially unpermitted or non-conforming structures may require costly legalization or total demolition.",
+      "Coastal Commission restrictions and Santa Cruz permitting can be slow and expensive for structural changes."
+    ],
+    "upside_narrative": "This is a 'diamond in the very rough' play. While currently a 'tear-down' quality structure, the potential lies in leaning into the 'quirky character' the user desires. By stripping this back to the studs, vaulting the ceilings, and using premium natural materials, this could transition from a neglected shack to a sophisticated, high-design coastal refuge near the ocean. However, the gap between the user's budget ($150k) and the reality of this property's needs is significant."
+  },
+  "brief": "# House Brief: 1430 Merrill St, Santa Cruz\n\n### Executive Summary\nThis property is a high-priced coastal \"fixer-upper\" that currently functions more as a land-value redevelopment opportunity than a habitable home. While its location near the ocean is premier, the structure is in a state of significant neglect, featuring low-quality finishes that directly conflict with your aesthetic principles. At nearly $2M, you are paying for the zip code and lot size, not the dwelling.\n\n### Aesthetic Alignment\nThe house currently scores a **2/10** for aesthetic alignment. \n*   **The Conflict:** You value architectural character, exposed wood beams, and high-end natural materials. This home offers hollow-core doors, wall-to-wall carpeting, and Formica countertops. \n*   **The Vibe:** Rather than \"cozy coastal,\" the current aesthetic is \"neglected rental.\" The exterior is a jumble of red trim and blue siding that lacks the sophisticated wood-forward warmth you seek.\n\n### Strengths\n*   **Prime Location:** Situated in a highly desirable Santa Cruz pocket with proximity to the ocean.\n*   **Lot Potential:** The large lot size and mature trees provide a footprint for a significant architectural statement.\n*   **Ocean Proximity:** The lifestyle value of this location is the primary driver of the price.\n\n### Weaknesses\n*   **Deferred Maintenance:** The yard is filled with debris, vegetation is overgrown or dead, and exterior structures are dilapidated.\n*   **Low-Quality Interior:** The finishes are \"anti-principal\"\u2014generic, cheap, and dated. There are no vaulted ceilings or natural wood elements currently present.\n*   **Misleading Marketing:** The heavy use of area/stock photos in the listing is a tactical move to distract from the property's poor physical condition.\n*   **Budget Mismatch:** Your $150k renovation target is vastly insufficient for the level of remediation this property requires.\n\n### Deal-Breakers\n*   **Dilapidated State:** The property borders on \"tear-down\" quality; it is a project of survival rather than a simple cosmetic refresh.\n*   **Material Conflict:** A total absence of the wood architectural elements (exposed beams, hardwood) that define your \"must-haves.\"\n\n### Renovation Paths\n*   **The \"Studs-Out\" Overhaul:** This is the only viable path to meet your standards. It involves stripping the interior, vaulting the ceilings to create \"interesting shapes,\" and replacing all cheap materials with natural wood and stone. \n*   **Cost Warning:** Given the coastal location and the state of the structure, this path would likely exceed $300k\u2013$500k, far beyond your $150k budget.\n\n### Who This House Is For\nThis property is for a **developer or a high-budget visionary** who intends to spend $2.5M+ (all-in) to build a custom coastal estate from the ground up or through a massive structural renovation.\n\n### Verdict\n**PASS.** \nThe price-to-quality ratio is extremely poor for your specific needs. You would be spending your entire budget just to make the home habitable and clean, leaving nothing for the high-end wood architectural features you desire. This is a \"land play,\" not a \"home play.\"",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T14:00:00",
+  "scored_at": "2026-01-09T08:49:07.405048"
+}

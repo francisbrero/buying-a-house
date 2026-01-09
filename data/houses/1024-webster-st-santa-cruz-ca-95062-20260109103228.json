@@ -1,0 +1,217 @@
+{
+  "id": "1024-webster-st-santa-cruz-ca-95062-20260109103228",
+  "url": "https://www.zillow.com/homedetails/1024-Webster-St-Santa-Cruz-CA-95062/16123923_zpid/",
+  "address": "1024 Webster St, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1300000,
+  "description": "Modern new construction with pool.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 4.0,
+    "sqft": 2275,
+    "lot_sqft": 12197,
+    "year_built": 1984,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/295f406352b5cc9e88756b3489631d32-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/16e796a6233a69d59495df90f7b3cacc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4d393c41ab8423c2733fdf57946e8259-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/da8fb375eac87807ccdbb096e75808a5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/119fbadf5d605be67dedb66e70d6a772-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5a62b9b8c04ac450e31dfd9613595cee-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3661f2ad2ca401aa33b2ff3015d9e589-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3b392aeffadba90d85df663217086396-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4d63b66b77bd435785cfdbd35f0d3fe3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/904a986ca73ca1461dc1bf7ed83093a5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/375f8f81d43446321793083355c6e7ab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bb552030f60a19a393320467cc393288-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_and_landscaping",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco",
+          "wood siding",
+          "concrete",
+          "brick",
+          "asphalt shingles"
+        ],
+        "light_quality": "excellent",
+        "condition": "mixed",
+        "notes": "The composite shows multiple different properties, suggesting a development project or a portfolio. Landscaping ranges from mature trees to dry, unmaintained lots."
+      },
+      {
+        "room_type": "pool_area",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "concrete decking",
+          "plaster pool finish"
+        ],
+        "light_quality": "abundant",
+        "condition": "fair",
+        "notes": "Classic kidney-shaped pool. Decking appears dated with some staining and cracks visible in aerial shots."
+      },
+      {
+        "room_type": "outdoor_deck_patio",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "redwood or stained wood decking",
+          "metal railings",
+          "outdoor wicker furniture"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "Nicely staged outdoor living spaces that maximize the wooded surroundings and views."
+      },
+      {
+        "room_type": "entryway_porch",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "flagstone",
+          "wood door with glass inserts",
+          "painted wood siding"
+        ],
+        "light_quality": "natural",
+        "condition": "well-maintained",
+        "notes": "Traditional ranch and mid-century modern influence in the entryways shown."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "mixed (ranch, mid-century modern, and contemporary new builds)",
+    "red_flags": [
+      "inconsistent imagery suggests a builder's portfolio or multi-lot development rather than a single home listing",
+      "presence of rendering and blueprints indicates some properties are not yet built",
+      "unmaintained yards in some aerial shots",
+      "non-professional person/portrait included in the professional grid"
+    ],
+    "positive_signals": [
+      "large lot sizes",
+      "mature trees and privacy",
+      "solar panels visible on some roofs",
+      "diverse range of architectural styles and permit plans included"
+    ],
+    "renovation_state": "variable (from new construction/renderings to dated/original condition)",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_and_landscaping\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"stucco\", \"wood siding\", \"concrete\", \"brick\", \"asphalt shingles\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"mixed\",\n      \"notes\": \"The composite shows multiple different properties, suggesting a development project or a portfolio. Landscaping ranges from mature trees to dry, unmaintained lots.\"\n    },\n    {\n      \"room_type\": \"pool_area\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"concrete decking\", \"plaster pool finish\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"fair\",\n      \"notes\": \"Classic kidney-shaped pool. Decking appears dated with some staining and cracks visible in aerial shots.\"\n    },\n    {\n      \"room_type\": \"outdoor_deck_patio\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"redwood or stained wood decking\", \"metal railings\", \"outdoor wicker furniture\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"good\",\n      \"notes\": \"Nicely staged outdoor living spaces that maximize the wooded surroundings and views.\"\n    },\n    {\n      \"room_type\": \"entryway_porch\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"flagstone\", \"wood door with glass inserts\", \"painted wood siding\"],\n      \"light_quality\": \"natural\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Traditional ranch and mid-century modern influence in the entryways shown.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"mixed (ranch, mid-century modern, and contemporary new builds)\",\n  \"red_flags\": [\n    \"inconsistent imagery suggests a builder's portfolio or multi-lot development rather than a single home listing\",\n    \"presence of rendering and blueprints indicates some properties are not yet built\",\n    \"unmaintained yards in some aerial shots\",\n    \"non-professional person/portrait included in the professional grid\"\n  ],\n  \"positive_signals\": [\n    \"large lot sizes\",\n    \"mature trees and privacy\",\n    \"solar panels visible on some roofs\",\n    \"diverse range of architectural styles and permit plans included\"\n  ],\n  \"renovation_state\": \"variable (from new construction/renderings to dated/original condition)\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 54.7,
+    "passed": false,
+    "violations": [
+      "Inconsistent imagery/Development project rather than finished home",
+      "Boxy, generic new-build layout in renderings",
+      "Presence of unbuilt/rendering stages"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.0,
+        "weight": 0.2,
+        "notes": "Excellent light in aerials/renderings, but speculative as the finished product is not clearly depicted."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 4.0,
+        "weight": 0.18,
+        "notes": "Mix of generic modern boxes and dated ranch styles; lacks a cohesive 'interesting/quirky' character."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.0,
+        "weight": 0.15,
+        "notes": "Mixture of high-end wood siding and low-end asphalt/dated concrete. Inconsistency is a major penalty."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 4.5,
+        "weight": 0.12,
+        "notes": "New construction renderings appear sterile; older structures shown are unmaintained."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Standard multi-story plans are visible but appear cookie-cutter rather than custom."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Santa Cruz location is desirable, but proximity to dry brush/unmaintained lots suggests maintenance/fire risk concerns."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.5,
+        "weight": 0.08,
+        "notes": "Good potential with mature trees and pool, though current condition is fair-to-poor."
+      },
+      {
+        "dimension": "condition",
+        "score": 4.0,
+        "weight": 0.07,
+        "notes": "Extreme variance from brand-new rendering to 'dated/original' creates zero confidence in present-fit."
+      }
+    ],
+    "justification": "This listing is for a development project or a builder's speculative portfolio, not a move-in ready home. Because the 'Present-Fit' judge evaluates the home as it stands right now, this fails significantly. The imagery is a confusing mix of renderings (boxy/generic) and dated properties with cracking concrete and unmaintained yards. It violates the preference for non-cookie-cutter design and fails to provide a cohesive vision of a warm, character-rich home.",
+    "deal_breakers": [
+      "Listing includes renderings/blueprints (not a finished home)",
+      "Inconsistent property photos create high risk of misrepresentation"
+    ]
+  },
+  "potential_score": {
+    "score": 68.0,
+    "renovation_ideas": [
+      {
+        "area": "Building Envelope & Fenestration",
+        "current_state": "Standard 1980s ranch/contemporary blend with modest window-to-wall ratio.",
+        "proposed_change": "Replace existing windows with black-frame thin-profile aluminum or wood units; enlarge rear-facing openings with multi-slide glass doors to create seamless indoor-outdoor flow.",
+        "impact": "Directly addresses the user's need for abundant natural light and elevates the home from 'dated 80s' to 'high-end contemporary'.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Interior Architectural Character",
+        "current_state": "Potentially boxy interiors with standard 8-foot ceilings in some areas.",
+        "proposed_change": "Expose ceiling joists or add reclaimed wood beams to the primary living space; replace standard drywall with tactile materials like a brick hearth extension or vertical wood slat accents.",
+        "impact": "Injects the 'quirky character' and 'wood elements' the user desires, removing the cookie-cutter feel.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Siding and Hardscape",
+        "current_state": "Mixed-quality stucco and wood siding; dated concrete pool decking.",
+        "proposed_change": "Reface portions of the exterior with cedar rain-screening or dark Shou Sugi Ban wood; resurface the pool deck with large-format pavers or a composite deck overlay.",
+        "impact": "Harmonizes the exterior aesthetic, moving it away from 'development project' chaos toward a purposeful, designer look.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Inconsistent listing imagery suggests this may be a 'lot sale' or a partial build, risking unexpected permit delays or site prep costs.",
+      "Renovating a pool area often reveals drainage or cracking issues not visible on the surface.",
+      "A $150k budget is tight for a 2,275 sqft home if structural changes are needed; focus must be on high-impact visual areas."
+    ],
+    "upside_narrative": "This property offers a unique opportunity to curate a 'modern cabin' aesthetic in a prime Santa Cruz location. By focusing the 150k budget on premium window upgrades and natural wood architectural details, you can pivot the home's 1980s utility into a warm, character-rich retreat. The large lot and mature trees provide a canvas for the 'privacy and light' the user craves, allowing the house to feel like a bespoke sanctuary rather than a standard suburban tract."
+  },
+  "brief": "# House Brief: 1024 Webster St, Santa Cruz\n\n## Executive Summary\nThis listing appears to be a speculative development project or a builder\u2019s lot sale rather than a finished, move-in-ready home. While the $1.3M price point for a 4-bedroom home with a pool in Santa Cruz is aggressive, the fragmented imagery\u2014ranging from blueprints and renderings to dated existing structures\u2014indicates significant risk and a long timeline before the \"vision\" becomes reality.\n\n## Aesthetic Alignment\nThe property currently sits at a **5.0/10** for aesthetic alignment. While the user seeks architectural character and wood elements, many of the renderings lean toward \"boxy\" and generic contemporary styles\u2014an explicit anti-principle. However, the presence of mature trees and the potential for a \"modern cabin\" pivot suggests that with the right architect, the natural light and \"privacy/wood\" requirements could eventually be met.\n\n## Strengths\n*   **Prime Location:** Situated in a desirable Santa Cruz pocket near the yacht harbor/ocean.\n*   **Large Lot & Privacy:** The site features mature trees and enough space for a pool, offering a natural sanctuary feel.\n*   **Customization Potential:** Since the home is likely unbuilt or mid-construction, you have the opportunity to influence finishes (swapping cheap flip materials for natural wood and brick).\n*   **Infrastructure:** Some images show existing solar panels and established landscaping features.\n\n## Weaknesses\n*   **Lack of Cohesion:** The listing is a confusing mix of professional renderings, blueprints, and snapshots of unmaintained yards, making it impossible to know exactly what you are buying today.\n*   **Generic Design:** The proposed floor plans lack the \"interesting shapes and forms\" requested and risk feeling like a standard suburban new-build.\n*   **Budget Mismatch:** A $150k renovation budget is insufficient if this property requires a full build-out or significant structural pivots from a builder's baseline plan.\n\n## Deal-Breakers\n*   **Misrepresentation Risk:** The inconsistent imagery suggests this is not a finished home. If you are looking for a property to move into within 30-60 days, this is a non-starter.\n*   **\"Boxy\" Architecture:** The current renderings directly violate the user\u2019s preference for architectural character and non-generic layouts.\n\n## Renovation Paths\nIf the structure is in the early stages, the path forward is a **Material Pivot**:\n1.  **Warmth Injection:** Replace standard white cabinetry and gray laminate (typical for these builds) with natural oak cabinetry and hardwood floors.\n2.  **Architectural Detail:** Add exposed beams to the main living area to break up the \"boxy\" ceiling lines.\n3.  **Glazing Upgrade:** Upgrade window packages to larger, black-framed units to maximize the \"abundant light\" principle.\n\n## Who This House Is For\nThis property is for a buyer with **high patience and high risk tolerance** who wants to act as a quasi-developer. It is for someone who wants to live in this specific neighborhood and is willing to wait 12-18 months for a project to be completed in exchange for custom-selecting their own \"warm modern\" finishes.\n\n## Verdict\n**SKIP.** The high level of ambiguity in the listing and the generic, boxy nature of the proposed design make this a poor fit for someone seeking immediate architectural character. Unless you are looking for a year-long construction project, this is a high-risk distraction.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.348281",
+  "scored_at": "2026-01-09T10:37:44.431504"
+}

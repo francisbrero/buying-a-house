@@ -1,0 +1,304 @@
+{
+  "id": "2200-pelican-crst-santa-cruz-ca-95062-20260109140000",
+  "url": "https://www.zillow.com/homedetails/2200-Pelican-Crst-Santa-Cruz-CA-95062/16127257_zpid/",
+  "address": "2200 Pelican Crst, Santa Cruz, CA 95062",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "price": 1499000,
+  "description": "Two-story home with red trim accents, garden landscaping, and pergola.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 2064,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/663c9ec2b1e393efec3db237c652d87b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9d69b87103d00822de6307ddbe62553e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/64069c74d379fa265d0a096f9d3030a4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f35718863662917ffcb6bc07041a3007-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d5f259b8eef4038575beaa37f76e34a8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/119fbadf5d605be67dedb66e70d6a772-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/088cc9e2fcd81e6f16c31d3cf487ebff-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/775c56019e6368e7fc6c5d7f6298bedb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ae37be9502cec08689c985dced14a704-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0710ded7786cdf48ef719f0c0de27534-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/72e9deec05a0699291f3c38f17c7bb20-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4597761c391f9a5aea78cc271c85beed-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fe8087669855ecac074c51771ddfbc4d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e70ddda33f0b282ff295d6feb37c24cf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34b4255e1033a0d045f060a89daeebee-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a3d1e7afa53ba5e190a333ad04fcfc19-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/de5168b692a31df3fef63c4c2fbbcf55-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/495403c0f528622f110d27d34f5e9c92-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f731d4255c4d1aabede4d59057a0c938-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/41b98c9cf9fd03db0a0b3b5bfc9c7e2d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8b252608b9ec116470d3b0a8732acbbc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cf6d35ed7da1464fd920ddbca6b88e7a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/145f8d21da722883dfc4b5914b73443c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0f75cd389ac21127dd30c769a2690429-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0c0766c92363d11e97215a8bb61ba231-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/481f7e7a93bb4e9a5cd6c3c3cfee2ad9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8c6ef7249e065949f7fee3e7f3e85061-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/aadc06cae376786052c8df48fc44dac6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f191ff9ce708572dc477a5ae993b656d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5f7890cd856fc02dac193e49f5b22dab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9342e7095f229d9da56270123684fb3a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/69273588d3167be02862a2e91fb7eb45-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a4742f358697fef90b613f7014578462-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8e31c810073f8ee8a85c2d648326b2b7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/21f47328042b748aa762873a11cc5c85-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/edecc396c5b829a37e5f8c75eeabd495-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e5f4bc5f4984dabe425a2c5f06679950-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dc54d18e3ade6b74ed000cbed7655800-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/643fa2e5f4bdb88c6303f9a6de8ab905-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/79f658097c7fb0448774a3dd9819c32a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1bf5013e677acac871bc259ee99a981a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e94b70f9f209125010eaa7045dedc63a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/17d73464d987fdce06b5510efc98ca71-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d313df597aad37371521fc3f78470600-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/212e6d2a23f11fbbcfd0b592d7eb2a54-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bf5a034871df143a8311d6036ee9eba1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9f23375839f2caada9c80cf26c78a179-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/611ee187336102d9a080e3175bc9bdb0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5b883ece07ea2d33714885078aace4bb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/41addfe6b0f1726a22a06853cc41ed51-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dbe27a368eee1c4a5ec1f5d9d4fca81e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88193fd20527fc4b2e79d0f16b076664-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a7261ffcdaf2f24677ae31a2c5e58e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d1a43490394fe8680904eb2c8fc2acdc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e7cd1d475f3e229e89992bb893479726-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c9437169ff000c7d63d485b117f3699a-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 6,
+        "materials": [
+          "wood siding",
+          "concrete driveway",
+          "composition shingle roof"
+        ],
+        "light_quality": "harsh afternoon sun",
+        "condition": "well-maintained",
+        "notes": "Traditional suburban multi-level home with a two-car garage. Landscaping is tidy but basic."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 6,
+        "materials": [
+          "large format tile flooring",
+          "plaster walls",
+          "stone fireplace surround"
+        ],
+        "light_quality": "good",
+        "condition": "clean/staged",
+        "notes": "Large room with beige tile flooring throughout. The fireplace is a focal point but looks dated in its masonry style."
+      },
+      {
+        "room_type": "dining_room",
+        "aesthetic_quality": 6,
+        "materials": [
+          "tile flooring",
+          "wood French doors"
+        ],
+        "light_quality": "bright",
+        "condition": "good",
+        "notes": "Adjacent to the kitchen and living area. Features access to the backyard via wood-framed French doors."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4,
+        "materials": [
+          "honey oak cabinets",
+          "ceramic tile countertops",
+          "white appliances",
+          "stainless steel range"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Functional but dated 1990s-style kitchen. Bullnose tile countertops and oak cabinetry are major points for potential renovation."
+      },
+      {
+        "room_type": "hallway/transition",
+        "aesthetic_quality": 5,
+        "materials": [
+          "tile flooring",
+          "wood closets"
+        ],
+        "light_quality": "dim",
+        "condition": "fair",
+        "notes": "Continues the tile floor; features a large built-in wood storage unit that looks dated."
+      },
+      {
+        "room_type": "bathroom",
+        "aesthetic_quality": 4,
+        "materials": [
+          "laminate vanity",
+          "standard porcelain toilet"
+        ],
+        "light_quality": "average",
+        "condition": "functional",
+        "notes": "Basic powder room or secondary bath; small footprint with standard builder-grade fixtures."
+      },
+      {
+        "room_type": "bedroom",
+        "aesthetic_quality": 7,
+        "materials": [
+          "laminate or engineered wood floors",
+          "drywall"
+        ],
+        "light_quality": "good",
+        "condition": "neat",
+        "notes": "Floor material changes here to a warmer wood tone. Staged well with decent natural light from the window."
+      },
+      {
+        "room_type": "deck/outdoor_living",
+        "aesthetic_quality": 7,
+        "materials": [
+          "painted wood railing",
+          "outdoor furniture"
+        ],
+        "light_quality": "excellent",
+        "condition": "good",
+        "notes": "Elevated deck with views of the surroundings; adds significant functional square footage."
+      }
+    ],
+    "overall_aesthetic": 5,
+    "architectural_style": "Contemporary Suburban / Split-level",
+    "red_flags": [
+      "Inconsistent flooring between common areas (cold tile) and bedrooms (wood-look)",
+      "Dated tile countertops in the kitchen are prone to grout staining",
+      "Honey oak cabinetry throughout dates the interior significantly",
+      "Drop-down soffit/cabinetry over the kitchen island restricts visual flow"
+    ],
+    "positive_signals": [
+      "Large windows provide abundant natural light",
+      "Home appears very clean and well-maintained",
+      "Spacious exterior deck with potential views",
+      "Professional staging makes the spaces feel more inviting"
+    ],
+    "renovation_state": "mostly_original",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior_front\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"wood siding\", \"concrete driveway\", \"composition shingle roof\"],\n            \"light_quality\": \"harsh afternoon sun\",\n            \"condition\": \"well-maintained\",\n            \"notes\": \"Traditional suburban multi-level home with a two-car garage. Landscaping is tidy but basic.\"\n        },\n        {\n            \"room_type\": \"living_room\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"large format tile flooring\", \"plaster walls\", \"stone fireplace surround\"],\n            \"light_quality\": \"good\",\n            \"condition\": \"clean/staged\",\n            \"notes\": \"Large room with beige tile flooring throughout. The fireplace is a focal point but looks dated in its masonry style.\"\n        },\n        {\n            \"room_type\": \"dining_room\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"tile flooring\", \"wood French doors\"],\n            \"light_quality\": \"bright\",\n            \"condition\": \"good\",\n            \"notes\": \"Adjacent to the kitchen and living area. Features access to the backyard via wood-framed French doors.\"\n        },\n        {\n            \"room_type\": \"kitchen\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\"honey oak cabinets\", \"ceramic tile countertops\", \"white appliances\", \"stainless steel range\"],\n            \"light_quality\": \"moderate\",\n            \"condition\": \"dated\",\n            \"notes\": \"Functional but dated 1990s-style kitchen. Bullnose tile countertops and oak cabinetry are major points for potential renovation.\"\n        },\n        {\n            \"room_type\": \"hallway/transition\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\"tile flooring\", \"wood closets\"],\n            \"light_quality\": \"dim\",\n            \"condition\": \"fair\",\n            \"notes\": \"Continues the tile floor; features a large built-in wood storage unit that looks dated.\"\n        },\n        {\n            \"room_type\": \"bathroom\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\"laminate vanity\", \"standard porcelain toilet\"],\n            \"light_quality\": \"average\",\n            \"condition\": \"functional\",\n            \"notes\": \"Basic powder room or secondary bath; small footprint with standard builder-grade fixtures.\"\n        },\n        {\n            \"room_type\": \"bedroom\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"laminate or engineered wood floors\", \"drywall\"],\n            \"light_quality\": \"good\",\n            \"condition\": \"neat\",\n            \"notes\": \"Floor material changes here to a warmer wood tone. Staged well with decent natural light from the window.\"\n        },\n        {\n            \"room_type\": \"deck/outdoor_living\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"painted wood railing\", \"outdoor furniture\"],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"good\",\n            \"notes\": \"Elevated deck with views of the surroundings; adds significant functional square footage.\"\n        }\n    ],\n    \"overall_aesthetic\": 5,\n    \"architectural_style\": \"Contemporary Suburban / Split-level\",\n    \"red_flags\": [\n        \"Inconsistent flooring between common areas (cold tile) and bedrooms (wood-look)\",\n        \"Dated tile countertops in the kitchen are prone to grout staining\",\n        \"Honey oak cabinetry throughout dates the interior significantly\",\n        \"Drop-down soffit/cabinetry over the kitchen island restricts visual flow\"\n    ],\n    \"positive_signals\": [\n        \"Large windows provide abundant natural light\",\n        \"Home appears very clean and well-maintained\",\n        \"Spacious exterior deck with potential views\",\n        \"Professional staging makes the spaces feel more inviting\"\n    ],\n    \"renovation_state\": \"mostly_original\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.4,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Large windows and French doors provide good natural light as requested. The 'harsh afternoon sun' on the exterior suggests strong western exposure."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.5,
+        "weight": 0.18,
+        "notes": "A standard multi-level suburban build. Lacks the 'quirky' or 'interesting' character requested; feels somewhat cookie-cutter."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 3.5,
+        "weight": 0.15,
+        "notes": "Significant penalties for dated honey oak, ceramic tile countertops (hard to clean), and large-format tile flooring which feels cold and clinical."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 4.5,
+        "weight": 0.12,
+        "notes": "While the fireplace adds a focal point, the vast expanse of beige tile flooring creates an institutional rather than cozy feel."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Visual flow is restricted by kitchen soffits/overhanging cabinetry. The transition between tile and laminate flooring is jarring."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz coastal area is desirable, though the specific street density appears standard suburban."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "The elevated deck and pergola provide good functional outdoor living space, which is a highlight."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.5,
+        "weight": 0.07,
+        "notes": "Appears well-maintained and clean, but 'original' state means systems and surfaces are at the end of their aesthetic life."
+      }
+    ],
+    "justification": "This house is a marginal fit for a 'Present-Fit' evaluation. While it passes the hard constraint for natural light, it fails significantly on materials quality. The combination of honey oak, tile countertops, and extensive beige tile flooring directly contradicts the user's preference for quality wood elements and cozy warmth. It functions as a clean, well-maintained box, but lacks the architectural character and 'natural wood' feel requested. The high price point for 'mostly original' condition makes the aesthetic compromises harder to justify.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Main Flow",
+        "current_state": "1990s honey oak cabinetry, tile countertops, and a visual-blocking soffit.",
+        "proposed_change": "Remove the drop-down soffit over the island, replace oak cabinets with white oak or walnut finishes, install stone slab countertops, and integrate wood shelving to match the user's aesthetic.",
+        "impact": "Crucial for removing the 'cookie-cutter' feel and creating the architectural character and flow the user desires.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring Materiality",
+        "current_state": "Inconsistent large-format beige tile in common areas and laminate in bedrooms.",
+        "proposed_change": "Unify the entire home with wide-plank light oak hardwood flooring to provide the requested 'cozy warmth' and 'wood elements'.",
+        "impact": "High-impact visual change that eliminates the cold, segmented feel of the current floor plan.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Fireplace",
+        "current_state": "Dated masonry fireplace surround and large-tile flooring.",
+        "proposed_change": "Reface the fireplace with Roman clay or vertical wood slats and add a chunky natural wood mantel. Install curated lighting to emphasize the 'quirky character'.",
+        "impact": "Transforms a generic focal point into a high-character architectural feature.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Exterior & Deck",
+        "current_state": "Traditional wood railing and basic suburban siding.",
+        "proposed_change": "Swap deck railings for cable or glass to maximize the view. Paint the exterior a deep earthy tone (charcoal or forest green) to contrast with wood-clad entry accents.",
+        "impact": "Elevates the curb appeal from 'standard suburban' to 'sophisticated contemporary'.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Floor leveling may be required when transitioning from thick tile to hardwood.",
+      "Soffit removal in the kitchen may hide plumbing or HVAC venting that requires relocation.",
+      "Potential for stucco or siding repairs if windows are enlarged to meet the 'abundant light' requirement."
+    ],
+    "upside_narrative": "This home is a 'blank canvas' that avoids the pitfalls of a bad floor plan but suffers from dated 90s finishes. By unifying the flooring with warm wood and modernizing the kitchen, the home transitions from a forgettable suburban split-level to a sophisticated coastal contemporary retreat. The existing natural light and multi-level flow provide the 'quirky character' the user seeks, needing only a material upgrade to unlock its full value."
+  },
+  "brief": "# House Brief: 2200 Pelican Crst, Santa Cruz\n\n### Executive Summary\nThis is a meticulously maintained but aesthetically dated 4-bedroom split-level home located in a desirable Santa Cruz pocket. While the structure offers the \"abundant light\" and \"multi-story flow\" you prioritize, the interior finishes\u2014dominated by honey oak and cold tile\u2014directly clash with your preference for cozy, natural materials. It is a functional \"blank canvas\" that requires a significant cosmetic overhaul to move from a generic 90s suburban feel to a warm, architectural retreat.\n\n### Aesthetic Alignment\n**Current Fit: 5/10.** In its current state, the home lacks the \"natural wood\" and \"architectural character\" you seek. The presence of honey oak cabinetry and budget-grade tile countertops creates a dated look rather than a timeless one. However, the large windows and multi-level layout provide a foundational \"quirpiness\" that aligns with your interest in non-boxy homes.\n\n### Strengths\n*   **Light-Drenched Spaces:** The home features large, well-placed windows that satisfy your primary requirement for a bright interior.\n*   **Structural Integrity:** The property appears exceptionally clean and well-maintained; this is not a \"fixer-upper\" in terms of neglect, but rather a \"time capsule\" ready for modernization.\n*   **Outdoor Integration:** A spacious exterior deck and pergola offer great potential for indoor-outdoor living.\n*   **Layout Interest:** The split-level design avoids the \"boxy\" feel of standard suburban builds, providing distinct zones and interesting sightlines.\n\n### Weaknesses\n*   **Discordant Materials:** The mix of cold beige floor tile and wood-look flooring creates a disjointed, \"choppy\" visual flow.\n*   **Dated Kitchen:** The kitchen is the weakest point, featuring 90s-era tile countertops (difficult to clean) and a drop-down soffit that visually \"suffocates\" the island.\n*   **Material Quality:** The extensive use of honey oak cabinetry lacks the premium \"natural wood\" feel of bespoke architectural homes.\n\n### Deal-Breakers\n*   **None (Structural).** There are no fundamental deal-breakers in terms of orientation or fire risk. However, the **$1.5M price point for \"original condition\"** may be a financial deal-breaker depending on your renovation budget.\n\n### Renovation Paths\nTo bring this home to a **78/100 Potential Score**, a \"Medium\" feasibility renovation is required (est. $100k\u2013$200k):\n1.  **Unify the Flooring:** Replace all tile and wood-look laminate with wide-plank warm hardwood to tie the levels together.\n2.  **Kitchen De-bulk:** Remove the overhead soffit/cabinetry over the island to open the sightlines to the living area. Replace tile counters with stone or butcher block.\n3.  **Reface/Paint:** Reface the honey oak cabinets or replace them with high-quality natural wood cabinetry that matches your \"wood elements\" principle.\n4.  **Fireplace Update:** The current fireplace can be reclad in brick or natural stone to add the \"cozy warmth\" missing from the current tile-heavy aesthetic.\n\n### Who This House Is For\nThis house is for a buyer who values **natural light and location** above all else and is willing to live through a 3\u20136 month cosmetic renovation to \"buy\" the architectural character they want, rather than paying a premium for a finished product that might not match their taste.\n\n### Verdict\n**PROCEED WITH CAUTION.** This is a solid house, but a poor aesthetic match in its current form. Only pursue if you have the budget and appetite for a $150k+ renovation. If you are looking for a \"move-in ready\" home that reflects your style, this is not it\u2014you would be paying for finishes you will ultimately want to tear out.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T14:00:00",
+  "scored_at": "2026-01-09T08:48:15.927943"
+}

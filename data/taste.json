@@ -1,0 +1,122 @@
+{
+  "principles": [
+    "Abundant natural light - lots of windows, good orientation",
+    "Architectural character - not boxy, interesting shapes and forms",
+    "Wood elements - exposed beams, hardwood flooring, natural wood features",
+    "Cozy warmth - brick fireplaces, natural materials",
+    "Multiple stories with good flow",
+    "Interesting/quirky character over cookie-cutter design"
+  ],
+  "anti_principles": [
+    "Boxy, generic layouts",
+    "Dark interiors with poor natural light",
+    "Cheap flip finishes - gray laminate, basic white cabinets",
+    "Forest location with high fire risk"
+  ],
+  "hard_constraints": [
+    "Must have good natural light"
+  ],
+  "soft_constraints": [
+    "Prefer cul-de-sac or quiet street location",
+    "Multiple stories preferred",
+    "Wood architectural elements valued"
+  ],
+  "dimensions": [
+    {
+      "name": "natural_light",
+      "weight": 0.20,
+      "description": "Quality and abundance of natural light - lots of windows, good sun exposure",
+      "positive_signals": ["large windows", "skylights", "sun-filled rooms", "good orientation"],
+      "negative_signals": ["dark rooms", "small windows", "north-facing only"]
+    },
+    {
+      "name": "architectural_character",
+      "weight": 0.18,
+      "description": "Interesting architectural features and non-boxy design",
+      "positive_signals": ["exposed beams", "vaulted ceilings", "interesting angles", "quirky features", "Mediterranean style"],
+      "negative_signals": ["boxy layout", "builder-grade generic", "cookie-cutter design"]
+    },
+    {
+      "name": "materials_quality",
+      "weight": 0.15,
+      "description": "Quality of visible materials - especially wood and natural elements",
+      "positive_signals": ["hardwood floors", "wood beams", "brick", "natural stone", "real materials"],
+      "negative_signals": ["laminate flooring", "cheap finishes", "flip-grade materials"]
+    },
+    {
+      "name": "warmth_coziness",
+      "weight": 0.12,
+      "description": "Warm, cozy atmosphere with character",
+      "positive_signals": ["fireplace", "wood elements", "character features", "inviting spaces"],
+      "negative_signals": ["cold modern", "sterile feel", "no personality"]
+    },
+    {
+      "name": "layout_flow",
+      "weight": 0.10,
+      "description": "How well spaces flow and connect",
+      "positive_signals": ["good flow", "multiple levels", "defined spaces"],
+      "negative_signals": ["awkward layout", "choppy flow"]
+    },
+    {
+      "name": "location_safety",
+      "weight": 0.10,
+      "description": "Location safety and desirability",
+      "positive_signals": ["cul-de-sac", "quiet street", "ocean views", "mountain views"],
+      "negative_signals": ["fire risk zone", "dense forest", "busy road"]
+    },
+    {
+      "name": "outdoor_space",
+      "weight": 0.08,
+      "description": "Quality of outdoor spaces and views",
+      "positive_signals": ["panoramic views", "good yard", "usable outdoor space"],
+      "negative_signals": ["no views", "minimal outdoor space"]
+    },
+    {
+      "name": "condition",
+      "weight": 0.07,
+      "description": "Overall condition and maintenance",
+      "positive_signals": ["well maintained", "updated systems", "move-in ready"],
+      "negative_signals": ["deferred maintenance", "needs major work"]
+    }
+  ],
+  "exemplars": [
+    {
+      "house_id": "3300-crystal-heights-dr-soquel-ca-95073-20260108214410",
+      "address": "3300 Crystal Heights Dr, Soquel, CA 95073",
+      "sentiment": "liked",
+      "reason": "10/10 - Great luminosity, great location, quirky Mediterranean style"
+    },
+    {
+      "house_id": "2908-sandy-ln-santa-cruz-ca-95062-20260108214545",
+      "address": "2908 Sandy Ln, Santa Cruz, CA 95062",
+      "sentiment": "liked",
+      "reason": "9/10 - Wooden beams, brick fireplace, lots of light, great price"
+    },
+    {
+      "house_id": "2241-albert-ln-capitola-ca-95010-20260108214504",
+      "address": "2241 Albert Ln, Capitola, CA 95010",
+      "sentiment": "liked",
+      "reason": "8/10 - Cul de sac location, good light, multiple stories"
+    },
+    {
+      "house_id": "17855-kiowa-trl-los-gatos-ca-95033-20260108214632",
+      "address": "17855 Kiowa Trl, Los Gatos, CA 95033",
+      "sentiment": "liked",
+      "reason": "8/10 - Wood beams/flooring, light, not boxy (would be 10/10 without fire risk)"
+    }
+  ],
+  "violation_patterns": [
+    "Flip-quality renovation with cheap materials",
+    "Gray everything - gray laminate, gray cabinets, gray paint",
+    "No natural light, dark interiors",
+    "High fire risk zone location"
+  ],
+  "location_preferences": {
+    "preferred_areas": "Soquel, Capitola, Santa Cruz, Los Gatos",
+    "avoid": "Dense forest/fire risk zones"
+  },
+  "renovation_budget_max": 150000,
+  "renovation_tolerance": "medium",
+  "version": 1,
+  "notes": "Bootstrapped from initial house ratings. Strongly values natural light, wood elements, architectural character. Dislikes boxy generic homes and fire risk locations."
+}

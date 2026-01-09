@@ -1,0 +1,301 @@
+{
+  "id": "2304-mattison-ln-santa-cruz-ca-95062-20260108230000",
+  "url": "https://www.zillow.com/homedetails/2304-Mattison-Ln-Santa-Cruz-CA-95062/16127287_zpid/",
+  "address": "2304 Mattison Ln, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1395000,
+  "description": "Welcome to this charming single-level 3-bedroom, 2-bath home nestled in the highly desirable Live Oak neighborhood where the best of the California coastal lifestyle meets everyday convenience. Step inside and you'll find a bright, inviting layout featuring hardwood and tile flooring, a spacious family/dining area, and a well-equipped kitchen with ample counter space, newer appliances, and generous storage. Natural light fills every corner, creating a warm and cheerful atmosphere throughout. The beautifully landscaped front and back yards are a true highlight thoughtfully designed with lush greenery, mature fruit trees, and vibrant flowers. The backyard is a private retreat complete with a peaceful koi pond, a pergola-covered deck perfect for entertaining, and multiple seating areas ideal for relaxing outdoors year-round. Located in one of Live Oaks most loved neighborhoods, this home offers quick access to local parks, beaches, and excellent schools. Enjoy being moments away from shopping, restaurants, and all the amenities that make Santa Cruz living so special. With its ideal blend of comfort, style, and location, this home makes every day feel like a getaway.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1355,
+    "lot_sqft": 6273,
+    "year_built": 1968,
+    "property_type": "Single Family Residence",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [
+      "hardwood",
+      "tile"
+    ],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a3dc9c2457a1ec94ed63c143d1270f25-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2dd5c8863e680d969c64a4f4d6a26800-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9a96618ab36eaa9b1f1ed98520bc2125-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/92bfd670d3dfeaa76c2afd9ee69fd54a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f212b7488d9716cca7c86af4e998884b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/366cc5c8367dc8d96ed80b01741078d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88bb064044285d50bc78740f504bf278-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5273d6e56ef4c68cf7b7b4dd452c58d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2a8ab2358581272f07520845dcfa4904-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d3ca6aa766fa222c501701c341916c6f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a6cc23abf287aa29e99ae8b2351f2e6c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/458f8d08172d7b099e7ab34820322a78-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/485d5f82058b3a66a3d4600dfe1d1128-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/331829dbc4105eac435f1b7027e2db8a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e73ff0dd9d1d502877af59e1f8ffc4cd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/15451d4de98c85f677cdcb4efc9ed002-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/299e7620f027784ddf67729b3e7a2464-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1ecf62ebf643f0b665f7552c80b42777-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2f93292d8d5006736663f4af913acd3c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/723f68ec5c4c103068660b2a6195a0e6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8396ec6f4b434bf62866740c586c3e7f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/991e5f2469671697361310c4e547a89a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/54b29f9d17a6b104f572fdfe854986ae-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/545c26998fa652d498134568872078e4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cf1adc81c16844bb2bc7ac34953e8080-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/568756a9edf5b892a917b6aac6a941f0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5a09592a02a58251b2141f868d852808-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a904dfab8e9719ce34193d1e7f81fb9e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2b597d6dc47a82d40446b9d0d7b7c54d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dbe5fe34d62b2d91278316bc0fb32104-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8edd0c8b377999bc6743e1ce6aa165aa-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/38bbe7a9936fd3921940ceb82441225d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/96f420b4d53e8f6823d84b847f7ec0fb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a750045a47e5c466a6cc0c5eaf1c288-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f60830ce2fbb0740ea35a2f4bc2bb638-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9a5a11400812935e757629637e0fb141-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/58657b087d3e8b7fe2fcc37a81d13082-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/16300edd49a2f5806c06d59e2f7ff462-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b613b121fab17f8cf71a9eb6bc885b19-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/76778e3dc635758daef97ae5ba8fb3f4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f325f919131edccb1b4d328b92d73f37-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ccbaec787e284f254337224849c11d6b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dc5f04b89942a1e3760feb4dde7fdb55-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8667b63560f5476ce5bf7dd1e2fc70e2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/292087a89b237848799379e5af2ec4e4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6443f84cb50e8453ca94d42acdaeb823-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/23cc74003039519da28af7c9042b1080-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ac92f96b2f8610182a995d04d22f8589-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a0b34eaa474f3a8d30d0e4c0c0070ee7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/191bac2c88e7d716bce84641a46be1a6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cdae52b061974744c986f574ae5783a4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/223daf2d73d298c80c0e420c7e770bad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/53e04ba7dc652d9e0d8f5174fb6ad27b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f6a81c13b1999fa06cde2f2d5b109183-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room_1",
+        "aesthetic_quality": 4,
+        "materials": [
+          "original hardwood",
+          "brick fireplace",
+          "dark wood paneling"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Vintage mid-century feel but appears untouched and somewhat dark due to the accent wall."
+      },
+      {
+        "room_type": "kitchen_1",
+        "aesthetic_quality": 3,
+        "materials": [
+          "vinyl flooring",
+          "laminate counters",
+          "white appliances"
+        ],
+        "light_quality": "bright",
+        "condition": "dated",
+        "notes": "Basic galley-style kitchen with older cabinetry and flooring; functional but lacks modern appeal."
+      },
+      {
+        "room_type": "living_room_2_staged",
+        "aesthetic_quality": 6,
+        "materials": [
+          "ceramic tile floors",
+          "plaster walls",
+          "recessed lighting"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Spacious area with institutional tile flooring; staged well to distract from cold materials."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 7,
+        "materials": [
+          "hardwood floors",
+          "built-in cabinetry",
+          "granite/quartz island"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Transitions between wood and tile flooring; built-in hutch is a high-quality touch."
+      },
+      {
+        "room_type": "kitchen_2_main",
+        "aesthetic_quality": 6,
+        "materials": [
+          "oak cabinetry",
+          "granite countertops",
+          "stainless steel appliances"
+        ],
+        "light_quality": "good",
+        "condition": "well-maintained",
+        "notes": "Classic early 2000s renovation style; solid materials but wood tone feels slightly dated."
+      },
+      {
+        "room_type": "family_room_with_fireplace",
+        "aesthetic_quality": 8,
+        "materials": [
+          "tile floors",
+          "millwork/paneling",
+          "natural stone fireplace"
+        ],
+        "light_quality": "exceptional",
+        "condition": "excellent",
+        "notes": "High-end staging with board and batten wall treatment and French doors to a deck."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 7,
+        "materials": [
+          "stucco",
+          "concrete driveway",
+          "brick accents"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Classic California ranch/suburban style with neat landscaping."
+      }
+    ],
+    "overall_aesthetic": 6,
+    "architectural_style": "California Ranch / Suburban Multi-level",
+    "red_flags": [
+      "inconsistent flooring types (wood to tile transitions)",
+      "grey-wash paint palette used to hide older features",
+      "mix of updated and very dated spaces suggests a piecemeal renovation"
+    ],
+    "positive_signals": [
+      "significant natural light",
+      "well-maintained landscaping",
+      "large windows with scenic views",
+      "outdoor decking for entertaining",
+      "quality built-in cabinetry in dining area"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room_1\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\"original hardwood\", \"brick fireplace\", \"dark wood paneling\"],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"dated\",\n      \"notes\": \"Vintage mid-century feel but appears untouched and somewhat dark due to the accent wall.\"\n    },\n    {\n      \"room_type\": \"kitchen_1\",\n      \"aesthetic_quality\": 3,\n      \"materials\": [\"vinyl flooring\", \"laminate counters\", \"white appliances\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"dated\",\n      \"notes\": \"Basic galley-style kitchen with older cabinetry and flooring; functional but lacks modern appeal.\"\n    },\n    {\n      \"room_type\": \"living_room_2_staged\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"ceramic tile floors\", \"plaster walls\", \"recessed lighting\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Spacious area with institutional tile flooring; staged well to distract from cold materials.\"\n    },\n    {\n      \"room_type\": \"dining_area\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"hardwood floors\", \"built-in cabinetry\", \"granite/quartz island\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"Transitions between wood and tile flooring; built-in hutch is a high-quality touch.\"\n    },\n    {\n      \"room_type\": \"kitchen_2_main\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"oak cabinetry\", \"granite countertops\", \"stainless steel appliances\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Classic early 2000s renovation style; solid materials but wood tone feels slightly dated.\"\n    },\n    {\n      \"room_type\": \"family_room_with_fireplace\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"tile floors\", \"millwork/paneling\", \"natural stone fireplace\"],\n      \"light_quality\": \"exceptional\",\n      \"condition\": \"excellent\",\n      \"notes\": \"High-end staging with board and batten wall treatment and French doors to a deck.\"\n    },\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"stucco\", \"concrete driveway\", \"brick accents\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Classic California ranch/suburban style with neat landscaping.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"California Ranch / Suburban Multi-level\",\n  \"red_flags\": [\n    \"inconsistent flooring types (wood to tile transitions)\",\n    \"grey-wash paint palette used to hide older features\",\n    \"mix of updated and very dated spaces suggests a piecemeal renovation\"\n  ],\n  \"positive_signals\": [\n    \"significant natural light\",\n    \"well-maintained landscaping\",\n    \"large windows with scenic views\",\n    \"outdoor decking for entertaining\",\n    \"quality built-in cabinetry in dining area\"\n  ],\n  \"renovation_state\": \"partial\",\n  \"notes\": \"The property appears to be a composite of multiple units or an inconsistent renovation where some rooms (family room) are highly finished while others (galley kitchen) remain builder-grade/original.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Inconsistent flooring types (wood to tile transitions)",
+      "Mix of updated and very dated spaces (piecemeal renovation)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Strongest feature of the home; abundant through French doors and large windows in most rooms."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.0,
+        "weight": 0.18,
+        "notes": "Standard California ranch/suburban layout; lacks the 'quirky' or 'interesting' forms requested."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Penalized for institutional tile, vinyl, and laminate in older areas alongside granite and oak in others."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "The stone and brick fireplaces provide warmth, but the cold tile floors and grey-wash paint detract from it."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Single-level layout is functional but the abrupt transitions between flooring types disrupt the visual flow."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 8.0,
+        "weight": 0.1,
+        "notes": "Highly desirable Live Oak neighborhood; avoids the high-fire-risk zones of the Santa Cruz mountains."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.5,
+        "weight": 0.08,
+        "notes": "Exceptional landscaping, koi pond, and pergola-covered deck add significant value."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.5,
+        "weight": 0.07,
+        "notes": "Piecemeal state: Some rooms are professionally staged/updated, while others (kitchen_1/living_room_1) remain date and untouched."
+      }
+    ],
+    "justification": "While the house meets the hard constraint for natural light and has an excellent outdoor setup, it fails the soft constraint for multiple stories and has low material consistency. The 'Present-Fit' is compromised by the jarring difference between high-quality staged areas and the dated, vinyl-heavy kitchen and dark wood-paneled living room. It sits in the 60s as it requires significant aesthetic alignment to move from a 'piecemeal' feel to a cohesive home.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room 1 & Entry",
+        "current_state": "Dated mid-century feel with dark wood paneling and aged hardwood.",
+        "proposed_change": "Refinish all original hardwood to a light/natural oak, replace dark paneling with drywall or modern slim-slat wood accents, and lime-wash the brick fireplace for a 'Scandi-Ranch' aesthetic.",
+        "impact": "Unlocks the 'cozy warmth' and 'architectural character' the user desires while brightening the entry experience.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring Material Unity",
+        "current_state": "Inconsistent transitions between original hardwood, ceramic tile, and vinyl.",
+        "proposed_change": "Remove institutional tile in 'Living Room 2' and vinyl in kitchen; install matching engineered hardwood or high-end cork throughout to create seamless flow between the split levels.",
+        "impact": "Resolves the 'piecemeal' feel and makes the 1,355 sqft footprint feel significantly larger and more cohesive.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen 2 / Main Kitchen",
+        "current_state": "Functional but dated early 2000s oak and granite.",
+        "proposed_change": "Keep layout but replace oak doors with flat-panel walnut or white oak cabinetry, replace granite with soapstone or matte quartz, and integrate open shelving to utilize natural light from large windows.",
+        "impact": "Aligns the kitchen with 'Natural Wood' and 'Light-filled' principles without the cost of moving plumbing.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Secondary Spaces (Living Room 2 & Galley)",
+        "current_state": "Redundant/dated secondary kitchen and cold tiled multi-level space.",
+        "proposed_change": "Convert the galley kitchen into a dedicated wet-bar/pantry or home office with built-in wood shelving; replace French doors if not energy efficient to max out view/light.",
+        "impact": "Adds quirky, non-cookie-cutter character and improves the home's functional flow for modern living.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Hidden costs in leveling subfloors when removing tile to match hardwood heights.",
+      "Electrical/Plumbing in the 1968 galley kitchen might be outdated and require 'bringing to code' once walls are opened.",
+      "The 1968 build may contain asbestos in original vinyl flooring or popcorn ceilings."
+    ],
+    "upside_narrative": "This property is the perfect 'Medium Tolerance' project. It avoids major structural/foundation work but offers a high-impact aesthetic pivot. By unifying the disjointed flooring and modernizing the wood elements, you can transform this from a fragmented suburban ranch into a cohesive, warm, and light-filled California retreat that feels custom-designed. The 'bones' (fireplace, multi-level flow, large windows) align perfectly with the user's desire for architectural interest over cookie-cutter squares."
+  },
+  "brief": "# House Brief: 2304 Mattison Ln, Santa Cruz\n\n### Executive Summary\nThis 3-bedroom California Ranch in Live Oak is a \"diamond in the rough\" that offers exceptional natural light and outdoor living but suffers from a fragmented interior identity. While it features the architectural character and warmth you value, it currently feels like a collection of different eras rather than a cohesive home. At $1.395M, it is a high-potential project for a buyer willing to invest in aesthetic unification.\n\n### Aesthetic Alignment\nThe property achieves a **62/100** on present-fit but climbs to **78/100** for potential. \n*   **The Good:** It hits your \"Key Principles\" with large windows, a brick fireplace, and mature landscaping that creates a warm, non-boxy atmosphere.\n*   **The Bad:** It flirts with your \"Anti-Principles\" via inconsistent finishes. The mix of high-quality hardwood, dated tile, and \"grey-wash\" paint creates a disjointed feel that lacks the sophisticated wood-and-light harmony you desire.\n\n### Strengths\n*   **Light & Volume:** Large windows and a multi-level flow provide the architectural interest and \"airy\" feel you prioritize.\n*   **Outdoor Sanctuary:** The landscaping is a standout feature, including a koi pond, pergola-covered deck, and mature fruit trees that extend the living space outdoors.\n*   **Built-in Character:** High-quality built-in cabinetry in the dining area and a classic brick fireplace provide a solid foundation for a \"Cozy Warmth\" aesthetic.\n*   **Location:** Desirable Live Oak neighborhood with lower fire risk than forest-adjacent properties.\n\n### Weaknesses\n*   **Material Inconsistency:** Jarring transitions between hardwood, tile, and older vinyl.\n*   **Piecemeal Renovations:** The house feels partially flipped\u2014some areas have modern \"grey-wash\" finishes while the kitchen and wood-paneled living room remain stuck in 1968.\n*   **Dated Infrastructure:** The kitchen is a narrow galley style with older cabinetry and likely requires a full gut to meet modern functional and aesthetic standards.\n\n### Deal-Breakers\n*   **Single-Level Constraint:** While the house has interesting internal elevation changes (multi-level flow), it is technically a single-story home, which may violate your preference for a true multi-story layout.\n\n### Renovation Paths (Medium Tolerance: $100k\u2013$200k)\nTo move this house toward your target aesthetic:\n1.  **Floor Unification:** Replace all tile and vinyl with a consistent wide-plank hardwood to bridge the disjointed rooms.\n2.  **Kitchen Overhaul:** Open the galley kitchen to improve flow and replace dated cabinetry with natural wood elements.\n3.  **Modernize the Wood:** Refine the dark wood paneling with lighter stains or architectural slats to maintain character without the 1960s \"darkness.\"\n4.  **Environmental Check:** Budget for minor asbestos abatement (common in 1960s vinyl/ceilings) before starting heavy demo.\n\n### Who This House Is For\nThis property is perfect for a buyer who loves gardening and \"bones\" but has the vision to strip away a decade of mismatched DIY updates. It\u2019s for someone who values a sunny, coastal micro-climate over the \"dark forest\" vibe.\n\n### Verdict\n**PROCEED WITH CAUTION.** The house offers the architectural soul and light you want, but the interior is currently a \"visual mess\" of competing styles. If you are willing to spend $150k+ to unify the materials, this will be a stunning home. If you want \"turn-key\" cohesion, keep looking.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-08T23:00:00",
+  "scored_at": "2026-01-09T08:50:43.393749"
+}

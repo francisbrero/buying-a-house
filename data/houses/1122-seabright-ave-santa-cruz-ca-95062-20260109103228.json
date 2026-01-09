@@ -1,0 +1,219 @@
+{
+  "id": "1122-seabright-ave-santa-cruz-ca-95062-20260109103228",
+  "url": "https://www.zillow.com/homedetails/1122-Seabright-Ave-Santa-Cruz-CA-95062/16113226_zpid/",
+  "address": "1122 Seabright Ave, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1095000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 1.0,
+    "sqft": 946,
+    "lot_sqft": 3311,
+    "year_built": 1936,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/19d0f3e0e541eab39fd71f73bd611930-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88a8e6f9fb09efa31f5b5d58eee8b33a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cec8f51e97166a13b331622f21dce4bb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0372af7960351346c962c03c12e076b2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/73fe4a99eb22cd679fd397fe5df684a0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/15d0f5bef4df86cca194ce76a7aca037-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b78b9439822e781dd526ab33fb23d96e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5ca89566b8d8c8779f114c860c221c63-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fa4feedbed6f32e73ecde611f2aab741-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ad7a2f4fb4f4a66fe18ae27c05fe1e28-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/87e9f76342a8c31ee9fecfbbcb6717a9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f3c2148016dd3d7f7a5aefc6a97ffcee-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4f835f6b947f88775757c7531ba4e53e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a8ab1ae18b1cff7e6faf2ccb2953213e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/27f04b75530c60d2ef4b098bef40880a-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front_facades",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "wood shingle siding",
+          "horizontal wood fencing",
+          "stucco",
+          "lap siding",
+          "brick walkways"
+        ],
+        "light_quality": "bright_natural",
+        "condition": "mixed",
+        "notes": "A collection of various properties. Styles range from coastal bungalow with modern wood fencing to traditional Craftsman with mature landscaping. Most exteriors appear well-maintained with fresh paint."
+      },
+      {
+        "room_type": "dining_living_area",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "glass table",
+          "vinyl/leatherette chairs",
+          "shag rug",
+          "drywall"
+        ],
+        "light_quality": "dim_artificial",
+        "condition": "renovated",
+        "notes": "Example of a high-contrast 'modern' staging/flip style. The red and black accents with grey walls create a dated, 'bachelor pad' aesthetic that lacks warmth."
+      },
+      {
+        "room_type": "backyard_outdoor_living",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wicker patio furniture",
+          "metal fencing",
+          "concrete pavers"
+        ],
+        "light_quality": "excellent_natural",
+        "condition": "good",
+        "notes": "Outdoor spaces show a mix of drought-tolerant landscaping and functional entertaining areas. The pool area with the deck represents a higher-end amenity."
+      },
+      {
+        "room_type": "aerial_location",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "coastal proximity"
+        ],
+        "light_quality": "abundant",
+        "condition": "n/a",
+        "notes": "Aerial view indicates a premium coastal location with significant density but close proximity to the water."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "eclectic_bungalow_craftsman",
+    "red_flags": [
+      "aggressive high-contrast interior staging (red/black/grey)",
+      "inconsistent landscaping quality across different lots",
+      "visible solar panels on traditional rooflines may affect curb appeal for purists"
+    ],
+    "positive_signals": [
+      "high-quality horizontal wood fencing",
+      "mature, well-integrated landscaping in several shots",
+      "proximity to ocean and coastal views",
+      "upgraded windows in most pictured cottages"
+    ],
+    "renovation_state": "variable_mostly_updated",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior_front_facades\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\n                \"wood shingle siding\",\n                \"horizontal wood fencing\",\n                \"stucco\",\n                \"lap siding\",\n                \"brick walkways\"\n            ],\n            \"light_quality\": \"bright_natural\",\n            \"condition\": \"mixed\",\n            \"notes\": \"A collection of various properties. Styles range from coastal bungalow with modern wood fencing to traditional Craftsman with mature landscaping. Most exteriors appear well-maintained with fresh paint.\"\n        },\n        {\n            \"room_type\": \"dining_living_area\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\n                \"glass table\",\n                \"vinyl/leatherette chairs\",\n                \"shag rug\",\n                \"drywall\"\n            ],\n            \"light_quality\": \"dim_artificial\",\n            \"condition\": \"renovated\",\n            \"notes\": \"Example of a high-contrast 'modern' staging/flip style. The red and black accents with grey walls create a dated, 'bachelor pad' aesthetic that lacks warmth.\"\n        },\n        {\n            \"room_type\": \"backyard_outdoor_living\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\n                \"wood decking\",\n                \"wicker patio furniture\",\n                \"metal fencing\",\n                \"concrete pavers\"\n            ],\n            \"light_quality\": \"excellent_natural\",\n            \"condition\": \"good\",\n            \"notes\": \"Outdoor spaces show a mix of drought-tolerant landscaping and functional entertaining areas. The pool area with the deck represents a higher-end amenity.\"\n        },\n        {\n            \"room_type\": \"aerial_location\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\n                \"coastal proximity\"\n            ],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"n/a\",\n            \"notes\": \"Aerial view indicates a premium coastal location with significant density but close proximity to the water.\"\n        }\n    ],\n    \"overall_aesthetic\": 6,\n    \"architectural_style\": \"eclectic_bungalow_craftsman\",\n    \"red_flags\": [\n        \"aggressive high-contrast interior staging (red/black/grey)\",\n        \"inconsistent landscaping quality across different lots\",\n        \"visible solar panels on traditional rooflines may affect curb appeal for purists\"\n    ],\n    \"positive_signals\": [\n        \"high-quality horizontal wood fencing\",\n        \"mature, well-integrated landscaping in several shots\",\n        \"proximity to ocean and coastal views\",\n        \"upgraded windows in most pictured cottages\"\n    ],\n    \"renovation_state\": \"variable_mostly_updated\",\n    \"summary\": \"This is a composite of multiple coastal residences. The renovation state varies from historic preservation of craftsman details to modern 'flip' aesthetics characterized by grey palettes and stark interior staging.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.8,
+    "passed": false,
+    "violations": [
+      "Flip-quality renovation with cheap materials",
+      "Gray everything - gray laminate, gray cabinets, gray paint",
+      "Boxy, generic layouts (946 sqft single story)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 4.5,
+        "weight": 0.2,
+        "notes": "While coastal, the interior shots show dim artificial lighting and small windows; fails the 'abundant natural light' hard constraint in practice."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.0,
+        "weight": 0.18,
+        "notes": "External shingle characer is undermined by a generic 946 sqft footprint and unremarkable interior volumes."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.0,
+        "weight": 0.15,
+        "notes": "Heavy presence of 'flip' materials: grey walls, shag rugs, and vinyl finishes which violate the wood-centric taste model."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 3.5,
+        "weight": 0.12,
+        "notes": "High-contrast red/black/grey staging and cold renovated finishes create a sterile 'bachelor pad' vibe instead of natural warmth."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Standard small bungalow layout; single-story violates the 'multiple stories preferred' soft constraint."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 9.0,
+        "weight": 0.1,
+        "notes": "Excellent Seabright location, close to the ocean and outside high-fire-risk forest zones."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "Strongest feature of the property; high-quality horizontal fencing and functional decking."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Turn-key condition, though the aesthetic of the upkeep is a mismatch."
+      }
+    ],
+    "justification": "The property fails primarily on the 'Violation Patterns' related to flip-style renovations. The interior aesthetic\u2014characterized by grey paint, high-contrast 'modern' staging, and lack of natural wood elements\u2014directly opposes the user's preference for warmth and architectural character. Despite the premium Seabright location and good outdoor spaces, the present-fit for the interior is poor and would require immediate reversal of the 'updated' finishes to meet the taste model.",
+    "deal_breakers": [
+      "Present-fit interior is a 'flip-style' aesthetic which is an auto-reject signal.",
+      "Fails the hard constraint for abundant natural light based on dim interior analysis."
+    ]
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Interior Living/Dining Core",
+        "current_state": "Aggressive high-contrast red/black/grey styling with synthetic materials and shag rugs.",
+        "proposed_change": "De-flipperization: Replace vinyl/laminate flooring with wide-plank oak, install wood-clad ceilings or exposed faux-beams to add architectural character, and replace grey drywall with lime-wash or warm white plaster. Integrate a custom wood built-in or a brick-veneer fireplace focal point.",
+        "impact": "Eliminates the 'bachelor pad' feel and aligns the home with the user's desire for cozy warmth and natural materials.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Windows and Natural Light",
+        "current_state": "Standard upgraded windows, but lacking the 'abundant light' and 'interesting shapes' requested.",
+        "proposed_change": "Introduce a skylight or Solatube in the central living area and replace a standard rear window with a large steel-framed or wood-clad accordion glass door leading to the deck.",
+        "impact": "Unlocks the coastal light and creates the indoor-outdoor flow essential for a 946 sqft footprint.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Siding and Cohesion",
+        "current_state": "Mixed materials (stucco, lap, shingle) that feel disjointed across the property.",
+        "proposed_change": "Unify the facade using a consistent cedar shingle or high-end vertical wood slat treatment to match existing quality fencing. Paint window trim in a deep earth tone to emphasize architectural character.",
+        "impact": "Transforms the 'eclectic bungalow' into a curated coastal retreat with significant curb appeal.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "1936 construction may hide knob-and-tube wiring or galvanized plumbing behind the recent 'flip' layers.",
+      "Small square footage (946 sqft) means every dollar spent must be high-impact; layout changes are limited by the tight footprint.",
+      "Proximity to coast may require specific corrosion-resistant materials for exterior updates."
+    ],
+    "upside_narrative": "The 'Seabright Jewel' potential: By stripping away the mediocre 2010s-era staging and lean-in to the 1930s coastal bungalow roots, this home can transition from a generic rental-style property to a high-character sanctuary. The existing high-quality fencing and pool/deck amenities provide a luxury baseline; the interior renovation will focus on replacing synthetic textures with real wood and brick to create the 'quirky, cozy warmth' the user craves in a premier Santa Cruz location."
+  },
+  "brief": "# House Brief: 1122 Seabright Ave, Santa Cruz\n\n## Executive Summary\nThis 1936 coastal bungalow is located in the highly desirable Seabright neighborhood, offering a premium location but suffering from a \"cheap flip\" interior. While the exterior and lot provide a solid foundation with high-quality fencing and mature landscaping, the interior relies on a generic, grey-scale aesthetic that lacks the architectural warmth and light you require.\n\n## Aesthetic Alignment\n**Low (53.8/100).** This home currently represents your \"Anti-Principles.\" The interior is dominated by grey laminate flooring, grey cabinetry, and high-contrast red/black staging. It lacks the natural wood elements, exposed beams, and cozy brick textures that define your taste. The 946 sqft layout is single-story and somewhat boxy, failing your preference for multi-story homes with interesting architectural forms.\n\n## Strengths\n*   **Location:** Situated in a premier Santa Cruz coastal pocket with proximity to the ocean.\n*   **Outdoor Infrastructure:** High-quality horizontal wood fencing and well-integrated, mature landscaping provide immediate curb appeal and privacy.\n*   **Livable Bones:** Upgraded windows throughout and existing pool/deck amenities provide a luxury baseline for the property.\n*   **Heritage Potential:** Behind the modern finishes lies a 1936 cottage with the potential for authentic coastal character.\n\n## Weaknesses\n*   **The \"Flip\" Aesthetic:** The interior finishes feel synthetic and generic (grey-on-grey), requiring a total overhaul to meet your standards.\n*   **Lighting Issues:** Analysis indicates a dim interior that lacks the \"abundant natural light\" you prioritize.\n*   **Small Footprint:** At under 1,000 sqft, the home offers limited spatial flexibility and lacks the \"flow\" of a multi-story residence.\n*   **Hidden Risks:** Typical for 1930s builds, there is a risk of outdated wiring (knob-and-tube) or plumbing masked by recent cosmetic updates.\n\n## Deal-Breakers\n*   **Flip-Grade Finishes:** The property triggers an auto-reject signal due to the use of grey laminate and cheap \"modern\" materials.\n*   **Lack of Light:** Fails the hard constraint for a bright, sun-drenched interior.\n*   **Structural Simplicity:** Too boxy and single-dimensional to meet your desire for architectural character.\n\n## Renovation Paths\nTo bring this house to a 78/100 potential, you would need a **Medium-Impact Renovation ($100k\u2013$200k)**:\n1.  **Strip the Flip:** Replace all grey laminate with wide-plank natural hardwood.\n2.  **Warm the Palette:** Replace grey cabinetry with natural wood or warm-toned millwork; add brick or stone elements to the living area.\n3.  **Enhance Light:** Install skylights or solar tubes to compensate for the currently dim interior.\n4.  **Character Additions:** Introduce exposed beams or architectural trim to break up the \"boxy\" feel of the 946 sqft layout.\n\n## Who This House Is For\nThis property is best suited for a buyer who prioritizes the **Seabright location** above all else or an investor looking for a turnkey rental. It is not currently suitable for someone seeking a \"forever home\" with immediate architectural soul and warmth.\n\n## Verdict\n**REJECT.** While the location is stellar, the house is a visual mismatch. You would be paying a premium for a \"fresh\" renovation that you would likely want to tear out immediately. Hold out for a property with better natural light and more inherent architectural \"bones.\"",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.352569",
+  "scored_at": "2026-01-09T10:35:37.012354"
+}

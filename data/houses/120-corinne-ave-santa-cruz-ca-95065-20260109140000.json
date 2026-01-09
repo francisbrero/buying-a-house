@@ -1,0 +1,298 @@
+{
+  "id": "120-corinne-ave-santa-cruz-ca-95065-20260109140000",
+  "url": "https://www.zillow.com/homedetails/120-Corinne-Ave-Santa-Cruz-CA-95065/16163465_zpid/",
+  "address": "120 Corinne Ave, Santa Cruz, CA 95065",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "price": 1399000,
+  "description": "Single-story ranch home on corner lot with mature landscaping.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1385,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5cb5ce31065ba784128a53c2e65a4ff3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ce70e86d5aedb22fc517f2ff4ed919d3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2728b84310f62df8cd3acd7799fb3009-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/289e9c8680337b62facf1f33113a7068-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ea8df13f6c35f48379330df3dc343a3f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/77e9dbe82545bd02bc18b8df7caa42e0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1da5432c3c0d24beeb9864672e3c555d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/366cc5c8367dc8d96ed80b01741078d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/88bb064044285d50bc78740f504bf278-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5273d6e56ef4c68cf7b7b4dd452c58d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e479ad10630655ece05f6e2634f1b81f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/17b7247658b2c2f4a76d86875a3a08cc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c103be97b3f6879628ab920d127b1bc3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8bb2b399e97f15d6fea586182c5f70a6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30bae77662c4b57a31f1b89b0104c4f3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/458f8d08172d7b099e7ab34820322a78-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bc657e1d7854dc2eff04fc437ba820d4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d15df2035f91eb01116f11d4dd692d5d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8ac70c39e61ffc1deb0577eb403be999-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/78e76f503933fc7b29ad41a40dfe13b6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/72e9deec05a0699291f3c38f17c7bb20-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/485d5f82058b3a66a3d4600dfe1d1128-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0989a3f0ea1b1e70ea186ccfa8811c28-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ebb45f22b4e7f1a1057420b86aa531d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/25edcea148b2a4fbfae5f32117bbb11e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4d52376b84650d798271da1dec7463ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/af1caf32f50c6eb370548b60f96a3c36-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6ae600b4e9c2ca9f4bf3ba3c15c2ac6c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/dcbe90e72a332fbe71467f633ce76225-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/612d769f729d6e544625720f1baacc50-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a92ab4ff73d414bcf350e61b447a7482-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/11971e0edb95ece45b33708e054deb93-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b5058f9b1d49b7c88342837a2b25d862-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d330f0227178b31c250a8c7e61777ea3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/911ed695f293c633303e1b18179cb06c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6efd9eb206e698db177e58708b1d2e46-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5b46745d33273d70c287faacbeef9e2c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/93725e747baf972925b32ff8f132605f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b16c3ef792c27c2f67574938578c1fac-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/38bd207b2f8df9d5ebd803f2467d886d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5ce70a41dc0b4e79a938ec6da5f99392-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/47e1d5c82815734b461ad9bd24bc40d8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/61a8409912b1b238201bd8d38f0033ec-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7e6934f7424b317b6be4795c3cde64ee-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2961dd643bd006e2e8b1782cb8c121f0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/22ed965d4cf9829ed134c1876b23dc4c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c1931921e44d6c1536b33b36b43925b7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/97b4932cace036397a066b60db906bce-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/78dd433e08d029b89bd96e34c26fdf76-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5916b27e3799910fafbbce3b5d4e1b5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bcffc619b7cd5220a53ca226a9653516-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0dcb82ba586826f4c7059773e3529afd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7631efb43b092e4c8e93632ba659e589-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f057a56b10e9ade465674a13b469f2de-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/53b0ad3c6ee523536ecfcfa4a24ae617-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e619f4de4144938b09dd7362ec83ffa8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1e964343ac21f7c9b7660e483f303e24-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d8a83733e8d8823fd850556d7eb2ce8d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/363a7f947e5c52c69c5a0bd28f35dd26-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f8b3ec8a63fd3ed606969ca898a9e022-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7185bd390bec619174b91ce36b7f8d8b-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 6,
+        "materials": [
+          "wall-to-wall carpet",
+          "drywall",
+          "leather accents",
+          "brick fireplace"
+        ],
+        "light_quality": "good",
+        "condition": "well-maintained",
+        "notes": "Large windows provide decent light, but the 'greige' walls and thick carpeting feel dated and generic."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 5,
+        "materials": [
+          "oak cabinetry",
+          "granite or solid surface counters",
+          "stainless steel wall oven",
+          "tile backsplash"
+        ],
+        "light_quality": "moderate",
+        "condition": "partially updated",
+        "notes": "Classic honey-oak cabinets paired with more modern granite; functional but lacks contemporary design cohesion."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 6,
+        "materials": [
+          "carpet",
+          "wood dining table",
+          "upholstered chairs"
+        ],
+        "light_quality": "excellent",
+        "condition": "clean",
+        "notes": "Open concept adjacent to living area; the large sliding glass door provides a strong connection to the outdoors."
+      },
+      {
+        "room_type": "family_room_vaulted",
+        "aesthetic_quality": 8,
+        "materials": [
+          "wood plank ceiling",
+          "wood-look flooring (likely LVP)",
+          "plaster/drywall"
+        ],
+        "light_quality": "bright",
+        "condition": "recently renovated",
+        "notes": "Striking architectural interest with the wood-slat ceiling and high pitch; significantly more modern than the other interior shots."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 7,
+        "materials": [
+          "stucco",
+          "horizontal siding",
+          "asphalt shingles",
+          "concrete driveway"
+        ],
+        "light_quality": "natural",
+        "condition": "good",
+        "notes": "Mid-century ranch profile; landscaping is mature but somewhat dry in some frames (low water usage)."
+      },
+      {
+        "room_type": "balcony_deck",
+        "aesthetic_quality": 7,
+        "materials": [
+          "wood railing",
+          "outdoor rug",
+          "all-weather furniture"
+        ],
+        "light_quality": "direct sunlight",
+        "condition": "excellent",
+        "notes": "Offers expansive views; the railing appears slightly dated but the space is well-staged."
+      }
+    ],
+    "overall_aesthetic": 6,
+    "architectural_style": "Mid-Century Ranch / Contemporary Mix",
+    "red_flags": [
+      "Inconsistent renovation quality across different rooms",
+      "Heavy use of wall-to-wall carpet in main living areas",
+      "Evidence of builder-grade 'refresh' choices (grey paint, specific furniture staging styles)"
+    ],
+    "positive_signals": [
+      "Vaulted wood ceilings in primary living space",
+      "Large lot sizes and mature trees",
+      "Strong indoor-outdoor flow via sliding doors",
+      "Expansive views from elevated deck"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"wall-to-wall carpet\",\n        \"drywall\",\n        \"leather accents\",\n        \"brick fireplace\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Large windows provide decent light, but the 'greige' walls and thick carpeting feel dated and generic.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"oak cabinetry\",\n        \"granite or solid surface counters\",\n        \"stainless steel wall oven\",\n        \"tile backsplash\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"partially updated\",\n      \"notes\": \"Classic honey-oak cabinets paired with more modern granite; functional but lacks contemporary design cohesion.\"\n    },\n    {\n      \"room_type\": \"dining_area\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"carpet\",\n        \"wood dining table\",\n        \"upholstered chairs\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"clean\",\n      \"notes\": \"Open concept adjacent to living area; the large sliding glass door provides a strong connection to the outdoors.\"\n    },\n    {\n      \"room_type\": \"family_room_vaulted\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"wood plank ceiling\",\n        \"wood-look flooring (likely LVP)\",\n        \"plaster/drywall\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"recently renovated\",\n      \"notes\": \"Striking architectural interest with the wood-slat ceiling and high pitch; significantly more modern than the other interior shots.\"\n    },\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"stucco\",\n        \"horizontal siding\",\n        \"asphalt shingles\",\n        \"concrete driveway\"\n      ],\n      \"light_quality\": \"natural\",\n      \"condition\": \"good\",\n      \"notes\": \"Mid-century ranch profile; landscaping is mature but somewhat dry in some frames (low water usage).\"\n    },\n    {\n      \"room_type\": \"balcony_deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood railing\",\n        \"outdoor rug\",\n        \"all-weather furniture\"\n      ],\n      \"light_quality\": \"direct sunlight\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Offers expansive views; the railing appears slightly dated but the space is well-staged.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Mid-Century Ranch / Contemporary Mix\",\n  \"red_flags\": [\n    \"Inconsistent renovation quality across different rooms\",\n    \"Heavy use of wall-to-wall carpet in main living areas\",\n    \"Evidence of builder-grade 'refresh' choices (grey paint, specific furniture staging styles)\"\n  ],\n  \"positive_signals\": [\n    \"Vaulted wood ceilings in primary living space\",\n    \"Large lot sizes and mature trees\",\n    \"Strong indoor-outdoor flow via sliding doors\",\n    \"Expansive views from elevated deck\"\n  ],\n  \"renovation_state\": \"partial\",\n  \"notes\": \"The property is a mix of original charm (vaulted ceilings) and varying levels of updates. Some rooms feature high-end finishes like wood-plank ceilings, while others remain trapped in a 1990s-style refresh with oak cabinets and thick carpeting.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Inconsistent renovation quality",
+      "Dated material palette (oak/carpet mix)",
+      "Generic 'greige' color scheme throughout"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Strongest feature; large windows and glass doors provide good exposure, meeting the hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.0,
+        "weight": 0.18,
+        "notes": "Mixed bag; the vaulted wood ceiling in the family room is excellent, but the rest is a standard ranch box."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Heavy penalties for wall-to-wall carpet and dated honey-oak cabinetry. Lacks the natural wood flooring preferred."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "The brick fireplace and wood ceilings provide some warmth, though the grey walls and carpet push against it."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Good indoor-outdoor flow to the deck and an open-concept dining/living area."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Located on a corner lot; while Santa Cruz has fire risks, this is a managed residential area."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.0,
+        "weight": 0.08,
+        "notes": "High score for expansive views and a functional elevated deck."
+      },
+      {
+        "dimension": "condition",
+        "score": 7.0,
+        "weight": 0.07,
+        "notes": "Well-maintained and clean, despite the aesthetic mismatch of materials."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light but fails to excite. While the vaulted family room is a major highlight, the rest of the home suffers from a disjointed identity\u2014half dated 90s (honey-oak and thick carpet) and half generic 2010s flip (greige walls). It lacks the consistent wood elements and architectural character desired, making it an 'acceptable' but uninspiring present-fit.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Main Living & Dining Continuity",
+        "current_state": "Dated wall-to-wall carpet and generic 'greige' walls adjacent to a high-quality vaulted family room.",
+        "proposed_change": "Remove all carpeting; install wide-plank white oak flooring throughout to match the warmth of the vaulted wood ceiling. Replace the brick fireplace surround with soapstone or vertical zellige tile.",
+        "impact": "Unifies the inconsistent aesthetic and creates a seamless flow between the disparate 6/10 and 8/10 spaces.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen",
+        "current_state": "Honey-oak cabinetry with mismatched granite/stainless updates.",
+        "proposed_change": "Reface or replace oak cabinetry with flat-panel walnut or matte forest green cabinetry. Extend the backsplash to the ceiling to emphasize height. Replace the peninsula with a reclaimed wood island.",
+        "impact": "Eliminates the 'builder-grade' feel and aligns the kitchen with the user's preference for architectural character and wood elements.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Indoor-Outdoor Connection",
+        "current_state": "Standard sliding glass doors and dated wooden deck railings.",
+        "proposed_change": "Upgrade the sliding doors to black-framed thin-profile aluminum sliders and replace the deck railing with a cable rail system or glass to maximize the 'expansive' views mentioned.",
+        "impact": "Achieves the 'abundant natural light' principle and makes the outdoor space feel like a high-end extension of the interior.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Lighting & Architectural Detail",
+        "current_state": "Standard recessed/surface mounts.",
+        "proposed_change": "Install architectural track lighting along the vaulted beams in the family room and add skylights or Solar Tubes to the darker 'greige' hallway/living zones.",
+        "impact": "Harnesses the 'quirky character' and 'architectural interest' the user seeks by highlighting existing geometry.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Inconsistency in current materials suggests previous DIY or piecemeal work; hidden plumbing/electrical issues may exist behind the 'refreshed' walls.",
+      "Flooring transitions between the newer family room and older kitchen/living may require subfloor leveling.",
+      "Santa Cruz permitting for deck/railing modifications can be slow."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' for a mid-century enthusiast. The vaulted family room provides a high-quality anchor for the rest of the home's design. By stripping away the 90s-era 'greige' refreshes and unifying the flooring and cabinetry around the existing wood-plank ceilings, this house transforms from a disjointed ranch into a cohesive, warm, modern retreat that capitalizes on its elevated views and structural quirks."
+  },
+  "brief": "# House Brief: 120 Corinne Ave, Santa Cruz\n\n### Executive Summary\nA single-story ranch on an elevated corner lot that offers a \"tale of two houses.\" While the vaulted, wood-clad family room aligns perfectly with a warm, architectural aesthetic, the rest of the home is mired in uninspired 1990s finishes and generic \"flipper-grey\" updates. It is a solid structural canvas with excellent light, but it requires a unified vision to move past its current disjointed state.\n\n### Aesthetic Alignment\nThe house currently sits at a **62/100** for present-fit. It hits the mark on \"Cozy Warmth\" via the impressive wood-plank ceilings and the brick fireplace. However, it fails the \"Anti-Principle\" check for cheap flip finishes, specifically the ubiquitous \"greige\" paint and builder-grade carpet. It lacks the multi-story complexity you prefer, but it compensates with high-volume ceilings in the primary living zone that prevent it from feeling like a generic box.\n\n### Strengths\n*   **Structural Character:** The vaulted wood ceilings are the \"soul\" of the house and provide an architectural anchor that most ranches lack.\n*   **Indoor-Outdoor Flow:** Large sliding doors and an expansive elevated deck take full advantage of the Santa Cruz climate and provide a sense of space beyond the 1,385 sqft footprint.\n*   **Natural Light:** Large windows and an open orientation ensure the home meets your requirement for bright, airy interiors.\n*   **The Lot:** A large corner lot with mature landscaping provides privacy and a premium feel.\n\n### Weaknesses\n*   **Inconsistent Finishes:** The home feels \"pieced together.\" You\u2019ll find honey-oak trim, thick wall-to-wall carpet, and modern grey paint all competing for attention.\n*   **Material Palette:** The use of laminate and builder-grade materials feels cheap compared to the high-quality wood ceilings.\n*   **Lack of Verticality:** As a single-story ranch, it misses the multi-story \"flow\" you typically look for, though the ceiling height mitigates this.\n\n### Deal-Breakers\n*   **None.** There are no structural or environmental violations (like high fire-risk forest zones), but the aesthetic \"identity crisis\" will be a significant hurdle for those wanting a move-in-ready architectural gem.\n\n### Renovation Paths (Medium Feasibility)\nTo reach the **82/100 potential score**, a budget of **$100k\u2013$200k** is estimated to:\n1.  **Unify Flooring:** Remove all carpet and mismatched laminate; install consistent hardwood throughout to bridge the gap between the family room and the rest of the house.\n2.  **Strip the \"Greige\":** Repaint with a warmer, gallery-white palette that complements the natural wood rather than clashing with it.\n3.  **Kitchen/Bath Cohesion:** Replace \"refresh\" cabinets with natural wood elements to echo the ceiling\u2019s warmth.\n4.  **Deck Refresh:** Modernize the railing system on the elevated deck to enhance the \"Contemporary Mid-Century\" vibe.\n\n### Who This House Is For\nThis house is for a buyer who views the vaulted wood ceiling as the \"star\" and is willing to strip away the mediocre 90s renovations to let it shine. It is ideal for someone who prioritizes light and yard space over a multi-story floor plan.\n\n### Verdict\n**PROCEED WITH CAUTION.** This is not a \"dream home\" today, but it is one of the better \"ugly ducklings\" on the market. If you are willing to manage a cosmetic overhaul to fix the disjointed interior, the structural bones will reward you. If you are looking for immediate architectural sophistication, keep looking.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T14:00:00",
+  "scored_at": "2026-01-09T08:47:31.168626"
+}

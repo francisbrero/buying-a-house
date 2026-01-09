@@ -1,0 +1,480 @@
+"""Generate HTML report of house evaluations."""
+
+import json
+from datetime import datetime
+from pathlib import Path
+
+from src.storage import JsonStore
+
+
+def generate_report() -> str:
+    """Generate an HTML report of all scored houses."""
+    store = JsonStore()
+    houses = store.list_houses()
+
+    # Sort by present_fit_score descending
+    houses.sort(
+        key=lambda h: h.present_fit_score.score if h.present_fit_score else 0,
+        reverse=True
+    )
+
+    html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Evaluation Report</title>
+    <style>
+        :root {{
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-green: #22c55e;
+            --accent-yellow: #eab308;
+            --accent-red: #ef4444;
+            --accent-blue: #3b82f6;
+            --accent-purple: #a855f7;
+        }}
+
+        * {{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }}
+
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem;
+        }}
+
+        .container {{
+            max-width: 1400px;
+            margin: 0 auto;
+        }}
+
+        header {{
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--bg-card);
+        }}
+
+        h1 {{
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }}
+
+        .subtitle {{
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }}
+
+        .summary {{
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }}
+
+        .stat-card {{
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }}
+
+        .stat-value {{
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }}
+
+        .stat-label {{
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+
+        .houses {{
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }}
+
+        .house-card {{
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }}
+
+        .house-card:hover {{
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }}
+
+        .house-image {{
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            background: var(--bg-card);
+        }}
+
+        .house-content {{
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }}
+
+        .house-header {{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }}
+
+        .house-address {{
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }}
+
+        .house-price {{
+            font-size: 1.2rem;
+            color: var(--accent-green);
+            font-weight: 600;
+        }}
+
+        .house-features {{
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }}
+
+        .scores {{
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }}
+
+        .score-badge {{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: var(--bg-card);
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            min-width: 100px;
+        }}
+
+        .score-value {{
+            font-size: 1.8rem;
+            font-weight: 700;
+        }}
+
+        .score-label {{
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }}
+
+        .score-high {{ color: var(--accent-green); }}
+        .score-medium {{ color: var(--accent-yellow); }}
+        .score-low {{ color: var(--accent-red); }}
+
+        .justification {{
+            background: var(--bg-card);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }}
+
+        .tags {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }}
+
+        .tag {{
+            background: var(--bg-card);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }}
+
+        .tag-positive {{
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--accent-green);
+        }}
+
+        .tag-negative {{
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+        }}
+
+        .house-link {{
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }}
+
+        .house-link:hover {{
+            text-decoration: underline;
+        }}
+
+        .brief-section {{
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--bg-card);
+        }}
+
+        .brief-toggle {{
+            background: var(--bg-card);
+            border: none;
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }}
+
+        .brief-toggle:hover {{
+            background: var(--bg-primary);
+        }}
+
+        .brief-content {{
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+        }}
+
+        .brief-content.show {{
+            display: block;
+        }}
+
+        .renovation-ideas {{
+            margin-top: 1rem;
+        }}
+
+        .renovation-idea {{
+            background: rgba(168, 85, 247, 0.1);
+            border-left: 3px solid var(--accent-purple);
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            border-radius: 0 8px 8px 0;
+        }}
+
+        .renovation-area {{
+            font-weight: 600;
+            color: var(--accent-purple);
+        }}
+
+        .renovation-change {{
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }}
+
+        footer {{
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }}
+
+        @media (max-width: 768px) {{
+            .house-card {{
+                grid-template-columns: 1fr;
+            }}
+
+            .house-image {{
+                width: 100%;
+                height: 200px;
+            }}
+        }}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>House Evaluation Report</h1>
+            <p class="subtitle">Generated {datetime.now().strftime('%B %d, %Y at %I:%M %p')}</p>
+        </header>
+
+        <div class="summary">
+            <div class="stat-card">
+                <div class="stat-value">{len(houses)}</div>
+                <div class="stat-label">Houses Evaluated</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{len([h for h in houses if h.present_fit_score and h.present_fit_score.score >= 70])}</div>
+                <div class="stat-label">Strong Matches (70+)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">${min(h.price for h in houses if h.price) / 1000:.0f}k - ${max(h.price for h in houses if h.price) / 1000:.0f}k</div>
+                <div class="stat-label">Price Range</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">{len([h for h in houses if h.potential_score and h.potential_score.score >= 80])}</div>
+                <div class="stat-label">High Potential (80+)</div>
+            </div>
+        </div>
+
+        <div class="houses">
+"""
+
+    for i, house in enumerate(houses):
+        fit_score = house.present_fit_score.score if house.present_fit_score else 0
+        pot_score = house.potential_score.score if house.potential_score else 0
+
+        # Determine score color class
+        if fit_score >= 75:
+            fit_class = "score-high"
+        elif fit_score >= 60:
+            fit_class = "score-medium"
+        else:
+            fit_class = "score-low"
+
+        if pot_score >= 80:
+            pot_class = "score-high"
+        elif pot_score >= 65:
+            pot_class = "score-medium"
+        else:
+            pot_class = "score-low"
+
+        # Get first image or placeholder
+        image_url = house.image_urls[0] if house.image_urls else ""
+
+        # Features text
+        features = []
+        if house.features.bedrooms:
+            features.append(f"{house.features.bedrooms} bed")
+        if house.features.bathrooms:
+            features.append(f"{house.features.bathrooms:.0f} bath")
+        if house.features.sqft:
+            features.append(f"{house.features.sqft:,} sqft")
+        features_text = " · ".join(features)
+
+        # Justification
+        justification = ""
+        if house.present_fit_score:
+            justification = house.present_fit_score.justification
+
+        # Tags from vision analysis
+        positive_tags = []
+        negative_tags = []
+        if house.vision_analysis:
+            positive_tags = house.vision_analysis.positive_signals[:3]
+            negative_tags = house.vision_analysis.red_flags[:3]
+
+        # Renovation ideas
+        renovation_html = ""
+        if house.potential_score and house.potential_score.renovation_ideas:
+            renovation_html = '<div class="renovation-ideas">'
+            for idea in house.potential_score.renovation_ideas[:2]:
+                renovation_html += f'''
+                <div class="renovation-idea">
+                    <div class="renovation-area">{idea.area}</div>
+                    <div class="renovation-change">{idea.proposed_change}</div>
+                </div>'''
+            renovation_html += '</div>'
+
+        html += f"""
+            <div class="house-card">
+                <img src="{image_url}" alt="{house.address}" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">{house.address}</div>
+                            <div class="house-price">${house.price:,}</div>
+                            <div class="house-features">{features_text}</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value {fit_class}">{fit_score:.0f}</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value {pot_class}">{pot_score:.0f}</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">{justification}</div>
+
+                    <div class="tags">
+                        {"".join(f'<span class="tag tag-positive">✓ {tag}</span>' for tag in positive_tags)}
+                        {"".join(f'<span class="tag tag-negative">✗ {tag}</span>' for tag in negative_tags)}
+                    </div>
+
+                    {renovation_html}
+
+                    <a href="{house.url}" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content">{house.brief if house.brief else 'No brief generated'}</div>
+                    </div>
+                </div>
+            </div>
+"""
+
+    html += """
+        </div>
+
+        <footer>
+            <p>Generated by House Evaluator · Powered by Gemini 3 Flash</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add smooth scrolling and any interactive features
+        document.querySelectorAll('.house-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
+"""
+
+    return html
+
+
+def save_report(output_path: str = "report.html") -> str:
+    """Generate and save the HTML report."""
+    html = generate_report()
+    path = Path(output_path)
+    path.write_text(html)
+    return str(path.absolute())
+
+
+if __name__ == "__main__":
+    output = save_report()
+    print(f"Report generated: {output}")

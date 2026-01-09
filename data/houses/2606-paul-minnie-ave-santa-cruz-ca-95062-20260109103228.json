@@ -1,0 +1,240 @@
+{
+  "id": "2606-paul-minnie-ave-santa-cruz-ca-95062-20260109103228",
+  "url": "https://www.zillow.com/homedetails/2606-Paul-Minnie-Ave-Santa-Cruz-CA-95062/16123570_zpid/",
+  "address": "2606 Paul Minnie Ave, Santa Cruz, CA 95062",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95062",
+  "price": 1200000,
+  "description": "Single family residence in Santa Cruz.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 1.0,
+    "sqft": 1260,
+    "lot_sqft": 27443,
+    "year_built": 1909,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/bb552030f60a19a393320467cc393288-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7f9ea08e2d43f606b73a92569cf7cd2c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f212b7488d9716cca7c86af4e998884b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/366cc5c8367dc8d96ed80b01741078d6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/918a5b9b44b557560427ad6892591ae0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fb2a450e217abc0cf6fae084ec83fb9f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5273d6e56ef4c68cf7b7b4dd452c58d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7ab937f66565c2507eee894742fb98d9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/75a5144920d219affc241a32c39ff4bc-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/12cc8b89e241d4267cc5013e6532478b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a8ab1ae18b1cff7e6faf2ccb2953213e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a6cc23abf287aa29e99ae8b2351f2e6c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/541cdc69fa40bf7f44adb3dbc2158a67-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/158363cb3dd0b35fcdcbbe1865a50002-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3310ea2394aff35a9ea0e023e19b5b77-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/78e76f503933fc7b29ad41a40dfe13b6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c05dacf17ee18f33430e2c2ebec8c532-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/24aaaafc342d7eea147001393dc88300-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/071ae023d29f6135d6d7a7ce7ff7010c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f0127edc86dadbe9d82ae73130e88865-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior / street view",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "wood siding",
+          "asphalt shingles",
+          "concrete driveways"
+        ],
+        "light_quality": "bright natural light",
+        "condition": "varies by property",
+        "notes": "The grid shows multiple disparate properties, mostly single-story mid-century and bungalow styles. Front yards range from manicured turf to drought-tolerant mulch."
+      },
+      {
+        "room_type": "living room (vacant)",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "saltillo tile floors",
+          "plaster walls"
+        ],
+        "light_quality": "good directional light",
+        "condition": "fair",
+        "notes": "Features a unique corner beehive-style fireplace and arched doorway; tile flooring appears older with some unevenness."
+      },
+      {
+        "room_type": "living room (staged)",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood plank ceiling",
+          "neutral carpet",
+          "drywall"
+        ],
+        "light_quality": "bright and airy",
+        "condition": "updated",
+        "notes": "Vaulted ceilings with natural wood cladding provide good volume. Staging hides floor quality but enhances the modern feel."
+      },
+      {
+        "room_type": "backyard / deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wrought iron fencing",
+          "outdoor furniture"
+        ],
+        "light_quality": "full sun",
+        "condition": "well-maintained",
+        "notes": "Large multi-level deck overlooking a pool; appears to be in a wooded or suburban setting."
+      },
+      {
+        "room_type": "aerial / site map",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "paper/digital blueprint"
+        ],
+        "light_quality": "n/a",
+        "condition": "functional",
+        "notes": "Shows parcel layout, parking, and building footprint indicating multi-unit or complex development potential."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "mixed (California Bungalow, Mid-Century Ranch, Contemporary)",
+    "red_flags": [
+      "Inconsistent image quality suggesting a conglomerate of different listings",
+      "Visible date stamps on some photos (2015) suggesting outdated imagery",
+      "Presence of a real estate agent's headshot within the property grid",
+      "Cheap-looking 'fake grass' in one exterior shot"
+    ],
+    "positive_signals": [
+      "Mature landscaping in several shots",
+      "Vaulted wood ceilings in interior shot",
+      "Solar panels visible on one structure",
+      "Good architectural character in 'red' cabin and 'blue' bungalow"
+    ],
+    "renovation_state": "mixed",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior / street view\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"stucco\", \"wood siding\", \"asphalt shingles\", \"concrete driveways\"],\n            \"light_quality\": \"bright natural light\",\n            \"condition\": \"varies by property\",\n            \"notes\": \"The grid shows multiple disparate properties, mostly single-story mid-century and bungalow styles. Front yards range from manicured turf to drought-tolerant mulch.\"\n        },\n        {\n            \"room_type\": \"living room (vacant)\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\"saltillo tile floors\", \"plaster walls\"],\n            \"light_quality\": \"good directional light\",\n            \"condition\": \"fair\",\n            \"notes\": \"Features a unique corner beehive-style fireplace and arched doorway; tile flooring appears older with some unevenness.\"\n        },\n        {\n            \"room_type\": \"living room (staged)\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"wood plank ceiling\", \"neutral carpet\", \"drywall\"],\n            \"light_quality\": \"bright and airy\",\n            \"condition\": \"updated\",\n            \"notes\": \"Vaulted ceilings with natural wood cladding provide good volume. Staging hides floor quality but enhances the modern feel.\"\n        },\n        {\n            \"room_type\": \"backyard / deck\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"wood decking\", \"wrought iron fencing\", \"outdoor furniture\"],\n            \"light_quality\": \"full sun\",\n            \"condition\": \"well-maintained\",\n            \"notes\": \"Large multi-level deck overlooking a pool; appears to be in a wooded or suburban setting.\"\n        },\n        {\n            \"room_type\": \"aerial / site map\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\"paper/digital blueprint\"],\n            \"light_quality\": \"n/a\",\n            \"condition\": \"functional\",\n            \"notes\": \"Shows parcel layout, parking, and building footprint indicating multi-unit or complex development potential.\"\n        }\n    ],\n    \"overall_aesthetic\": 6,\n    \"architectural_style\": \"mixed (California Bungalow, Mid-Century Ranch, Contemporary)\",\n    \"red_flags\": [\n        \"Inconsistent image quality suggesting a conglomerate of different listings\",\n        \"Visible date stamps on some photos (2015) suggesting outdated imagery\",\n        \"Presence of a real estate agent's headshot within the property grid\",\n        \"Cheap-looking 'fake grass' in one exterior shot\"\n    ],\n    \"positive_signals\": [\n        \"Mature landscaping in several shots\",\n        \"Vaulted wood ceilings in interior shot\",\n        \"Solar panels visible on one structure\",\n        \"Good architectural character in 'red' cabin and 'blue' bungalow\"\n    ],\n    \"renovation_state\": \"mixed\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.4,
+    "passed": false,
+    "violations": [
+      "Inconsistent image quality and outdated imagery (2015 date stamps)",
+      "Single-story layout (violates 'Multiple stories preferred' soft constraint)",
+      "Inconsistent material quality"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.0,
+        "weight": 0.2,
+        "notes": "Bright interiors with vaulted ceilings and directional light, per vision analysis."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.5,
+        "weight": 0.18,
+        "notes": "Beehive fireplace and wood-clad vaulted ceilings provide character, but exterior is a generic bungalow/ranch mix."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Mixed bag: Saltillo tile is aging and uneven; inclusion of 'fake grass' and older asphalt shingles suggests lower-tier maintenance."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "Natural wood ceilings and the fireplace provide warmth, though the vacant rooms feel sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Single-story 3/1 layout on a parcel that looks geared toward multi-unit development potential rather than residential flow."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Santa Cruz location; not a cul-de-sac but appears to be a standard suburban density."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.0,
+        "weight": 0.08,
+        "notes": "Large multi-level deck and pool are strong positives, assuming they belong to the primary unit."
+      },
+      {
+        "dimension": "condition",
+        "score": 4.0,
+        "weight": 0.07,
+        "notes": "Significant concerns regarding the age of photos (2015); present-fit cannot be accurately verified."
+      }
+    ],
+    "justification": "The house falls into the 'Marginal' category due to severe transparency issues. While the architectural elements (wood ceilings, beehive fireplace) align with the taste model, the presence of 2015 date stamps on photos makes it impossible to judge current 'present-fit' condition. The mismatched imagery suggests a property that may be part of a larger complex or in a state of transition. It fails to meet the preference for multiple stories and presents a high risk of 'hidden' degradation since the last photographic record.",
+    "deal_breakers": [
+      "Outdated imagery (2015) prevents honest present-fit assessment",
+      "Significant inconsistency in property representation"
+    ]
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room Core",
+        "current_state": "Dated saltillo tile floors and mismatched wall finishes with a beautiful vaulted wood ceiling.",
+        "proposed_change": "Replace saltillo tile and carpet with consistent wide-plank white oak flooring. Refinish the beehive fireplace with a smooth lime wash or plaster. Add large black-framed windows to the gable end to flood the space with light.",
+        "impact": "Unifies the 'quirky' 1909 architecture with the user's wood-centric aesthetic and maximizes the vaulted volume.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen (Integration)",
+        "current_state": "Likely enclosed or dated (based on consistent floor gaps in photos).",
+        "proposed_change": "Open the kitchen to the wood-ceiling living area. Install custom wood cabinetry that matches the ceiling tone and a natural stone countertop.",
+        "impact": "Creates the 'good flow' requested and provides the 'natural materials' warmth.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Exterior & Curb Appeal",
+        "current_state": "Inconsistent mix of stucco, blue siding, and cheap synthetic turf.",
+        "proposed_change": "Replace synthetic turf with native drought-tolerant landscaping. Add wood-topped horizontal fencing and cladding accents to unify the disparate structures.",
+        "impact": "Harmonizes the 'mixed' architectural styles into a cohesive California Bungalow compound.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Deck & Outdoor Flow",
+        "current_state": "Functional wood deck with wrought iron fencing.",
+        "proposed_change": "Replace wrought iron with cable railing or glass to improve sightlines to trees. Add a built-in outdoor cedar soaking tub or fire pit area.",
+        "impact": "Enhances the 'cozy warmth' and connection to the wooded surroundings.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "1909 build date suggests potential for lath and plaster walls, lead paint, or outdated seismic retrofitting requirements.",
+      "Disparate materials (stucco vs wood) may hide previous unpermitted additions or structural inconsistencies.",
+      "The $150k budget is tight if the kitchen requires structural wall removal."
+    ],
+    "upside_narrative": "This 1909 gem is the antithesis of 'cookie-cutter.' It possesses the high-impact architectural elements the user craves\u2014vaulted wood ceilings and quirky fireplaces. By stripping away the 1990s saltillo tile and unifying the flooring and exterior finishes, this property could be transformed into a soulful, light-filled California retreat that feels significantly larger than its 1,260 square feet."
+  },
+  "brief": "# House Brief: 2606 Paul Minnie Ave, Santa Cruz\n\n### Executive Summary\nThis 1909 California residence offers significant architectural soul and character but is currently shrouded in marketing red flags. While it features the vaulted wood ceilings and unique \"beehive\" fireplaces you prioritize, the listing uses aging photography (some date-stamped 2015), making it impossible to verify the current condition without a physical walkthrough.\n\n### Aesthetic Alignment\nThe property leans into a \"Soulful California Retreat\" aesthetic that aligns well with your preference for natural materials and character. \n*   **The Good:** Large windows, vaulted timber ceilings, and a distinct \"non-boxy\" layout satisfy your desire for architectural interest.\n*   **The Bad:** The house is single-story (violating a soft preference) and currently suffers from a disjointed mix of Saltillo tile, stucco, and wood siding that lacks a cohesive vision.\n\n### Strengths\n*   **High-Impact Architecture:** The interior volume created by the wood-beamed ceilings is a major asset and provides a sense of space beyond the 1,260 sqft footprint.\n*   **Natural Light:** High-reaching windows and a clerestory-style orientation suggest excellent natural light potential.\n*   **Character Features:** Features like the vintage brick fireplace and mature landscaping create a \"warmth\" that modern flips can't replicate.\n*   **Sustainability:** Visible solar panels on one structure suggest some modern mechanical upgrades have been addressed.\n\n### Weaknesses\n*   **Market Transparency:** The use of photos from nearly a decade ago is a major concern. It suggests the current state may be significantly degraded or that the seller is hiding recent wear and tear.\n*   **Material Discontinuity:** The mix of \"fake grass,\" diverse siding types, and dated tile creates a visual mess that requires a unified design plan.\n*   **Single-Story Flatness:** It lacks the vertical flow and separation of space you prefer in multi-story homes.\n\n### Deal-Breakers\n*   **Unreliable Documentation:** The presence of 2015 date stamps on listing photos prevents a true \"Present-Fit\" assessment. This is a high-risk listing from a transparency standpoint.\n*   **Constraint Violation:** This is a strictly single-story layout.\n\n### Renovation Paths\nTo reach its 78/100 potential, a **$100k\u2013$200k investment** is required:\n1.  **Unify Flooring:** Replace the dated Saltillo and mixed tiles with wide-plank hardwood to bridge the rooms.\n2.  **Exterior Cohesion:** Paint and trim the disparate structures (stucco and wood) to create a unified compound feel.\n3.  **Core Modernization:** Assuming its 1909 bones need help, budget for hidden costs like electrical updates and seismic retrofitting.\n\n### Who This House Is For\nThis property is for a buyer with a high tolerance for risk and a strong vision. You must be willing to overlook a \"messy\" listing to uncover a historic gem, and you must be comfortable with a single-level living arrangement in exchange for high-volume ceilings.\n\n### Verdict\n**PROCEED WITH CAUTION.**\nThe house is architecturally \"on-brand\" for you, but the listing is unprofessional and potentially misleading. **Do not make an offer without an in-person viewing and a rigorous inspection.** If the 1909 structure is sound and the light is as good as the old photos suggest, it is a high-potential project; if the 2015 photos were \"the house's best days,\" it is a pass.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.346835",
+  "scored_at": "2026-01-09T10:38:27.704737"
+}

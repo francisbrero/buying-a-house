@@ -1,0 +1,317 @@
+{
+  "id": "4750-capitola-rd-capitola-ca-95010-20260109140000",
+  "url": "https://www.zillow.com/homedetails/4750-Capitola-Rd-Capitola-CA-95010/16130471_zpid/",
+  "address": "4750 Capitola Rd, Capitola, CA 95010",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "price": 1675000,
+  "description": "Modern craftsman-style home with blue-grey siding, white trim details, and arched garage.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 1832,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/319d3943f4465576ef71b165ec562c28-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34e09c7bdfb080a4a5673b32901bd09a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7d95a055f967673ef6707fb40adb5546-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cf14288befc85a6bf53f82646337775a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cb33ee993cad354ec8a7ad3f44e3453f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/627cd6e2cacda88eafacbc5150066985-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2c7927f9067676a6292b1e63458cbf5c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/184f8f61f23ed51cf32ac64d654695f2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d62f93b8f6110e9232ba8966636faec2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/07ad434f9c2c3ed063a6509623255ac1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/755e66ff367111046bb5690b4f7ec9b3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9aba45a89d193631490b7e2f55e608e8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ff1df42cb2e11a10eb931fd6fc5b7f30-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b977fc165d59307aef991d3fc839a1f7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1d29a2453c9027311514b5b47ad3a164-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0df55779cec878e646a1e8e1bbd8d5f6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3ae6523a41a1c45290daeae0f005b34e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8c841d9578c719787a687deb4ef82f32-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c7ce138c01d37964889b33340f28120-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bb88ce5df1324919a82cbdb1e00f7b04-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/da336b60b476a68ba1525dc36555a207-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4873437212a75526c83e5545fb7375fd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b4d5f0708ecafc0931113542a9949f5c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4f658a9d16b0b4a8b788006e36821d31-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/395fcf38ff94147b519c13a521dd3ca5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7996a907e4bd4f173461e75b3e2cd7a7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9c32c9da2cef0aad40f7533227974035-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/265b3334596766e08c07709b0c04e800-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/32f60431d69c9f5a7faffde76802ce1f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7abe57a8f8fdb67878dc3d6b36626619-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/396d0fa40087b782d6c481f0b9d5354a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/57cfef065a9a375c94fd17230594c70b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3d668f71c0fa5df47fed36e0b72cd1ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4ee86daf19b6d31dfb54ae1595e8d973-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/06e864d9e750ca410598a223e9c7bd4c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/83372ae6b05e88178d946839add1ad21-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/10692f35d73b35ea8ccb90c5754002bd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a68cfd352295746a6683bf7a74c0ad3d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d157d339d2a6260b12a2580764b8a6b5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a56edb9749d49c0cd31bfd02ae842f5f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b51af349f3c22ec8760e137f5be79dc0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1723ae5735eb1cf298e65205287d6a10-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ff491a320eb65faaa79f99c4b7df0c9e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/978ceb304ed999f653ad5bff2e96bb68-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2c60ffe666ed1b6083e0ce915841b541-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ffcc852b7c9f8b22edeb5afc65b4fd29-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c42210ba836bcb3b77435ddb9c33a67b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/321cacd15ee7cbae7ad926f6ed9cc876-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/afdfe0782bc0472e416f9d59101dd1a3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/522f4a4614a8186d471932771aab0731-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0fcde660fe6df8dd099f78a463719f3a-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior",
+        "aesthetic_quality": 6,
+        "materials": [
+          "composite siding",
+          "stucco",
+          "concrete driveways",
+          "wood fencing"
+        ],
+        "light_quality": "diverse",
+        "condition": "well-maintained",
+        "notes": "Shows multiple suburban properties; the primary subject appears to be a two-story blue/grey home with white trim and a tiered roofline."
+      },
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 6,
+        "materials": [
+          "beige carpet",
+          "stone fireplace surround",
+          "exposed beam vaulted ceilings"
+        ],
+        "light_quality": "excellent",
+        "condition": "dated but clean",
+        "notes": "Great volume due to vaulted ceilings and sliding glass doors; however, the wall-to-wall beige carpet and 'millennial beige' paint feel dated."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 5,
+        "materials": [
+          "oak cabinetry",
+          "dark speckled laminate or granite",
+          "hardwood floors",
+          "white appliances"
+        ],
+        "light_quality": "good",
+        "condition": "functional/older",
+        "notes": "Classic 1990s/early 2000s builder-grade oak cabinets. The mix of stainless and white appliances suggests a gradual, non-comprehensive update."
+      },
+      {
+        "room_type": "dining room",
+        "aesthetic_quality": 6,
+        "materials": [
+          "hardwood floors",
+          "pendant lighting",
+          "drywall"
+        ],
+        "light_quality": "natural",
+        "condition": "good",
+        "notes": "Simple transitional space connecting the kitchen and living areas; features crown molding."
+      },
+      {
+        "room_type": "primary bedroom",
+        "aesthetic_quality": 7,
+        "materials": [
+          "carpet",
+          "skylight",
+          "drywall"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "High vaulted ceilings and a skylight make the space feel much larger than its footprint."
+      },
+      {
+        "room_type": "secondary bedrooms",
+        "aesthetic_quality": 8,
+        "materials": [
+          "wood plank ceilings",
+          "carpet",
+          "recessed lighting"
+        ],
+        "light_quality": "excellent",
+        "condition": "updated",
+        "notes": "The rooms with natural wood ceilings stand out as the highest quality aesthetic feature in the home, offering warmth and character."
+      },
+      {
+        "room_type": "bathrooms",
+        "aesthetic_quality": 5,
+        "materials": [
+          "pedestal sink",
+          "dark wood vanity",
+          "travertine-style tile",
+          "granite vanity top"
+        ],
+        "light_quality": "average",
+        "condition": "mixed",
+        "notes": "One bathroom features a budget-friendly pedestal sink, while another has a more modern dark wood vanity with stone tops, suggesting piecemeal renovations."
+      },
+      {
+        "room_type": "laundry room / utility",
+        "aesthetic_quality": 4,
+        "materials": [
+          "vinyl flooring",
+          "wire shelving",
+          "laminate counters"
+        ],
+        "light_quality": "fair",
+        "condition": "utilitarian",
+        "notes": "Basic functional space; includes a utility sink and white top-load machines."
+      },
+      {
+        "room_type": "garage / unfinished space",
+        "aesthetic_quality": 3,
+        "materials": [
+          "concrete",
+          "exposed studs"
+        ],
+        "light_quality": "poor",
+        "condition": "unfinished",
+        "notes": "A long, narrow tandem-style garage or basement storage area with unfinished walls."
+      }
+    ],
+    "overall_aesthetic": 6,
+    "architectural_style": "contemporary suburban / saltbox influence",
+    "red_flags": [
+      "inconsistent appliance finishes in kitchen",
+      "cheap wall-to-wall beige carpeting",
+      "mismatched bathroom styles",
+      "signs of water staining near some exterior trim"
+    ],
+    "positive_signals": [
+      "vaulted ceilings throughout",
+      "beautiful natural wood plank ceilings in upstairs bedrooms",
+      "abundance of natural light from skylights and large windows",
+      "hardwood floors in high-traffic areas"
+    ],
+    "renovation_state": "partially updated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"composite siding\",\n        \"stucco\",\n        \"concrete driveways\",\n        \"wood fencing\"\n      ],\n      \"light_quality\": \"diverse\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Shows multiple suburban properties; the primary subject appears to be a two-story blue/grey home with white trim and a tiered roofline.\"\n    },\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"beige carpet\",\n        \"stone fireplace surround\",\n        \"exposed beam vaulted ceilings\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"dated but clean\",\n      \"notes\": \"Great volume due to vaulted ceilings and sliding glass doors; however, the wall-to-wall beige carpet and 'millennial beige' paint feel dated.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"oak cabinetry\",\n        \"dark speckled laminate or granite\",\n        \"hardwood floors\",\n        \"white appliances\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"functional/older\",\n      \"notes\": \"Classic 1990s/early 2000s builder-grade oak cabinets. The mix of stainless and white appliances suggests a gradual, non-comprehensive update.\"\n    },\n    {\n      \"room_type\": \"dining room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"hardwood floors\",\n        \"pendant lighting\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"natural\",\n      \"condition\": \"good\",\n      \"notes\": \"Simple transitional space connecting the kitchen and living areas; features crown molding.\"\n    },\n    {\n      \"room_type\": \"primary bedroom\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"carpet\",\n        \"skylight\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"good\",\n      \"notes\": \"High vaulted ceilings and a skylight make the space feel much larger than its footprint.\"\n    },\n    {\n      \"room_type\": \"secondary bedrooms\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"wood plank ceilings\",\n        \"carpet\",\n        \"recessed lighting\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"updated\",\n      \"notes\": \"The rooms with natural wood ceilings stand out as the highest quality aesthetic feature in the home, offering warmth and character.\"\n    },\n    {\n      \"room_type\": \"bathrooms\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"pedestal sink\",\n        \"dark wood vanity\",\n        \"travertine-style tile\",\n        \"granite vanity top\"\n      ],\n      \"light_quality\": \"average\",\n      \"condition\": \"mixed\",\n      \"notes\": \"One bathroom features a budget-friendly pedestal sink, while another has a more modern dark wood vanity with stone tops, suggesting piecemeal renovations.\"\n    },\n    {\n      \"room_type\": \"laundry room / utility\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"vinyl flooring\",\n        \"wire shelving\",\n        \"laminate counters\"\n      ],\n      \"light_quality\": \"fair\",\n      \"condition\": \"utilitarian\",\n      \"notes\": \"Basic functional space; includes a utility sink and white top-load machines.\"\n    },\n    {\n      \"room_type\": \"garage / unfinished space\",\n      \"aesthetic_quality\": 3,\n      \"materials\": [\n        \"concrete\",\n        \"exposed studs\"\n      ],\n      \"light_quality\": \"poor\",\n      \"condition\": \"unfinished\",\n      \"notes\": \"A long, narrow tandem-style garage or basement storage area with unfinished walls.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"contemporary suburban / saltbox influence\",\n  \"red_flags\": [\n    \"inconsistent appliance finishes in kitchen\",\n    \"cheap wall-to-wall beige carpeting\",\n    \"mismatched bathroom styles\",\n    \"signs of water staining near some exterior trim\"\n  ],\n  \"positive_signals\": [\n    \"vaulted ceilings throughout\",\n    \"beautiful natural wood plank ceilings in upstairs bedrooms\",\n    \"abundance of natural light from skylights and large windows\",\n    \"hardwood floors in high-traffic areas\"\n  ],\n  \"renovation_state\": \"partially updated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Inconsistent appliance finishes",
+      "Dated material palette (beige carpet/oak cabinets)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light provided by vaulted ceilings, skylights, and large sliders. Meets hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.8,
+        "weight": 0.18,
+        "notes": "Good volume with tiered rooflines and vaulted ceilings, though exterior feels slightly generic suburban."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Significant penalties for wall-to-wall beige carpet, laminate/granite mix, and dated 90s oak. High-quality wood plank ceilings in bedrooms are a saving grace."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "Wood elements and fireplace provide some warmth, but the 'millennial beige' and cold lighting in some rooms detract from the vibe."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Functional multi-story flow typical of modern craftsman builds; good connection between dining and living."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 5.5,
+        "weight": 0.1,
+        "notes": "Located on Capitola Rd, which is a busy secondary arterial road. Not a quiet cul-de-sac as preferred."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.0,
+        "weight": 0.08,
+        "notes": "Basic yard with wood fencing and concrete; utilitarian rather than an oasis."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.8,
+        "weight": 0.07,
+        "notes": "Well-maintained but functionally dated. Red flag of water staining on exterior trim lowers this score."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light and offers excellent architectural volume. However, the present-fit is hindered by a disjointed interior aesthetic. While it avoids the 'grey flip' violation, it suffers from a mix of dated 1990s oak and low-end beige carpeting that requires immediate attention to meet the consumer's taste for quality wood elements. The busy road location is a significant soft-constraint violation.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room & Flooring",
+        "current_state": "Dated beige carpet and mismatched transitions.",
+        "proposed_change": "Replace all carpet with wide-plank white oak flooring to match existing hardwoods; sand and refinish existing hardwoods for a seamless look. Paint the stone fireplace surround or replace with lime-wash brick.",
+        "impact": "Unifies the 'quirky' layout and highlights the vaulted ceilings and wood beams.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen",
+        "current_state": "1990s builder-grade oak and mixed appliances.",
+        "proposed_change": "Reface or replace cabinets with a modern slab or shaker profile in a warm neutral; install integrated appliances and a soapstone or marble-look quartz counter.",
+        "impact": "Eliminates the 'cookie-cutter' feel and aligns the kitchen with the high-quality wood ceilings elsewhere.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Bathrooms",
+        "current_state": "Inconsistent 'piecemeal' updates and budget fixtures.",
+        "proposed_change": "Full gut of the primary and secondary baths to create a cohesive aesthetic using natural stone, wood vanities, and uniform plumbing finishes.",
+        "impact": "Removes the 'flipped' budget feel and adds significant luxury value.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Secondary Bedrooms",
+        "current_state": "High-quality wood plank ceilings but dated carpet.",
+        "proposed_change": "Preserve wood ceilings as the focal point; update lighting to modern recessed or architectural pendants and swap carpet for wood.",
+        "impact": "Leans into the 'quirky character' the user desires, making these the star rooms of the house.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Water staining near exterior trim suggests potential envelope issues/rot that may eat into the $150k budget.",
+      "Renovating a contemporary/saltbox structure often reveals unconventional framing which can complicate electrical through vaulted ceilings."
+    ],
+    "upside_narrative": "This property is a 'diamond in the beige.' It perfectly matches the user's desire for architectural character and wood elements, currently hidden behind 90s finishes. By unifying the flooring and modernizing the kitchen/baths within the $150k budget, this shifts from a dated suburban house to a warm, light-filled 'Modern Coastal' retreat that feels custom-built rather than cookie-cutter."
+  },
+  "brief": "# House Brief: 4750 Capitola Rd, Capitola\n\n## Executive Summary\nThis 3-bedroom \"Modern Craftsman\" offers significant architectural volume and natural light, but is currently trapped in a dated, 1990s-era interior. While the property requires a $100k\u2013$200k investment to address aesthetic inconsistencies and potential exterior maintenance, its structural \"bones\"\u2014including vaulted wood ceilings\u2014provide a foundation for a high-end coastal retreat.\n\n## Aesthetic Alignment\nThe home is a strong match for your preference for **architectural character** and **natural wood features**. It avoids the \"boxy\" feel of generic suburban builds, utilizing vaulted ceilings and saltbox-inspired shapes. However, it currently violates your distaste for \"cheap\" finishes due to its wall-to-wall beige carpeting and mismatched appliance finishes.\n\n## Strengths\n*   **Architectural Volume:** Vaulted ceilings throughout create a sense of scale and airiness that cannot be easily added to a standard home.\n*   **Natural Light:** Abundant skylights and large window banks ensure the interior meets your \"abundant light\" requirement.\n*   **Wood Detail:** Beautiful natural wood plank ceilings in the upstairs bedrooms are a standout feature that aligns perfectly with your \"cozy warmth\" principle.\n*   **Hardwood Foundation:** Real hardwood exists in high-traffic areas, providing a starting point for a cohesive flooring plan.\n\n## Weaknesses\n*   **Dated Material Palette:** The combination of 90s oak cabinetry and low-end beige carpet creates a \"tired\" interior feel.\n*   **Exterior Maintenance:** Visible water staining near exterior trim suggests potential envelope issues or rot that require a professional inspection.\n*   **Location Friction:** Situated on Capitola Rd, the property faces a busy thoroughfare, which may impact the \"quiet\" enjoyment of the outdoor spaces.\n*   **Disjointed Finishes:** The kitchen and bathrooms lack a unified design language, featuring mismatched appliances and styles.\n\n## Deal-Breakers\n*   **None.** The house avoids all hard \"Anti-Principles\" (it is not a forest fire risk, nor is it a generic gray flip). The busy road is the primary soft-constraint concern.\n\n## Renovation Paths\nTo reach its **82.0/100 Potential Score**, a \"Modern Coastal\" refresh is recommended:\n1.  **Level 1 (Immediate):** Replace all wall-to-wall carpeting with wide-plank hardwood or high-quality natural stone to unify the floor plan.\n2.  **Level 2 (Kitchen/Bath):** Modernize the oak cabinetry and replace mismatched appliances with a cohesive high-end suite.\n3.  **Level 3 (Structural Check):** Address the exterior water staining immediately to prevent internal damage to the vaulted framing.\n\n## Who This House Is For\nThis property is for a buyer who prioritizes **architectural \"bones\"** over \"turn-key\" convenience. It is ideal for someone with the vision to strip away 1990s suburban relics to reveal a warm, wood-forward coastal home, and who is willing to trade a quiet side-street for a central, walkable Capitola location.\n\n## Verdict\n**Proceed with Caution / Schedule a Showing.** \nThe house is a \"diamond in the beige.\" You are paying for the volume and the light, both of which are excellent. However, do not underestimate the cost of neutralizing the 1990s finishes. If you can negotiate the price to account for the road noise and the necessary $150k renovation, this will be a standout architectural home.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T14:00:00",
+  "scored_at": "2026-01-09T08:46:43.917853"
+}

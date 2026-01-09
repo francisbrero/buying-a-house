@@ -1,0 +1,248 @@
+{
+  "id": "120-maple-st-santa-cruz-ca-95060-20260109103228",
+  "url": "https://www.zillow.com/homedetails/120-Maple-St-Santa-Cruz-CA-95060/16106152_zpid/",
+  "address": "120 Maple St, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1279000,
+  "description": "Beautiful Victorian built in 1885.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 1.0,
+    "sqft": 1312,
+    "lot_sqft": 3615,
+    "year_built": 1885,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/e22ba47d644ca98113869ac6266451ad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d19dc6f2fd87889c063ea3709d402b57-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1bcbebe0fe7a9b2a4375cdf2ea7fc820-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b1c088f27f187918ecaeea4ba5234f6a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d62947f80a9511235bc7274be15b1457-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/95a21b0e87c9ce1df684e9d25694b515-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/40f9f3adfb019072a8a5fa092aa9c2f5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5e24a38e89dad0035cade9e9b97edbb8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a79f965aaeb4a96b981ce5e278edbc80-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/49bfaadff4cc0a99c73845b8e95c8354-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/158363cb3dd0b35fcdcbbe1865a50002-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/455014f5c443b1ca2b73ae3ae5dca37b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4f835f6b947f88775757c7531ba4e53e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c5292d184e0bc5a091b34051e7daab0c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5444aff84c4eb3a9fc87d89d057f62f2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/733c7edbef70767f653794a686a9cc62-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior (primary residence)",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "wood siding",
+          "asphalt shingles",
+          "composite decking",
+          "wood picket fence"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Classic Victorian/Edwardian cottage with high curb appeal, intact architectural trim, and neat landscaping."
+      },
+      {
+        "room_type": "kitchen (unit 1)",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "dark wood cabinetry",
+          "granite countertops",
+          "stainless steel appliances",
+          "tile backsplash",
+          "ceramic floor tile"
+        ],
+        "light_quality": "moderate",
+        "condition": "updated",
+        "notes": "Standard early 2010s renovation style. The layout is cramped and the 'stock' granite/cabinet combo feels generic."
+      },
+      {
+        "room_type": "kitchen (unit 2/ADU)",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "grey shaker cabinets",
+          "quartz-look laminate or thin quartz",
+          "marble-pattern floor tile",
+          "stainless steel appliances"
+        ],
+        "light_quality": "bright",
+        "condition": "new",
+        "notes": "Typical budget flip aesthetic with cold tones and low-cost materials. Lighting is harsh overhead."
+      },
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "terracotta floor tile",
+          "plaster walls",
+          "beehive/kiva style fireplace"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "Unique architectural character with southwest influences. The arched entryway and corner fireplace add significant charm."
+      },
+      {
+        "room_type": "outdoor deck/patio",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "pressure treated wood decking",
+          "wicker furniture",
+          "metal fencing"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "Spacious entertainment area with pool access, though materials are standard hardware-store grade."
+      },
+      {
+        "room_type": "exterior (multi-unit/secondary structures)",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco",
+          "concrete stairs",
+          "solar panels"
+        ],
+        "light_quality": "good",
+        "condition": "fair to good",
+        "notes": "The grid shows several different properties/structures, suggesting this may be a multi-parcel or portfolio listing. Some exteriors look dated compared to the main cottage."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "Victorian/Edwardian Cottage",
+    "red_flags": [
+      "Inconsistent renovation quality between rooms",
+      "Generic 'flip' kitchen in one unit (grey shaker/marbled floors)",
+      "Significant mix of property types in one listing suggests a complex multi-unit or portfolio sale",
+      "Visible surface-mounted conduit on some exterior walls"
+    ],
+    "positive_signals": [
+      "High-quality architectural character in the primary cottage",
+      "Solar panels visible on one structure",
+      "Unique interior features like the beehive fireplace",
+      "Excellent natural light in main living areas"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior (primary residence)\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"wood siding\",\n        \"asphalt shingles\",\n        \"composite decking\",\n        \"wood picket fence\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Classic Victorian/Edwardian cottage with high curb appeal, intact architectural trim, and neat landscaping.\"\n    },\n    {\n      \"room_type\": \"kitchen (unit 1)\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"dark wood cabinetry\",\n        \"granite countertops\",\n        \"stainless steel appliances\",\n        \"tile backsplash\",\n        \"ceramic floor tile\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"updated\",\n      \"notes\": \"Standard early 2010s renovation style. The layout is cramped and the 'stock' granite/cabinet combo feels generic.\"\n    },\n    {\n      \"room_type\": \"kitchen (unit 2/ADU)\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"grey shaker cabinets\",\n        \"quartz-look laminate or thin quartz\",\n        \"marble-pattern floor tile\",\n        \"stainless steel appliances\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"new\",\n      \"notes\": \"Typical budget flip aesthetic with cold tones and low-cost materials. Lighting is harsh overhead.\"\n    },\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"terracotta floor tile\",\n        \"plaster walls\",\n        \"beehive/kiva style fireplace\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"good\",\n      \"notes\": \"Unique architectural character with southwest influences. The arched entryway and corner fireplace add significant charm.\"\n    },\n    {\n      \"room_type\": \"outdoor deck/patio\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"pressure treated wood decking\",\n        \"wicker furniture\",\n        \"metal fencing\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"good\",\n      \"notes\": \"Spacious entertainment area with pool access, though materials are standard hardware-store grade.\"\n    },\n    {\n      \"room_type\": \"exterior (multi-unit/secondary structures)\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"stucco\",\n        \"concrete stairs\",\n        \"solar panels\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"fair to good\",\n      \"notes\": \"The grid shows several different properties/structures, suggesting this may be a multi-parcel or portfolio listing. Some exteriors look dated compared to the main cottage.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Victorian/Edwardian Cottage\",\n  \"red_flags\": [\n    \"Inconsistent renovation quality between rooms\",\n    \"Generic 'flip' kitchen in one unit (grey shaker/marbled floors)\",\n    \"Significant mix of property types in one listing suggests a complex multi-unit or portfolio sale\",\n    \"Visible surface-mounted conduit on some exterior walls\"\n  ],\n  \"positive_signals\": [\n    \"High-quality architectural character in the primary cottage\",\n    \"Solar panels visible on one structure\",\n    \"Unique interior features like the beehive fireplace\",\n    \"Excellent natural light in main living areas\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Flip-quality renovation with cheap materials",
+      "Grey floor/cabinet combination in unit 2 (clashes with Victorian character)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light noted in primary cottage and bright exposures in secondary units. Meets hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.0,
+        "weight": 0.18,
+        "notes": "Original 1885 Victorian details and a unique beehive fireplace provide significant non-boxy character."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Severe inconsistency. High-quality exterior wood vs. budget laminate/quartz and grey shaker flip materials in interiors."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.0,
+        "weight": 0.12,
+        "notes": "The living room is warm, but the kitchens feel cold and sterile due to the 'stock' renovation choices."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.5,
+        "weight": 0.1,
+        "notes": "Main kitchen is noted as cramped; multi-unit configuration suggests fragmented flow between structures."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Santa Cruz location is desirable, but the mix of property types on one lot may impact residential quietude."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.5,
+        "weight": 0.08,
+        "notes": "Functional deck and pool access, though materials are basic hardware-store grade."
+      },
+      {
+        "dimension": "condition",
+        "score": 7.0,
+        "weight": 0.07,
+        "notes": "Well-maintained exterior and systems (solar), even if interior aesthetic choices are poor."
+      }
+    ],
+    "justification": "While the house satisfies the 'natural light' hard constraint and boasts strong architectural character externally, it triggers a major violation pattern regarding flip-quality finishes. The clash between the historic 1885 Victorian shell and the 'cold grey' budget renovations in the secondary units creates a significant aesthetic dissonance. As a present-fit evaluation, the low-quality material choices and generic kitchen designs heavily penalize the score, keeping it in the 'Acceptable with significant compromises' range.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Main Kitchen (Unit 1)",
+        "current_state": "Cramped 2010s generic renovation with dark wood and granite.",
+        "proposed_change": "Reconfigure layout to open toward the living area; replace dark cabinetry with light-toned wood (white oak or walnut) to meet user taste; install zellige tile backsplash and integrated wood shelving.",
+        "impact": "Eliminates the 'stock' feel and connects the kitchen to the home's unique architectural character.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Floors",
+        "current_state": "Terracotta tiles and beehive fireplace.",
+        "proposed_change": "Sand and refinish any existing wood floors or install reclaimed wide-plank wood flooring where terracotta exists to add warmth. Add exposed ceiling beams to complement the kiva-style fireplace.",
+        "impact": "Enhances the 'cozy warmth' and 'wood elements' from the user's principles while leaning into the quirky character.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "ADU/Unit 2 Kitchen",
+        "current_state": "Cold, budget-flip aesthetic with grey shaker cabinets and marble-look tile.",
+        "proposed_change": "Resurface or replace cabinet doors with natural wood fronts; replace harsh overhead lighting with warm, architectural sconces and pendants; swap laminate for a butcher block or honed soapstone counter.",
+        "impact": "Harmonizes the secondary unit with the main cottage's high-end architectural feel, increasing rental or guest value.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Exterior & Flow",
+        "current_state": "Visible conduit and disparate materials between units.",
+        "proposed_change": "Burial or routing of surface-mounted conduit; unify the various structures using a cohesive color palette and shared wood detailing (e.g., matching cedar fencing or deck accents).",
+        "impact": "Creates a cohesive 'estate' feel rather than a collection of mismatched units.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "1885 construction likely harbors lath and plaster, hidden knob-and-tube wiring, or lead/asbestos risks.",
+      "Renovating a multi-unit property in Santa Cruz involves strict permitting and ADU compliance checks.",
+      "Electrical service may need a significant upgrade to handle the disparate units and solar integration."
+    ],
+    "upside_narrative": "This property is a rare find\u2014a high-character 19th-century Victorian that hasn't been stripped of its soul, despite some mediocre 'flip' interventions. By stripping away the generic 2010s finishes (grey shaker, dark granite) and replacing them with the natural wood elements and 'cozy warmth' the user craves, this can transition from a fragmented multi-unit property into a sophisticated 'coastal-bohemian' compound. The existing beehive fireplace and arched entries provide a quirky, non-boxy foundation that fits the user's aesthetic profile perfectly."
+  },
+  "brief": "# House Brief: 120 Maple St, Santa Cruz\n\n### Executive Summary\nThis 1885 Victorian cottage offers high architectural character and abundant natural light, but it is currently a \"house of two souls.\" While the exterior and main living areas retain charming historic quirks, the secondary spaces have been marred by a low-quality, generic \"grey flip\" renovation that clashes with the home\u2019s 19th-century spirit.\n\n### Aesthetic Alignment\nThe property is a mixed bag for your specific tastes. It nails the **Architectural Character** requirement with its beehive fireplace and arched entries, and the **Natural Light** is excellent. However, it fails your **Anti-Principle regarding \"Cheap Flip Finishes.\"** The presence of grey shaker cabinets and marbled floors creates a cold, dissonant energy that contradicts your preference for \"cozy warmth\" and natural wood elements.\n\n### Strengths\n*   **Unique Heritage:** A rare 1885 Victorian shell that has avoided being \"boxed out\" or stripped of its external charm.\n*   **Abundant Light:** Orientation and window placement provide the bright, airy feel you prioritize.\n*   **Quirky Features:** The \"beehive\" fireplace and non-standard layouts offer the visual interest you desire.\n*   **Modern Utility:** Includes solar panels and is located in a walkable Santa Cruz neighborhood, avoiding the fire risks of a deep forest setting.\n\n### Weaknesses\n*   **Aesthetic Dissonance:** The contrast between the historic character and the \"cheap grey\" interior updates in the second unit is jarring.\n*   **Maintenance Debt:** Visible surface-mounted conduit and the age of the structure (139 years) suggest likely hidden issues with wiring (knob-and-tube) or lath and plaster.\n*   **Inconsistent Quality:** The renovation feels \"budget-grade\" in parts, requiring you to undo recent work to achieve a high-end feel.\n\n### Deal-Breakers\n*   **None.** While the \"grey flip\" elements are a major violation of your preferences, they are cosmetic and reversible. There are no structural or environmental deal-breakers (like a high fire-risk forest location) identified.\n\n### Renovation Paths\n**The \"Coastal-Bohemian\" Warm-up (Estimated $100k\u2013$200k):**\n1.  **Strip the Flip:** Remove the grey laminate and shaker-style kitchen elements. \n2.  **Restore Warmth:** Introduce natural wood cabinetry, butcher block or soapstone counters, and unlacquered brass hardware.\n3.  **Unify the Units:** Use a consistent palette of warm whites and natural wood flooring to bridge the gap between the main cottage and the secondary units.\n4.  **Infrastructure:** Budget for electrical upgrades to integrate the solar system properly and address potential 19th-century wiring risks.\n\n### Who This House Is For\nThis property is for a buyer who loves **Santa Cruz history** and is willing to act as a \"restoration editor.\" You must be comfortable managing a renovation that involves stripping away mediocre modern updates to reveal and enhance the home's original 1885 soul.\n\n### Verdict\n**Proceed with caution, but proceed.** The \"bones\" of this house\u2014the light, the arches, and the character\u2014are things you cannot easily build from scratch. The elements you hate (the grey flip) are just surface-level. If you have the appetite for a $150k interior overhaul, this can become a stunning, high-character coastal compound. Check the electrical and ADU permit status during due diligence.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T10:32:28.354211",
+  "scored_at": "2026-01-09T10:34:57.332812"
+}
