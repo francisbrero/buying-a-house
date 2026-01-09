@@ -506,5 +506,193 @@ def taste_review():
             console.print("[green]✓ Applied[/green]")
 
 
+# Main app commands
+
+
+@app.command("help")
+def show_help():
+    """Show detailed help with examples for all commands."""
+    help_text = """
+# House Evaluator CLI
+
+An AI-powered tool for evaluating home listings based on your aesthetic preferences.
+
+## Quick Start
+
+```bash
+# 1. Set up your taste profile
+python -m src.cli taste init
+
+# 2. Add a house from Zillow (use Claude Code to scrape)
+python -m src.cli house ingest <zillow-url> --data '<json>'
+
+# 3. Score the house
+python -m src.cli house score <house-id>
+
+# 4. Generate a report
+python -m src.cli house report
+```
+
+## House Commands
+
+### house ingest <url>
+Add a new house listing to the database.
+
+```bash
+# With scraped data from Claude Code
+house ingest "https://zillow.com/..." --data '{"address": "...", "price": 1000000, ...}'
+
+# Interactive mode
+house ingest "https://zillow.com/..." --interactive
+```
+
+### house import-search <url>
+Bulk import houses from a Zillow search results page.
+
+```bash
+# Import with scraped data
+house import-search "https://zillow.com/homes/..." --data '[{...}, {...}]'
+
+# Limit imports
+house import-search "https://zillow.com/homes/..." --data '[...]' --limit 10
+
+# Auto-score after import
+house import-search "https://zillow.com/homes/..." --data '[...]' --score
+```
+
+### house score <house-id>
+Run the full AI scoring pipeline on a house.
+
+```bash
+house score 123-main-st-city-ca-12345-20240101120000
+```
+
+### house batch-score
+Score multiple houses at once.
+
+```bash
+# Score only unscored houses
+house batch-score
+
+# Re-score all houses
+house batch-score --all
+```
+
+### house list
+Show all houses with their scores.
+
+```bash
+house list
+```
+
+### house show <house-id>
+Display detailed information about a house.
+
+```bash
+house show 123-main-st-city-ca-12345-20240101120000
+```
+
+### house delete <house-id>
+Remove a house from the database.
+
+```bash
+house delete 123-main-st-city-ca-12345-20240101120000
+
+# Skip confirmation
+house delete 123-main-st-city-ca-12345-20240101120000 --force
+```
+
+### house report
+Generate an HTML report of all evaluations.
+
+```bash
+# Default: saves to report.html and opens browser
+house report
+
+# Custom output path
+house report --output my-report.html
+
+# Don't open browser
+house report --no-open
+```
+
+## Taste Commands
+
+### taste init
+Create your taste profile through an interactive interview.
+
+```bash
+taste init
+```
+
+### taste show
+Display your current taste preferences.
+
+```bash
+taste show
+```
+
+### taste distill
+Regenerate the aesthetics.md file from your taste model.
+
+```bash
+taste distill
+```
+
+### taste annotate <house-id>
+Add feedback to a house for learning.
+
+```bash
+# Mark as liked/disliked/shortlisted
+taste annotate <house-id> --verdict liked
+taste annotate <house-id> --verdict disliked
+
+# Add a note
+taste annotate <house-id> --note "Love the kitchen but hate the yard"
+```
+
+### taste review
+Review recent feedback and update preferences.
+
+```bash
+taste review
+```
+
+## Workflow with Claude Code
+
+This CLI is designed to work with Claude Code for browser-based scraping:
+
+1. **Single listing**: Ask Claude Code to scrape a Zillow listing, then pass the JSON to `house ingest`
+
+2. **Bulk import**: Ask Claude Code to scrape a Zillow search page, then pass the JSON array to `house import-search`
+
+See `.claude/skills/` for detailed scraping instructions:
+- `zillow-images.md` - Scraping individual listings
+- `zillow-search.md` - Scraping search results
+"""
+
+    console.print(Panel(Markdown(help_text), title="House Evaluator CLI Help", border_style="blue"))
+
+
+@app.callback(invoke_without_command=True)
+def main(ctx: typer.Context):
+    """Agentic home listing aesthetic evaluator.
+
+    Use 'help' for detailed usage examples.
+    """
+    if ctx.invoked_subcommand is None:
+        # Show quick summary when no command given
+        houses = store.list_houses()
+        scored = [h for h in houses if h.present_fit_score]
+
+        console.print(Panel(
+            f"[bold]Houses:[/bold] {len(houses)} total, {len(scored)} scored\n"
+            f"[bold]Commands:[/bold] house, taste, help\n\n"
+            f"[dim]Run 'python -m src.cli help' for detailed usage examples.[/dim]",
+            title="House Evaluator",
+            border_style="green"
+        ))
+
+
 if __name__ == "__main__":
     app()
