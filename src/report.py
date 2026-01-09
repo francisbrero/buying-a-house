@@ -1,10 +1,22 @@
 """Generate HTML report of house evaluations."""
 
+import html
 import json
 from datetime import datetime
 from pathlib import Path
 
 from src.storage import JsonStore
+
+
+def html_escape_for_attr(text: str) -> str:
+    """Escape text for use in HTML attribute, preserving newlines as escaped chars."""
+    if not text:
+        return ""
+    # Escape HTML entities and encode newlines for data attribute
+    escaped = html.escape(text, quote=True)
+    # Replace newlines with a marker we can decode in JS
+    escaped = escaped.replace("\n", "&#10;")
+    return escaped
 
 
 def generate_report() -> str:
@@ -29,6 +41,7 @@ def generate_report() -> str:
     <title>House Evaluation Report</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
         :root {{
             --bg-primary: #0f172a;
@@ -269,15 +282,79 @@ def generate_report() -> str:
         .brief-content {{
             display: none;
             margin-top: 1rem;
-            padding: 1rem;
+            padding: 1.5rem;
             background: var(--bg-card);
             border-radius: 8px;
-            font-size: 0.9rem;
-            white-space: pre-wrap;
+            font-size: 0.95rem;
+            line-height: 1.7;
         }}
 
         .brief-content.show {{
             display: block;
+        }}
+
+        /* Markdown rendered content styles */
+        .brief-content h1 {{
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin: 0 0 1rem 0;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--bg-secondary);
+            color: var(--text-primary);
+        }}
+
+        .brief-content h2 {{
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin: 1.5rem 0 0.75rem 0;
+            color: var(--accent-blue);
+        }}
+
+        .brief-content h3 {{
+            font-size: 1rem;
+            font-weight: 600;
+            margin: 1rem 0 0.5rem 0;
+            color: var(--text-primary);
+        }}
+
+        .brief-content p {{
+            margin: 0.75rem 0;
+            color: var(--text-secondary);
+        }}
+
+        .brief-content ul, .brief-content ol {{
+            margin: 0.75rem 0;
+            padding-left: 1.5rem;
+            color: var(--text-secondary);
+        }}
+
+        .brief-content li {{
+            margin: 0.4rem 0;
+        }}
+
+        .brief-content strong {{
+            color: var(--text-primary);
+            font-weight: 600;
+        }}
+
+        .brief-content em {{
+            font-style: italic;
+        }}
+
+        .brief-content blockquote {{
+            border-left: 3px solid var(--accent-purple);
+            margin: 1rem 0;
+            padding: 0.5rem 1rem;
+            background: rgba(168, 85, 247, 0.1);
+            border-radius: 0 8px 8px 0;
+        }}
+
+        .brief-content code {{
+            background: var(--bg-secondary);
+            padding: 0.2rem 0.4rem;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.85em;
         }}
 
         .renovation-ideas {{
@@ -533,10 +610,12 @@ def generate_report() -> str:
                     <a href="{house.url}" target="_blank" class="house-link">View on Zillow →</a>
 
                     <div class="brief-section">
-                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                        <button class="brief-toggle" onclick="toggleBrief(this)">
                             Show Full Brief
                         </button>
-                        <div class="brief-content">{house.brief if house.brief else 'No brief generated'}</div>
+                        <div class="brief-content" data-markdown="{html_escape_for_attr(house.brief) if house.brief else ''}">
+                            {('No brief generated' if not house.brief else '')}
+                        </div>
                     </div>
                 </div>
             </div>
@@ -567,6 +646,21 @@ def generate_report() -> str:
             } else {
                 container.classList.add('collapsed');
                 button.textContent = 'Show Map';
+            }
+        }
+
+        // Brief toggle with markdown rendering
+        function toggleBrief(button) {
+            const briefContent = button.nextElementSibling;
+            briefContent.classList.toggle('show');
+
+            // Render markdown on first show
+            if (briefContent.classList.contains('show') && !briefContent.dataset.rendered) {
+                const markdown = briefContent.dataset.markdown;
+                if (markdown && typeof marked !== 'undefined') {
+                    briefContent.innerHTML = marked.parse(markdown);
+                    briefContent.dataset.rendered = 'true';
+                }
             }
         }
     </script>
