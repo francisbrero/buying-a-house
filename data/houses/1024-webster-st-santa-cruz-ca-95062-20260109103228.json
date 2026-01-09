@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95062",
+  "latitude": 36.9797063,
+  "longitude": -121.9881415,
   "price": 1300000,
   "description": "Modern new construction with pool.",
   "features": {

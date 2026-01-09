@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95062",
+  "latitude": 36.9687579,
+  "longitude": -121.9737893,
   "price": 1287500,
   "description": "Tucked near the end of a quiet cul-de-sac in Live Oak, this 4 bed, 2 bath home sits on a generous lot. Separate family room with fireplace. Hardwood, laminate and vinyl flooring. 1 story single family residence built in 1951 with character and charm. Large 10,019 sqft lot.",
   "features": {
@@ -65,7 +67,7 @@
     "rooms": [
       {
         "room_type": "kitchen",
-        "aesthetic_quality": 4,
+        "aesthetic_quality": 4.0,
         "materials": [
           "oak cabinetry",
           "white tile countertops",
@@ -78,7 +80,7 @@
       },
       {
         "room_type": "living room",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "narrow-plank hardwood floors",
           "brick fireplace",
@@ -90,7 +92,7 @@
       },
       {
         "room_type": "nursery/bedroom 2",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "hardwood floors",
           "wood beam ceiling"
@@ -101,7 +103,7 @@
       },
       {
         "room_type": "primary bedroom",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "hardwood floors",
           "plaster/drywall"
@@ -112,7 +114,7 @@
       },
       {
         "room_type": "bathroom",
-        "aesthetic_quality": 5,
+        "aesthetic_quality": 5.0,
         "materials": [
           "patterned wall tile",
           "integrated laminate sink",
@@ -124,7 +126,7 @@
       },
       {
         "room_type": "exterior/backyard",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "wood decking",
           "concrete patio",
@@ -135,7 +137,7 @@
         "notes": "Multiple outdoor zones including a raised deck with pergola and a flat lawn area. The landscaping is mature and provides privacy."
       }
     ],
-    "overall_aesthetic": 6,
+    "overall_aesthetic": 6.0,
     "architectural_style": "Mid-Century Ranch / California Bungalow",
     "red_flags": [
       "Mismatch between high-quality architectural ceilings and dated 'builder-grade' kitchen/baths",

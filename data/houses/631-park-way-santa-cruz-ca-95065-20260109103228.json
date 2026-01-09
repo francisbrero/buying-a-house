@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95065",
+  "latitude": 36.9897634,
+  "longitude": -121.9978612,
   "price": 1595000,
   "description": "Mid-century home with wood beamed ceilings.",
   "features": {

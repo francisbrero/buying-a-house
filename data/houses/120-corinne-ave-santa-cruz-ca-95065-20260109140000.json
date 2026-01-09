@@ -5,6 +5,8 @@
   "city": "",
   "state": "",
   "zip_code": "",
+  "latitude": 37.0017968,
+  "longitude": -121.974023,
   "price": 1399000,
   "description": "Single-story ranch home on corner lot with mature landscaping.",
   "features": {
@@ -98,7 +100,7 @@
     "rooms": [
       {
         "room_type": "living_room",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "wall-to-wall carpet",
           "drywall",
@@ -111,7 +113,7 @@
       },
       {
         "room_type": "kitchen",
-        "aesthetic_quality": 5,
+        "aesthetic_quality": 5.0,
         "materials": [
           "oak cabinetry",
           "granite or solid surface counters",
@@ -124,7 +126,7 @@
       },
       {
         "room_type": "dining_area",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "carpet",
           "wood dining table",
@@ -136,7 +138,7 @@
       },
       {
         "room_type": "family_room_vaulted",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "wood plank ceiling",
           "wood-look flooring (likely LVP)",
@@ -148,7 +150,7 @@
       },
       {
         "room_type": "exterior_front",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "stucco",
           "horizontal siding",
@@ -161,7 +163,7 @@
       },
       {
         "room_type": "balcony_deck",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "wood railing",
           "outdoor rug",
@@ -172,7 +174,7 @@
         "notes": "Offers expansive views; the railing appears slightly dated but the space is well-staged."
       }
     ],
-    "overall_aesthetic": 6,
+    "overall_aesthetic": 6.0,
     "architectural_style": "Mid-Century Ranch / Contemporary Mix",
     "red_flags": [
       "Inconsistent renovation quality across different rooms",

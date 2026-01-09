@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95060",
+  "latitude": 36.9702583,
+  "longitude": -122.0254659,
   "price": 1279000,
   "description": "Beautiful Victorian built in 1885.",
   "features": {

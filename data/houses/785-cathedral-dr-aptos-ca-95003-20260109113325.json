@@ -5,6 +5,8 @@
   "city": "Aptos",
   "state": "CA",
   "zip_code": "95003",
+  "latitude": 36.9910698,
+  "longitude": -121.8950572,
   "price": 1595000,
   "description": "Single family residence in Aptos.",
   "features": {

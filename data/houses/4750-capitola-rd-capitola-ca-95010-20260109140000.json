@@ -5,6 +5,8 @@
   "city": "",
   "state": "",
   "zip_code": "",
+  "latitude": 36.9736545,
+  "longitude": -121.9577866,
   "price": 1675000,
   "description": "Modern craftsman-style home with blue-grey siding, white trim details, and arched garage.",
   "features": {
@@ -83,7 +85,7 @@
     "rooms": [
       {
         "room_type": "exterior",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "composite siding",
           "stucco",
@@ -96,7 +98,7 @@
       },
       {
         "room_type": "living room",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "beige carpet",
           "stone fireplace surround",
@@ -108,7 +110,7 @@
       },
       {
         "room_type": "kitchen",
-        "aesthetic_quality": 5,
+        "aesthetic_quality": 5.0,
         "materials": [
           "oak cabinetry",
           "dark speckled laminate or granite",
@@ -121,7 +123,7 @@
       },
       {
         "room_type": "dining room",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "hardwood floors",
           "pendant lighting",
@@ -133,7 +135,7 @@
       },
       {
         "room_type": "primary bedroom",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "carpet",
           "skylight",
@@ -145,7 +147,7 @@
       },
       {
         "room_type": "secondary bedrooms",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "wood plank ceilings",
           "carpet",
@@ -157,7 +159,7 @@
       },
       {
         "room_type": "bathrooms",
-        "aesthetic_quality": 5,
+        "aesthetic_quality": 5.0,
         "materials": [
           "pedestal sink",
           "dark wood vanity",
@@ -170,7 +172,7 @@
       },
       {
         "room_type": "laundry room / utility",
-        "aesthetic_quality": 4,
+        "aesthetic_quality": 4.0,
         "materials": [
           "vinyl flooring",
           "wire shelving",
@@ -182,7 +184,7 @@
       },
       {
         "room_type": "garage / unfinished space",
-        "aesthetic_quality": 3,
+        "aesthetic_quality": 3.0,
         "materials": [
           "concrete",
           "exposed studs"
@@ -192,7 +194,7 @@
         "notes": "A long, narrow tandem-style garage or basement storage area with unfinished walls."
       }
     ],
-    "overall_aesthetic": 6,
+    "overall_aesthetic": 6.0,
     "architectural_style": "contemporary suburban / saltbox influence",
     "red_flags": [
       "inconsistent appliance finishes in kitchen",

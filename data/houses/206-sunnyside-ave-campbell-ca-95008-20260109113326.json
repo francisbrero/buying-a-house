@@ -5,6 +5,8 @@
   "city": "Campbell",
   "state": "CA",
   "zip_code": "95008",
+  "latitude": 37.2828158,
+  "longitude": -121.9461723,
   "price": 1684000,
   "description": "Single family residence in Campbell.",
   "features": {

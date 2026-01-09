@@ -5,6 +5,8 @@
   "city": "Scotts Valley",
   "state": "CA",
   "zip_code": "95066",
+  "latitude": 37.0524331,
+  "longitude": -122.0245144,
   "price": 1475000,
   "description": "Single family residence in Scotts Valley.",
   "features": {

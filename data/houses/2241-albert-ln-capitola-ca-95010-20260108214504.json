@@ -5,6 +5,8 @@
   "city": "Capitola",
   "state": "CA",
   "zip_code": "95010",
+  "latitude": 36.9800396,
+  "longitude": -121.9690013,
   "price": 1658500,
   "description": "Desirable Capitola location at the end of a quiet cul-de-sac, perfect for a big family. With a newly updated kitchen and solar panels. 2 stories with separate family room. 2 fireplaces (gas and wood burning). Water softener included.",
   "features": {
@@ -59,7 +61,7 @@
     "rooms": [
       {
         "room_type": "exterior_front",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "stucco",
           "wood siding",
@@ -72,7 +74,7 @@
       },
       {
         "room_type": "kitchen",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "marble-effect quartz countertops",
           "full-height stone backsplash",
@@ -86,7 +88,7 @@
       },
       {
         "room_type": "living_room",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "hardwood floors",
           "stone fireplace surround",
@@ -98,7 +100,7 @@
       },
       {
         "room_type": "dining_room",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "hardwood floors",
           "modern pendant lighting",
@@ -110,7 +112,7 @@
       },
       {
         "room_type": "primary_bedroom",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "carpet",
           "drywall",
@@ -122,7 +124,7 @@
       },
       {
         "room_type": "primary_bathroom",
-        "aesthetic_quality": 9,
+        "aesthetic_quality": 9.0,
         "materials": [
           "large format marble-look porcelain tile",
           "double vanity with stone top",
@@ -135,7 +137,7 @@
       },
       {
         "room_type": "secondary_bathroom",
-        "aesthetic_quality": 5,
+        "aesthetic_quality": 5.0,
         "materials": [
           "granite countertop",
           "dark wood vanity",
@@ -147,7 +149,7 @@
       },
       {
         "room_type": "office_studio",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "hardwood floors",
           "drywall"
@@ -158,7 +160,7 @@
       },
       {
         "room_type": "backyard_patio",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "concrete",
           "wood fencing",
@@ -170,7 +172,7 @@
         "notes": "Very lush, private landscaping with a dedicated dining area, built-in BBQ, and fire pit lounge area."
       }
     ],
-    "overall_aesthetic": 7,
+    "overall_aesthetic": 7.0,
     "architectural_style": "Contemporary Suburban / Traditional",
     "red_flags": [
       "Varying levels of renovation (primary bath is high-end, second bath is dated)",

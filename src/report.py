@@ -18,12 +18,17 @@ def generate_report() -> str:
         reverse=True
     )
 
+    # Get houses with coordinates for the map
+    houses_with_coords = [h for h in houses if h.latitude and h.longitude]
+
     html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Evaluation Report</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         :root {{
             --bg-primary: #0f172a;
@@ -306,6 +311,81 @@ def generate_report() -> str:
             font-size: 0.9rem;
         }}
 
+        /* Map styles */
+        .map-section {{
+            margin-bottom: 3rem;
+        }}
+
+        .map-header {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }}
+
+        .map-title {{
+            font-size: 1.5rem;
+            font-weight: 600;
+        }}
+
+        .map-toggle {{
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-card);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }}
+
+        .map-toggle:hover {{
+            background: var(--bg-card);
+        }}
+
+        #map {{
+            height: 500px;
+            border-radius: 12px;
+            z-index: 1;
+        }}
+
+        .map-container.collapsed #map {{
+            display: none;
+        }}
+
+        .leaflet-popup-content {{
+            margin: 8px 12px;
+        }}
+
+        .popup-address {{
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }}
+
+        .popup-price {{
+            color: #22c55e;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }}
+
+        .popup-scores {{
+            font-size: 0.85rem;
+            color: #666;
+        }}
+
+        .popup-link {{
+            display: block;
+            margin-top: 8px;
+            color: #3b82f6;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }}
+
+        .popup-link:hover {{
+            text-decoration: underline;
+        }}
+
         @media (max-width: 768px) {{
             .house-card {{
                 grid-template-columns: 1fr;
@@ -314,6 +394,10 @@ def generate_report() -> str:
             .house-image {{
                 width: 100%;
                 height: 200px;
+            }}
+
+            #map {{
+                height: 350px;
             }}
         }}
     </style>
@@ -343,6 +427,18 @@ def generate_report() -> str:
                 <div class="stat-label">High Potential (80+)</div>
             </div>
         </div>
+
+        {"" if not houses_with_coords else f'''
+        <div class="map-section">
+            <div class="map-header">
+                <span class="map-title">📍 Map View ({len(houses_with_coords)} locations)</span>
+                <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+            </div>
+            <div class="map-container" id="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+        '''}
 
         <div class="houses">
 """
@@ -459,7 +555,125 @@ def generate_report() -> str:
         document.querySelectorAll('.house-card').forEach((card, index) => {
             card.style.animationDelay = `${index * 0.1}s`;
         });
+
+        // Map toggle function
+        function toggleMap() {
+            const container = document.getElementById('map-container');
+            const button = document.querySelector('.map-toggle');
+            if (container.classList.contains('collapsed')) {
+                container.classList.remove('collapsed');
+                button.textContent = 'Hide Map';
+                if (window.map) window.map.invalidateSize();
+            } else {
+                container.classList.add('collapsed');
+                button.textContent = 'Show Map';
+            }
+        }
     </script>
+"""
+
+    # Add map initialization script if we have geocoded houses
+    if houses_with_coords:
+        # Calculate map center (average of all coordinates)
+        avg_lat = sum(h.latitude for h in houses_with_coords) / len(houses_with_coords)
+        avg_lng = sum(h.longitude for h in houses_with_coords) / len(houses_with_coords)
+
+        # Generate markers data
+        markers_js = []
+        for h in houses_with_coords:
+            fit_score = h.present_fit_score.score if h.present_fit_score else 0
+            pot_score = h.potential_score.score if h.potential_score else 0
+
+            # Color based on fit score
+            if fit_score >= 75:
+                color = "#22c55e"  # green
+            elif fit_score >= 60:
+                color = "#eab308"  # yellow
+            else:
+                color = "#ef4444"  # red
+
+            # Escape quotes in address
+            safe_address = h.address.replace("'", "\\'").replace('"', '\\"')
+            price_str = f"${h.price:,}" if h.price else "N/A"
+
+            markers_js.append(f"""
+            {{
+                lat: {h.latitude},
+                lng: {h.longitude},
+                address: "{safe_address}",
+                price: "{price_str}",
+                fit: {fit_score:.0f},
+                potential: {pot_score:.0f},
+                color: "{color}",
+                url: "{h.url}"
+            }}""")
+
+        markers_data = ",".join(markers_js)
+
+        html += f"""
+    <script>
+        // Initialize Leaflet map
+        const map = L.map('map').setView([{avg_lat}, {avg_lng}], 11);
+        window.map = map;
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{{s}}.tile.openstreetmap.org/{{z}}/{{x}}/{{y}}.png', {{
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }}).addTo(map);
+
+        // House markers data
+        const houses = [{markers_data}
+        ];
+
+        // Add markers for each house
+        houses.forEach(house => {{
+            // Create custom icon with score-based color
+            const markerHtml = `
+                <div style="
+                    background: ${{house.color}};
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 3px solid white;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 11px;
+                ">${{house.fit}}</div>
+            `;
+
+            const icon = L.divIcon({{
+                html: markerHtml,
+                className: 'custom-marker',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            }});
+
+            const marker = L.marker([house.lat, house.lng], {{ icon }}).addTo(map);
+
+            // Create popup content
+            const popupContent = `
+                <div class="popup-address">${{house.address}}</div>
+                <div class="popup-price">${{house.price}}</div>
+                <div class="popup-scores">Fit: ${{house.fit}} | Potential: ${{house.potential}}</div>
+                <a href="${{house.url}}" target="_blank" class="popup-link">View on Zillow →</a>
+            `;
+
+            marker.bindPopup(popupContent);
+        }});
+
+        // Fit map to show all markers
+        if (houses.length > 0) {{
+            const bounds = L.latLngBounds(houses.map(h => [h.lat, h.lng]));
+            map.fitBounds(bounds, {{ padding: [50, 50] }});
+        }}
+    </script>
+"""
+
+    html += """
 </body>
 </html>
 """

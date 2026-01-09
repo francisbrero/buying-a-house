@@ -35,6 +35,10 @@ class House(BaseModel):
     city: str = Field(default="")
     state: str = Field(default="")
     zip_code: str = Field(default="")
+
+    # Geolocation
+    latitude: float | None = Field(default=None, description="Latitude coordinate")
+    longitude: float | None = Field(default=None, description="Longitude coordinate")
     price: int | None = Field(default=None, description="Listing price in dollars")
 
     # Description

@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95062",
+  "latitude": 36.9800656,
+  "longitude": -121.9776571,
   "price": 1395000,
   "description": "Welcome to this charming single-level 3-bedroom, 2-bath home nestled in the highly desirable Live Oak neighborhood where the best of the California coastal lifestyle meets everyday convenience. Step inside and you'll find a bright, inviting layout featuring hardwood and tile flooring, a spacious family/dining area, and a well-equipped kitchen with ample counter space, newer appliances, and generous storage. Natural light fills every corner, creating a warm and cheerful atmosphere throughout. The beautifully landscaped front and back yards are a true highlight thoughtfully designed with lush greenery, mature fruit trees, and vibrant flowers. The backyard is a private retreat complete with a peaceful koi pond, a pergola-covered deck perfect for entertaining, and multiple seating areas ideal for relaxing outdoors year-round. Located in one of Live Oaks most loved neighborhoods, this home offers quick access to local parks, beaches, and excellent schools. Enjoy being moments away from shopping, restaurants, and all the amenities that make Santa Cruz living so special. With its ideal blend of comfort, style, and location, this home makes every day feel like a getaway.",
   "features": {
@@ -92,7 +94,7 @@
     "rooms": [
       {
         "room_type": "living_room_1",
-        "aesthetic_quality": 4,
+        "aesthetic_quality": 4.0,
         "materials": [
           "original hardwood",
           "brick fireplace",
@@ -104,7 +106,7 @@
       },
       {
         "room_type": "kitchen_1",
-        "aesthetic_quality": 3,
+        "aesthetic_quality": 3.0,
         "materials": [
           "vinyl flooring",
           "laminate counters",
@@ -116,7 +118,7 @@
       },
       {
         "room_type": "living_room_2_staged",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "ceramic tile floors",
           "plaster walls",
@@ -128,7 +130,7 @@
       },
       {
         "room_type": "dining_area",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "hardwood floors",
           "built-in cabinetry",
@@ -140,7 +142,7 @@
       },
       {
         "room_type": "kitchen_2_main",
-        "aesthetic_quality": 6,
+        "aesthetic_quality": 6.0,
         "materials": [
           "oak cabinetry",
           "granite countertops",
@@ -152,7 +154,7 @@
       },
       {
         "room_type": "family_room_with_fireplace",
-        "aesthetic_quality": 8,
+        "aesthetic_quality": 8.0,
         "materials": [
           "tile floors",
           "millwork/paneling",
@@ -164,7 +166,7 @@
       },
       {
         "room_type": "exterior_front",
-        "aesthetic_quality": 7,
+        "aesthetic_quality": 7.0,
         "materials": [
           "stucco",
           "concrete driveway",
@@ -175,7 +177,7 @@
         "notes": "Classic California ranch/suburban style with neat landscaping."
       }
     ],
-    "overall_aesthetic": 6,
+    "overall_aesthetic": 6.0,
     "architectural_style": "California Ranch / Suburban Multi-level",
     "red_flags": [
       "inconsistent flooring types (wood to tile transitions)",

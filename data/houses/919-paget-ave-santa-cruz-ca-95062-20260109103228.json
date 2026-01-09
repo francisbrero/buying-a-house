@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95062",
+  "latitude": 36.9670906,
+  "longitude": -121.9817153,
   "price": 1050000,
   "description": "Single family residence in Santa Cruz.",
   "features": {

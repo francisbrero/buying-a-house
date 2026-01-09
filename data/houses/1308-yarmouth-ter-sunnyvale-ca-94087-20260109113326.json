@@ -5,6 +5,8 @@
   "city": "Sunnyvale",
   "state": "CA",
   "zip_code": "94087",
+  "latitude": 37.3508707,
+  "longitude": -122.0328669,
   "price": 1499888,
   "description": "Single family residence in Sunnyvale.",
   "features": {

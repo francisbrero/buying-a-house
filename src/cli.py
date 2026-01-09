@@ -470,6 +470,62 @@ def taste_annotate(
         console.print("[dim]Consider running 'taste review' to update preferences based on this feedback.[/dim]")
 
 
+@house_app.command("geocode")
+def house_geocode(
+    house_id: str = typer.Argument(None, help="House ID to geocode (omit for all)"),
+    force: bool = typer.Option(False, "--force", "-f", help="Re-geocode even if coordinates exist"),
+):
+    """Geocode house addresses to get lat/lng coordinates for map display."""
+    from src.services.geocoding import geocode_address
+
+    if house_id:
+        # Geocode single house
+        house = store.load_house(house_id)
+        if not house:
+            console.print(f"[red]House not found: {house_id}[/red]")
+            raise typer.Exit(1)
+
+        if house.latitude and house.longitude and not force:
+            console.print(f"[dim]Already geocoded: {house.address}[/dim]")
+            console.print(f"  Lat: {house.latitude}, Lng: {house.longitude}")
+            return
+
+        console.print(f"[yellow]Geocoding: {house.address}[/yellow]")
+        coords = geocode_address(house.address)
+        if coords:
+            house.latitude, house.longitude = coords
+            store.save_house(house)
+            console.print(f"[green]✓ {house.address}[/green]")
+            console.print(f"  Lat: {house.latitude}, Lng: {house.longitude}")
+        else:
+            console.print(f"[red]✗ Could not geocode address[/red]")
+    else:
+        # Geocode all houses
+        houses = store.list_houses()
+        if not force:
+            houses = [h for h in houses if not h.latitude or not h.longitude]
+
+        if not houses:
+            console.print("[dim]All houses already geocoded. Use --force to re-geocode.[/dim]")
+            return
+
+        console.print(f"[cyan]Geocoding {len(houses)} houses...[/cyan]\n")
+
+        success = 0
+        for i, house in enumerate(houses, 1):
+            console.print(f"({i}/{len(houses)}) {house.address}", end=" ")
+            coords = geocode_address(house.address)
+            if coords:
+                house.latitude, house.longitude = coords
+                store.save_house(house)
+                console.print(f"[green]✓[/green]")
+                success += 1
+            else:
+                console.print(f"[red]✗[/red]")
+
+        console.print(f"\n[cyan]Geocoded {success}/{len(houses)} houses[/cyan]")
+
+
 @house_app.command("report")
 def house_report(
     output: str = typer.Option("report.html", "--output", "-o", help="Output file path"),

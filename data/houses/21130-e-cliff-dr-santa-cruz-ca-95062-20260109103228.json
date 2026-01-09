@@ -5,6 +5,8 @@
   "city": "Santa Cruz",
   "state": "CA",
   "zip_code": "95062",
+  "latitude": 36.9644424,
+  "longitude": -121.9933428,
   "price": 1999999,
   "description": "Historic Craftsman built around 1904 with ocean and lake views. Legal duplex with endless possibilities.",
   "features": {

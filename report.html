@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>House Evaluation Report</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
     <style>
         :root {
             --bg-primary: #0f172a;
@@ -286,6 +288,81 @@
             font-size: 0.9rem;
         }
 
+        /* Map styles */
+        .map-section {
+            margin-bottom: 3rem;
+        }
+
+        .map-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .map-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+        }
+
+        .map-toggle {
+            background: var(--bg-secondary);
+            border: 1px solid var(--bg-card);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+
+        .map-toggle:hover {
+            background: var(--bg-card);
+        }
+
+        #map {
+            height: 500px;
+            border-radius: 12px;
+            z-index: 1;
+        }
+
+        .map-container.collapsed #map {
+            display: none;
+        }
+
+        .leaflet-popup-content {
+            margin: 8px 12px;
+        }
+
+        .popup-address {
+            font-weight: 600;
+            font-size: 1rem;
+            margin-bottom: 4px;
+        }
+
+        .popup-price {
+            color: #22c55e;
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .popup-scores {
+            font-size: 0.85rem;
+            color: #666;
+        }
+
+        .popup-link {
+            display: block;
+            margin-top: 8px;
+            color: #3b82f6;
+            text-decoration: none;
+            font-size: 0.85rem;
+        }
+
+        .popup-link:hover {
+            text-decoration: underline;
+        }
+
         @media (max-width: 768px) {
             .house-card {
                 grid-template-columns: 1fr;
@@ -295,6 +372,10 @@
                 width: 100%;
                 height: 200px;
             }
+
+            #map {
+                height: 350px;
+            }
         }
     </style>
 </head>
@@ -302,7 +383,7 @@
     <div class="container">
         <header>
             <h1>House Evaluation Report</h1>
-            <p class="subtitle">Generated January 09, 2026 at 01:00 PM</p>
+            <p class="subtitle">Generated January 09, 2026 at 05:01 PM</p>
         </header>
 
         <div class="summary">
@@ -323,6 +404,18 @@
                 <div class="stat-label">High Potential (80+)</div>
             </div>
         </div>
+
+        
+        <div class="map-section">
+            <div class="map-header">
+                <span class="map-title">📍 Map View (23 locations)</span>
+                <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+            </div>
+            <div class="map-container" id="map-container">
+                <div id="map"></div>
+            </div>
+        </div>
+        
 
         <div class="houses">
 
@@ -3398,6 +3491,312 @@ The price-to-quality ratio is extremely poor for your specific needs. You would 
         document.querySelectorAll('.house-card').forEach((card, index) => {
             card.style.animationDelay = `${index * 0.1}s`;
         });
+
+        // Map toggle function
+        function toggleMap() {
+            const container = document.getElementById('map-container');
+            const button = document.querySelector('.map-toggle');
+            if (container.classList.contains('collapsed')) {
+                container.classList.remove('collapsed');
+                button.textContent = 'Hide Map';
+                if (window.map) window.map.invalidateSize();
+            } else {
+                container.classList.add('collapsed');
+                button.textContent = 'Show Map';
+            }
+        }
     </script>
+
+    <script>
+        // Initialize Leaflet map
+        const map = L.map('map').setView([37.0161156173913, -121.99162473043478], 11);
+        window.map = map;
+
+        // Add OpenStreetMap tiles
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // House markers data
+        const houses = [
+            {
+                lat: 36.9644424,
+                lng: -121.9933428,
+                address: "21130 E Cliff Dr, Santa Cruz, CA 95062",
+                price: "$1,999,999",
+                fit: 76,
+                potential: 82,
+                color: "#22c55e",
+                url: "https://www.zillow.com/homedetails/21130-E-Cliff-Dr-Santa-Cruz-CA-95062/400188625_zpid/"
+            },
+            {
+                lat: 36.9903042,
+                lng: -121.9494404,
+                address: "3300 Crystal Heights Dr, Soquel, CA 95073",
+                price: "$1,649,000",
+                fit: 76,
+                potential: 82,
+                color: "#22c55e",
+                url: "https://www.zillow.com/homedetails/3300-Crystal-Heights-Dr-Soquel-CA-95073/16133798_zpid/"
+            },
+            {
+                lat: 36.9800396,
+                lng: -121.9690013,
+                address: "2241 Albert Ln, Capitola, CA 95010",
+                price: "$1,658,500",
+                fit: 75,
+                potential: 78,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/2241-Albert-Ln-Capitola-CA-95010/16131292_zpid/"
+            },
+            {
+                lat: 37.0697673,
+                lng: -121.9970588,
+                address: "360 Tabor Dr, Scotts Valley, CA 95066",
+                price: "$1,100,000",
+                fit: 68,
+                potential: 78,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/360-Tabor-Dr-Scotts-Valley-CA-95066/16121812_zpid/"
+            },
+            {
+                lat: 36.9687579,
+                lng: -121.9737893,
+                address: "2908 Sandy Ln, Santa Cruz, CA 95062",
+                price: "$1,287,500",
+                fit: 68,
+                potential: 82,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/2908-Sandy-Ln-Santa-Cruz-CA-95062/16128934_zpid/"
+            },
+            {
+                lat: 37.0116793,
+                lng: -122.0234785,
+                address: "1239 La Madrona Dr, Santa Cruz, CA 95060",
+                price: "$1,699,000",
+                fit: 65,
+                potential: 82,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/1239-La-Madrona-Dr-Santa-Cruz-CA-95060/16151276_zpid/"
+            },
+            {
+                lat: 36.9897634,
+                lng: -121.9978612,
+                address: "631 Park Way, Santa Cruz, CA 95065",
+                price: "$1,595,000",
+                fit: 64,
+                potential: 82,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/631-Park-Way-Santa-Cruz-CA-95065/16109729_zpid/"
+            },
+            {
+                lat: 36.9736545,
+                lng: -121.9577866,
+                address: "4750 Capitola Rd, Capitola, CA 95010",
+                price: "$1,675,000",
+                fit: 62,
+                potential: 82,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/4750-Capitola-Rd-Capitola-CA-95010/16130471_zpid/"
+            },
+            {
+                lat: 37.0017968,
+                lng: -121.974023,
+                address: "120 Corinne Ave, Santa Cruz, CA 95065",
+                price: "$1,399,000",
+                fit: 62,
+                potential: 82,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/120-Corinne-Ave-Santa-Cruz-CA-95065/16163465_zpid/"
+            },
+            {
+                lat: 37.2828158,
+                lng: -121.9461723,
+                address: "206 Sunnyside Ave, Campbell, CA 95008",
+                price: "$1,684,000",
+                fit: 62,
+                potential: 62,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/206-Sunnyside-Ave-Campbell-CA-95008/19669301_zpid/"
+            },
+            {
+                lat: 37.3508707,
+                lng: -122.0328669,
+                address: "1308 Yarmouth Ter, Sunnyvale, CA 94087",
+                price: "$1,499,888",
+                fit: 62,
+                potential: 68,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/1308-Yarmouth-Ter-Sunnyvale-CA-94087/19624840_zpid/"
+            },
+            {
+                lat: 36.9702583,
+                lng: -122.0254659,
+                address: "120 Maple St, Santa Cruz, CA 95060",
+                price: "$1,279,000",
+                fit: 62,
+                potential: 78,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/120-Maple-St-Santa-Cruz-CA-95060/16106152_zpid/"
+            },
+            {
+                lat: 36.9800656,
+                lng: -121.9776571,
+                address: "2304 Mattison Ln, Santa Cruz, CA 95062",
+                price: "$1,395,000",
+                fit: 62,
+                potential: 78,
+                color: "#eab308",
+                url: "https://www.zillow.com/homedetails/2304-Mattison-Ln-Santa-Cruz-CA-95062/16127287_zpid/"
+            },
+            {
+                lat: 36.9631827,
+                lng: -122.0497485,
+                address: "1612 Escalona Dr, Santa Cruz, CA 95060",
+                price: "$1,549,000",
+                fit: 59,
+                potential: 78,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/1612-Escalona-Dr-Santa-Cruz-CA-95060/16101018_zpid/"
+            },
+            {
+                lat: 37.0524331,
+                lng: -122.0245144,
+                address: "2510 Bean Creek Rd, Scotts Valley, CA 95066",
+                price: "$1,475,000",
+                fit: 59,
+                potential: 82,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/2510-Bean-Creek-Rd-Scotts-Valley-CA-95066/16161179_zpid/"
+            },
+            {
+                lat: 36.9797063,
+                lng: -121.9881415,
+                address: "1024 Webster St, Santa Cruz, CA 95062",
+                price: "$1,300,000",
+                fit: 55,
+                potential: 68,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/1024-Webster-St-Santa-Cruz-CA-95062/16123923_zpid/"
+            },
+            {
+                lat: 36.9910698,
+                lng: -121.8950572,
+                address: "785 Cathedral Dr, Aptos, CA 95003",
+                price: "$1,595,000",
+                fit: 54,
+                potential: 68,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/785-Cathedral-Dr-Aptos-CA-95003/16136742_zpid/"
+            },
+            {
+                lat: 36.9766102,
+                lng: -122.0492058,
+                address: "309 Village Cir, Santa Cruz, CA 95060",
+                price: "$1,435,000",
+                fit: 54,
+                potential: 68,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/309-Village-Cir-Santa-Cruz-CA-95060/16106812_zpid/"
+            },
+            {
+                lat: 36.9735679,
+                lng: -122.0079112,
+                address: "1122 Seabright Ave, Santa Cruz, CA 95062",
+                price: "$1,095,000",
+                fit: 54,
+                potential: 78,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/1122-Seabright-Ave-Santa-Cruz-CA-95062/16113226_zpid/"
+            },
+            {
+                lat: 36.9670906,
+                lng: -121.9817153,
+                address: "919 Paget Ave, Santa Cruz, CA 95062",
+                price: "$1,050,000",
+                fit: 53,
+                potential: 78,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/919-Paget-Ave-Santa-Cruz-CA-95062/16125695_zpid/"
+            },
+            {
+                lat: 36.9855468,
+                lng: -121.9839998,
+                address: "2606 Paul Minnie Ave, Santa Cruz, CA 95062",
+                price: "$1,200,000",
+                fit: 53,
+                potential: 78,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/2606-Paul-Minnie-Ave-Santa-Cruz-CA-95062/16123570_zpid/"
+            },
+            {
+                lat: 36.9815221,
+                lng: -122.0189806,
+                address: "136 Market St, Santa Cruz, CA 95060",
+                price: "$1,995,000",
+                fit: 48,
+                potential: 62,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/136-Market-St-Santa-Cruz-CA-95060/16108856_zpid/"
+            },
+            {
+                lat: 36.9657139,
+                lng: -121.9901504,
+                address: "1430 Merrill St, Santa Cruz, CA 95062",
+                price: "$1,995,000",
+                fit: 18,
+                potential: 45,
+                color: "#ef4444",
+                url: "https://www.zillow.com/homedetails/1430-Merrill-St-Santa-Cruz-CA-95062/455772485_zpid/"
+            }
+        ];
+
+        // Add markers for each house
+        houses.forEach(house => {
+            // Create custom icon with score-based color
+            const markerHtml = `
+                <div style="
+                    background: ${house.color};
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 3px solid white;
+                    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    color: white;
+                    font-weight: bold;
+                    font-size: 11px;
+                ">${house.fit}</div>
+            `;
+
+            const icon = L.divIcon({
+                html: markerHtml,
+                className: 'custom-marker',
+                iconSize: [30, 30],
+                iconAnchor: [15, 15]
+            });
+
+            const marker = L.marker([house.lat, house.lng], { icon }).addTo(map);
+
+            // Create popup content
+            const popupContent = `
+                <div class="popup-address">${house.address}</div>
+                <div class="popup-price">${house.price}</div>
+                <div class="popup-scores">Fit: ${house.fit} | Potential: ${house.potential}</div>
+                <a href="${house.url}" target="_blank" class="popup-link">View on Zillow →</a>
+            `;
+
+            marker.bindPopup(popupContent);
+        });
+
+        // Fit map to show all markers
+        if (houses.length > 0) {
+            const bounds = L.latLngBounds(houses.map(h => [h.lat, h.lng]));
+            map.fitBounds(bounds, { padding: [50, 50] });
+        }
+    </script>
+
 </body>
 </html>
