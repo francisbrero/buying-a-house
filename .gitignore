@@ -21,7 +21,7 @@ __pycache__/
 *.swo
 
 # Generated files
-report.html
+# report.html - keeping for GitHub Pages viewing
 
 # OS files
 .DS_Store

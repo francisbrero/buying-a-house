@@ -1,0 +1,2079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Evaluation Report</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-card: #334155;
+            --text-primary: #f1f5f9;
+            --text-secondary: #94a3b8;
+            --accent-green: #22c55e;
+            --accent-yellow: #eab308;
+            --accent-red: #ef4444;
+            --accent-blue: #3b82f6;
+            --accent-purple: #a855f7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--bg-card);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        .summary {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .stat-card {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .houses {
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .house-card {
+            background: var(--bg-secondary);
+            border-radius: 16px;
+            overflow: hidden;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .house-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+
+        .house-image {
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            background: var(--bg-card);
+        }
+
+        .house-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .house-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+
+        .house-address {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .house-price {
+            font-size: 1.2rem;
+            color: var(--accent-green);
+            font-weight: 600;
+        }
+
+        .house-features {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .scores {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .score-badge {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: var(--bg-card);
+            padding: 0.75rem 1.25rem;
+            border-radius: 8px;
+            min-width: 100px;
+        }
+
+        .score-value {
+            font-size: 1.8rem;
+            font-weight: 700;
+        }
+
+        .score-label {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .score-high { color: var(--accent-green); }
+        .score-medium { color: var(--accent-yellow); }
+        .score-low { color: var(--accent-red); }
+
+        .justification {
+            background: var(--bg-card);
+            padding: 1rem;
+            border-radius: 8px;
+            font-size: 0.95rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: var(--bg-card);
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+
+        .tag-positive {
+            background: rgba(34, 197, 94, 0.2);
+            color: var(--accent-green);
+        }
+
+        .tag-negative {
+            background: rgba(239, 68, 68, 0.2);
+            color: var(--accent-red);
+        }
+
+        .house-link {
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        .house-link:hover {
+            text-decoration: underline;
+        }
+
+        .brief-section {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--bg-card);
+        }
+
+        .brief-toggle {
+            background: var(--bg-card);
+            border: none;
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+
+        .brief-toggle:hover {
+            background: var(--bg-primary);
+        }
+
+        .brief-content {
+            display: none;
+            margin-top: 1rem;
+            padding: 1rem;
+            background: var(--bg-card);
+            border-radius: 8px;
+            font-size: 0.9rem;
+            white-space: pre-wrap;
+        }
+
+        .brief-content.show {
+            display: block;
+        }
+
+        .renovation-ideas {
+            margin-top: 1rem;
+        }
+
+        .renovation-idea {
+            background: rgba(168, 85, 247, 0.1);
+            border-left: 3px solid var(--accent-purple);
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            border-radius: 0 8px 8px 0;
+        }
+
+        .renovation-area {
+            font-weight: 600;
+            color: var(--accent-purple);
+        }
+
+        .renovation-change {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--bg-card);
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        @media (max-width: 768px) {
+            .house-card {
+                grid-template-columns: 1fr;
+            }
+
+            .house-image {
+                width: 100%;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>House Evaluation Report</h1>
+            <p class="subtitle">Generated January 09, 2026 at 10:40 AM</p>
+        </header>
+
+        <div class="summary">
+            <div class="stat-card">
+                <div class="stat-value">21</div>
+                <div class="stat-label">Houses Evaluated</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Strong Matches (70+)</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">$1050k - $2000k</div>
+                <div class="stat-label">Price Range</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">8</div>
+                <div class="stat-label">High Potential (80+)</div>
+            </div>
+        </div>
+
+        <div class="houses">
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/0f6bb18b25f8fa53275fae7b12d94d16-p_e.jpg" alt="21130 E Cliff Dr, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">21130 E Cliff Dr, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,999,999</div>
+                            <div class="house-features">4 bed · 2 bath · 3,649 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-high">76</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This house is an architectural gem that perfectly aligns with the preference for wood elements, character, and an anti-flip aesthetic. It avoids all 'gray-flip' violation patterns. However, the score is tempered by the high-traffic location (E Cliff Dr), the inherent darkness of historic redwood interiors which barely satisfies the 'natural light' hard constraint, and the aging condition of the kitchen and exterior auxiliary structures.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Santa Cruz County Historical Trust plaque</span><span class="tag tag-positive">✓ Incredible original redwood millwork and fretwork</span><span class="tag tag-positive">✓ Unobstructed views of the lagoon and ocean</span>
+                        <span class="tag tag-negative">✗ Potential for high maintenance costs due to extensive original wood</span><span class="tag tag-negative">✗ Kitchen may feel dark or dated to modern buyers</span><span class="tag tag-negative">✗ Mixing of high-character historical interiors with more generic exterior structures in the grid</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Pantry</div>
+                    <div class="renovation-change">Lighten the cabinetry while honoring the Craftsman era (e.g., Shaker style in a muted period green or cream), replace tiled counters with soapstone or honed marble, and update lighting to schoolhouse pendants.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Sunroom / Transition Space</div>
+                    <div class="renovation-change">Refine the threshold between the redwood living room and the bright sunroom. Use consistent flooring or wider historic-style French doors to pull more natural light into the dark-paneled interiors.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/21130-E-Cliff-Dr-Santa-Cruz-CA-95062/400188625_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 21130 E Cliff Dr, Santa Cruz
+
+## Executive Summary
+This 1904 Historic Craftsman is a "preservationist’s dream" that offers rare architectural integrity and unobstructed lagoon and ocean views. While it perfectly avoids the "gray-flip" aesthetic you loathe, it presents a challenge in balancing its dark, moody redwood interiors with your requirement for abundant natural light.
+
+## Aesthetic Alignment
+The property is a high-level match for your taste in **architectural character and natural materials**. It features extensive original redwood millwork, intricate fretwork, and authentic period hardware that provide immense "soul." However, the sheer volume of dark wood—while cozy—can swallow light. This home sits on the edge of your "natural light" constraint; it has the windows and the views, but the interior surfaces act as a light sink rather than a reflector.
+
+## Strengths
+*   **Architectural Integrity:** A Santa Cruz County Historical Trust landmark; zero "cheap flip" finishes.
+*   **Materiality:** Extraordinary use of natural wood, exposed beams, and original brick fireplaces.
+*   **The View:** Unobstructed vistas of both the ocean and the lagoon, providing a sense of scale and openness.
+*   **Spatial Interest:** A complex, multi-story floor plan that avoids "boxy" generic layouts.
+*   **Legal Duplex:** Offers functional flexibility for guests, rental income, or a dedicated creative studio.
+
+## Weaknesses
+*   **Interior Luminance:** The historic redwood, while beautiful, creates a dim atmosphere that may feel too dark during winter months or foggy coastal days.
+*   **Maintenance Burden:** Shingle-style coastal homes require rigorous exterior upkeep; 120-year-old redwood requires "surgical" care for any mechanical upgrades.
+*   **External Environs:** While the views are primary, the property sits on E Cliff Drive, a high-traffic area that may impact the "cozy" tranquility of the exterior spaces.
+*   **Kitchen/Utility Lag:** The kitchen and bathrooms are functional but dated, contrasting sharply with the high-quality historic living areas.
+
+## Deal-Breakers
+*   **Historical Restrictions:** Because it is on the Historical Trust, your ability to alter the exterior (windows, siding, additions) is strictly regulated. If the current window configuration doesn't provide enough light for you, you cannot easily add more.
+
+## Renovation Paths
+*   **The "Light Touch" ($100k–$200k):** Focus on a high-end kitchen remodel that uses reflective natural materials (white marble, light oak) to bounce light into the core of the house. 
+*   **Strategic Lighting:** Install museum-quality overhead and accent lighting to highlight the redwood without making the rooms feel like a cave.
+*   **Structural Diligence:** Prioritize an inspection of the foundation and masonry, as 1900s coastal structures are prone to settling and salt-air degradation.
+
+## Who This House Is For
+This home is for a **steward of history** who prioritizes architectural soul over modern convenience. It is for someone who finds "warmth" in dark wood and history, and who is willing to trade a bright white interior for a moody, authentic coastal lodge.
+
+## Verdict
+**PURSUE WITH CAUTION.** This house hits 4 out of 5 of your key principles perfectly. The only compromise is the "abundant natural light"—the views are there, but the walls are dark. You should visit at different times of day to ensure the interior mood doesn't feel oppressive. If the light levels are acceptable, this is a once-in-a-decade find.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/2c7927f9067676a6292b1e63458cbf5c-p_e.jpg" alt="3300 Crystal Heights Dr, Soquel, CA 95073" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">3300 Crystal Heights Dr, Soquel, CA 95073</div>
+                            <div class="house-price">$1,649,000</div>
+                            <div class="house-features">3 bed · 3 bath · 2,001 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-high">76</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house is an excellent match for architectural character and natural light, meeting the most critical taste model principles. It avoids the 'gray flip' trap, retaining organic wood elements and vaulted ceilings. The score is tempered by a 'transitional' kitchen that feels stylistically confused compared to the MCM architecture, and the inherent risks associated with hillside Soquel properties (fire/drainage). It passes the present-fit test but requires accepting mid-tier kitchen finishes in a high-tier architectural shell.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Expansive glass and panoramic views</span><span class="tag tag-positive">✓ Vaulted tongue-and-groove ceilings</span><span class="tag tag-positive">✓ High-quality hardscaping and outdoor living spaces</span>
+                        <span class="tag tag-negative">✗ Sloping lot may present drainage or foundation complexities common to hillside builds</span><span class="tag tag-negative">✗ Visible mini-split AC units on bedroom walls suggest a lack of central HVAC integration</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Culinary Integration</div>
+                    <div class="renovation-change">Replace shaker doors with walnut or oak flat-panel cabinetry. Install a slimmer, mitered-edge porcelain or honed marble countertop. Replace existing pendant lights with period-correct sculptural fixtures.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">HVAC & Visual Continuity</div>
+                    <div class="renovation-change">Evaluate the possibility of routing slim-duct concealed HVAC units or, at minimum, custom-painting/recessing the mini-splits to blend with the wall/ceiling tones.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/3300-Crystal-Heights-Dr-Soquel-CA-95073/16133798_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 3300 Crystal Heights Dr, Soquel
+
+## Executive Summary
+This 2,001 sq. ft. hillside retreat offers a high-character architectural shell with world-class panoramic views of the Monterey Bay. While the home avoids the "cheap flip" aesthetic by retaining its vaulted tongue-and-groove ceilings and organic MCM lines, it suffers from a slight identity crisis due to conventional kitchen and bath finishes. At $1.65M, you are paying for the irreplaceable vista and the architectural volume, with some aesthetic refinement still required.
+
+## Aesthetic Alignment
+The property leans heavily into your preference for **architectural character and natural light**. With its vaulted ceilings, open beams, and expansive glass, it rejects the "boxy" layout you dislike. However, the kitchen—featuring traditional granite and shaker cabinets—is a stylistic mismatch with the house’s Mid-Century Modern bones. It hits the "wood and warmth" marks through its ceilings and floors, but misses on material continuity.
+
+## Strengths
+*   **Irreplaceable Volume:** Soaring wood-clad ceilings and clerestory windows provide the "architectural soul" often stripped from modern renovations.
+*   **Outdoor Living:** High-quality hardscaping and multiple viewing decks maximize the steep lot and provided much-needed flat usable outdoor space.
+*   **Light & Views:** Almost every room features a view; the orientation ensures the "abundant natural light" you prioritize.
+*   **Non-Generic:** It avoids the "gray laminate" trap, using real hardwood and preserving unique structural elements.
+
+## Weaknesses
+*   **Stylistic Inconsistency:** The kitchen and "updated" bathrooms feel like standard suburban choices that don't match the high-design exterior and ceiling structure.
+*   **HVAC Integration:** The visible wall-mounted mini-split units are a functional eyesore in rooms with such clean architectural lines.
+*   **Site Complexity:** Hillside living in Soquel brings inherent risks regarding drainage, foundation pressure, and steep-slope landscaping maintenance.
+
+## Deal-Breakers
+*   **Fire Risk:** Located in a hillside/greenbelt area, this property carries a high fire-risk profile. If you are strictly adhering to your anti-principle regarding forest/fire zones, this requires a close look at insurance availability.
+*   **Downslope Lot:** For those wary of foundation/drainage complexities on steep terrain, the topography here may be a deterrent.
+
+## Renovation Paths: "The Finishing Touch"
+The house is currently a "Level 8" that needs a "Level 10" kitchen to match its shell.
+*   **The Kitchen (High Impact):** Replace the granite and shaker cabinets with walnut or oak cabinetry and integrated appliances to bridge the gap between the kitchen and the wood-clad ceilings.
+*   **HVAC Stealth:** Explore options to better integrate or hide the mini-split units to clean up the interior sightlines.
+*   **Structural Due Diligence:** Prioritize a geological and foundation inspection to ensure the hillside drainage systems are robust before investing in interior cosmetics.
+
+## Who This House Is For
+This home is for the buyer who prioritizes **form and atmosphere** over a "perfect" turnkey interior. If you want a house that feels like a coastal treehouse and are willing to swap out some "safe" renovation choices for high-design elements, this is an ideal canvas.
+
+## Verdict
+**Pursue, but with a renovation budget.** The architectural "bones" here are superior to almost anything in this price bracket. You aren't fighting a bad layout; you are simply finishing a story that the current renovation left incomplete. If you can stomach the Soquel hill insurance premiums, this is a rare find that aligns with your taste for warm, light-filled, character-rich spaces.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/d5f259b8eef4038575beaa37f76e34a8-p_e.jpg" alt="2241 Albert Ln, Capitola, CA 95010" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">2241 Albert Ln, Capitola, CA 95010</div>
+                            <div class="house-price">$1,658,500</div>
+                            <div class="house-features">4 bed · 3 bath · 2,105 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">75</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This property is a strong present-fit due to its excellent natural light and high-end core renovations (kitchen/primary bath). It meets the soft constraints for a cul-de-sac location and multiple stories. However, it fails to achieve a higher score because of the 'uneven' renovation quality; the discrepancy between the spa-like primary bath and the builder-grade carpeting/secondary bath creates a disjointed aesthetic that will require minor immediate investment to harmonize. It avoids the 'grey-flip' trap by using stone and wood but remains somewhat suburban-generic.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ High-end kitchen and primary bath renovations</span><span class="tag tag-positive">✓ Lush, mature landscaping providing significant privacy</span><span class="tag tag-positive">✓ Natural light through large windows and vaulted ceilings</span>
+                        <span class="tag tag-negative">✗ Varying levels of renovation (primary bath is high-end, second bath is dated)</span><span class="tag tag-negative">✗ Wall-to-wall carpeting in bedrooms contrasts with high-end finishes in common areas</span><span class="tag tag-negative">✗ Visible solar panels on roof - check if owned or leased</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Secondary Bathroom & Bedroom Level</div>
+                    <div class="renovation-change">Full gut of secondary bath to match the primary's spa-like aesthetic; replace all bedroom carpet with wide-plank hardwood or reclaimed wood to satisfy 'Wood Elements' principle.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room & Ceiling Details</div>
+                    <div class="renovation-change">Introduce architectural character by adding decorative wood collar ties or faux-exposed beams to the vaulted ceilings; swap the corner fireplace surround for a floor-to-ceiling textured stone or brick hearth.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/2241-Albert-Ln-Capitola-CA-95010/16131292_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 2241 Albert Ln, Capitola
+
+### Executive Summary
+This 4-bedroom contemporary suburban home offers a high-functioning layout at the end of a quiet cul-de-sac in a prime Capitola location. While the kitchen and primary suite have been renovated to a high standard, the rest of the home remains in a "transition state" with dated finishes. It is a strong candidate for a buyer who wants a move-in-ready core but is willing to perform cosmetic "soul-infusion" to elevate the home’s architectural character.
+
+### Aesthetic Alignment
+The property sits at a **74.8% alignment** with your preferences. It succeeds brilliantly with **natural light**, featuring vaulted ceilings and expansive windows that avoid the "boxy" feel you dislike. However, it currently leans more toward "Suburban Traditional" than "Textured Coastal." While it avoids the "grey-flip" aesthetic by using stone and wood, the presence of wall-to-wall carpeting and standard drywall finishes lacks the architectural depth (beams, masonry, woodwork) you value.
+
+### Strengths
+*   **High-End Core Renovation:** The kitchen and primary bathroom are already done to a high standard, saving you the most expensive and disruptive parts of a remodel.
+*   **Natural Light & Volume:** Vaulted ceilings and large windows create an airy, bright interior that meets your top priority.
+*   **Privacy & Landscaping:** The lot features mature, lush greenery and a "view property" feel that provides a sense of sanctuary often missing in cul-de-sacs.
+*   **Safety & Location:** Situated away from high-fire-risk forest zones while remaining in a highly desirable coastal pocket.
+
+### Weaknesses
+*   **Renovation Disparity:** There is a jarring "quality gap" between the spa-like primary bath and the dated, builder-grade secondary bathrooms and bedrooms.
+*   **Flooring Inconsistency:** The mix of hardwood and wall-to-wall carpeting breaks the flow of the home and feels less premium.
+*   **Suburban Genericism:** Without further customization, the home lacks unique architectural "moments" like exposed beams or textured masonry.
+
+### Deal-Breakers
+*   **None identified.** The home passes all core requirements. (Note: Ensure solar panel ownership/lease terms are reviewed during due diligence).
+
+### Renovation Paths: "The Character Infusion"
+To bring this home to its **78.0/100 potential**, an investment of **$100k–$200k** is recommended:
+1.  **Uniform Flooring:** Replace all bedroom carpeting with hardwood to match the existing common areas (requires sanding/refinishing for a seamless look).
+2.  **Architectural Detail:** Add structural interest through reclaimed wood ceiling beams in the vaulted living area and upgrading the fireplaces with natural stone or brick masonry.
+3.  **Hardware & Lighting:** Replace standard fixtures with "living finishes" (brass, bronze) and wood-centric lighting to add warmth.
+
+### Who This House Is For
+This home is ideal for a buyer who prioritizes **location and light** and wants a functional family layout that isn't a "project house," but who has the vision to layered-in textures and architectural details over time.
+
+### Verdict
+**PROCEED.** This is a "close second" property that provides a solid, light-filled canvas. It avoids your "anti-principles" (dark, boxy, cheap-flip) and offers a clear path to becoming a high-character coastal sanctuary with relatively low-friction cosmetic upgrades.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/42d8c127cbf076cd81dd546460e0f907-p_e.jpg" alt="2908 Sandy Ln, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">2908 Sandy Ln, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,287,500</div>
+                            <div class="house-features">4 bed · 2 bath · 1,926 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">68</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This house is a strong 'bones' match based on your preference for architectural character and wood elements, but is penalized significantly for its lack of modern functional updates. While it avoids 'flip-style' cheapness, the kitchen and bathrooms are in a state of 'functional obsolescence' relative to the price point, requiring immediate aesthetic compromise. The presence of wall heaters rather than central HVAC is a notable functional drawback for present-fit.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Original tongue-and-groove wood beam ceilings</span><span class="tag tag-positive">✓ Real hardwood flooring (not LVP)</span><span class="tag tag-positive">✓ Large windows and window seats</span>
+                        <span class="tag tag-negative">✗ Mismatch between high-quality architectural ceilings and dated 'builder-grade' kitchen/baths</span><span class="tag tag-negative">✗ Wall heaters visible in several rooms (no central HVAC mentioned or visible)</span><span class="tag tag-negative">✗ Tile countertops in kitchen with wide grout lines</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Main Flow</div>
+                    <div class="renovation-change">Complete gut renovation. Install walnut or white oak cabinetry to match the ceiling's warmth, quartz or soapstone countertops with a seamless backsplash, and high-end lighting to bridge the gap between the kitchen and the vaulted living room.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Primary Bathroom & Guest Bath</div>
+                    <div class="renovation-change">Modernize with walk-in showers featuring vertical stack tile, floating wood vanities, and brass or matte black fixtures. Maintain a 'retro-organic' vibe to keep the quirky character the user enjoys.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/2908-Sandy-Ln-Santa-Cruz-CA-95062/16128934_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 2908 Sandy Ln, Santa Cruz
+
+## Executive Summary
+This 1951 Mid-Century Ranch is a "character-first" property located on a quiet cul-de-sac in Live Oak. While the home boasts exceptional original architectural bones, including vaulted tongue-and-groove ceilings and narrow-plank hardwoods, the interior systems and finishes (kitchen/baths) are dated and lack modern functionality. It is a high-potential project for a buyer who values soul over move-in-ready convenience.
+
+## Aesthetic Alignment
+The property aligns strongly with the user’s preference for **architectural character and natural materials**. The vaulted wood ceilings and brick fireplace provide a "cozy warmth" that is difficult to replicate in modern builds. Large windows, window seats, and a 10,000+ sqft lot ensure the "abundant natural light" and indoor-outdoor flow the user seeks. It successfully avoids the "boxiness" and "cheap flip" aesthetic of the current market.
+
+## Strengths
+*   **Original Craftsmanship:** Rare, high-quality tongue-and-groove wood beam ceilings and authentic hardwood flooring.
+*   **Spatial Interest:** Far from a generic layout; features distinct living zones, built-in window seating, and a multi-level feel.
+*   **Expansive Lot:** The 10,000+ sqft lot is roughly double the size of many neighboring parcels, offering significant privacy and landscaping potential.
+*   **Location:** End of a cul-de-sac location avoids through-traffic and high-fire-risk forest zones.
+
+## Weaknesses
+*   **Functional Obsolescence:** The kitchen and bathrooms feature "builder-grade" tile and dated fixtures that clash with the home's architectural quality.
+*   **Climate Control:** The home relies on dated wall heaters; there is no evidence of central HVAC or mini-split systems.
+*   **Deferred Modernization:** At a $1.28M price point, the lack of a modern electrical panel or updated window glazing (likely) represents a significant hidden cost.
+
+## Deal-Breakers
+*   **None identified.** However, buyers sensitive to "project homes" may find the immediate need for a kitchen/bath overhaul (estimated $100k-$200k) to be a financial deterrent.
+
+## Renovation Paths
+*   **The "California Modern" Transformation:** Focus the budget on a high-end kitchen remodel (removing the tile countertops/wide grout) and a primary bath overhaul. 
+*   **Systems Upgrade:** Prioritize an electrical panel upgrade and the installation of a multi-zone mini-split HVAC system to replace wall heaters.
+*   **Safety/Abatement:** Given the 1951 build date, factor in testing for lead and asbestos before disturbing any flooring or popcorn ceiling textures.
+
+## Who This House Is For
+This property is for the **design-forward buyer** who is willing to trade a "turn-key" experience for a home with a soul. If you hate gray laminate "flipper" houses and want a canvas with legitimate mid-century pedigree, this is your house.
+
+## Verdict
+**Pursue, but price in the work.** This is an 82/100 potential-score property. The "bones" are exactly what you are looking for, and the lot size is a rare find in Live Oak. Do not pay "renovated" prices for this home; negotiate based on the $150k+ required to bring the systems and finishes up to the level of the architecture.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg" alt="631 Park Way, Santa Cruz, CA 95065" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">631 Park Way, Santa Cruz, CA 95065</div>
+                            <div class="house-price">$1,595,000</div>
+                            <div class="house-features">3 bed · 3 bath · 2,157 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">64</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house passes on the strength of its natural light and architectural bones, which are core priorities. However, it earns a lower score due to the 'present-fit' requirement: the kitchen and some 'updated' elements are a significant aesthetic mismatch for someone seeking a cohesive mid-century look. The jarring transition from high-quality architectural glass to 90s builder-grade oak cabinets represents a major functional and aesthetic compromise that would require immediate renovation to achieve a cohesive feel.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ authentic mid-century architectural features (floor-to-ceiling glass)</span><span class="tag tag-positive">✓ vaulted ceilings with exposed beams</span><span class="tag tag-positive">✓ well-established, mature landscaping</span>
+                        <span class="tag tag-negative">✗ disjointed interior styles: high-end MCM living room vs. basic developer kitchen</span><span class="tag tag-negative">✗ composite image showing multiple different houses suggests a marketing collage rather than a single listing</span><span class="tag tag-negative">✗ popcorn ceiling texture visible in some interior shots</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Great Room Integration</div>
+                    <div class="renovation-change">Complete gut renovation. Install flat-panel walnut or rift-sawn oak cabinetry, quartz countertops with a waterfall edge, and integrated appliances. Remove any non-structural partitions to fully open the kitchen to the vaulted living area.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Ceilings and Lighting</div>
+                    <div class="renovation-change">Scrape popcorn ceilings, skip-trowel to a smooth finish, and wrap or refinish the exposed beams to enhance the 'wood elements' principle. Upgrade to high-CRI architectural LED lighting.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/631-Park-Way-Santa-Cruz-CA-95065/16109729_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 631 Park Way, Santa Cruz
+
+### Executive Summary
+This is a mid-century modern (MCM) "diamond in the rough" that offers spectacular architectural bones and the coveted "glass house" aesthetic. While the core living spaces feature soaring beamed ceilings and floor-to-ceiling windows, the home suffers from a disjointed identity due to a dated, low-quality 90s renovation in the kitchen and utility areas.
+
+### Aesthetic Alignment
+The property is a strong match for your **architectural character** and **natural light** requirements. It avoids the "boxy" feel you dislike, utilizing vaulted ceilings and timber beams to create vertical interest. However, it currently violates your anti-principle regarding **cheap finishes**; the 90s builder-grade oak cabinetry and popcorn ceilings sharply contrast with the sophisticated MCM structure.
+
+### Strengths
+*   **Architectural Integrity:** Authentic 1960s post-and-beam construction with dramatic floor-to-ceiling glass.
+*   **Natural Light:** Exceptional light penetration throughout the primary living zones.
+*   **Natural Materials:** Features original hardwood flooring and warm wood-beamed ceilings that provide the "cozy warmth" you value.
+*   **Outdoor Integration:** Mature landscaping and large glass spans create a seamless indoor-outdoor flow characteristic of high-end Santa Cruz MCM homes.
+
+### Weaknesses
+*   **Stylistic Inconsistency:** The transition from the high-end architectural living room to the "basic developer" kitchen is jarring and diminishes the home’s luxury feel.
+*   **Dated Finishes:** Popcorn ceilings are present, which likely contain asbestos given the 1961 build date.
+*   **Marketing Ambiguity:** The listing uses a collage of images that may include neighboring properties; a physical site visit is mandatory to confirm the specific lot's condition and privacy.
+
+### Deal-Breakers
+*   **None identified.** The home passes the "present-fit" test based on its structural bones, though it requires significant cosmetic alignment to meet your standards.
+
+### Renovation Paths
+To reach this home’s **82/100 potential**, a budget of **$100k–$200k** is recommended:
+1.  **The Kitchen Bridge:** Replace the 90s oak cabinets and basic counters with a modern, integrated kitchen that reflects the MCM era (e.g., walnut cabinetry, stone surfaces).
+2.  **Ceiling Remediation:** Scrape the popcorn ceilings and refinish the wood beams to emphasize the "Glass and Timber" sanctuary aesthetic.
+3.  **Modern Glazing:** If budget allows, upgrading to high-efficiency large-span sliders would improve both thermal performance and the indoor-outdoor connection.
+
+### Who This House Is For
+This house is for a buyer who prioritizes **architectural soul** over "turn-key" convenience. You must be willing to endure a kitchen remodel and ceiling remediation to bridge the gap between "suburban ranch" and "design-forward MCM."
+
+### Verdict
+**PROCEED WITH CAUTION.** The architectural bones are exactly what you are looking for—dramatic, light-filled, and rich with wood. However, you are paying a premium ($1.59M) for a house that essentially requires a total kitchen and surface overhaul to feel cohesive. 
+
+**Next Step:** Schedule a viewing specifically to assess the kitchen's layout and the condition of the exterior glass. If the structural integrity of the windows and beams is solid, the renovation path is straightforward and highly rewarding.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/319d3943f4465576ef71b165ec562c28-p_e.jpg" alt="4750 Capitola Rd, Capitola, CA 95010" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">4750 Capitola Rd, Capitola, CA 95010</div>
+                            <div class="house-price">$1,675,000</div>
+                            <div class="house-features">3 bed · 3 bath · 1,832 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">62</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house passes the hard constraint for natural light and offers excellent architectural volume. However, the present-fit is hindered by a disjointed interior aesthetic. While it avoids the 'grey flip' violation, it suffers from a mix of dated 1990s oak and low-end beige carpeting that requires immediate attention to meet the consumer's taste for quality wood elements. The busy road location is a significant soft-constraint violation.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ vaulted ceilings throughout</span><span class="tag tag-positive">✓ beautiful natural wood plank ceilings in upstairs bedrooms</span><span class="tag tag-positive">✓ abundance of natural light from skylights and large windows</span>
+                        <span class="tag tag-negative">✗ inconsistent appliance finishes in kitchen</span><span class="tag tag-negative">✗ cheap wall-to-wall beige carpeting</span><span class="tag tag-negative">✗ mismatched bathroom styles</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room & Flooring</div>
+                    <div class="renovation-change">Replace all carpet with wide-plank white oak flooring to match existing hardwoods; sand and refinish existing hardwoods for a seamless look. Paint the stone fireplace surround or replace with lime-wash brick.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen</div>
+                    <div class="renovation-change">Reface or replace cabinets with a modern slab or shaker profile in a warm neutral; install integrated appliances and a soapstone or marble-look quartz counter.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/4750-Capitola-Rd-Capitola-CA-95010/16130471_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 4750 Capitola Rd, Capitola
+
+## Executive Summary
+This 3-bedroom "Modern Craftsman" offers significant architectural volume and natural light, but is currently trapped in a dated, 1990s-era interior. While the property requires a $100k–$200k investment to address aesthetic inconsistencies and potential exterior maintenance, its structural "bones"—including vaulted wood ceilings—provide a foundation for a high-end coastal retreat.
+
+## Aesthetic Alignment
+The home is a strong match for your preference for **architectural character** and **natural wood features**. It avoids the "boxy" feel of generic suburban builds, utilizing vaulted ceilings and saltbox-inspired shapes. However, it currently violates your distaste for "cheap" finishes due to its wall-to-wall beige carpeting and mismatched appliance finishes.
+
+## Strengths
+*   **Architectural Volume:** Vaulted ceilings throughout create a sense of scale and airiness that cannot be easily added to a standard home.
+*   **Natural Light:** Abundant skylights and large window banks ensure the interior meets your "abundant light" requirement.
+*   **Wood Detail:** Beautiful natural wood plank ceilings in the upstairs bedrooms are a standout feature that aligns perfectly with your "cozy warmth" principle.
+*   **Hardwood Foundation:** Real hardwood exists in high-traffic areas, providing a starting point for a cohesive flooring plan.
+
+## Weaknesses
+*   **Dated Material Palette:** The combination of 90s oak cabinetry and low-end beige carpet creates a "tired" interior feel.
+*   **Exterior Maintenance:** Visible water staining near exterior trim suggests potential envelope issues or rot that require a professional inspection.
+*   **Location Friction:** Situated on Capitola Rd, the property faces a busy thoroughfare, which may impact the "quiet" enjoyment of the outdoor spaces.
+*   **Disjointed Finishes:** The kitchen and bathrooms lack a unified design language, featuring mismatched appliances and styles.
+
+## Deal-Breakers
+*   **None.** The house avoids all hard "Anti-Principles" (it is not a forest fire risk, nor is it a generic gray flip). The busy road is the primary soft-constraint concern.
+
+## Renovation Paths
+To reach its **82.0/100 Potential Score**, a "Modern Coastal" refresh is recommended:
+1.  **Level 1 (Immediate):** Replace all wall-to-wall carpeting with wide-plank hardwood or high-quality natural stone to unify the floor plan.
+2.  **Level 2 (Kitchen/Bath):** Modernize the oak cabinetry and replace mismatched appliances with a cohesive high-end suite.
+3.  **Level 3 (Structural Check):** Address the exterior water staining immediately to prevent internal damage to the vaulted framing.
+
+## Who This House Is For
+This property is for a buyer who prioritizes **architectural "bones"** over "turn-key" convenience. It is ideal for someone with the vision to strip away 1990s suburban relics to reveal a warm, wood-forward coastal home, and who is willing to trade a quiet side-street for a central, walkable Capitola location.
+
+## Verdict
+**Proceed with Caution / Schedule a Showing.** 
+The house is a "diamond in the beige." You are paying for the volume and the light, both of which are excellent. However, do not underestimate the cost of neutralizing the 1990s finishes. If you can negotiate the price to account for the road noise and the necessary $150k renovation, this will be a standout architectural home.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg" alt="120 Corinne Ave, Santa Cruz, CA 95065" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">120 Corinne Ave, Santa Cruz, CA 95065</div>
+                            <div class="house-price">$1,399,000</div>
+                            <div class="house-features">3 bed · 2 bath · 1,385 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">62</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house passes the hard constraint for natural light but fails to excite. While the vaulted family room is a major highlight, the rest of the home suffers from a disjointed identity—half dated 90s (honey-oak and thick carpet) and half generic 2010s flip (greige walls). It lacks the consistent wood elements and architectural character desired, making it an 'acceptable' but uninspiring present-fit.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Vaulted wood ceilings in primary living space</span><span class="tag tag-positive">✓ Large lot sizes and mature trees</span><span class="tag tag-positive">✓ Strong indoor-outdoor flow via sliding doors</span>
+                        <span class="tag tag-negative">✗ Inconsistent renovation quality across different rooms</span><span class="tag tag-negative">✗ Heavy use of wall-to-wall carpet in main living areas</span><span class="tag tag-negative">✗ Evidence of builder-grade 'refresh' choices (grey paint, specific furniture staging styles)</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Main Living & Dining Continuity</div>
+                    <div class="renovation-change">Remove all carpeting; install wide-plank white oak flooring throughout to match the warmth of the vaulted wood ceiling. Replace the brick fireplace surround with soapstone or vertical zellige tile.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen</div>
+                    <div class="renovation-change">Reface or replace oak cabinetry with flat-panel walnut or matte forest green cabinetry. Extend the backsplash to the ceiling to emphasize height. Replace the peninsula with a reclaimed wood island.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/120-Corinne-Ave-Santa-Cruz-CA-95065/16163465_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 120 Corinne Ave, Santa Cruz
+
+### Executive Summary
+A single-story ranch on an elevated corner lot that offers a "tale of two houses." While the vaulted, wood-clad family room aligns perfectly with a warm, architectural aesthetic, the rest of the home is mired in uninspired 1990s finishes and generic "flipper-grey" updates. It is a solid structural canvas with excellent light, but it requires a unified vision to move past its current disjointed state.
+
+### Aesthetic Alignment
+The house currently sits at a **62/100** for present-fit. It hits the mark on "Cozy Warmth" via the impressive wood-plank ceilings and the brick fireplace. However, it fails the "Anti-Principle" check for cheap flip finishes, specifically the ubiquitous "greige" paint and builder-grade carpet. It lacks the multi-story complexity you prefer, but it compensates with high-volume ceilings in the primary living zone that prevent it from feeling like a generic box.
+
+### Strengths
+*   **Structural Character:** The vaulted wood ceilings are the "soul" of the house and provide an architectural anchor that most ranches lack.
+*   **Indoor-Outdoor Flow:** Large sliding doors and an expansive elevated deck take full advantage of the Santa Cruz climate and provide a sense of space beyond the 1,385 sqft footprint.
+*   **Natural Light:** Large windows and an open orientation ensure the home meets your requirement for bright, airy interiors.
+*   **The Lot:** A large corner lot with mature landscaping provides privacy and a premium feel.
+
+### Weaknesses
+*   **Inconsistent Finishes:** The home feels "pieced together." You’ll find honey-oak trim, thick wall-to-wall carpet, and modern grey paint all competing for attention.
+*   **Material Palette:** The use of laminate and builder-grade materials feels cheap compared to the high-quality wood ceilings.
+*   **Lack of Verticality:** As a single-story ranch, it misses the multi-story "flow" you typically look for, though the ceiling height mitigates this.
+
+### Deal-Breakers
+*   **None.** There are no structural or environmental violations (like high fire-risk forest zones), but the aesthetic "identity crisis" will be a significant hurdle for those wanting a move-in-ready architectural gem.
+
+### Renovation Paths (Medium Feasibility)
+To reach the **82/100 potential score**, a budget of **$100k–$200k** is estimated to:
+1.  **Unify Flooring:** Remove all carpet and mismatched laminate; install consistent hardwood throughout to bridge the gap between the family room and the rest of the house.
+2.  **Strip the "Greige":** Repaint with a warmer, gallery-white palette that complements the natural wood rather than clashing with it.
+3.  **Kitchen/Bath Cohesion:** Replace "refresh" cabinets with natural wood elements to echo the ceiling’s warmth.
+4.  **Deck Refresh:** Modernize the railing system on the elevated deck to enhance the "Contemporary Mid-Century" vibe.
+
+### Who This House Is For
+This house is for a buyer who views the vaulted wood ceiling as the "star" and is willing to strip away the mediocre 90s renovations to let it shine. It is ideal for someone who prioritizes light and yard space over a multi-story floor plan.
+
+### Verdict
+**PROCEED WITH CAUTION.** This is not a "dream home" today, but it is one of the better "ugly ducklings" on the market. If you are willing to manage a cosmetic overhaul to fix the disjointed interior, the structural bones will reward you. If you are looking for immediate architectural sophistication, keep looking.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/e22ba47d644ca98113869ac6266451ad-p_e.jpg" alt="120 Maple St, Santa Cruz, CA 95060" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">120 Maple St, Santa Cruz, CA 95060</div>
+                            <div class="house-price">$1,279,000</div>
+                            <div class="house-features">4 bed · 1 bath · 1,312 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">62</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">While the house satisfies the 'natural light' hard constraint and boasts strong architectural character externally, it triggers a major violation pattern regarding flip-quality finishes. The clash between the historic 1885 Victorian shell and the 'cold grey' budget renovations in the secondary units creates a significant aesthetic dissonance. As a present-fit evaluation, the low-quality material choices and generic kitchen designs heavily penalize the score, keeping it in the 'Acceptable with significant compromises' range.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ High-quality architectural character in the primary cottage</span><span class="tag tag-positive">✓ Solar panels visible on one structure</span><span class="tag tag-positive">✓ Unique interior features like the beehive fireplace</span>
+                        <span class="tag tag-negative">✗ Inconsistent renovation quality between rooms</span><span class="tag tag-negative">✗ Generic 'flip' kitchen in one unit (grey shaker/marbled floors)</span><span class="tag tag-negative">✗ Significant mix of property types in one listing suggests a complex multi-unit or portfolio sale</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Main Kitchen (Unit 1)</div>
+                    <div class="renovation-change">Reconfigure layout to open toward the living area; replace dark cabinetry with light-toned wood (white oak or walnut) to meet user taste; install zellige tile backsplash and integrated wood shelving.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room & Floors</div>
+                    <div class="renovation-change">Sand and refinish any existing wood floors or install reclaimed wide-plank wood flooring where terracotta exists to add warmth. Add exposed ceiling beams to complement the kiva-style fireplace.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/120-Maple-St-Santa-Cruz-CA-95060/16106152_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 120 Maple St, Santa Cruz
+
+### Executive Summary
+This 1885 Victorian cottage offers high architectural character and abundant natural light, but it is currently a "house of two souls." While the exterior and main living areas retain charming historic quirks, the secondary spaces have been marred by a low-quality, generic "grey flip" renovation that clashes with the home’s 19th-century spirit.
+
+### Aesthetic Alignment
+The property is a mixed bag for your specific tastes. It nails the **Architectural Character** requirement with its beehive fireplace and arched entries, and the **Natural Light** is excellent. However, it fails your **Anti-Principle regarding "Cheap Flip Finishes."** The presence of grey shaker cabinets and marbled floors creates a cold, dissonant energy that contradicts your preference for "cozy warmth" and natural wood elements.
+
+### Strengths
+*   **Unique Heritage:** A rare 1885 Victorian shell that has avoided being "boxed out" or stripped of its external charm.
+*   **Abundant Light:** Orientation and window placement provide the bright, airy feel you prioritize.
+*   **Quirky Features:** The "beehive" fireplace and non-standard layouts offer the visual interest you desire.
+*   **Modern Utility:** Includes solar panels and is located in a walkable Santa Cruz neighborhood, avoiding the fire risks of a deep forest setting.
+
+### Weaknesses
+*   **Aesthetic Dissonance:** The contrast between the historic character and the "cheap grey" interior updates in the second unit is jarring.
+*   **Maintenance Debt:** Visible surface-mounted conduit and the age of the structure (139 years) suggest likely hidden issues with wiring (knob-and-tube) or lath and plaster.
+*   **Inconsistent Quality:** The renovation feels "budget-grade" in parts, requiring you to undo recent work to achieve a high-end feel.
+
+### Deal-Breakers
+*   **None.** While the "grey flip" elements are a major violation of your preferences, they are cosmetic and reversible. There are no structural or environmental deal-breakers (like a high fire-risk forest location) identified.
+
+### Renovation Paths
+**The "Coastal-Bohemian" Warm-up (Estimated $100k–$200k):**
+1.  **Strip the Flip:** Remove the grey laminate and shaker-style kitchen elements. 
+2.  **Restore Warmth:** Introduce natural wood cabinetry, butcher block or soapstone counters, and unlacquered brass hardware.
+3.  **Unify the Units:** Use a consistent palette of warm whites and natural wood flooring to bridge the gap between the main cottage and the secondary units.
+4.  **Infrastructure:** Budget for electrical upgrades to integrate the solar system properly and address potential 19th-century wiring risks.
+
+### Who This House Is For
+This property is for a buyer who loves **Santa Cruz history** and is willing to act as a "restoration editor." You must be comfortable managing a renovation that involves stripping away mediocre modern updates to reveal and enhance the home's original 1885 soul.
+
+### Verdict
+**Proceed with caution, but proceed.** The "bones" of this house—the light, the arches, and the character—are things you cannot easily build from scratch. The elements you hate (the grey flip) are just surface-level. If you have the appetite for a $150k interior overhaul, this can become a stunning, high-character coastal compound. Check the electrical and ADU permit status during due diligence.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg" alt="2304 Mattison Ln, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">2304 Mattison Ln, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,395,000</div>
+                            <div class="house-features">3 bed · 2 bath · 1,355 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">62</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">While the house meets the hard constraint for natural light and has an excellent outdoor setup, it fails the soft constraint for multiple stories and has low material consistency. The 'Present-Fit' is compromised by the jarring difference between high-quality staged areas and the dated, vinyl-heavy kitchen and dark wood-paneled living room. It sits in the 60s as it requires significant aesthetic alignment to move from a 'piecemeal' feel to a cohesive home.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ significant natural light</span><span class="tag tag-positive">✓ well-maintained landscaping</span><span class="tag tag-positive">✓ large windows with scenic views</span>
+                        <span class="tag tag-negative">✗ inconsistent flooring types (wood to tile transitions)</span><span class="tag tag-negative">✗ grey-wash paint palette used to hide older features</span><span class="tag tag-negative">✗ mix of updated and very dated spaces suggests a piecemeal renovation</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room 1 & Entry</div>
+                    <div class="renovation-change">Refinish all original hardwood to a light/natural oak, replace dark paneling with drywall or modern slim-slat wood accents, and lime-wash the brick fireplace for a 'Scandi-Ranch' aesthetic.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Flooring Material Unity</div>
+                    <div class="renovation-change">Remove institutional tile in 'Living Room 2' and vinyl in kitchen; install matching engineered hardwood or high-end cork throughout to create seamless flow between the split levels.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/2304-Mattison-Ln-Santa-Cruz-CA-95062/16127287_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 2304 Mattison Ln, Santa Cruz
+
+### Executive Summary
+This 3-bedroom California Ranch in Live Oak is a "diamond in the rough" that offers exceptional natural light and outdoor living but suffers from a fragmented interior identity. While it features the architectural character and warmth you value, it currently feels like a collection of different eras rather than a cohesive home. At $1.395M, it is a high-potential project for a buyer willing to invest in aesthetic unification.
+
+### Aesthetic Alignment
+The property achieves a **62/100** on present-fit but climbs to **78/100** for potential. 
+*   **The Good:** It hits your "Key Principles" with large windows, a brick fireplace, and mature landscaping that creates a warm, non-boxy atmosphere.
+*   **The Bad:** It flirts with your "Anti-Principles" via inconsistent finishes. The mix of high-quality hardwood, dated tile, and "grey-wash" paint creates a disjointed feel that lacks the sophisticated wood-and-light harmony you desire.
+
+### Strengths
+*   **Light & Volume:** Large windows and a multi-level flow provide the architectural interest and "airy" feel you prioritize.
+*   **Outdoor Sanctuary:** The landscaping is a standout feature, including a koi pond, pergola-covered deck, and mature fruit trees that extend the living space outdoors.
+*   **Built-in Character:** High-quality built-in cabinetry in the dining area and a classic brick fireplace provide a solid foundation for a "Cozy Warmth" aesthetic.
+*   **Location:** Desirable Live Oak neighborhood with lower fire risk than forest-adjacent properties.
+
+### Weaknesses
+*   **Material Inconsistency:** Jarring transitions between hardwood, tile, and older vinyl.
+*   **Piecemeal Renovations:** The house feels partially flipped—some areas have modern "grey-wash" finishes while the kitchen and wood-paneled living room remain stuck in 1968.
+*   **Dated Infrastructure:** The kitchen is a narrow galley style with older cabinetry and likely requires a full gut to meet modern functional and aesthetic standards.
+
+### Deal-Breakers
+*   **Single-Level Constraint:** While the house has interesting internal elevation changes (multi-level flow), it is technically a single-story home, which may violate your preference for a true multi-story layout.
+
+### Renovation Paths (Medium Tolerance: $100k–$200k)
+To move this house toward your target aesthetic:
+1.  **Floor Unification:** Replace all tile and vinyl with a consistent wide-plank hardwood to bridge the disjointed rooms.
+2.  **Kitchen Overhaul:** Open the galley kitchen to improve flow and replace dated cabinetry with natural wood elements.
+3.  **Modernize the Wood:** Refine the dark wood paneling with lighter stains or architectural slats to maintain character without the 1960s "darkness."
+4.  **Environmental Check:** Budget for minor asbestos abatement (common in 1960s vinyl/ceilings) before starting heavy demo.
+
+### Who This House Is For
+This property is perfect for a buyer who loves gardening and "bones" but has the vision to strip away a decade of mismatched DIY updates. It’s for someone who values a sunny, coastal micro-climate over the "dark forest" vibe.
+
+### Verdict
+**PROCEED WITH CAUTION.** The house offers the architectural soul and light you want, but the interior is currently a "visual mess" of competing styles. If you are willing to spend $150k+ to unify the materials, this will be a stunning home. If you want "turn-key" cohesion, keep looking.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/d4b2cb78a94108cb9fe1b026c8311c72-p_e.jpg" alt="17855 Kiowa Trl, Los Gatos, CA 95033" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">17855 Kiowa Trl, Los Gatos, CA 95033</div>
+                            <div class="house-price">$1,100,000</div>
+                            <div class="house-features">5 bed · 3 bath · 3,402 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-medium">62</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house passes the hard constraint for natural light and offers exceptional architectural character through its wood-clad ceilings and mountain-cabin volume. However, the score is heavily dragged down by a 'present-fit' mismatch: the interior is a clash of high-quality 1930s bones and low-quality 1990s 'fixer' updates. While it avoids the 'gray-flip' trap, the material inconsistency and the high-fire-risk location necessitate a conservative score in the lower 60s.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Stunning exposed tongue-and-groove wood ceilings</span><span class="tag tag-positive">✓ Large windows with forest views</span><span class="tag tag-positive">✓ Spacious multi-level deck for indoor-outdoor living</span>
+                        <span class="tag tag-negative">✗ Inconsistent flooring types across levels (Hardwood vs. Carpet vs. LVP/Laminate)</span><span class="tag tag-negative">✗ Dated kitchen and bath fixtures compared to the high-quality architectural shell</span><span class="tag tag-negative">✗ Glass block walls may feel dated to some buyers</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Main Kitchen</div>
+                    <div class="renovation-change">Modern-Rustic overhaul: Replace oak cabinets with rift-sawn oak or dark charcoal flat-panels; install soapstone or honed quartz countertops. Integrate high-end matte black or integrated appliances to match the existing black hardware/accents.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Primary Suite & Glass Block Wall</div>
+                    <div class="renovation-change">Replace glass block with steel-framed glass partitions or custom wood slat privacy screens to maintain the MCM cabin vibe. Upgrade the primary bath with a walk-in wet room featuring slate or zellige tile.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/17855-Kiowa-Trl-Los-Gatos-CA-95033/19752745_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 17855 Kiowa Trl, Los Gatos
+
+### Executive Summary
+This 1936 mountain retreat offers a rare combination of significant architectural volume and "fixer" pricing in the Los Gatos hills. While the 3,400+ sq. ft. interior currently suffers from a disjointed 1990s aesthetic, its structural "bones"—soaring tongue-and-groove ceilings and massive windows—align perfectly with a modern-rustic vision. It is a high-upside project for a buyer willing to navigate mountain logistics to uncover a sanctuary.
+
+### Aesthetic Alignment
+The property is a strong match for your preference for **architectural character and natural materials**. The triple-story layout avoids the "boxy" feel you dislike, offering interesting verticality and cozy nooks. The exposed wood ceilings provide the "warmth" you value, though the current flooring (a mix of carpet and laminate) and dated kitchen fixtures dilute the impact. This is a house with a "soul" currently buried under three decades of mediocre updates.
+
+### Strengths
+*   **Voluminous Light:** Exceptional ceiling heights and large window banks satisfy your requirement for abundant natural light and forest views.
+*   **Authentic Materiality:** The original 1936 wood-clad ceilings and exposed beams are high-value features that cannot be easily replicated.
+*   **Spatial Flexibility:** At 3,400 sq. ft. across three levels, the floor plan supports multi-generational living or a dedicated studio/office space.
+*   **Outdoor Integration:** Massive multi-level decking extends the living space directly into the canopy.
+
+### Weaknesses
+*   **Material Incoherence:** The interior is a "clash of eras." The 1990s kitchen, glass block walls, and inconsistent flooring (hardwood/carpet/LVP) create a fragmented feel.
+*   **Infrastructure Risks:** Given the 1936 build date, expect potential electrical and plumbing hurdles during renovations. 
+*   **Mountain Logistics:** While beautiful, the location adds complexity to renovation projects regarding contractor travel and material delivery.
+
+### Deal-Breakers
+*   **High Fire Risk:** This property is located in a high-fire-risk mountain zone, which may lead to significant insurance premiums or difficulty securing traditional coverage.
+*   **Anti-Principle Conflict:** You specifically mentioned a distaste for high-fire-risk locations; this is the primary hurdle for this property.
+
+### Renovation Paths
+With a **$100k–$200k budget**, the path to an 80+ score is clear:
+1.  **Unify the Flooring:** Replace the patchwork of carpet and laminate with a single wide-plank hardwood to ground the space.
+2.  **Kitchen Overhaul:** Strip the 90s-era cabinetry and "beige" finishes. Install a modern-rustic kitchen that complements the wood ceilings.
+3.  **Modernize the "Quirk":** Replace the dated glass block features with modern glazing or steel-framed partitions.
+4.  **Structural Audit:** Before cosmetic work, prioritize an inspection of the multi-level deck's structural integrity.
+
+### Who This House Is For
+This home is for a "visionary" buyer who prioritizes architectural soul and space over turn-key convenience. It suits someone who wants to live among the trees and is comfortable managing a significant cosmetic overhaul to create a custom retreat.
+
+### Verdict
+**PROCEED WITH CAUTION.** 
+Architecturally, this is your "dream home" hidden under a "fixer" mask. However, the high fire risk is a direct violation of your anti-principles. If you can reconcile the insurance costs and fire risk, the **Potential Score of 82** makes this an incredible investment in lifestyle and equity. If the fire risk is a hard "no," move on.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/1ad6eca3c4a0ba963bbb0679fa378cf7-p_e.jpg" alt="507 La Honda Dr, Aptos, CA 95003" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">507 La Honda Dr, Aptos, CA 95003</div>
+                            <div class="house-price">$1,595,000</div>
+                            <div class="house-features">3 bed · 3 bath · 1,725 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">59</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-high">82</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">While the house has exceptional architectural bones and natural light that meet the user's core principles, the present-fit score is heavily penalized for its 'original vintage' condition. The extensive wallpaper, carpeted bedrooms, and 1980s teal/oak kitchen require significant work to reach an acceptable aesthetic standard. Furthermore, the heavily forested Aptos location is a direct match for the 'High fire risk' anti-principle.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ unique stained glass features</span><span class="tag tag-positive">✓ massive vaulted wood ceilings</span><span class="tag tag-positive">✓ large windows and skylights provide great natural light</span>
+                        <span class="tag tag-negative">✗ extensive use of tile countertops (maintenance/hygiene issue)</span><span class="tag tag-negative">✗ heavy floral wallpaper and dated carpeting throughout</span><span class="tag tag-negative">✗ mismatched exterior photos suggest several different properties or very inconsistent design phases</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Main Living Flow</div>
+                    <div class="renovation-change">Gut kitchen; install flat-panel walnut or white oak cabinetry to match existing ceiling beams; replace tile with stone/quartz. Remove all carpeting and install wide-plank hardwood throughout the main floor.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Bathrooms</div>
+                    <div class="renovation-change"></div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/507-La-Honda-Dr-Aptos-CA-95003/16140907_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 507 La Honda Dr, Aptos
+
+### Executive Summary
+This is a high-character "diamond in the rough" that offers exceptional architectural bones but suffers from a heavy layer of dated 1980s finishes. While the structural elements like vaulted ceilings and stained glass align perfectly with your taste, the property requires a significant cosmetic overhaul and sits in a high-fire-risk zone.
+
+### Aesthetic Alignment
+The home is a textbook example of **California Rustic / Sea Ranch style**. It masters the "quirky character" and "exposed wood" principles you value, specifically through its massive vaulted ceilings and unique stained glass. However, the current interior aesthetic is stuck in a "vintage-original" time warp (think teal tile, floral wallpaper, and wall-to-wall carpet) that obscures its true architectural potential.
+
+### Strengths
+*   **Volumetric Drama:** The high, wood-planked ceilings and geometric window placements create the "not boxy" feel you crave.
+*   **Natural Light:** Large windows, skylights, and multiple glass doors provide the interior brightness that is a core requirement for you.
+*   **Authentic Elements:** The stained glass features and wood craftsmanship are impossible to replicate in modern builds and provide immediate "soul."
+*   **Indoor-Outdoor Flow:** Multiple levels of decking expand the living space into the surrounding forest.
+
+### Weaknesses
+*   **Dated Finishes:** The kitchen and bathrooms are dominated by high-maintenance tile countertops and 80s-era oak cabinetry.
+*   **Maintenance Concerns:** Extensive exterior decking in a damp coastal forest environment is prone to rot; the age of the roof and mechanical systems is a looming question mark.
+*   **Inconsistent Presentation:** The listing includes a rendering and mismatched photos, which may suggest unpermitted work or complex development history that requires due diligence.
+
+### Deal-Breakers
+*   **Fire Risk:** This property directly triggers your anti-principle regarding **high-fire-risk forest locations**. Insurance costs and vegetation management will be significant, ongoing burdens.
+*   **Total Cosmetic Refresh Needed:** If you are looking for "move-in ready," this is not it. Every surface needs attention to meet modern standards.
+
+### Renovation Paths
+*   **The "Surface Lean-In" ($100k–$150k):** Strip the wallpaper, replace all carpeting with wide-plank hardwood, and swap the tile countertops for stone. This preserves the "bones" while modernizing the feel.
+*   **The Designer Retreat ($200k+):** A full kitchen and bath gut-renovation to replace the teal/oak 80s aesthetic with contemporary natural materials (slate, walnut, zellige tile) to match the high-end architectural shell.
+
+### Who This House Is For
+This property is for a buyer who prioritizes **architectural integrity over convenience**. You must be willing to manage a multi-month renovation and accept the logistical and financial realities of living in a high-fire-hazard zone in exchange for a truly unique, light-filled sanctuary.
+
+### Verdict
+**PROCEED WITH CAUTION.** The architectural "bones" are a 9/10 match for your principles, but the location is a 10/10 match for your fire-risk anti-principle. If you can stomach the renovation costs and the insurance premiums, this will be a stunning, one-of-a-kind home. If fire risk is a non-negotiable, walk away now.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg" alt="1612 Escalona Dr, Santa Cruz, CA 95060" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">1612 Escalona Dr, Santa Cruz, CA 95060</div>
+                            <div class="house-price">$1,549,000</div>
+                            <div class="house-features">3 bed · 1 bath · 1,390 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">59</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The property falls into a marginal range primarily due to aesthetic incoherence and failure to meet key soft constraints. While it passes the natural light hard constraint, the 'grey-out' trend signals and the dated stone fireplace violate the preference for authentic architectural character and natural warmth. The single-story, somewhat boxy ranch layout also fails the preference for multi-story, quirky designs. It is a functional house, but a poor match for this specific aesthetic profile.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ established drought-tolerant landscaping</span><span class="tag tag-positive">✓ elevated lot with potential views</span><span class="tag tag-positive">✓ outdoor living spaces (decks/patios) appear well-integrated</span>
+                        <span class="tag tag-negative">✗ mixed architectural styles in the portfolio suggest a developer or agent compilation rather than a single cohesive property</span><span class="tag tag-negative">✗ modern 'grey-out' exterior paint (Trend/Flip signal)</span><span class="tag tag-negative">✗ visible rendering for a new build suggests potential lot sale or major development project</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room & Fireplace</div>
+                    <div class="renovation-change">Reface fireplace with vertical cedar slats or hand-glazed ceramic tile; strip and refinish oak floors to a natural/matte clear coat to highlight the wood grain.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Indoor-Outdoor Flow (Living to Deck)</div>
+                    <div class="renovation-change">Replace existing window/door combo with a large black-frame accordion or sliding glass wall system.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/1612-Escalona-Dr-Santa-Cruz-CA-95060/16101018_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 1612 Escalona Dr, Santa Cruz
+
+### Executive Summary
+A 1951 mid-century ranch situated on an elevated lot in a prime Santa Cruz neighborhood. While the home possesses strong "bones" and excellent natural light, it currently suffers from a lack of architectural identity due to dated 90s renovations and a generic "investor-grey" exterior. At $1.55M, it represents a high-potential project for a design-forward buyer, though it lacks the multi-story complexity you typically prefer.
+
+### Aesthetic Alignment
+The house is a mixed bag. It hits your requirement for **abundant natural light** through large windows and a bright living area, but misses on **architectural character**. The current aesthetic is "confused"—the exterior has been flattened by trendy grey paint, and the interior features a heavy, dated split-face stone fireplace that clashes with the home’s mid-century roots. It feels more "boxy ranch" than "dynamic sanctuary" in its current state.
+
+### Strengths
+*   **Natural Light:** Large apertures and good orientation ensure the living spaces are airy and bright.
+*   **Outdoor Integration:** Drought-tolerant landscaping and well-integrated decks provide an immediate indoor-outdoor flow.
+*   **Elevation:** The lot’s position offers potential views and a sense of privacy from the street.
+*   **MCM Potential:** Beneath the grey paint and 90s stone, the 1951 structure offers a clean slate for a high-end mid-century modern restoration.
+
+### Weaknesses
+*   **The "Flip" Look:** The "grey-out" exterior paint is an immediate red flag for low-effort aesthetic updates.
+*   **Aesthetic Incoherence:** The masonry and finishes feel dated and do not honor the architectural era of the house.
+*   **Single-Story Layout:** This is a direct violation of your preference for multiple stories and vertical flow.
+*   **Hidden Risks:** The inclusion of new-build renderings in the listing suggests the current structure may have unaddressed maintenance issues or that the value is primarily in the land.
+
+### Deal-Breakers
+*   **Single Story:** If multiple levels are a non-negotiable requirement for your lifestyle, this layout will feel overly horizontal and "boxy."
+*   **Bathroom-to-Bedroom Ratio:** 3 bedrooms served by only 1.0 bathroom is a significant functional bottleneck for a $1.5M home.
+
+### Renovation Paths
+To bring this house into alignment with your taste, a **Medium-Scale Renovation ($100k–$200k)** is required:
+1.  **De-Grey the Exterior:** Strip the generic paint in favor of natural wood siding or a warmer, era-appropriate palette.
+2.  **Fireplace Overhaul:** Replace the heavy 90s stone with vertical wood slatted features or sleek Roman brick to restore "cozy warmth."
+3.  **Structural Glass:** Replace standard windows with floor-to-ceiling glass sliders to maximize the "light" hard constraint.
+4.  **The Bath Problem:** Investigate adding a second bathroom to make the floor plan viable for long-term residency.
+
+### Who This House Is For
+This home is for the **visionary rehabilitator** who wants to rescue a mid-century gem from bad 90s choices. It is for someone who prioritizes a "Westside" Santa Cruz location and natural light over a multi-story layout.
+
+### Verdict
+**PASS.** 
+While the potential score is high (78/100), the house currently violates too many of your core preferences—specifically the desire for multiple stories and architectural character. The presence of new-build renderings suggests you may be paying a premium for "development potential" rather than a home you can move into and enjoy today. Unless you are prepared to perform a total aesthetic "exorcism," keep looking for a property with more innate quirky character.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg" alt="1024 Webster St, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">1024 Webster St, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,300,000</div>
+                            <div class="house-features">4 bed · 4 bath · 2,275 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">55</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">68</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This listing is for a development project or a builder's speculative portfolio, not a move-in ready home. Because the 'Present-Fit' judge evaluates the home as it stands right now, this fails significantly. The imagery is a confusing mix of renderings (boxy/generic) and dated properties with cracking concrete and unmaintained yards. It violates the preference for non-cookie-cutter design and fails to provide a cohesive vision of a warm, character-rich home.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ large lot sizes</span><span class="tag tag-positive">✓ mature trees and privacy</span><span class="tag tag-positive">✓ solar panels visible on some roofs</span>
+                        <span class="tag tag-negative">✗ inconsistent imagery suggests a builder's portfolio or multi-lot development rather than a single home listing</span><span class="tag tag-negative">✗ presence of rendering and blueprints indicates some properties are not yet built</span><span class="tag tag-negative">✗ unmaintained yards in some aerial shots</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Building Envelope & Fenestration</div>
+                    <div class="renovation-change">Replace existing windows with black-frame thin-profile aluminum or wood units; enlarge rear-facing openings with multi-slide glass doors to create seamless indoor-outdoor flow.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Interior Architectural Character</div>
+                    <div class="renovation-change">Expose ceiling joists or add reclaimed wood beams to the primary living space; replace standard drywall with tactile materials like a brick hearth extension or vertical wood slat accents.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/1024-Webster-St-Santa-Cruz-CA-95062/16123923_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 1024 Webster St, Santa Cruz
+
+## Executive Summary
+This listing appears to be a speculative development project or a builder’s lot sale rather than a finished, move-in-ready home. While the $1.3M price point for a 4-bedroom home with a pool in Santa Cruz is aggressive, the fragmented imagery—ranging from blueprints and renderings to dated existing structures—indicates significant risk and a long timeline before the "vision" becomes reality.
+
+## Aesthetic Alignment
+The property currently sits at a **5.0/10** for aesthetic alignment. While the user seeks architectural character and wood elements, many of the renderings lean toward "boxy" and generic contemporary styles—an explicit anti-principle. However, the presence of mature trees and the potential for a "modern cabin" pivot suggests that with the right architect, the natural light and "privacy/wood" requirements could eventually be met.
+
+## Strengths
+*   **Prime Location:** Situated in a desirable Santa Cruz pocket near the yacht harbor/ocean.
+*   **Large Lot & Privacy:** The site features mature trees and enough space for a pool, offering a natural sanctuary feel.
+*   **Customization Potential:** Since the home is likely unbuilt or mid-construction, you have the opportunity to influence finishes (swapping cheap flip materials for natural wood and brick).
+*   **Infrastructure:** Some images show existing solar panels and established landscaping features.
+
+## Weaknesses
+*   **Lack of Cohesion:** The listing is a confusing mix of professional renderings, blueprints, and snapshots of unmaintained yards, making it impossible to know exactly what you are buying today.
+*   **Generic Design:** The proposed floor plans lack the "interesting shapes and forms" requested and risk feeling like a standard suburban new-build.
+*   **Budget Mismatch:** A $150k renovation budget is insufficient if this property requires a full build-out or significant structural pivots from a builder's baseline plan.
+
+## Deal-Breakers
+*   **Misrepresentation Risk:** The inconsistent imagery suggests this is not a finished home. If you are looking for a property to move into within 30-60 days, this is a non-starter.
+*   **"Boxy" Architecture:** The current renderings directly violate the user’s preference for architectural character and non-generic layouts.
+
+## Renovation Paths
+If the structure is in the early stages, the path forward is a **Material Pivot**:
+1.  **Warmth Injection:** Replace standard white cabinetry and gray laminate (typical for these builds) with natural oak cabinetry and hardwood floors.
+2.  **Architectural Detail:** Add exposed beams to the main living area to break up the "boxy" ceiling lines.
+3.  **Glazing Upgrade:** Upgrade window packages to larger, black-framed units to maximize the "abundant light" principle.
+
+## Who This House Is For
+This property is for a buyer with **high patience and high risk tolerance** who wants to act as a quasi-developer. It is for someone who wants to live in this specific neighborhood and is willing to wait 12-18 months for a project to be completed in exchange for custom-selecting their own "warm modern" finishes.
+
+## Verdict
+**SKIP.** The high level of ambiguity in the listing and the generic, boxy nature of the proposed design make this a poor fit for someone seeking immediate architectural character. Unless you are looking for a year-long construction project, this is a high-risk distraction.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg" alt="309 Village Cir, Santa Cruz, CA 95060" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">309 Village Cir, Santa Cruz, CA 95060</div>
+                            <div class="house-price">$1,435,000</div>
+                            <div class="house-features">3 bed · 3 bath · 1,902 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">54</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">68</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The property fails primarily on the 'Violation Pattern' of cheap flip finishes and inconsistent architectural identity. While the Saltillo tile room shows promise, the rest of the listing is dominated by 'flipper grey' aesthetics, LVP flooring, and generic layouts that directly oppose the user's preference for authentic wood elements and quirky character. Furthermore, the vision analysis indicates this listing is a collage of multiple units, making a 'Present-Fit' evaluation of a single cohesive home impossible and highly risky.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ mature landscaping in exterior shots</span><span class="tag tag-positive">✓ presence of solar panels on one unit</span><span class="tag tag-positive">✓ one unit features authentic saltillo tile and architectural character</span>
+                        <span class="tag tag-negative">✗ inconsistent property types (this is a collage of multiple different homes/listings)</span><span class="tag tag-negative">✗ ubiquitous grey/beige 'flipper' color palette in interior shots</span><span class="tag tag-negative">✗ cheap commercial-grade LVP flooring in several units</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Common Living Areas</div>
+                    <div class="renovation-change">Replace cheap LVP with wide-plank white oak flooring; remove 90s arched drywall transitions to create cleaner, squared-off openings.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Mediterranean Living Room</div>
+                    <div class="renovation-change">Incorporate natural wood ceiling beams and reclaimed wood mantel; use this room's palette (warmth) as a template for the rest of the home's renovation.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/309-Village-Cir-Santa-Cruz-CA-95060/16106812_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 309 Village Cir, Santa Cruz
+
+### Executive Summary
+This property is a high-risk listing that presents a "flipper" aesthetic within a multi-unit complex. While it hints at some architectural character and Mediterranean influence, the listing is plagued by inconsistent photos and cheap finishes that directly oppose your preference for authentic materials.
+
+### Aesthetic Alignment
+The property scores a low **5.0/10** for aesthetic alignment. It suffers from a "mixed-portfolio" identity; while one area features soulful Saltillo tile and a Kiva-style fireplace, the rest of the home is dominated by "flipper grey" LVP flooring, generic drywall, and a bland, boxy color palette. It lacks the cohesive wood elements and "quirky character" you value, leaning instead into institutional, low-cost modernism.
+
+### Strengths
+*   **Architectural Features:** Presence of Saltillo tile and a unique fireplace indicates the bones have more character than a standard tract home.
+*   **Sustainability:** Exterior shots show existing solar panels (on at least one of the units pictured).
+*   **Outdoor Maturity:** The surrounding landscaping is well-established, offering a sense of privacy and "nestling" that new builds lack.
+*   **Location:** Situated in Santa Cruz, avoiding the high-fire-risk dense forest zones while remaining coastal.
+
+### Weaknesses
+*   **Material Quality:** Heavy use of commercial-grade grey laminate flooring and basic white cabinetry.
+*   **Visual Inconsistency:** The listing appears to be a collage of multiple different units, making it nearly impossible to determine the actual layout or condition of 309 Village Cir without a physical walkthrough.
+*   **Lack of Warmth:** The "grey/beige" palette creates a sterile environment that lacks the cozy, natural warmth of exposed wood and brick.
+
+### Deal-Breakers
+*   **Cheap Flip Finishes:** The ubiquitous use of grey laminate and standard builder-grade materials is a direct violation of your anti-principles.
+*   **Misleading Listing Data:** The inclusion of photos from different properties is a major red flag regarding the accuracy of the representation. 
+*   **Boxy Layout:** Despite the few "quirky" details, the primary living spaces appear generic and lack architectural interest.
+
+### Renovation Paths
+To bring this home up to your standards, a **$100k–$200k** investment is required.
+1.  **Warmth Restoration:** Replace all LVP/grey laminate with wide-plank hardwood or reclaimed wood flooring.
+2.  **Highlighting Character:** Lean into the Mediterranean elements; expand the Saltillo tile footprint and replace standard trim with natural wood.
+3.  **Light Optimization:** Given the "mixed" layout, strategic window placement or skylights may be needed to satisfy the "abundant natural light" requirement.
+
+### Who This House Is For
+This property is for a buyer who is willing to look past a confusing sales listing and perform a "reverse-flip"—stripping away cheap modern finishes to find the architectural soul underneath.
+
+### Verdict
+**PASS.** The combination of "flipper grey" aesthetics and the significant red flag of inconsistent listing photos makes this too high-risk. Better value and more authentic character can be found elsewhere without the immediate need to gut brand-new (but cheap) renovations.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/19d0f3e0e541eab39fd71f73bd611930-p_e.jpg" alt="1122 Seabright Ave, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">1122 Seabright Ave, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,095,000</div>
+                            <div class="house-features">3 bed · 1 bath · 946 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">54</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The property fails primarily on the 'Violation Patterns' related to flip-style renovations. The interior aesthetic—characterized by grey paint, high-contrast 'modern' staging, and lack of natural wood elements—directly opposes the user's preference for warmth and architectural character. Despite the premium Seabright location and good outdoor spaces, the present-fit for the interior is poor and would require immediate reversal of the 'updated' finishes to meet the taste model.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ high-quality horizontal wood fencing</span><span class="tag tag-positive">✓ mature, well-integrated landscaping in several shots</span><span class="tag tag-positive">✓ proximity to ocean and coastal views</span>
+                        <span class="tag tag-negative">✗ aggressive high-contrast interior staging (red/black/grey)</span><span class="tag tag-negative">✗ inconsistent landscaping quality across different lots</span><span class="tag tag-negative">✗ visible solar panels on traditional rooflines may affect curb appeal for purists</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Interior Living/Dining Core</div>
+                    <div class="renovation-change">De-flipperization: Replace vinyl/laminate flooring with wide-plank oak, install wood-clad ceilings or exposed faux-beams to add architectural character, and replace grey drywall with lime-wash or warm white plaster. Integrate a custom wood built-in or a brick-veneer fireplace focal point.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Windows and Natural Light</div>
+                    <div class="renovation-change">Introduce a skylight or Solatube in the central living area and replace a standard rear window with a large steel-framed or wood-clad accordion glass door leading to the deck.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/1122-Seabright-Ave-Santa-Cruz-CA-95062/16113226_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 1122 Seabright Ave, Santa Cruz
+
+## Executive Summary
+This 1936 coastal bungalow is located in the highly desirable Seabright neighborhood, offering a premium location but suffering from a "cheap flip" interior. While the exterior and lot provide a solid foundation with high-quality fencing and mature landscaping, the interior relies on a generic, grey-scale aesthetic that lacks the architectural warmth and light you require.
+
+## Aesthetic Alignment
+**Low (53.8/100).** This home currently represents your "Anti-Principles." The interior is dominated by grey laminate flooring, grey cabinetry, and high-contrast red/black staging. It lacks the natural wood elements, exposed beams, and cozy brick textures that define your taste. The 946 sqft layout is single-story and somewhat boxy, failing your preference for multi-story homes with interesting architectural forms.
+
+## Strengths
+*   **Location:** Situated in a premier Santa Cruz coastal pocket with proximity to the ocean.
+*   **Outdoor Infrastructure:** High-quality horizontal wood fencing and well-integrated, mature landscaping provide immediate curb appeal and privacy.
+*   **Livable Bones:** Upgraded windows throughout and existing pool/deck amenities provide a luxury baseline for the property.
+*   **Heritage Potential:** Behind the modern finishes lies a 1936 cottage with the potential for authentic coastal character.
+
+## Weaknesses
+*   **The "Flip" Aesthetic:** The interior finishes feel synthetic and generic (grey-on-grey), requiring a total overhaul to meet your standards.
+*   **Lighting Issues:** Analysis indicates a dim interior that lacks the "abundant natural light" you prioritize.
+*   **Small Footprint:** At under 1,000 sqft, the home offers limited spatial flexibility and lacks the "flow" of a multi-story residence.
+*   **Hidden Risks:** Typical for 1930s builds, there is a risk of outdated wiring (knob-and-tube) or plumbing masked by recent cosmetic updates.
+
+## Deal-Breakers
+*   **Flip-Grade Finishes:** The property triggers an auto-reject signal due to the use of grey laminate and cheap "modern" materials.
+*   **Lack of Light:** Fails the hard constraint for a bright, sun-drenched interior.
+*   **Structural Simplicity:** Too boxy and single-dimensional to meet your desire for architectural character.
+
+## Renovation Paths
+To bring this house to a 78/100 potential, you would need a **Medium-Impact Renovation ($100k–$200k)**:
+1.  **Strip the Flip:** Replace all grey laminate with wide-plank natural hardwood.
+2.  **Warm the Palette:** Replace grey cabinetry with natural wood or warm-toned millwork; add brick or stone elements to the living area.
+3.  **Enhance Light:** Install skylights or solar tubes to compensate for the currently dim interior.
+4.  **Character Additions:** Introduce exposed beams or architectural trim to break up the "boxy" feel of the 946 sqft layout.
+
+## Who This House Is For
+This property is best suited for a buyer who prioritizes the **Seabright location** above all else or an investor looking for a turnkey rental. It is not currently suitable for someone seeking a "forever home" with immediate architectural soul and warmth.
+
+## Verdict
+**REJECT.** While the location is stellar, the house is a visual mismatch. You would be paying a premium for a "fresh" renovation that you would likely want to tear out immediately. Hold out for a property with better natural light and more inherent architectural "bones."</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg" alt="2200 Pelican Crst, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">2200 Pelican Crst, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,499,000</div>
+                            <div class="house-features">4 bed · 3 bath · 2,064 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">53</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This house is a marginal fit for a 'Present-Fit' evaluation. While it passes the hard constraint for natural light, it fails significantly on materials quality. The combination of honey oak, tile countertops, and extensive beige tile flooring directly contradicts the user's preference for quality wood elements and cozy warmth. It functions as a clean, well-maintained box, but lacks the architectural character and 'natural wood' feel requested. The high price point for 'mostly original' condition makes the aesthetic compromises harder to justify.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Large windows provide abundant natural light</span><span class="tag tag-positive">✓ Home appears very clean and well-maintained</span><span class="tag tag-positive">✓ Spacious exterior deck with potential views</span>
+                        <span class="tag tag-negative">✗ Inconsistent flooring between common areas (cold tile) and bedrooms (wood-look)</span><span class="tag tag-negative">✗ Dated tile countertops in the kitchen are prone to grout staining</span><span class="tag tag-negative">✗ Honey oak cabinetry throughout dates the interior significantly</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Main Flow</div>
+                    <div class="renovation-change">Remove the drop-down soffit over the island, replace oak cabinets with white oak or walnut finishes, install stone slab countertops, and integrate wood shelving to match the user's aesthetic.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Flooring Materiality</div>
+                    <div class="renovation-change">Unify the entire home with wide-plank light oak hardwood flooring to provide the requested 'cozy warmth' and 'wood elements'.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/2200-Pelican-Crst-Santa-Cruz-CA-95062/16127257_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 2200 Pelican Crst, Santa Cruz
+
+### Executive Summary
+This is a meticulously maintained but aesthetically dated 4-bedroom split-level home located in a desirable Santa Cruz pocket. While the structure offers the "abundant light" and "multi-story flow" you prioritize, the interior finishes—dominated by honey oak and cold tile—directly clash with your preference for cozy, natural materials. It is a functional "blank canvas" that requires a significant cosmetic overhaul to move from a generic 90s suburban feel to a warm, architectural retreat.
+
+### Aesthetic Alignment
+**Current Fit: 5/10.** In its current state, the home lacks the "natural wood" and "architectural character" you seek. The presence of honey oak cabinetry and budget-grade tile countertops creates a dated look rather than a timeless one. However, the large windows and multi-level layout provide a foundational "quirpiness" that aligns with your interest in non-boxy homes.
+
+### Strengths
+*   **Light-Drenched Spaces:** The home features large, well-placed windows that satisfy your primary requirement for a bright interior.
+*   **Structural Integrity:** The property appears exceptionally clean and well-maintained; this is not a "fixer-upper" in terms of neglect, but rather a "time capsule" ready for modernization.
+*   **Outdoor Integration:** A spacious exterior deck and pergola offer great potential for indoor-outdoor living.
+*   **Layout Interest:** The split-level design avoids the "boxy" feel of standard suburban builds, providing distinct zones and interesting sightlines.
+
+### Weaknesses
+*   **Discordant Materials:** The mix of cold beige floor tile and wood-look flooring creates a disjointed, "choppy" visual flow.
+*   **Dated Kitchen:** The kitchen is the weakest point, featuring 90s-era tile countertops (difficult to clean) and a drop-down soffit that visually "suffocates" the island.
+*   **Material Quality:** The extensive use of honey oak cabinetry lacks the premium "natural wood" feel of bespoke architectural homes.
+
+### Deal-Breakers
+*   **None (Structural).** There are no fundamental deal-breakers in terms of orientation or fire risk. However, the **$1.5M price point for "original condition"** may be a financial deal-breaker depending on your renovation budget.
+
+### Renovation Paths
+To bring this home to a **78/100 Potential Score**, a "Medium" feasibility renovation is required (est. $100k–$200k):
+1.  **Unify the Flooring:** Replace all tile and wood-look laminate with wide-plank warm hardwood to tie the levels together.
+2.  **Kitchen De-bulk:** Remove the overhead soffit/cabinetry over the island to open the sightlines to the living area. Replace tile counters with stone or butcher block.
+3.  **Reface/Paint:** Reface the honey oak cabinets or replace them with high-quality natural wood cabinetry that matches your "wood elements" principle.
+4.  **Fireplace Update:** The current fireplace can be reclad in brick or natural stone to add the "cozy warmth" missing from the current tile-heavy aesthetic.
+
+### Who This House Is For
+This house is for a buyer who values **natural light and location** above all else and is willing to live through a 3–6 month cosmetic renovation to "buy" the architectural character they want, rather than paying a premium for a finished product that might not match their taste.
+
+### Verdict
+**PROCEED WITH CAUTION.** This is a solid house, but a poor aesthetic match in its current form. Only pursue if you have the budget and appetite for a $150k+ renovation. If you are looking for a "move-in ready" home that reflects your style, this is not it—you would be paying for finishes you will ultimately want to tear out.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/a6cc23abf287aa29e99ae8b2351f2e6c-p_e.jpg" alt="919 Paget Ave, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">919 Paget Ave, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,050,000</div>
+                            <div class="house-features">3 bed · 2 bath · 1,470 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">53</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">While the house meets the hard constraint for natural light, it suffers heavily from 'cheap flip' aesthetics which is a primary anti-principle. The combination of budget LVP, mismatched appliances, and dated oak cabinetry makes the present-fit poor for a user seeking architectural character and high-quality materials. It scores in the marginal range because it requires significant aesthetic undoing to meet the desired taste level.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ vaulted ceilings</span><span class="tag tag-positive">✓ large windows and good natural light</span><span class="tag tag-positive">✓ clean and move-in ready</span>
+                        <span class="tag tag-negative">✗ cheap LVP flooring with high pattern repetition</span><span class="tag tag-negative">✗ partial kitchen update (new counters on old cabinets)</span><span class="tag tag-negative">✗ mismatched appliances</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">living room & fireplace</div>
+                    <div class="renovation-change">Replace LVP with wide-plank engineered white oak; replace the fireplace surround with floor-to-ceiling textured stone or handmade Zellige tile to emphasize the double-height volume.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">kitchen</div>
+                    <div class="renovation-change">Gut renovation. Remove the fluorescent soffit to gain ceiling height; install custom wood cabinetry that ties into the living room aesthetic, integrated appliances, and a minimalist island.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/919-Paget-Ave-Santa-Cruz-CA-95062/16125695_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 919 Paget Ave, Santa Cruz
+
+## Executive Summary
+This property is a quintessential "diamond in the rough" trapped in a "cheap flip" skin. While it boasts the vaulted ceilings and abundant natural light you crave, the current aesthetic is dominated by low-quality finishes and dated 1980s suburban elements. It is a high-potential project for someone willing to strip away the surface-level updates to reveal the architectural volumes underneath.
+
+## Aesthetic Alignment
+The house currently scores a **5.3/10** for alignment. It satisfies your requirement for "interesting shapes" and "not boxy" architecture, but fails catastrophically on materials. Instead of the warm wood and natural textures you prefer, you will find high-repetition gray LVP flooring and a mismatched "lipstick on a pig" kitchen update. However, the verticality and clerestory windows provide an excellent canvas for a Scandinavian-modern or warm-contemporary transformation.
+
+## Strengths
+*   **Volumetric Interest:** Vaulted ceilings and a multi-level layout prevent the "boxy" feel of a standard suburban home.
+*   **Natural Light:** Excellent window placement, including high-set windows that pull light deep into the living spaces.
+*   **Open Flow:** The floor plan is functional and airy, providing a strong foundation for a high-design renovation.
+*   **Move-in Ready:** Despite the aesthetic drawbacks, the home is clean and functional, allowing you to live in it while planning renovations.
+
+## Weaknesses
+*   **Low-Quality Finishes:** The recent "refresh" uses budget materials (generic LVP, mismatched appliances) that clash with your preference for quality.
+*   **Dated Architecture:** Features like the fluorescent light box in the kitchen and the old oak cabinetry scream "1980s PUD."
+*   **Potential Restrictions:** As part of a Planned Unit Development (PUD), you may face HOA hurdles regarding exterior changes or structural alterations.
+*   **Aesthetic "In-Between":** It’s neither a charming original nor a high-end renovation; it’s currently in an awkward middle ground.
+
+## Deal-Breakers
+*   **None.** There are no structural or location-based deal-breakers, but the **"cheap flip" aesthetic** is a significant hurdle that requires a specific mindset to overcome.
+
+## Renovation Paths: The "Shell" Strategy
+To reach the **78/100 potential score**, you should treat this as an "inner-shell" project.
+1.  **Floor-to-Ceiling Swap:** Replace the repetitive LVP with wide-plank light oak or reclaimed wood to add the warmth you desire.
+2.  **Kitchen De-evolution:** Remove the fluorescent light box and the dated oak cabinets. Replace with clean-lined cabinetry and integrated appliances.
+3.  **Accentuate Volume:** Lean into the verticality by adding wood cladding to the vaulted ceilings or exposing structural beams where possible.
+4.  **Hardware & Lighting:** Replace all "contractor-grade" fixtures with architectural-quality hardware.
+
+## Who This House Is For
+This house is for the **visionary buyer** who prioritizes "volume and light" over "turnkey finishes." If you have a $150k renovation budget and the patience to undo a bad flip, you can create a high-design architectural sanctuary that would otherwise cost $1.5M+ in this market.
+
+## Verdict
+**PROCEED WITH CAUTION.** Only pursue this if you are prepared to renovate. Buying this house for its current interior state will likely lead to "buyer's remorse" given your anti-principles. However, if you are looking for the best *spatial* deal in Santa Cruz and intend to remodel, this is a rare opportunity to secure architectural character at a lower entry price.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/bb552030f60a19a393320467cc393288-p_e.jpg" alt="2606 Paul Minnie Ave, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">2606 Paul Minnie Ave, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,200,000</div>
+                            <div class="house-features">3 bed · 1 bath · 1,260 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">53</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house falls into the 'Marginal' category due to severe transparency issues. While the architectural elements (wood ceilings, beehive fireplace) align with the taste model, the presence of 2015 date stamps on photos makes it impossible to judge current 'present-fit' condition. The mismatched imagery suggests a property that may be part of a larger complex or in a state of transition. It fails to meet the preference for multiple stories and presents a high risk of 'hidden' degradation since the last photographic record.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ Mature landscaping in several shots</span><span class="tag tag-positive">✓ Vaulted wood ceilings in interior shot</span><span class="tag tag-positive">✓ Solar panels visible on one structure</span>
+                        <span class="tag tag-negative">✗ Inconsistent image quality suggesting a conglomerate of different listings</span><span class="tag tag-negative">✗ Visible date stamps on some photos (2015) suggesting outdated imagery</span><span class="tag tag-negative">✗ Presence of a real estate agent's headshot within the property grid</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Living Room Core</div>
+                    <div class="renovation-change">Replace saltillo tile and carpet with consistent wide-plank white oak flooring. Refinish the beehive fireplace with a smooth lime wash or plaster. Add large black-framed windows to the gable end to flood the space with light.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen (Integration)</div>
+                    <div class="renovation-change">Open the kitchen to the wood-ceiling living area. Install custom wood cabinetry that matches the ceiling tone and a natural stone countertop.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/2606-Paul-Minnie-Ave-Santa-Cruz-CA-95062/16123570_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 2606 Paul Minnie Ave, Santa Cruz
+
+### Executive Summary
+This 1909 California residence offers significant architectural soul and character but is currently shrouded in marketing red flags. While it features the vaulted wood ceilings and unique "beehive" fireplaces you prioritize, the listing uses aging photography (some date-stamped 2015), making it impossible to verify the current condition without a physical walkthrough.
+
+### Aesthetic Alignment
+The property leans into a "Soulful California Retreat" aesthetic that aligns well with your preference for natural materials and character. 
+*   **The Good:** Large windows, vaulted timber ceilings, and a distinct "non-boxy" layout satisfy your desire for architectural interest.
+*   **The Bad:** The house is single-story (violating a soft preference) and currently suffers from a disjointed mix of Saltillo tile, stucco, and wood siding that lacks a cohesive vision.
+
+### Strengths
+*   **High-Impact Architecture:** The interior volume created by the wood-beamed ceilings is a major asset and provides a sense of space beyond the 1,260 sqft footprint.
+*   **Natural Light:** High-reaching windows and a clerestory-style orientation suggest excellent natural light potential.
+*   **Character Features:** Features like the vintage brick fireplace and mature landscaping create a "warmth" that modern flips can't replicate.
+*   **Sustainability:** Visible solar panels on one structure suggest some modern mechanical upgrades have been addressed.
+
+### Weaknesses
+*   **Market Transparency:** The use of photos from nearly a decade ago is a major concern. It suggests the current state may be significantly degraded or that the seller is hiding recent wear and tear.
+*   **Material Discontinuity:** The mix of "fake grass," diverse siding types, and dated tile creates a visual mess that requires a unified design plan.
+*   **Single-Story Flatness:** It lacks the vertical flow and separation of space you prefer in multi-story homes.
+
+### Deal-Breakers
+*   **Unreliable Documentation:** The presence of 2015 date stamps on listing photos prevents a true "Present-Fit" assessment. This is a high-risk listing from a transparency standpoint.
+*   **Constraint Violation:** This is a strictly single-story layout.
+
+### Renovation Paths
+To reach its 78/100 potential, a **$100k–$200k investment** is required:
+1.  **Unify Flooring:** Replace the dated Saltillo and mixed tiles with wide-plank hardwood to bridge the rooms.
+2.  **Exterior Cohesion:** Paint and trim the disparate structures (stucco and wood) to create a unified compound feel.
+3.  **Core Modernization:** Assuming its 1909 bones need help, budget for hidden costs like electrical updates and seismic retrofitting.
+
+### Who This House Is For
+This property is for a buyer with a high tolerance for risk and a strong vision. You must be willing to overlook a "messy" listing to uncover a historic gem, and you must be comfortable with a single-level living arrangement in exchange for high-volume ceilings.
+
+### Verdict
+**PROCEED WITH CAUTION.**
+The house is architecturally "on-brand" for you, but the listing is unprofessional and potentially misleading. **Do not make an offer without an in-person viewing and a rigorous inspection.** If the 1909 structure is sound and the light is as good as the old photos suggest, it is a high-potential project; if the 2015 photos were "the house's best days," it is a pass.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg" alt="33 Edgewood Way, Santa Cruz, CA 95060" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">33 Edgewood Way, Santa Cruz, CA 95060</div>
+                            <div class="house-price">$1,395,000</div>
+                            <div class="house-features">3 bed · 3 bath · 1,510 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">53</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-medium">78</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">The house passes hard constraints due to excellent natural light, but fails significantly on aesthetic present-fit. The interior is heavily defined by dated 1990s materials—specifically golden oak, laminate, and wall-to-wall beige carpet—which directly contradicts the user's preference for quality wood elements and architectural character. The use of virtual staging suggests the 'bare' house lacks the cozy warmth sought by the taste model.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ large outdoor deck space</span><span class="tag tag-positive">✓ abundant natural light from large windows</span><span class="tag tag-positive">✓ clean, move-in ready condition</span>
+                        <span class="tag tag-negative">✗ virtually staged furniture masks dated beige carpeting</span><span class="tag tag-negative">✗ dated 90s kitchen with laminate counters</span><span class="tag tag-negative">✗ white appliances suggest a lack of recent investment</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Kitchen & Main Level Flow</div>
+                    <div class="renovation-change">Demolish the bi-level bar to create a single-level waterfall island. Replace oak cabinets with rift-sawn oak or dark walnut cabinetry, install stone counters, and integrate panel-ready appliances.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Flooring & Architectural Character</div>
+                    <div class="renovation-change">Replace all carpeting with wide-plank engineered hardwood. Add architectural interest by installing wood-slat feature walls or exposed faux-timber ceiling beams to satisfy the user's desire for 'non-cookie-cutter' character.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/33-Edgewood-Way-Santa-Cruz-CA-95060/451808238_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 33 Edgewood Way, Santa Cruz
+
+### Executive Summary
+33 Edgewood Way is a well-maintained 1999 contemporary residence that offers a clean, light-filled "blank canvas" in a premium location. While it meets structural and lighting requirements, the interior is currently stalled in a 1990s time capsule of beige carpet and laminate. It presents a medium-effort renovation opportunity to transform a "boxy" townhouse into a sophisticated, modern treehouse.
+
+### Aesthetic Alignment
+The home currently scores low (**53.4/100**) on immediate aesthetic fit. It lacks the architectural soul and "cozy warmth" you prioritize. Instead of the rich wood elements and exposed beams you desire, the home is defined by golden oak trim, white appliances, and wall-to-wall carpeting. However, the abundant natural light and large windows provide the essential "good bones" needed to eventually meet your taste profile.
+
+### Strengths
+*   **Light Volume:** The home excels in natural light, featuring large windows and glass doors that integrate the surrounding greenery. 
+*   **Outdoor Living:** Large deck spaces provide significant "treehouse" appeal and expand the living square footage.
+*   **Functional Layout:** A clean, multi-story flow that is move-in ready, allowing for a "phase-as-you-go" renovation approach.
+*   **Structural Integrity:** Built in 1999, it avoids many of the systemic issues found in older Santa Cruz cottages (plumbing, foundation, etc.).
+
+### Weaknesses
+*   **Dated Finishes:** The kitchen is heavily dated with laminate countertops and white appliances; track lighting throughout feels utilitarian rather than architectural.
+*   **Material Mismatch:** The ubiquitous beige carpeting and light oak finishes directly contradict your preference for high-quality wood and character.
+*   **Deceptive Staging:** The listing uses virtual staging to mask an uninspired interior; the "bare" reality of the house is much colder than the photos suggest.
+
+### Deal-Breakers
+*   **HOA Restrictions:** As a contemporary townhouse/multi-unit structure, there may be strict limitations on exterior modifications (windows, siding, or deck changes) that could limit your ability to add exterior "character."
+*   **Fire Risk:** While not a dense forest, Santa Cruz hillside locations carry inherent fire risks—a noted anti-principle for your search.
+
+### Renovation Paths
+To bring this home to its **78.0/100 potential**, a budget of **$100k–$200k** is required:
+1.  **Level 1 (Flooring & Paint):** Immediately strip the beige carpet and replace with wide-plank hardwood to introduce the "wood elements" you value.
+2.  **Level 2 (The Kitchen):** A full gut of the 90s kitchen is necessary. Transition to natural wood cabinetry and stone counters to create "cozy warmth."
+3.  **Level 3 (Lighting & Hardware):** Replace dated track lighting with architectural fixtures and swap golden oak trim for more contemporary or substantial wood detailing.
+
+### Who This House Is For
+This property is for a buyer who prioritizes **location and light** over immediate character. It is ideal for someone unwilling to deal with the structural headaches of a 100-year-old home but possesses the vision to overwrite a generic 90s interior with custom finishes.
+
+### Verdict
+**PROCEED WITH CAUTION.** This is a "logic over heart" purchase. If you are willing to spend the first year renovating, the light and layout will reward you. However, if you are looking for immediate architectural inspiration and "cozy" vibes, this house will feel disappointingly generic upon arrival. Only tour if you are prepared to overhaul the interior finishes entirely.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/aa50c8647f70fce6bf13f3ae74b09337-p_e.jpg" alt="136 Market St, Santa Cruz, CA 95060" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">136 Market St, Santa Cruz, CA 95060</div>
+                            <div class="house-price">$1,995,000</div>
+                            <div class="house-features">6 bed · 3 bath · 2,250 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">48</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-low">62</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This listing is a 'Present-Fit' failure due to its nature as a multi-property portfolio or fragmented multi-unit complex rather than a cohesive residence. It violates the core aesthetic preference for unique architectural character and cozy warmth. The prevalence of dated 'utility-focused' architecture (T1-11 siding, visible meters) and the confusion of 3D renders mixed with real photos signal a lack of immediate aesthetic quality. Since the user values wood elements and non-boxy designs, this collection of generic, older apartment-style buildings is a significant mismatch.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ some properties show high-end landscaping</span><span class="tag tag-positive">✓ varied inventory</span><span class="tag tag-positive">✓ coastal proximity in aerial shots</span>
+                        <span class="tag tag-negative">✗ collection of unrelated properties</span><span class="tag tag-negative">✗ presence of agent/team headshots in listing grid</span><span class="tag tag-negative">✗ 3D architectural rendering mixed with real photos</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Exterior Façade & Siding (Multi-Unit Focus)</div>
+                    <div class="renovation-change">Replace T1-11 with vertical cedar or shiplap wood siding. Re-route or screen utility meters with custom wood slats. Upgrade to black-frame windows.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Natural Light & Orientation</div>
+                    <div class="renovation-change">Install skylights or solar tubes in upper-floor living areas and replace standard sliders with larger bifold or French doors to the decks.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/136-Market-St-Santa-Cruz-CA-95060/16108856_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 136 Market St, Santa Cruz
+
+### Executive Summary
+This listing is a fragmented multi-unit portfolio disguised as a single-family residence, priced at $1,995,000. While the Santa Cruz location is premium, the property lacks architectural cohesion, appearing more like a collection of utility-focused rentals than a curated home. 
+
+### Aesthetic Alignment
+The property scores a **5.0/10** for aesthetic alignment. It fundamentally clashes with the "Cozy Warmth" and "Architectural Character" principles. Instead of the desired wood-forward, interesting forms, you are met with boxy 1970s utility-style architecture, T1-11 siding, and visible external meters. The presence of 3D renderings mixed with real photos suggests the current "lived-in" reality does not match the marketing vision.
+
+### Strengths
+*   **Coastal Proximity:** Excellent location in a highly desirable Santa Cruz pocket.
+*   **Mature Greenery:** The presence of redwood trees and established landscaping provides a natural "buffer" and a foundation for a rustic aesthetic.
+*   **Outdoor Potential:** Existing redwood decks offer a starting point for the "Modern Rustic" feel the user values.
+
+### Weaknesses
+*   **Lack of Cohesion:** This is not a single home; it is a collection of units with mismatched styles and "boxy" configurations.
+*   **Poor Material Quality:** Visible "cheap" finishes and dated exteriors (T1-11 siding) lack the tactile warmth of natural wood or brick.
+*   **Ambiguous Listing:** The inclusion of agent headshots and speculative renderings in the photo gallery is a red flag, indicating the property may not stand on its own visual merits.
+*   **Utility-Forward Design:** Exposed meters and generic apartment-style layouts prioritize functional density over architectural beauty.
+
+### Deal-Breakers
+*   **Asset Type:** This is a **multi-unit investment portfolio**, not a cohesive single-family residence.
+*   **Architectural Style:** The "boxy/generic" layouts explicitly violate the user's anti-principles.
+*   **Uncertainty:** The listing's mix of unrelated properties and renders makes it nearly impossible to determine what exactly is being purchased for $2M.
+
+### Renovation Paths
+If pursued, a **$150k+ "Modern Rustic" Pivot** would be required:
+*   **Exterior:** Replace T1-11 siding with natural cedar or charred wood (Shou Sugi Ban) to break up the boxy silhouette.
+*   **Interior:** Install exposed ceiling beams and structural wood elements to introduce the "cozy warmth" currently missing.
+*   **Structural:** Expand windows to improve natural light, though Santa Cruz coastal permitting will make this costly and slow.
+
+### Who This House Is For
+This property is suited for a **yield-focused investor** looking for a multi-unit rental income stream in a college town. It is **not** for a homeowner seeking a soulful, architecturally unique sanctuary.
+
+### Verdict
+**ABANDON.** This property fails on almost every core principle. It is a utility-focused multi-unit complex that would require a massive, high-risk investment to even begin to approach your aesthetic standards. Your budget is better spent on a property with actual "architectural bones" rather than trying to fix a boxy apartment portfolio.</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="house-card">
+                <img src="https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg" alt="1430 Merrill St, Santa Cruz, CA 95062" class="house-image" onerror="this.style.display='none'">
+                <div class="house-content">
+                    <div class="house-header">
+                        <div>
+                            <div class="house-address">1430 Merrill St, Santa Cruz, CA 95062</div>
+                            <div class="house-price">$1,995,000</div>
+                            <div class="house-features">3 bed · 3 bath · 1,630 sqft</div>
+                        </div>
+                        <div class="scores">
+                            <div class="score-badge">
+                                <div class="score-value score-low">18</div>
+                                <div class="score-label">Fit Score</div>
+                            </div>
+                            <div class="score-badge">
+                                <div class="score-value score-low">45</div>
+                                <div class="score-label">Potential</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="justification">This property is a significant mismatch for a 'present-fit' evaluation. It is a redevelopment opportunity, not a home. The interior materials (hollow core doors, wall-to-wall carpet, formica) directly violate the preference for high-quality wood elements and architectural character. The exterior is in a state of neglect that incurs heavy penalties for both aesthetic and functional use. At nearly $2M, the discrepancy between price and present-state quality is extreme.</div>
+
+                    <div class="tags">
+                        <span class="tag tag-positive">✓ ocean proximity and views/lifestyle potential</span><span class="tag tag-positive">✓ large lot size for the area</span><span class="tag tag-positive">✓ potential for complete redevelopment</span>
+                        <span class="tag tag-negative">✗ extensive debris in yard</span><span class="tag tag-negative">✗ dilapidated exterior structures</span><span class="tag tag-negative">✗ dead/overgrown vegetation suggests neglect</span>
+                    </div>
+
+                    <div class="renovation-ideas">
+                <div class="renovation-idea">
+                    <div class="renovation-area">Exterior Envelope & Natural Light</div>
+                    <div class="renovation-change">Incorporate vertical cedar siding or Shou Sugi Ban accents, and replace existing windows with black-framed expansive glazing and a folding glass door system to the yard.</div>
+                </div>
+                <div class="renovation-idea">
+                    <div class="renovation-area">Main Studio/Living Area</div>
+                    <div class="renovation-change">Vault the ceilings to expose structural beams, install light oak wide-plank hardwood floors, and add a central brick or stone hearth for cozy warmth.</div>
+                </div></div>
+
+                    <a href="https://www.zillow.com/homedetails/1430-Merrill-St-Santa-Cruz-CA-95062/455772485_zpid/" target="_blank" class="house-link">View on Zillow →</a>
+
+                    <div class="brief-section">
+                        <button class="brief-toggle" onclick="this.nextElementSibling.classList.toggle('show')">
+                            Show Full Brief
+                        </button>
+                        <div class="brief-content"># House Brief: 1430 Merrill St, Santa Cruz
+
+### Executive Summary
+This property is a high-priced coastal "fixer-upper" that currently functions more as a land-value redevelopment opportunity than a habitable home. While its location near the ocean is premier, the structure is in a state of significant neglect, featuring low-quality finishes that directly conflict with your aesthetic principles. At nearly $2M, you are paying for the zip code and lot size, not the dwelling.
+
+### Aesthetic Alignment
+The house currently scores a **2/10** for aesthetic alignment. 
+*   **The Conflict:** You value architectural character, exposed wood beams, and high-end natural materials. This home offers hollow-core doors, wall-to-wall carpeting, and Formica countertops. 
+*   **The Vibe:** Rather than "cozy coastal," the current aesthetic is "neglected rental." The exterior is a jumble of red trim and blue siding that lacks the sophisticated wood-forward warmth you seek.
+
+### Strengths
+*   **Prime Location:** Situated in a highly desirable Santa Cruz pocket with proximity to the ocean.
+*   **Lot Potential:** The large lot size and mature trees provide a footprint for a significant architectural statement.
+*   **Ocean Proximity:** The lifestyle value of this location is the primary driver of the price.
+
+### Weaknesses
+*   **Deferred Maintenance:** The yard is filled with debris, vegetation is overgrown or dead, and exterior structures are dilapidated.
+*   **Low-Quality Interior:** The finishes are "anti-principal"—generic, cheap, and dated. There are no vaulted ceilings or natural wood elements currently present.
+*   **Misleading Marketing:** The heavy use of area/stock photos in the listing is a tactical move to distract from the property's poor physical condition.
+*   **Budget Mismatch:** Your $150k renovation target is vastly insufficient for the level of remediation this property requires.
+
+### Deal-Breakers
+*   **Dilapidated State:** The property borders on "tear-down" quality; it is a project of survival rather than a simple cosmetic refresh.
+*   **Material Conflict:** A total absence of the wood architectural elements (exposed beams, hardwood) that define your "must-haves."
+
+### Renovation Paths
+*   **The "Studs-Out" Overhaul:** This is the only viable path to meet your standards. It involves stripping the interior, vaulting the ceilings to create "interesting shapes," and replacing all cheap materials with natural wood and stone. 
+*   **Cost Warning:** Given the coastal location and the state of the structure, this path would likely exceed $300k–$500k, far beyond your $150k budget.
+
+### Who This House Is For
+This property is for a **developer or a high-budget visionary** who intends to spend $2.5M+ (all-in) to build a custom coastal estate from the ground up or through a massive structural renovation.
+
+### Verdict
+**PASS.** 
+The price-to-quality ratio is extremely poor for your specific needs. You would be spending your entire budget just to make the home habitable and clean, leaving nothing for the high-end wood architectural features you desire. This is a "land play," not a "home play."</div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            <p>Generated by House Evaluator · Powered by Gemini 3 Flash</p>
+        </footer>
+    </div>
+
+    <script>
+        // Add smooth scrolling and any interactive features
+        document.querySelectorAll('.house-card').forEach((card, index) => {
+            card.style.animationDelay = `${index * 0.1}s`;
+        });
+    </script>
+</body>
+</html>
