@@ -398,6 +398,40 @@ def generate_report() -> str:
             justify-content: space-between;
             align-items: center;
             margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }}
+
+        .map-controls {{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }}
+
+        .score-toggle {{
+            display: flex;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            overflow: hidden;
+        }}
+
+        .score-toggle-btn {{
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }}
+
+        .score-toggle-btn:hover {{
+            color: var(--text-primary);
+        }}
+
+        .score-toggle-btn.active {{
+            background: var(--accent-blue);
+            color: white;
         }}
 
         .map-title {{
@@ -431,29 +465,66 @@ def generate_report() -> str:
         }}
 
         .leaflet-popup-content {{
-            margin: 8px 12px;
+            margin: 0;
+            min-width: 200px;
+        }}
+
+        .popup-container {{
+            display: flex;
+            flex-direction: column;
+        }}
+
+        .popup-thumbnail {{
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px 4px 0 0;
+        }}
+
+        .popup-info {{
+            padding: 10px 12px;
         }}
 
         .popup-address {{
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 0.95rem;
             margin-bottom: 4px;
+            color: #1e293b;
         }}
 
         .popup-price {{
             color: #22c55e;
             font-weight: 600;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
+            font-size: 1rem;
         }}
 
         .popup-scores {{
             font-size: 0.85rem;
-            color: #666;
+            color: #64748b;
+            margin-bottom: 8px;
+        }}
+
+        .popup-scores span {{
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 4px;
+            font-weight: 500;
+        }}
+
+        .popup-scores .fit-badge {{
+            background: rgba(59, 130, 246, 0.1);
+            color: #3b82f6;
+        }}
+
+        .popup-scores .potential-badge {{
+            background: rgba(168, 85, 247, 0.1);
+            color: #a855f7;
         }}
 
         .popup-link {{
             display: block;
-            margin-top: 8px;
             color: #3b82f6;
             text-decoration: none;
             font-size: 0.85rem;
@@ -509,7 +580,13 @@ def generate_report() -> str:
         <div class="map-section">
             <div class="map-header">
                 <span class="map-title">📍 Map View ({len(houses_with_coords)} locations)</span>
-                <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+                <div class="map-controls">
+                    <div class="score-toggle">
+                        <button class="score-toggle-btn active" data-score="fit" onclick="setScoreMode(\'fit\')">Fit Score</button>
+                        <button class="score-toggle-btn" data-score="potential" onclick="setScoreMode(\'potential\')">Potential</button>
+                    </div>
+                    <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+                </div>
             </div>
             <div class="map-container" id="map-container">
                 <div id="map"></div>
@@ -680,15 +757,26 @@ def generate_report() -> str:
 
             # Color based on fit score
             if fit_score >= 75:
-                color = "#22c55e"  # green
+                fit_color = "#22c55e"  # green
             elif fit_score >= 60:
-                color = "#eab308"  # yellow
+                fit_color = "#eab308"  # yellow
             else:
-                color = "#ef4444"  # red
+                fit_color = "#ef4444"  # red
+
+            # Color based on potential score
+            if pot_score >= 80:
+                pot_color = "#22c55e"  # green
+            elif pot_score >= 65:
+                pot_color = "#eab308"  # yellow
+            else:
+                pot_color = "#ef4444"  # red
 
             # Escape quotes in address
             safe_address = h.address.replace("'", "\\'").replace('"', '\\"')
             price_str = f"${h.price:,}" if h.price else "N/A"
+
+            # Get thumbnail (first image)
+            thumbnail = h.image_urls[0] if h.image_urls else ""
 
             markers_js.append(f"""
             {{
@@ -698,8 +786,10 @@ def generate_report() -> str:
                 price: "{price_str}",
                 fit: {fit_score:.0f},
                 potential: {pot_score:.0f},
-                color: "{color}",
-                url: "{h.url}"
+                fitColor: "{fit_color}",
+                potColor: "{pot_color}",
+                url: "{h.url}",
+                thumbnail: "{thumbnail}"
             }}""")
 
         markers_data = ",".join(markers_js)
@@ -719,12 +809,17 @@ def generate_report() -> str:
         const houses = [{markers_data}
         ];
 
-        // Add markers for each house
-        houses.forEach(house => {{
-            // Create custom icon with score-based color
+        // Track current score mode and markers
+        let currentScoreMode = 'fit';
+        const markers = [];
+
+        // Function to create marker icon
+        function createMarkerIcon(house, mode) {{
+            const score = mode === 'fit' ? house.fit : house.potential;
+            const color = mode === 'fit' ? house.fitColor : house.potColor;
             const markerHtml = `
                 <div style="
-                    background: ${{house.color}};
+                    background: ${{color}};
                     width: 30px;
                     height: 30px;
                     border-radius: 50%;
@@ -736,28 +831,61 @@ def generate_report() -> str:
                     color: white;
                     font-weight: bold;
                     font-size: 11px;
-                ">${{house.fit}}</div>
+                ">${{score}}</div>
             `;
-
-            const icon = L.divIcon({{
+            return L.divIcon({{
                 html: markerHtml,
                 className: 'custom-marker',
                 iconSize: [30, 30],
                 iconAnchor: [15, 15]
             }});
+        }}
 
+        // Add markers for each house
+        houses.forEach(house => {{
+            const icon = createMarkerIcon(house, currentScoreMode);
             const marker = L.marker([house.lat, house.lng], {{ icon }}).addTo(map);
 
-            // Create popup content
+            // Create popup content with thumbnail
+            const thumbnailHtml = house.thumbnail
+                ? `<img src="${{house.thumbnail}}" class="popup-thumbnail" alt="${{house.address}}" onerror="this.style.display='none'">`
+                : '';
+
             const popupContent = `
-                <div class="popup-address">${{house.address}}</div>
-                <div class="popup-price">${{house.price}}</div>
-                <div class="popup-scores">Fit: ${{house.fit}} | Potential: ${{house.potential}}</div>
-                <a href="${{house.url}}" target="_blank" class="popup-link">View on Zillow →</a>
+                <div class="popup-container">
+                    ${{thumbnailHtml}}
+                    <div class="popup-info">
+                        <div class="popup-address">${{house.address}}</div>
+                        <div class="popup-price">${{house.price}}</div>
+                        <div class="popup-scores">
+                            <span class="fit-badge">Fit: ${{house.fit}}</span>
+                            <span class="potential-badge">Potential: ${{house.potential}}</span>
+                        </div>
+                        <a href="${{house.url}}" target="_blank" class="popup-link">View on Zillow →</a>
+                    </div>
+                </div>
             `;
 
-            marker.bindPopup(popupContent);
+            marker.bindPopup(popupContent, {{ maxWidth: 250 }});
+            marker.houseData = house;
+            markers.push(marker);
         }});
+
+        // Function to update all markers when score mode changes
+        function setScoreMode(mode) {{
+            currentScoreMode = mode;
+
+            // Update button states
+            document.querySelectorAll('.score-toggle-btn').forEach(btn => {{
+                btn.classList.toggle('active', btn.dataset.score === mode);
+            }});
+
+            // Update all marker icons
+            markers.forEach(marker => {{
+                const newIcon = createMarkerIcon(marker.houseData, mode);
+                marker.setIcon(newIcon);
+            }});
+        }}
 
         // Fit map to show all markers
         if (houses.length > 0) {{

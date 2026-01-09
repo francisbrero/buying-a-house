@@ -363,6 +363,40 @@
             justify-content: space-between;
             align-items: center;
             margin-bottom: 1rem;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .map-controls {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .score-toggle {
+            display: flex;
+            background: var(--bg-secondary);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .score-toggle-btn {
+            background: transparent;
+            border: none;
+            color: var(--text-secondary);
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.2s;
+        }
+
+        .score-toggle-btn:hover {
+            color: var(--text-primary);
+        }
+
+        .score-toggle-btn.active {
+            background: var(--accent-blue);
+            color: white;
         }
 
         .map-title {
@@ -396,29 +430,66 @@
         }
 
         .leaflet-popup-content {
-            margin: 8px 12px;
+            margin: 0;
+            min-width: 200px;
+        }
+
+        .popup-container {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .popup-thumbnail {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 4px 4px 0 0;
+        }
+
+        .popup-info {
+            padding: 10px 12px;
         }
 
         .popup-address {
             font-weight: 600;
-            font-size: 1rem;
+            font-size: 0.95rem;
             margin-bottom: 4px;
+            color: #1e293b;
         }
 
         .popup-price {
             color: #22c55e;
             font-weight: 600;
-            margin-bottom: 4px;
+            margin-bottom: 6px;
+            font-size: 1rem;
         }
 
         .popup-scores {
             font-size: 0.85rem;
-            color: #666;
+            color: #64748b;
+            margin-bottom: 8px;
+        }
+
+        .popup-scores span {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-right: 4px;
+            font-weight: 500;
+        }
+
+        .popup-scores .fit-badge {
+            background: rgba(59, 130, 246, 0.1);
+            color: #3b82f6;
+        }
+
+        .popup-scores .potential-badge {
+            background: rgba(168, 85, 247, 0.1);
+            color: #a855f7;
         }
 
         .popup-link {
             display: block;
-            margin-top: 8px;
             color: #3b82f6;
             text-decoration: none;
             font-size: 0.85rem;
@@ -448,7 +519,7 @@
     <div class="container">
         <header>
             <h1>House Evaluation Report</h1>
-            <p class="subtitle">Generated January 09, 2026 at 06:17 PM</p>
+            <p class="subtitle">Generated January 09, 2026 at 06:21 PM</p>
         </header>
 
         <div class="summary">
@@ -474,7 +545,13 @@
         <div class="map-section">
             <div class="map-header">
                 <span class="map-title">📍 Map View (23 locations)</span>
-                <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+                <div class="map-controls">
+                    <div class="score-toggle">
+                        <button class="score-toggle-btn active" data-score="fit" onclick="setScoreMode('fit')">Fit Score</button>
+                        <button class="score-toggle-btn" data-score="potential" onclick="setScoreMode('potential')">Potential</button>
+                    </div>
+                    <button class="map-toggle" onclick="toggleMap()">Hide Map</button>
+                </div>
             </div>
             <div class="map-container" id="map-container">
                 <div id="map"></div>
@@ -2433,8 +2510,10 @@
                 price: "$1,999,999",
                 fit: 76,
                 potential: 82,
-                color: "#22c55e",
-                url: "https://www.zillow.com/homedetails/21130-E-Cliff-Dr-Santa-Cruz-CA-95062/400188625_zpid/"
+                fitColor: "#22c55e",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/21130-E-Cliff-Dr-Santa-Cruz-CA-95062/400188625_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/0f6bb18b25f8fa53275fae7b12d94d16-p_e.jpg"
             },
             {
                 lat: 36.9903042,
@@ -2443,8 +2522,10 @@
                 price: "$1,649,000",
                 fit: 76,
                 potential: 82,
-                color: "#22c55e",
-                url: "https://www.zillow.com/homedetails/3300-Crystal-Heights-Dr-Soquel-CA-95073/16133798_zpid/"
+                fitColor: "#22c55e",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/3300-Crystal-Heights-Dr-Soquel-CA-95073/16133798_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/2c7927f9067676a6292b1e63458cbf5c-p_e.jpg"
             },
             {
                 lat: 36.9800396,
@@ -2453,8 +2534,10 @@
                 price: "$1,658,500",
                 fit: 75,
                 potential: 78,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/2241-Albert-Ln-Capitola-CA-95010/16131292_zpid/"
+                fitColor: "#eab308",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/2241-Albert-Ln-Capitola-CA-95010/16131292_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/d5f259b8eef4038575beaa37f76e34a8-p_e.jpg"
             },
             {
                 lat: 37.0697673,
@@ -2463,8 +2546,10 @@
                 price: "$1,100,000",
                 fit: 68,
                 potential: 78,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/360-Tabor-Dr-Scotts-Valley-CA-95066/16121812_zpid/"
+                fitColor: "#eab308",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/360-Tabor-Dr-Scotts-Valley-CA-95066/16121812_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/64dec904f584c0b0911eff01714a9e79-p_e.jpg"
             },
             {
                 lat: 36.9687579,
@@ -2473,8 +2558,10 @@
                 price: "$1,287,500",
                 fit: 68,
                 potential: 82,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/2908-Sandy-Ln-Santa-Cruz-CA-95062/16128934_zpid/"
+                fitColor: "#eab308",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/2908-Sandy-Ln-Santa-Cruz-CA-95062/16128934_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/42d8c127cbf076cd81dd546460e0f907-p_e.jpg"
             },
             {
                 lat: 37.0116793,
@@ -2483,8 +2570,10 @@
                 price: "$1,699,000",
                 fit: 65,
                 potential: 82,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/1239-La-Madrona-Dr-Santa-Cruz-CA-95060/16151276_zpid/"
+                fitColor: "#eab308",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/1239-La-Madrona-Dr-Santa-Cruz-CA-95060/16151276_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/24aaaafc342d7eea147001393dc88300-p_e.jpg"
             },
             {
                 lat: 36.9897634,
@@ -2493,8 +2582,10 @@
                 price: "$1,595,000",
                 fit: 64,
                 potential: 82,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/631-Park-Way-Santa-Cruz-CA-95065/16109729_zpid/"
+                fitColor: "#eab308",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/631-Park-Way-Santa-Cruz-CA-95065/16109729_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/6d188f9bae54f32f808ec4e75060d24b-p_e.jpg"
             },
             {
                 lat: 36.9736545,
@@ -2503,8 +2594,10 @@
                 price: "$1,675,000",
                 fit: 62,
                 potential: 82,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/4750-Capitola-Rd-Capitola-CA-95010/16130471_zpid/"
+                fitColor: "#eab308",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/4750-Capitola-Rd-Capitola-CA-95010/16130471_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/319d3943f4465576ef71b165ec562c28-p_e.jpg"
             },
             {
                 lat: 37.0017968,
@@ -2513,8 +2606,10 @@
                 price: "$1,399,000",
                 fit: 62,
                 potential: 82,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/120-Corinne-Ave-Santa-Cruz-CA-95065/16163465_zpid/"
+                fitColor: "#eab308",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/120-Corinne-Ave-Santa-Cruz-CA-95065/16163465_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/259cf4f28ce0288da9f56f70eb0d1f9c-p_e.jpg"
             },
             {
                 lat: 37.2828158,
@@ -2523,8 +2618,10 @@
                 price: "$1,684,000",
                 fit: 62,
                 potential: 62,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/206-Sunnyside-Ave-Campbell-CA-95008/19669301_zpid/"
+                fitColor: "#eab308",
+                potColor: "#ef4444",
+                url: "https://www.zillow.com/homedetails/206-Sunnyside-Ave-Campbell-CA-95008/19669301_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/7b4cee690ea4011650ffe9015fccdf95-p_e.jpg"
             },
             {
                 lat: 37.3508707,
@@ -2533,8 +2630,10 @@
                 price: "$1,499,888",
                 fit: 62,
                 potential: 68,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/1308-Yarmouth-Ter-Sunnyvale-CA-94087/19624840_zpid/"
+                fitColor: "#eab308",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/1308-Yarmouth-Ter-Sunnyvale-CA-94087/19624840_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/a79ae27a2f73297b8646f83d4683ca0b-p_e.jpg"
             },
             {
                 lat: 36.9702583,
@@ -2543,8 +2642,10 @@
                 price: "$1,279,000",
                 fit: 62,
                 potential: 78,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/120-Maple-St-Santa-Cruz-CA-95060/16106152_zpid/"
+                fitColor: "#eab308",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/120-Maple-St-Santa-Cruz-CA-95060/16106152_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/e22ba47d644ca98113869ac6266451ad-p_e.jpg"
             },
             {
                 lat: 36.9800656,
@@ -2553,8 +2654,10 @@
                 price: "$1,395,000",
                 fit: 62,
                 potential: 78,
-                color: "#eab308",
-                url: "https://www.zillow.com/homedetails/2304-Mattison-Ln-Santa-Cruz-CA-95062/16127287_zpid/"
+                fitColor: "#eab308",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/2304-Mattison-Ln-Santa-Cruz-CA-95062/16127287_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg"
             },
             {
                 lat: 36.9631827,
@@ -2563,8 +2666,10 @@
                 price: "$1,549,000",
                 fit: 59,
                 potential: 78,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/1612-Escalona-Dr-Santa-Cruz-CA-95060/16101018_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/1612-Escalona-Dr-Santa-Cruz-CA-95060/16101018_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg"
             },
             {
                 lat: 37.0524331,
@@ -2573,8 +2678,10 @@
                 price: "$1,475,000",
                 fit: 59,
                 potential: 82,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/2510-Bean-Creek-Rd-Scotts-Valley-CA-95066/16161179_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#22c55e",
+                url: "https://www.zillow.com/homedetails/2510-Bean-Creek-Rd-Scotts-Valley-CA-95066/16161179_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/bf07b4a2dd734bf0bd5e11dc2e159a3f-p_e.jpg"
             },
             {
                 lat: 36.9797063,
@@ -2583,8 +2690,10 @@
                 price: "$1,300,000",
                 fit: 55,
                 potential: 68,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/1024-Webster-St-Santa-Cruz-CA-95062/16123923_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/1024-Webster-St-Santa-Cruz-CA-95062/16123923_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/3c5f76685166913d7c924a5f3082c747-p_e.jpg"
             },
             {
                 lat: 36.9910698,
@@ -2593,8 +2702,10 @@
                 price: "$1,595,000",
                 fit: 54,
                 potential: 68,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/785-Cathedral-Dr-Aptos-CA-95003/16136742_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/785-Cathedral-Dr-Aptos-CA-95003/16136742_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/3310ea2394aff35a9ea0e023e19b5b77-p_e.jpg"
             },
             {
                 lat: 36.9766102,
@@ -2603,8 +2714,10 @@
                 price: "$1,435,000",
                 fit: 54,
                 potential: 68,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/309-Village-Cir-Santa-Cruz-CA-95060/16106812_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/309-Village-Cir-Santa-Cruz-CA-95060/16106812_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg"
             },
             {
                 lat: 36.9735679,
@@ -2613,8 +2726,10 @@
                 price: "$1,095,000",
                 fit: 54,
                 potential: 78,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/1122-Seabright-Ave-Santa-Cruz-CA-95062/16113226_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/1122-Seabright-Ave-Santa-Cruz-CA-95062/16113226_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/19d0f3e0e541eab39fd71f73bd611930-p_e.jpg"
             },
             {
                 lat: 36.9670906,
@@ -2623,8 +2738,10 @@
                 price: "$1,050,000",
                 fit: 53,
                 potential: 78,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/919-Paget-Ave-Santa-Cruz-CA-95062/16125695_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/919-Paget-Ave-Santa-Cruz-CA-95062/16125695_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/a6cc23abf287aa29e99ae8b2351f2e6c-p_e.jpg"
             },
             {
                 lat: 36.9855468,
@@ -2633,8 +2750,10 @@
                 price: "$1,200,000",
                 fit: 53,
                 potential: 78,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/2606-Paul-Minnie-Ave-Santa-Cruz-CA-95062/16123570_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#eab308",
+                url: "https://www.zillow.com/homedetails/2606-Paul-Minnie-Ave-Santa-Cruz-CA-95062/16123570_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/bb552030f60a19a393320467cc393288-p_e.jpg"
             },
             {
                 lat: 36.9815221,
@@ -2643,8 +2762,10 @@
                 price: "$1,995,000",
                 fit: 48,
                 potential: 62,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/136-Market-St-Santa-Cruz-CA-95060/16108856_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#ef4444",
+                url: "https://www.zillow.com/homedetails/136-Market-St-Santa-Cruz-CA-95060/16108856_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/aa50c8647f70fce6bf13f3ae74b09337-p_e.jpg"
             },
             {
                 lat: 36.9657139,
@@ -2653,17 +2774,24 @@
                 price: "$1,995,000",
                 fit: 18,
                 potential: 45,
-                color: "#ef4444",
-                url: "https://www.zillow.com/homedetails/1430-Merrill-St-Santa-Cruz-CA-95062/455772485_zpid/"
+                fitColor: "#ef4444",
+                potColor: "#ef4444",
+                url: "https://www.zillow.com/homedetails/1430-Merrill-St-Santa-Cruz-CA-95062/455772485_zpid/",
+                thumbnail: "https://photos.zillowstatic.com/fp/0d2c21342c99c0f5d83ffa840ceaf180-p_e.jpg"
             }
         ];
 
-        // Add markers for each house
-        houses.forEach(house => {
-            // Create custom icon with score-based color
+        // Track current score mode and markers
+        let currentScoreMode = 'fit';
+        const markers = [];
+
+        // Function to create marker icon
+        function createMarkerIcon(house, mode) {
+            const score = mode === 'fit' ? house.fit : house.potential;
+            const color = mode === 'fit' ? house.fitColor : house.potColor;
             const markerHtml = `
                 <div style="
-                    background: ${house.color};
+                    background: ${color};
                     width: 30px;
                     height: 30px;
                     border-radius: 50%;
@@ -2675,28 +2803,61 @@
                     color: white;
                     font-weight: bold;
                     font-size: 11px;
-                ">${house.fit}</div>
+                ">${score}</div>
             `;
-
-            const icon = L.divIcon({
+            return L.divIcon({
                 html: markerHtml,
                 className: 'custom-marker',
                 iconSize: [30, 30],
                 iconAnchor: [15, 15]
             });
+        }
 
+        // Add markers for each house
+        houses.forEach(house => {
+            const icon = createMarkerIcon(house, currentScoreMode);
             const marker = L.marker([house.lat, house.lng], { icon }).addTo(map);
 
-            // Create popup content
+            // Create popup content with thumbnail
+            const thumbnailHtml = house.thumbnail
+                ? `<img src="${house.thumbnail}" class="popup-thumbnail" alt="${house.address}" onerror="this.style.display='none'">`
+                : '';
+
             const popupContent = `
-                <div class="popup-address">${house.address}</div>
-                <div class="popup-price">${house.price}</div>
-                <div class="popup-scores">Fit: ${house.fit} | Potential: ${house.potential}</div>
-                <a href="${house.url}" target="_blank" class="popup-link">View on Zillow →</a>
+                <div class="popup-container">
+                    ${thumbnailHtml}
+                    <div class="popup-info">
+                        <div class="popup-address">${house.address}</div>
+                        <div class="popup-price">${house.price}</div>
+                        <div class="popup-scores">
+                            <span class="fit-badge">Fit: ${house.fit}</span>
+                            <span class="potential-badge">Potential: ${house.potential}</span>
+                        </div>
+                        <a href="${house.url}" target="_blank" class="popup-link">View on Zillow →</a>
+                    </div>
+                </div>
             `;
 
-            marker.bindPopup(popupContent);
+            marker.bindPopup(popupContent, { maxWidth: 250 });
+            marker.houseData = house;
+            markers.push(marker);
         });
+
+        // Function to update all markers when score mode changes
+        function setScoreMode(mode) {
+            currentScoreMode = mode;
+
+            // Update button states
+            document.querySelectorAll('.score-toggle-btn').forEach(btn => {
+                btn.classList.toggle('active', btn.dataset.score === mode);
+            });
+
+            // Update all marker icons
+            markers.forEach(marker => {
+                const newIcon = createMarkerIcon(marker.houseData, mode);
+                marker.setIcon(newIcon);
+            });
+        }
 
         // Fit map to show all markers
         if (houses.length > 0) {
