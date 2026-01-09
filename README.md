@@ -89,6 +89,67 @@ data/
 └── aesthetics.md       # Human-readable preferences
 ```
 
+## Live Report
+
+View the live house evaluation report at:
+
+**https://francisbrero.github.io/buying-a-house/**
+
+The report is automatically updated whenever changes are pushed to the master branch.
+
+## Automation Workflow
+
+This project is designed to be run by an automated agent (e.g., Claude Code) to discover and score new listings. Here's the typical workflow:
+
+### 1. Import New Listings from Zillow Search
+
+```bash
+# Use Claude Code to scrape a Zillow search page, then import the listings
+python -m src.cli house import-search "<zillow_search_url>" --data '[
+  {"address": "123 Main St", "price": 1500000, "url": "...", ...},
+  ...
+]'
+```
+
+### 2. Geocode New Houses (for map display)
+
+```bash
+python -m src.cli house geocode
+```
+
+### 3. Score All Unscored Houses
+
+```bash
+python -m src.cli house batch-score
+```
+
+### 4. Generate the HTML Report
+
+```bash
+python -m src.cli house report --no-open
+```
+
+### 5. Commit and Push to Deploy
+
+```bash
+git add -A
+git commit -m "Update listings $(date +%Y-%m-%d)"
+git push origin master
+```
+
+The GitHub Actions workflow will automatically deploy the updated `report.html` to GitHub Pages.
+
+### One-liner for Automation
+
+After importing new listings, run this to process and deploy:
+
+```bash
+python -m src.cli house geocode && \
+python -m src.cli house batch-score && \
+python -m src.cli house report --no-open && \
+git add -A && git commit -m "Update listings $(date +%Y-%m-%d)" && git push
+```
+
 ## Requirements
 
 - Python 3.11+
