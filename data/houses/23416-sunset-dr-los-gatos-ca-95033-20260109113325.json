@@ -1,0 +1,235 @@
+{
+  "id": "23416-sunset-dr-los-gatos-ca-95033-20260109113325",
+  "url": "https://www.zillow.com/homedetails/23416-Sunset-Dr-Los-Gatos-CA-95033/16161864_zpid/",
+  "address": "23416 Sunset Dr, Los Gatos, CA 95033",
+  "city": "Los Gatos",
+  "state": "CA",
+  "zip_code": "95033",
+  "price": 1475000,
+  "description": "Single family residence in Los Gatos.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1864,
+    "lot_sqft": 47916,
+    "year_built": 1967,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/bdb4792be13416568f0bea24709e4d09-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4b7d9a9a7a43211ee31c414a32cadc82-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c024333aba8314c210c25fe88f53a71e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e4c7967ce9623467d7e1d72dfb31664c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8c5c967e8e4568eb4cd931b49523e7ca-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/da03f4bd54c1d66393048c6abfd42aa6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bfc93272baac73c746c5bac930611df1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/453de29b9e079c3eb5d2a71ac0781e24-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ca56bc4b3f9062205b9370dc0d58fa62-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cfbbe4ce37558b51c46af14fbb1a0cb9-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior / deck area (pergola)",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "red-stained wood decking",
+          "metal furniture"
+        ],
+        "light_quality": "excellent",
+        "condition": "maintained",
+        "notes": "Spacious deck with sunset views; the red stain is a bit dated but in good repair."
+      },
+      {
+        "room_type": "exterior / main house view",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "asphalt shingles",
+          "skylights",
+          "wood siding"
+        ],
+        "light_quality": "abundant",
+        "condition": "good",
+        "notes": "Low-profile ranch style nestled in trees; multiple skylights suggest good interior natural light."
+      },
+      {
+        "room_type": "entrance / porch",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco wall",
+          "wood door",
+          "outdoor rug"
+        ],
+        "light_quality": "shaded",
+        "condition": "fair",
+        "notes": "Entryway feels a bit cramped and utilitarian; the stucco finish looks somewhat aged."
+      },
+      {
+        "room_type": "rear facade / lower deck",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "natural wood decking",
+          "glass sliding doors",
+          "exposed beams"
+        ],
+        "light_quality": "bright",
+        "condition": "excellent",
+        "notes": "Very attractive transitional indoor/outdoor space with high ceilings and clear story windows."
+      },
+      {
+        "room_type": "front porch / entryway (night view)",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "horizontal siding",
+          "concrete",
+          "oversized planters"
+        ],
+        "light_quality": "warm artificial lighting",
+        "condition": "updated",
+        "notes": "Good curb appeal with modern desert-style landscaping (decomposed granite and river rock)."
+      },
+      {
+        "room_type": "side exterior / garage",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "clapperboard siding",
+          "concrete walkway"
+        ],
+        "light_quality": "direct sunlight",
+        "condition": "good",
+        "notes": "Standard suburban ranch profile; landscaping is tidy."
+      },
+      {
+        "room_type": "main elevation / architecture",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "floor-to-ceiling glass",
+          "wood framing",
+          "gravel driveway"
+        ],
+        "light_quality": "abundant",
+        "condition": "excellent",
+        "notes": "Mid-century modern influences with significant glass walls taking advantage of the site topography."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "Mid-Century Modern Ranch",
+    "red_flags": [
+      "Mixed deck stains (red vs natural) suggest piecemeal additions",
+      "Overhead utility lines visible across the main view"
+    ],
+    "positive_signals": [
+      "Extensive natural light through floor-to-ceiling windows",
+      "High-quality integration with the wooded landscape",
+      "Large, functional outdoor living spaces",
+      "Clerestory windows"
+    ],
+    "renovation_state": "Maintained original with cosmetic updates",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior / deck area (pergola)\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"red-stained wood decking\", \"metal furniture\"],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"maintained\",\n            \"notes\": \"Spacious deck with sunset views; the red stain is a bit dated but in good repair.\"\n        },\n        {\n            \"room_type\": \"exterior / main house view\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"asphalt shingles\", \"skylights\", \"wood siding\"],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"good\",\n            \"notes\": \"Low-profile ranch style nestled in trees; multiple skylights suggest good interior natural light.\"\n        },\n        {\n            \"room_type\": \"entrance / porch\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\"stucco wall\", \"wood door\", \"outdoor rug\"],\n            \"light_quality\": \"shaded\",\n            \"condition\": \"fair\",\n            \"notes\": \"Entryway feels a bit cramped and utilitarian; the stucco finish looks somewhat aged.\"\n        },\n        {\n            \"room_type\": \"rear facade / lower deck\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"natural wood decking\", \"glass sliding doors\", \"exposed beams\"],\n            \"light_quality\": \"bright\",\n            \"condition\": \"excellent\",\n            \"notes\": \"Very attractive transitional indoor/outdoor space with high ceilings and clear story windows.\"\n        },\n        {\n            \"room_type\": \"front porch / entryway (night view)\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"horizontal siding\", \"concrete\", \"oversized planters\"],\n            \"light_quality\": \"warm artificial lighting\",\n            \"condition\": \"updated\",\n            \"notes\": \"Good curb appeal with modern desert-style landscaping (decomposed granite and river rock).\"\n        },\n        {\n            \"room_type\": \"side exterior / garage\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"clapperboard siding\", \"concrete walkway\"],\n            \"light_quality\": \"direct sunlight\",\n            \"condition\": \"good\",\n            \"notes\": \"Standard suburban ranch profile; landscaping is tidy.\"\n        },\n        {\n            \"room_type\": \"main elevation / architecture\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"floor-to-ceiling glass\", \"wood framing\", \"gravel driveway\"],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"excellent\",\n            \"notes\": \"Mid-century modern influences with significant glass walls taking advantage of the site topography.\"\n        }\n    ],\n    \"overall_aesthetic\": 7,\n    \"architectural_style\": \"Mid-Century Modern Ranch\",\n    \"red_flags\": [\n        \"Mixed deck stains (red vs natural) suggest piecemeal additions\",\n        \"Overhead utility lines visible across the main view\"\n    ],\n    \"positive_signals\": [\n        \"Extensive natural light through floor-to-ceiling windows\",\n        \"High-quality integration with the wooded landscape\",\n        \"Large, functional outdoor living spaces\",\n        \"Clerestory windows\"\n    ],\n    \"renovation_state\": \"Maintained original with cosmetic updates\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.8,
+    "passed": true,
+    "violations": [
+      "High fire risk zone location (Los Gatos mountains)",
+      "Inconsistent exterior finishes (Mixed deck stains and stucco quality)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 9.2,
+        "weight": 0.2,
+        "notes": "Excellent natural light via floor-to-ceiling glass, clerestory windows, and multiple skylights."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.5,
+        "weight": 0.18,
+        "notes": "Strong Mid-Century Modern Ranch profile; non-boxy with interesting rooflines and integration with topography."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.2,
+        "weight": 0.15,
+        "notes": "Points deducted for aged stucco, dated red-stained wood, and asphalt shingle roof, though interior wood beams are a plus."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.5,
+        "weight": 0.12,
+        "notes": "Wood elements and wooded setting provide warmth, though some exterior areas feel utilitarian/cramped."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Good indoor/outdoor transition via lower deck; however, entrance is noted as cramped."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.5,
+        "weight": 0.1,
+        "notes": "Significant penalty for high fire risk zone (Los Gatos 95033 mountains) and visible overhead utility lines."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.8,
+        "weight": 0.08,
+        "notes": "Spacious decks and sunset views, though requires more cohesive maintenance/staining."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.5,
+        "weight": 0.07,
+        "notes": "Maintained but shows age in specific areas (stucco, entry) and piecemeal exterior updates."
+      }
+    ],
+    "justification": "The house is an architectural success regarding natural light and Mid-Century character, which are core priorities. However, the score is suppressed into the 'Acceptable' range (60s) due to two major factors: the inherent location risk (High Fire Risk Zone/95033) which is a specific anti-principle, and the inconsistent exterior material quality. While it avoids the 'gray flip' trap, it requires exterior refinement to reach a 'Ready' state. The presence of overhead lines in the main view is a permanent detractor from the aesthetic value.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 88.0,
+    "renovation_ideas": [
+      {
+        "area": "Main Living Volume & Flow",
+        "current_state": "Mid-century ranch with good glass but potentially fragmented flooring and dated finishes.",
+        "proposed_change": "Unify the flooring with wide-plank white oak or reclaimed wood; sand/refinish existing exposed beams to a natural matte tone; update the fireplace with floor-to-ceiling stone or a modern plaster finish.",
+        "impact": "Accentuates 'architectural character' and 'cozy warmth' while maximizing the 'abundant natural light' from the floor-to-ceiling windows.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Decks & Pergola",
+        "current_state": "Mismatched red-stained decking and natural wood creating a piecemeal look.",
+        "proposed_change": "Strip and sand all decking to a uniform natural oil finish (Ipe or cedar aesthetic); replace the dated pergola with a modern minimalist timber structure that mirrors the interior beams.",
+        "impact": "Creates a seamless indoor-outdoor transition, crucial for the 'quirky/interesting' layout and mountain site.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Entrance & Porch",
+        "current_state": "Cramped, utilitarian stucco entryway with a 5.0/10 quality rating.",
+        "proposed_change": "Expand the entry footprint by replacing the stucco wall with a glass sidelight and a high-end pivot wood door; replace the aged stucco with horizontal wood slat siding to match the modern desert landscaping.",
+        "impact": "Redeems the weakest point of the house to match the 8.0/10 elevation quality, creating a cohesive architectural statement.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Mountain properties often have strict septic/wildfire code requirements for exterior modifications.",
+      "Significant glass walls may require structural seismic retrofitting if modified.",
+      "Overhead utility lines are a permanent visual detractor unless buried (high cost)."
+    ],
+    "upside_narrative": "This property is a quintessential 'diamond in the rough' for a mid-century enthusiast. Because the 'heavy lifting' (the clerestory windows, site integration, and vaulted volumes) is already done, the $150k budget can be surgically applied to high-impact finishes rather than structural correction. The result would be a 'Glass House' in the woods that perfectly aligns with the user's desire for architectural character and natural light, likely commanding a significant premium over the current ranch-style valuation."
+  },
+  "brief": "# House Brief: 23416 Sunset Dr, Los Gatos\n\n### Executive Summary\nThis Mid-Century Modern Ranch is a high-potential \"glass house\" nestled in the Los Gatos mountains. While it perfectly captures the architectural character and natural light the user seeks, it is hampered by its location in a high-fire-risk zone and some inconsistent exterior maintenance. It is a property for a buyer willing to invest in refinement to unlock a truly unique woodland retreat.\n\n### Aesthetic Alignment\nThe property aligns strongly with your preference for **architectural character**. It avoids the \"boxy\" feel of suburban builds through vaulted ceilings, clerestory windows, and floor-to-ceiling glass that integrates the interior with the surrounding forest. The use of natural wood and stone provides the \"cozy warmth\" you value, though the exterior currently suffers from a lack of visual cohesion.\n\n### Strengths\n*   **Abundant Natural Light:** The home features significant glass volumes and clerestory windows that ensure the interior remains bright despite the wooded setting.\n*   **Mid-Century Integrity:** The house retains its original charm, avoiding the \"cheap gray flip\" aesthetic. Features like exposed beams and a brick fireplace are intact.\n*   **Outdoor Living:** Large, functional deck spaces expand the living area directly into the canopy.\n*   **High Potential:** The structural \"heavy lifting\" (unique rooflines and window placements) is already complete, allowing renovation budgets to focus on aesthetics.\n\n### Weaknesses\n*   **Visual Distractions:** Overhead utility lines cut directly through the primary view, a permanent detractor from the \"nature retreat\" feel.\n*   **Maintenance Inconsistency:** The exterior features clashing deck stains (red vs. natural) and variable stucco quality, suggesting piecemeal repairs rather than a holistic vision.\n*   **Infrastructure Risks:** Typical of mountain properties, there are concerns regarding septic health and the strict wildfire codes which may limit future exterior modifications.\n\n### Deal-Breakers\n*   **High Fire Risk Zone:** This property sits in a high-risk area (95033), which is a noted **Anti-Principle**. This complicates insurance aequisition and represents a recurring safety/financial concern.\n\n### Renovation Paths\n**The Surgical Refinement ($100k - $200k):**\n1.  **Exterior Cohesion:** Strip and re-stain all decking to a singular, natural tone; repair and paint stucco to a modern, earth-toned palette.\n2.  **Interior Warmth:** Refinish existing wood elements and update the kitchen/baths with high-end natural materials (stone, walnut) rather than basic white/gray finishes.\n3.  **Landscape/Hardscape:** Strategically plant or screen to minimize the visual impact of utility lines where possible.\n\n### Who This House Is For\nThis house is for an architecturally minded buyer who prioritizes **soul and light** over a \"turn-key\" experience. You must be comfortable with the trade-offs of mountain living (fire risk, utility lines) in exchange for a home that feels like a private sanctuary.\n\n### Verdict\n**PROCEED WITH CAUTION.** The architectural \"bones\" are an 8.5/10 match for your style, but the location is a direct violation of your anti-principles. If you can reconcile the fire risk and the utility lines, this is a rare opportunity to own a quintessential Mid-Century gem for under $1.5M in Los Gatos.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:25.994800",
+  "scored_at": "2026-01-09T12:15:36.845336"
+}

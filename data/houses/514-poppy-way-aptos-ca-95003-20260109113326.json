@@ -1,0 +1,195 @@
+{
+  "id": "514-poppy-way-aptos-ca-95003-20260109113326",
+  "url": "https://www.zillow.com/homedetails/514-Poppy-Way-Aptos-CA-95003/69307819_zpid/",
+  "address": "514 Poppy Way, Aptos, CA 95003",
+  "city": "Aptos",
+  "state": "CA",
+  "zip_code": "95003",
+  "price": 1449990,
+  "description": "Single family residence in Aptos.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1647,
+    "lot_sqft": 9583,
+    "year_built": 1960,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/d15df2035f91eb01116f11d4dd692d5d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4ef49fe1ed8b7a022bb600dabf6ad475-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6e4c92cb8fa59f7e45c2b2a3302d529b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/406c9ac203853ea58002d2c5909020bd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/76c36a65034a2cbd7d29c3a893f3c73d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6cd0251977572178217c48b98c26bb4e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/33fc14afa714989a2c2199225b136530-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cffbde5cb185fb065e2e7140a074eac4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/672ea09b545acccf86ca19ecb4452572-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front_elevation",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "brick veneer",
+          "concrete driveway",
+          "asphalt shingles",
+          "wood trim"
+        ],
+        "light_quality": "bright natural light",
+        "condition": "well-maintained",
+        "notes": "Traditional suburban aesthetic; mix of textures with brick and stucco. Landscaping varies from simple turf to mature lavender and shrubs."
+      },
+      {
+        "room_type": "exterior_aerial_view",
+        "aesthetic_quality": 8.0,
+        "materials": [],
+        "light_quality": "excellent",
+        "condition": "established neighborhood",
+        "notes": "Strong location signal showing proximity to the coast and greenbelts."
+      },
+      {
+        "room_type": "exterior_deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "redwood decking",
+          "wood railing",
+          "lattice privacy screen"
+        ],
+        "light_quality": "abundant exposure",
+        "condition": "good",
+        "notes": "Spacious outdoor living area with a clear view of the surrounding horizon and palm trees."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "contemporary suburban ranch",
+    "red_flags": [
+      "Inconsistent exterior finishes across different shots (suggests multiple properties or varying update stages)",
+      "Overly saturated HDR photography in some frames used to mask age",
+      "Non-professional personal photo included in listing grid"
+    ],
+    "positive_signals": [
+      "Mature, professional landscaping in several shots",
+      "Large windows providing significant natural light",
+      "Desirable coastal location based on aerial views",
+      "Expansive rear decking for functional outdoor space"
+    ],
+    "renovation_state": "partial/exterior update",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior_front_elevation\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\n                \"stucco\",\n                \"brick veneer\",\n                \"concrete driveway\",\n                \"asphalt shingles\",\n                \"wood trim\"\n            ],\n            \"light_quality\": \"bright natural light\",\n            \"condition\": \"well-maintained\",\n            \"notes\": \"Traditional suburban aesthetic; mix of textures with brick and stucco. Landscaping varies from simple turf to mature lavender and shrubs.\"\n        },\n        {\n            \"room_type\": \"exterior_aerial_view\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"established neighborhood\",\n            \"notes\": \"Strong location signal showing proximity to the coast and greenbelts.\"\n        },\n        {\n            \"room_type\": \"exterior_deck\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\n                \"redwood decking\",\n                \"wood railing\",\n                \"lattice privacy screen\"\n            ],\n            \"light_quality\": \"abundant exposure\",\n            \"condition\": \"good\",\n            \"notes\": \"Spacious outdoor living area with a clear view of the surrounding horizon and palm trees.\"\n        }\n    ],\n    \"overall_aesthetic\": 6,\n    \"architectural_style\": \"contemporary suburban ranch\",\n    \"red_flags\": [\n        \"Inconsistent exterior finishes across different shots (suggests multiple properties or varying update stages)\",\n        \"Overly saturated HDR photography in some frames used to mask age\",\n        \"Non-professional personal photo included in listing grid\"\n    ],\n    \"positive_signals\": [\n        \"Mature, professional landscaping in several shots\",\n        \"Large windows providing significant natural light\",\n        \"Desirable coastal location based on aerial views\",\n        \"Expansive rear decking for functional outdoor space\"\n    ],\n    \"renovation_state\": \"partial/exterior update\",\n    \"analysis_notes\": \"Since no interior photos are present in the provided grid, the evaluation is limited to exterior and site qualities. The listing displays high curb appeal but shows signs of inconsistent maintenance or 'curb-side' flipping (new paint and plants while keeping older garage doors and windows). The inclusion of a personal selfie suggests a non-standard or amateur listing process.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Single-story layout (Soft Constraint violation)",
+      "Inconsistent exterior finishes"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Abundant windows and southern exposure are the strongest features here, meeting the hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 4.5,
+        "weight": 0.18,
+        "notes": "Exterior is a generic suburban ranch; lacks the 'quirky' or 'interesting' geometry requested in the taste model."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.5,
+        "weight": 0.15,
+        "notes": "Heavily reliant on stucco and asphalt; brick veneer and lattice screening feel dated/low-cost rather than premium wood architectural elements."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "Outdoor deck and landscaping provide some warmth, but the structure itself feels somewhat sterile and suburban."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Single-story ranch layout is predictable and 'boxy' which is an anti-principle."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 8.0,
+        "weight": 0.1,
+        "notes": "Aptos coastal proximity is highly desirable, though neighborhood density is high."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "Expansive redwood deck and mature landscaping are significant positives for present-fit."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.5,
+        "weight": 0.07,
+        "notes": "Well-maintained but inconsistencies in photography suggest masked age or patchwork updates."
+      }
+    ],
+    "justification": "While the house meets the hard constraint for natural light and offers a great coastal location, it fails several soft preferences. It is a single-story 'boxy' suburban ranch, lacking the multi-story architectural character and interesting wood-driven design specified in the taste model. The presence of 'flip-style' signals (consistent with the vision analysis notes on saturated HDR and mixed finishes) prevents a higher score.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Facade & Entry",
+        "current_state": "Dated 1960s suburban ranch with mismatched brick veneer and stucco.",
+        "proposed_change": "Remove or lime-wash the brick veneer, replace old wood trim with darker cedar accents, and install a modern oversized wood pivot door.",
+        "impact": "Drastically improves curb appeal and introduces 'architectural character' required by the aesthetic profile.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Ceiling Structure",
+        "current_state": "Flat ceilings with standard ranch layout.",
+        "proposed_change": "Incorporate faux or structural reclaimed wood beams to the ceiling and replace standard flooring with wide-plank white oak hardwood.",
+        "impact": "Adds 'cozy warmth' and 'wood elements' while breaking the 'boxy' feel of a standard 1960s interior.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Window Program & Indoor/Outdoor Flow",
+        "current_state": "Standard-sized windows overlooking a high-potential redwood deck.",
+        "proposed_change": "Expand rear-facing windows into floor-to-ceiling glass sliders or a bi-fold door system leading to the deck.",
+        "impact": "Achieves the 'abundant natural light' requirement and maximizes the value of the coastal location and expansive deck.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Fireplace Hearth",
+        "current_state": "Likely dated brick or standard suburban insert.",
+        "proposed_change": "Reface with floor-to-ceiling natural stone or handmade ceramic tile to create a 'quirky character' focal point.",
+        "impact": "Strengthens the 'cozy warmth' principle and serves as the anchor for the main living space.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Potential for lead paint or asbestos given the 1960 build date.",
+      "Expanding window openings in a coastal area may require structural headers and updated permit compliance for wind loads.",
+      "The inconsistent finishes mentioned in the listing suggest previous unpermitted or DIY work that may need correction."
+    ],
+    "upside_narrative": "This property is a classic 'good bones' coastal ranch. By leaning into its 1960s silhouette and adding high-quality wood elements and expanded glass, you can transform a generic suburban home into a warm, mid-century inspired coastal retreat. The $150k budget is perfectly positioned to handle high-impact structural changes to the windows and a full cosmetic overhaul of the living/entry areas, though it may require prioritizing the primary living spaces over a full-house gut."
+  },
+  "brief": "# House Brief: 514 Poppy Way, Aptos\n\n### Executive Summary\nThis is a standard 1960s coastal ranch located in a prime Aptos neighborhood, offered at approximately $1.45M. While it provides the \"abundant light\" you crave via large windows and a solid outdoor footprint, it currently lacks the architectural soul and multi-story complexity defined in your preferences. It is a functional but aesthetically generic home that requires a visionary renovation to move beyond its \"boxy\" suburban roots.\n\n### Aesthetic Alignment\n**Score: 6.0/10**\nThe property currently sits in a \"partial-update\" limbo. It misses your preference for architectural character and wood-driven warmth, leaning instead toward a flat, single-story contemporary suburban look. The listing photography uses heavy HDR saturation, which often masks a lack of material depth. However, its simple silhouette serves as a clean\u2014if uninspiring\u2014canvas for the \"warm mid-century\" aesthetic you prefer.\n\n### Strengths\n*   **Natural Light:** Large window banks and a favorable orientation meet your primary hard constraint for a bright interior.\n*   **Outdoor Living:** An expansive rear deck and professional landscaping significantly increase the functional square footage and coastal appeal.\n*   **Coastal Location:** Situated in a highly desirable Aptos pocket with high ceiling values, justifying a renovation investment.\n*   **\"Good Bones\":** The 1960s post-and-beam era ranch is structurally conducive to the \"wood and glass\" transition you desire.\n\n### Weaknesses\n*   **Architectural Monotony:** The single-story, \"boxy\" layout is a direct violation of your preference for interesting shapes and multi-story flow.\n*   **Inconsistent Finishes:** Visual analysis suggests a mix of DIY updates and \"flip-style\" choices that lack a cohesive, high-end feel.\n*   **Suspicious Presentation:** Inconsistent exterior finishes in photos and overly saturated imagery suggest the property may look more \"tired\" in person than the listing implies.\n\n### Deal-Breakers\n*   **No Multi-Story Character:** If a multi-level floor plan is a non-negotiable requirement for \"flow,\" this home cannot be easily remedied without a massive structural addition.\n*   **Single-Story Layout:** This is a soft-constraint violation.\n\n### Renovation Paths\n**The \"Coastal Mid-Century\" Pivot (Est. $150k \u2013 $200k)**\n*   **Structural Glass:** Expand existing window openings into floor-to-ceiling glass walls to maximize the coastal light.\n*   **Material Warmth:** Replace generic flooring with wide-plank natural oak; add cedar or redwood cladding to ceiling sections or exterior focal points to break up the \"boxy\" silhouette.\n*   **Corrective Work:** Budget for potential remediation of lead/asbestos (given the 1960 build) and a \"cleanup\" of previous unpermitted DIY finishes.\n\n### Who This House Is For\nThis house is for a buyer who prioritizes **location and light** over immediate architectural style. It is ideal for someone willing to manage a significant cosmetic and structural overhaul to \"inject\" character into a plain space.\n\n### Verdict\n**PROCEED WITH CAUTION.** \nThis is not a \"move-in and love\" house based on your taste model. It is a \"buy for the light and location, then rebuild the soul\" project. If you are exhausted by boxy layouts, keep looking. If you are willing to trade architectural character today for a high-potential renovation project in a great zip code, schedule a tour\u2014but bring a contractor to verify the consistency of the finishes.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.019802",
+  "scored_at": "2026-01-09T12:10:25.509208"
+}

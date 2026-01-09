@@ -1,0 +1,231 @@
+{
+  "id": "716-seacliff-dr-aptos-ca-95003-20260109113326",
+  "url": "https://www.zillow.com/homedetails/716-Seacliff-Dr-Aptos-CA-95003/16135143_zpid/",
+  "address": "716 Seacliff Dr, Aptos, CA 95003",
+  "city": "Aptos",
+  "state": "CA",
+  "zip_code": "95003",
+  "price": 1429000,
+  "description": "Single family residence in Aptos.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1502,
+    "lot_sqft": 8276,
+    "year_built": 1962,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/00068d397d56666ce23b29d3e92926f6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/09820fdb0430ae69be211c7327c232b5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e7565520f491262e726cef09ca444a2e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c3e6506f84328373ca58a5207ce388c7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9f73126cd4ef9abe53dafba663f78a9b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6d8024dfb492fe75bbe43f8246527111-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4333dfa5f1d6cc893703490fa32ccc4c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cffbde5cb185fb065e2e7140a074eac4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b439fd430112a32514c303b5249aa4ab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d75038e781892e71b48eb20be242f9d8-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior facade - property 1",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "painted wood siding",
+          "concrete driveway",
+          "palm trees",
+          "wood decking"
+        ],
+        "light_quality": "harsh direct sunlight",
+        "condition": "fair",
+        "notes": "Raised beach-style house with parking underneath. The nautical rope fencing and palm trees suggest a vacation rental aesthetic."
+      },
+      {
+        "room_type": "upper deck - property 1",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stained wood decking",
+          "metal railings",
+          "painted wood bar",
+          "plastic seating"
+        ],
+        "light_quality": "abundant",
+        "condition": "maintained",
+        "notes": "Functional outdoor space with a built-in bar area; views are likely the main selling point."
+      },
+      {
+        "room_type": "exterior facade - property 2",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "horizontal siding",
+          "asphalt driveway",
+          "wood fencing",
+          "modern garage door"
+        ],
+        "light_quality": "bright",
+        "condition": "good",
+        "notes": "Single-story ranch style; clean lines but somewhat utilitarian. Features a contemporary dark garage door."
+      },
+      {
+        "room_type": "exterior facade - property 3",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "concrete steps",
+          "river rock landscaping",
+          "painted wood door"
+        ],
+        "light_quality": "even exterior light",
+        "condition": "updated",
+        "notes": "Contemporary two-story stucco home with a minimalist, desert-leaning landscape design."
+      },
+      {
+        "room_type": "exterior facade - property 4",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood siding",
+          "brick accents",
+          "asphalt driveway",
+          "extensive landscaping"
+        ],
+        "light_quality": "bright",
+        "condition": "well-maintained",
+        "notes": "Mid-century modern aesthetic with a vaulted roofline and mature, professionally designed landscaping."
+      },
+      {
+        "room_type": "exterior facade - property 5",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "stucco",
+          "double entry doors",
+          "metal balcony railings",
+          "chimney stack"
+        ],
+        "light_quality": "bright daylight",
+        "condition": "excellent",
+        "notes": "Modern multi-story home with high ceilings and significant vertical glazing, suggesting a bright interior."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "eclectic coastal suburban",
+    "red_flags": [
+      "overhead power lines visible near multiple properties",
+      "high density of neighboring houses in aerial view",
+      "lack of interior photos prevents assessment of structural/finish quality"
+    ],
+    "positive_signals": [
+      "proximity to the ocean shown in aerial photography",
+      "well-maintained landscaping across various properties",
+      "large windows and decks optimized for coastal views"
+    ],
+    "renovation_state": "mixed",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior facade - property 1\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"painted wood siding\", \"concrete driveway\", \"palm trees\", \"wood decking\"],\n      \"light_quality\": \"harsh direct sunlight\",\n      \"condition\": \"fair\",\n      \"notes\": \"Raised beach-style house with parking underneath. The nautical rope fencing and palm trees suggest a vacation rental aesthetic.\"\n    },\n    {\n      \"room_type\": \"upper deck - property 1\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"stained wood decking\", \"metal railings\", \"painted wood bar\", \"plastic seating\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"maintained\",\n      \"notes\": \"Functional outdoor space with a built-in bar area; views are likely the main selling point.\"\n    },\n    {\n      \"room_type\": \"exterior facade - property 2\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"horizontal siding\", \"asphalt driveway\", \"wood fencing\", \"modern garage door\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"good\",\n      \"notes\": \"Single-story ranch style; clean lines but somewhat utilitarian. Features a contemporary dark garage door.\"\n    },\n    {\n      \"room_type\": \"exterior facade - property 3\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"stucco\", \"concrete steps\", \"river rock landscaping\", \"painted wood door\"],\n      \"light_quality\": \"even exterior light\",\n      \"condition\": \"updated\",\n      \"notes\": \"Contemporary two-story stucco home with a minimalist, desert-leaning landscape design.\"\n    },\n    {\n      \"room_type\": \"exterior facade - property 4\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"wood siding\", \"brick accents\", \"asphalt driveway\", \"extensive landscaping\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Mid-century modern aesthetic with a vaulted roofline and mature, professionally designed landscaping.\"\n    },\n    {\n      \"room_type\": \"exterior facade - property 5\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"stucco\", \"double entry doors\", \"metal balcony railings\", \"chimney stack\"],\n      \"light_quality\": \"bright daylight\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Modern multi-story home with high ceilings and significant vertical glazing, suggesting a bright interior.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"eclectic coastal suburban\",\n  \"red_flags\": [\n    \"overhead power lines visible near multiple properties\",\n    \"high density of neighboring houses in aerial view\",\n    \"lack of interior photos prevents assessment of structural/finish quality\"\n  ],\n  \"positive_signals\": [\n    \"proximity to the ocean shown in aerial photography\",\n    \"well-maintained landscaping across various properties\",\n    \"large windows and decks optimized for coastal views\"\n  ],\n  \"renovation_state\": \"mixed\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.6,
+    "passed": true,
+    "violations": [
+      "Inconsistent architectural identity across the structure",
+      "Lack of interior data prevents verification of hard constraint (natural light)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 6.5,
+        "weight": 0.2,
+        "notes": "Large glazing on the facade and vertical windows suggest high potential, but without interior photos, the actual penetration of light is unverified."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.5,
+        "weight": 0.18,
+        "notes": "The multi-story form and vaulted rooflines provide some interest, but the 'eclectic coastal suburban' style feels muddled rather than intentional."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.0,
+        "weight": 0.15,
+        "notes": "Visible materials include standard painted wood siding and concrete. Nautical rope fencing and plastic seating suggest a lower-end rental finish rather than high-quality wood elements."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.0,
+        "weight": 0.12,
+        "notes": "The exterior lacks the 'cozy warmth' of brick or natural wood; the harsh sunlight and beach-rental aesthetic feel more utilitarian than homey."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Multi-story layout meets the user's preference for verticality, but the parking-under-house configuration can often lead to disjointed entry flows."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Proximity to the ocean is a major plus, but high density of neighbors and visible overhead power lines detract from the prestige."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "Strongest feature: large upper decks and built-in bar area optimized for the coastal location."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.0,
+        "weight": 0.07,
+        "notes": "Maintained but 'mixed' renovation state. Some areas look updated while others look like fair-condition rental property."
+      }
+    ],
+    "justification": "The score is significantly penalized due to the total absence of interior photography, making it impossible to confirm the 'Modern/Abundant Light' hard constraint. While the exterior shows desirable verticality and large windows, the visual data suggests a 'mixed' material quality that leans towards a vacation rental aesthetic rather than the high-character, wood-focused home desired. The presence of power lines and high neighbor density further drags down the score for a property at this price point.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Envelope & Decking",
+        "current_state": "Eclectic coastal mix with dated nautical rope fencing and stained wood bar.",
+        "proposed_change": "Replace rope fencing with sleek black metal or cable railings; swap the 'vacation rental' palm aesthetic for native coastal grasses; refinish wood siding in a cohesive dark cedar or deep charcoal stain.",
+        "impact": "Drastically elevates the curb appeal from 'rental' to 'architectural beach house,' aligning with the user's desire for character.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Main Living Area (Interior Flow)",
+        "current_state": "Likely compartmentalized 1960s layout; lack of interior photos suggests dated finishes.",
+        "proposed_change": "Open the kitchen to the living room; install wide-plank white oak flooring throughout; expose any existing structural ceiling beams to lean into the 'wood elements' principle.",
+        "impact": "Maximizes the sense of space in a 1,500 sqft footprint and enhances the flow between the views and the interior.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Window Program & Light",
+        "current_state": "Standard 1960s-era windows and sliders.",
+        "proposed_change": "Upgrade to black-framed thin-profile windows and expand the sliders leading to the upper deck to a stacking glass wall system.",
+        "impact": "Addresses the 'abundant natural light' requirement and better capitalizes on the proximity to the ocean.",
+        "difficulty": "heavy"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Proximity to ocean suggests potential for salt-air corrosion on structural hardware/windows.",
+      "Raised structure on 1962 foundation may require seismic retrofitting during renovation.",
+      "Overhead power lines are a permanent visual detractor that renovation cannot fix."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' coastal sleeper. While the current 1962 aesthetic is a bit confused, the vaulted rooflines and multi-story massing provide the perfect canvas for a 'Modern Coastal Cabin.' By focusing your $150k budget on high-quality natural wood finishes, window transparency, and stripping away the kitschy nautical elements, you can transform this from a generic beach shack into a sophisticated architectural retreat that feels both cozy and expansive."
+  },
+  "brief": "# House Brief: 716 Seacliff Dr, Aptos\n\n### Executive Summary\nThis is a high-potential \"coastal sleeper\" located just steps from the Pacific. While the 1962 structure offers the verticality and architectural interest you crave, the total lack of interior photos makes this a high-risk, high-reward prospect that requires an immediate physical walkthrough.\n\n### Aesthetic Alignment\nThe house currently sits in a \"Mixed/Eclectic\" state\u2014part beach shack, part 60s suburban. However, it aligns with your principles through its **non-boxy form**: the vaulted rooflines and multi-level decking suggest the \"interesting shapes\" you prefer. The potential for a \"Modern Coastal Cabin\" is strong, but the current \"Present-Fit\" is low (58.6/100) because we cannot yet verify if the interior features the wood elements and cozy warmth you prioritize.\n\n### Strengths\n*   **Architectural Massing:** The multi-story structure and vaulted ceilings provide a much better foundation for character than a standard ranch-style home.\n*   **Natural Light Potential:** Large windows and elevated decks suggest an orientation designed to capture coastal light.\n*   **Location:** Prime proximity to the ocean and Seacliff State Beach.\n*   **The \"Blank Slate\" Advantage:** The lack of recent \"cheap flip\" finishes means you aren't paying a premium for someone else\u2019s poor taste (gray laminate/basic white cabinets).\n\n### Weaknesses\n*   **The \"Black Box\" Interior:** No interior photos is a major red flag. Expect outdated systems, potential deferred maintenance, or a floor plan that may need significant opening up.\n*   **Visual Pollution:** Notable overhead power lines and high neighbor density clutter the external \"coastal retreat\" vibe.\n*   **Age-Related Risks:** A 1962 raised structure near the ocean likely faces salt-air corrosion and may require seismic retrofitting to meet modern standards.\n\n### Deal-Breakers\n*   **None currently identified**, though the lack of interior data means a \"deal-breaker\" (like structural rot or a subterranean-feeling ground floor) could be hiding behind the front door.\n\n### Renovation Paths (Budget: $100k\u2013$200k)\nTo bring this up to your **78/100 Potential Score**, focus on:\n1.  **Warmth & Materiality:** Strip any \"kitschy nautical\" elements and replace with exposed wood beams and high-grade hardwood flooring.\n2.  **Transparency:** Upgrade window packages to maximize the coastal light.\n3.  **Cozy Character:** Lean into the 1960s bones by adding a central brick or stone fireplace if one doesn't exist or is currently underwhelming.\n\n### Who This House Is For\nThis property is for the **visionary buyer** who is willing to do the investigative work. If you are looking for a turnkey home, skip this. If you want to custom-tailor a coastal retreat and have the stomach for a renovation, this provides the \"interesting shape\" you can\u2019t find in newer builds.\n\n### Verdict\n**PROCEED WITH CAUTION.** The architectural \"bones\" match your taste for non-generic forms, but the lack of interior transparency makes this a gamble. \n\n**Next Action:** Schedule a viewing immediately. Focus specifically on mapping the \"Abundant Light\" constraint and checking for the \"Dark Interiors\" anti-principle that the lack of photos might be hiding.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.016903",
+  "scored_at": "2026-01-09T12:11:08.152118"
+}

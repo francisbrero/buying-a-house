@@ -1,0 +1,222 @@
+{
+  "id": "1308-yarmouth-ter-sunnyvale-ca-94087-20260109113326",
+  "url": "https://www.zillow.com/homedetails/1308-Yarmouth-Ter-Sunnyvale-CA-94087/19624840_zpid/",
+  "address": "1308 Yarmouth Ter, Sunnyvale, CA 94087",
+  "city": "Sunnyvale",
+  "state": "CA",
+  "zip_code": "94087",
+  "price": 1499888,
+  "description": "Single family residence in Sunnyvale.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 1705,
+    "lot_sqft": 6098,
+    "year_built": 1960,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/a79ae27a2f73297b8646f83d4683ca0b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/61fd9cb02ecc4552668f864bdb4d03f2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/31212e20130594e4584fb240a17d55ab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c7c119eafe5430c6665103e1a7416bc1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2aa9cbe6ac7ca35ced68357bbf1b9c92-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/85ab5d6d1e71051de2675255caad378c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/20cc3c7bda8eca936fac0aba213e9cad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/31d9b315506ff3dba7368a69854ac1d1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/464cf415a97a8e05d5a434c8b759dc7d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/afe5b81c286ea7f665a6cfdbec102467-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "horizontal siding",
+          "asphalt shingles",
+          "concrete driveway",
+          "brick pavers"
+        ],
+        "light_quality": "bright direct sunlight",
+        "condition": "good",
+        "notes": "Contemporary PUD/Townhome style with a front-loading two-car garage. The siding appears well-maintained, though the architectural design is somewhat generic."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "engineered hardwood floors",
+          "drywall",
+          "recessed lighting"
+        ],
+        "light_quality": "excellent",
+        "condition": "highly updated",
+        "notes": "Dramatic double-height ceilings provide significant volume. The space features modern staging and built-in shelving. Large windows allow for ample natural light."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "engineered hardwood",
+          "glass pendant lighting"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Open concept layout flowing into the living area. The use of white paint throughout creates a cohesive, airy feel."
+      },
+      {
+        "room_type": "alternative_exterior_1",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "stucco",
+          "wood pergola",
+          "iron archway",
+          "stone pillars"
+        ],
+        "light_quality": "natural daylight",
+        "condition": "excellent",
+        "notes": "A separate property profile showing a more Mediterranean/Spanish influence with decorative architectural elements like a pergola and archway."
+      },
+      {
+        "room_type": "alternative_exterior_2",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "stone veneer",
+          "shingle roof"
+        ],
+        "light_quality": "clear sky",
+        "condition": "good",
+        "notes": "A third exterior style featuring a mix of stone veneer and stucco, typical of early 2000s suburban architecture."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "Contemporary/Modern Traditional",
+    "red_flags": [
+      "Inconsistency in listing photos (shows three different house exteriors)",
+      "Heavy use of 'stager white' paint to mask potential lack of architectural detail",
+      "Agent headshot included in property grid"
+    ],
+    "positive_signals": [
+      "Vaulted double-height ceilings in main living area",
+      "Ample natural light from high windows",
+      "Clean, modern interior finishes",
+      "Well-maintained exterior landscaping and hardscaping (brick pavers)"
+    ],
+    "renovation_state": "fully_renovated_interior",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"horizontal siding\", \"asphalt shingles\", \"concrete driveway\", \"brick pavers\"],\n            \"light_quality\": \"bright direct sunlight\",\n            \"condition\": \"good\",\n            \"notes\": \"Contemporary PUD/Townhome style with a front-loading two-car garage. The siding appears well-maintained, though the architectural design is somewhat generic.\"\n        },\n        {\n            \"room_type\": \"living_room\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"engineered hardwood floors\", \"drywall\", \"recessed lighting\"],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"highly updated\",\n            \"notes\": \"Dramatic double-height ceilings provide significant volume. The space features modern staging and built-in shelving. Large windows allow for ample natural light.\"\n        },\n        {\n            \"room_type\": \"dining_area\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"engineered hardwood\", \"glass pendant lighting\"],\n            \"light_quality\": \"good\",\n            \"condition\": \"updated\",\n            \"notes\": \"Open concept layout flowing into the living area. The use of white paint throughout creates a cohesive, airy feel.\"\n        },\n        {\n            \"room_type\": \"alternative_exterior_1\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"stucco\", \"wood pergola\", \"iron archway\", \"stone pillars\"],\n            \"light_quality\": \"natural daylight\",\n            \"condition\": \"excellent\",\n            \"notes\": \"A separate property profile showing a more Mediterranean/Spanish influence with decorative architectural elements like a pergola and archway.\"\n        },\n        {\n            \"room_type\": \"alternative_exterior_2\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"stucco\", \"stone veneer\", \"shingle roof\"],\n            \"light_quality\": \"clear sky\",\n            \"condition\": \"good\",\n            \"notes\": \"A third exterior style featuring a mix of stone veneer and stucco, typical of early 2000s suburban architecture.\"\n        }\n    ],\n    \"overall_aesthetic\": 7,\n    \"architectural_style\": \"Contemporary/Modern Traditional\",\n    \"red_flags\": [\n        \"Inconsistency in listing photos (shows three different house exteriors)\",\n        \"Heavy use of 'stager white' paint to mask potential lack of architectural detail\",\n        \"Agent headshot included in property grid\"\n    ],\n    \"positive_signals\": [\n        \"Vaulted double-height ceilings in main living area\",\n        \"Ample natural light from high windows\",\n        \"Clean, modern interior finishes\",\n        \"Well-maintained exterior landscaping and hardscaping (brick pavers)\"\n    ],\n    \"renovation_state\": \"fully_renovated_interior\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Inconsistent listing photos (multiple exteriors)",
+      "Generic/Stager white interior"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Double-height ceilings and high windows in the living area provide excellent volume and light. Passes hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.0,
+        "weight": 0.18,
+        "notes": "Interior volume is good, but the exterior is generic PUD/Townhome style. Lacks the 'quirky' or 'unique' character requested."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.5,
+        "weight": 0.15,
+        "notes": "Uses engineered hardwood and 'stager white' paint throughout. Functional but lacks the rich, natural wood elements or stone preferred by the model."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.0,
+        "weight": 0.12,
+        "notes": "The space feels sterile and cold due to the monochromatic palette and high ceilings; lacks a cozy brick fireplace or traditional warmth."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Standard multi-story layout with good open-concept flow between dining and living."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.5,
+        "weight": 0.1,
+        "notes": "Located in a developed Sunnyvale residential area, likely low fire risk compared to forest locations."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.0,
+        "weight": 0.08,
+        "notes": "Limited outdoor space typical of High-Density/PUD developments; appears to be mostly hardscaping and shared walls."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "The interior is fully renovated and in turn-key condition, though finishes are basic."
+      }
+    ],
+    "justification": "While this house passes the natural light hard constraint with its impressive double-height windows, it falls short on architectural character and warmth. The interior is a textbook 'stager-white' renovation that feels sterile rather than cozy. Most concerning is the listing inconsistency (showing three different exteriors), which suggests a lack of attention to detail or a generic PUD development where units are indistinguishable. It is a functional but uninspiring 'cookie-cutter' match.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 68.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room Ceiling & Structure",
+        "current_state": "Vaulted double-height ceilings with plain drywall and recessed lighting.",
+        "proposed_change": "Install structural or decorative rift-sawn oak box beams across the vault and clad the ceiling in clear cedar or hemlock tongue-and-groove planks.",
+        "impact": "Addresses the user's desire for 'wood elements' and 'architectural character,' transforming a sterile 'stager-white' volume into a warm, high-end architectural focal point.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring & Staircase",
+        "current_state": "Standard engineered hardwood and likely carpeted or basic wood stairs.",
+        "proposed_change": "Replace engineered wood with wide-plank European Oak. Update the staircase with custom blackened steel or oak handrails and open treads if structure permits.",
+        "impact": "Enhances the 'natural materials' principle and improves the flow between the multiple stories, removing the cookie-cutter feel.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Windows & Natural Light",
+        "current_state": "Standard windows, potentially older frames based on 1960 build.",
+        "proposed_change": "Replace existing windows with thin-profile black aluminum or wood-clad frames. Expand window openings in the dining/living transition to create a seamless indoor-outdoor connection.",
+        "impact": "Maximizes natural light and provides the 'interesting shapes and forms' the user looks for, moving away from the PUD/Townhome boxiness.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Fireplace/Central Focal Point",
+        "current_state": "Underspecified, likely a standard wall-insert or basic mantel.",
+        "proposed_change": "Introduce a floor-to-ceiling masonry element using Roman clay or reclaimed brick to create a 'cozy warmth' anchor in the double-height space.",
+        "impact": "Provides the 'quirky character' and tactile materiality missing from the current renovated interior.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Conflicting exterior photos suggest potential HOA/PUD restrictions on exterior modifications.",
+      "1960s construction may have hidden plumbing/electrical issues behind the 'new' drywall.",
+      "Structural ceiling work at height increases labor costs and equipment needs."
+    ],
+    "upside_narrative": "This home offers a rare 'volume' play in Sunnyvale. While the current renovation is clean, it lacks the soul and architectural grit the user craves. By leveraging the existing double-height ceilings and 'good bones,' a $150k budget can be surgically applied to skin the home in natural woods and high-end glazing. The end result shifts the narrative from a 'flipped townhome' to a custom-feeling 'modern loft-house' that prioritizes light and material honesty."
+  },
+  "brief": "# House Brief: 1308 Yarmouth Ter, Sunnyvale\n\n### Executive Summary\nThis 4-bedroom Sunnyvale residence is a \"volume play\" that excels in vertical space but lacks architectural soul. While the interior has been fully renovated, the aesthetic is a sterile, \"stager-white\" flip that masks the home\u2019s potential. It offers the rare gift of double-height ceilings and abundant light, but requires a secondary layer of material investment to achieve true character.\n\n### Aesthetic Alignment\n*   **The Light:** Matches your core requirement perfectly. The double-height windows and vaulted ceilings create a bright, airy volume that avoids the \"dark box\" syndrome.\n*   **The Character:** Currently fails. It is a \"cookie-cutter\" PUD (Planned Unit Development) style that feels generic. It lacks the wood elements, exposed beams, and material honesty you prioritize.\n*   **The Materials:** Surfaces are clean but uninspiring\u2014typical flip-grade finishes that favor \"newness\" over \"warmth.\"\n\n### Strengths\n*   **Architectural Volume:** The vaulted living area creates a sense of scale rarely found at this price point in Sunnyvale.\n*   **Modern Layout:** The 1,705 sqft is utilized well across multiple levels, offering the \"flow\" you desire.\n*   **Turn-key Utility:** All major systems and surfaces are updated, meaning it is move-in ready while you plan aesthetic upgrades.\n*   **Outdoor Hardscaping:** Features quality brick pavers and well-maintained landscaping that adds a touch of texture to the exterior.\n\n### Weaknesses\n*   **Sterile Interiors:** The \"Stager White\" palette and lack of wood or brick make the home feel clinical rather than cozy.\n*   **Listing Red Flags:** The presence of three different exteriors in the listing suggests either a generic development where units are indistinguishable or a significant lack of attention to detail by the seller.\n*   **PUD Restrictions:** Being part of a potential development may limit your ability to modify the exterior to add the \"architectural grit\" you prefer.\n\n### Deal-Breakers\n*   **Generic Identity:** If you are unwilling to undergo a cosmetic renovation, the \"boxy\" and repetitive nature of this PUD development may be an immediate disqualifier. \n\n### Renovation Paths (Modern Loft Conversion)\nThe \"bones\" are good enough to support a $100k\u2013$200k surgical renovation to add the missing warmth:\n*   **Ceiling & Beams:** Clad the vaulted ceiling in natural white oak or add decorative structural beams to break up the \"white box\" feel.\n*   **Material Honesty:** Replace the fireplace focal point with floor-to-ceiling brick or cold-rolled steel.\n*   **Glazing:** Upgrade window trim to black or wood-clad to frame the light more dramatically.\n\n### Who This House Is For\nThis home is for the buyer who prioritizes **light and volume over everything else** and is willing to treat a \"newly renovated\" house as a blank canvas. It is for someone who wants the location and space of Sunnyvale but has the vision to \"de-flip\" the interior.\n\n### Verdict\n**PASS with Caution.** \nThe architectural volume is a rare find, but the current aesthetic is the antithesis of your \"cozy warmth\" and \"wood element\" principles. Only pursue if you are prepared to spend an additional $150k to replace the sterile finishes with the natural materials you crave. Verify the exterior discrepancy immediately before scheduling a tour.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.001546",
+  "scored_at": "2026-01-09T12:14:25.888705"
+}

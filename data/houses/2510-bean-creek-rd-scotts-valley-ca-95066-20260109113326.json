@@ -1,0 +1,226 @@
+{
+  "id": "2510-bean-creek-rd-scotts-valley-ca-95066-20260109113326",
+  "url": "https://www.zillow.com/homedetails/2510-Bean-Creek-Rd-Scotts-Valley-CA-95066/16161179_zpid/",
+  "address": "2510 Bean Creek Rd, Scotts Valley, CA 95066",
+  "city": "Scotts Valley",
+  "state": "CA",
+  "zip_code": "95066",
+  "price": 1475000,
+  "description": "Single family residence in Scotts Valley.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 2400,
+    "lot_sqft": 87120,
+    "year_built": 1976,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/bf07b4a2dd734bf0bd5e11dc2e159a3f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/23a7ecf4834f329923f2e2035acf8f17-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/088facd7f089bf2d3e0826cc3d96e924-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2edbfdc9582c8782a6098940c0409dd3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/598d62613c9849c8fe0c165c497c9ac0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4edaedf7cce7979f6330c78e2c3ac130-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fd75a13d2f2470edd1be04d6c84dd2d2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ee2579be296fc89d78168be0e481dd96-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/702a1d1ee73c5976c3fd6d73dcb897f3-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front_yard",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "painted wood siding",
+          "asphalt shingles",
+          "concrete pavers",
+          "brick trim",
+          "asphalt driveway"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Low-slung ranch/cottage style nestled in redwoods. Mature landscaping including large cacti and lawn areas. Multiple outbuildings suggest a compound layout."
+      },
+      {
+        "room_type": "secondary_exterior",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stone veneer facade",
+          "wood decking",
+          "concrete driveway",
+          "wood garage doors"
+        ],
+        "light_quality": "filtered",
+        "condition": "good",
+        "notes": "A second structure featuring a stone facade and a substantial deck over a two-car garage, integrated into a sloped, wooded lot."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "dark laminate or engineered wood flooring",
+          "drywall",
+          "wood window frames",
+          "wood stove"
+        ],
+        "light_quality": "abundant",
+        "condition": "fair",
+        "notes": "Large windows and a central skylight provide great natural light. The dark floor contrasts sharply with the beige walls. Includes a traditional wood-burning stove."
+      },
+      {
+        "room_type": "patio_outdoor_living",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "mismatched concrete slabs",
+          "wood fencing",
+          "brick edging"
+        ],
+        "light_quality": "bright",
+        "condition": "dated",
+        "notes": "Functional outdoor space but appears cluttered with various furniture and mismatched hardscaping materials."
+      },
+      {
+        "room_type": "aerial_view_site",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "A-frame construction"
+        ],
+        "light_quality": "dappled",
+        "condition": "unknown",
+        "notes": "The property appears to be a multi-structure compound. Includes a dramatic red A-frame cabin with floor-to-ceiling glass tucked into the forest."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "Mid-Century Rustic / Redwood Compound",
+    "red_flags": [
+      "Mismatched exterior elevations suggest piecemeal additions",
+      "Visible clutter in outdoor shots",
+      "Dated interior finishes compared to the natural beauty of the site",
+      "Potential deferred maintenance on outbuildings (visible peeling paint/weathering)"
+    ],
+    "positive_signals": [
+      "Incredible natural setting with mature redwood trees",
+      "Large windows and skylights maximize natural light",
+      "Unique architectural variety (ranch, stone house, and A-frame)",
+      "Spacious outdoor hardscaping and decks"
+    ],
+    "renovation_state": "surface_updates",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior_front_yard\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\n                \"painted wood siding\",\n                \"asphalt shingles\",\n                \"concrete pavers\",\n                \"brick trim\",\n                \"asphalt driveway\"\n            ],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"well-maintained\",\n            \"notes\": \"Low-slung ranch/cottage style nestled in redwoods. Mature landscaping including large cacti and lawn areas. Multiple outbuildings suggest a compound layout.\"\n        },\n        {\n            \"room_type\": \"secondary_exterior\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\n                \"stone veneer facade\",\n                \"wood decking\",\n                \"concrete driveway\",\n                \"wood garage doors\"\n            ],\n            \"light_quality\": \"filtered\",\n            \"condition\": \"good\",\n            \"notes\": \"A second structure featuring a stone facade and a substantial deck over a two-car garage, integrated into a sloped, wooded lot.\"\n        },\n        {\n            \"room_type\": \"living_room\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\n                \"dark laminate or engineered wood flooring\",\n                \"drywall\",\n                \"wood window frames\",\n                \"wood stove\"\n            ],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"fair\",\n            \"notes\": \"Large windows and a central skylight provide great natural light. The dark floor contrasts sharply with the beige walls. Includes a traditional wood-burning stove.\"\n        },\n        {\n            \"room_type\": \"patio_outdoor_living\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\n                \"mismatched concrete slabs\",\n                \"wood fencing\",\n                \"brick edging\"\n            ],\n            \"light_quality\": \"bright\",\n            \"condition\": \"dated\",\n            \"notes\": \"Functional outdoor space but appears cluttered with various furniture and mismatched hardscaping materials.\"\n        },\n        {\n            \"room_type\": \"aerial_view_site\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\n                \"wood decking\",\n                \"A-frame construction\"\n            ],\n            \"light_quality\": \"dappled\",\n            \"condition\": \"unknown\",\n            \"notes\": \"The property appears to be a multi-structure compound. Includes a dramatic red A-frame cabin with floor-to-ceiling glass tucked into the forest.\"\n        }\n    ],\n    \"overall_aesthetic\": 6,\n    \"architectural_style\": \"Mid-Century Rustic / Redwood Compound\",\n    \"red_flags\": [\n        \"Mismatched exterior elevations suggest piecemeal additions\",\n        \"Visible clutter in outdoor shots\",\n        \"Dated interior finishes compared to the natural beauty of the site\",\n        \"Potential deferred maintenance on outbuildings (visible peeling paint/weathering)\"\n    ],\n    \"positive_signals\": [\n        \"Incredible natural setting with mature redwood trees\",\n        \"Large windows and skylights maximize natural light\",\n        \"Unique architectural variety (ranch, stone house, and A-frame)\",\n        \"Spacious outdoor hardscaping and decks\"\n    ],\n    \"renovation_state\": \"surface_updates\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.6,
+    "passed": true,
+    "violations": [
+      "High fire risk zone location (Scotts Valley Redwood/Bean Creek area)",
+      "Mismatched materials and piecemeal additions",
+      "Dated/Lower-quality interior finishes (dark laminate flooring)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Abundant natural light through large windows and central skylights; the property excels here."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.5,
+        "weight": 0.18,
+        "notes": "Unique multi-structure compound featuring a red A-frame and stone facade, successfully avoiding a 'boxy' look."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.0,
+        "weight": 0.15,
+        "notes": "Compromised by dark laminate/engineered flooring, mismatched exterior stone and wood, and dated hardscaping."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "Redwood setting and wood stove provide natural warmth, though cold beige walls and dark floors detract."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Compound layout lacks cohesive flow; outdoor spaces feel cluttered and disconnected."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.0,
+        "weight": 0.1,
+        "notes": "High fire risk in a densely wooded redwood canyon; potential insurance and safety challenges."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.0,
+        "weight": 0.08,
+        "notes": "Outstanding natural setting, but functional areas suffer from mismatched concrete and poor maintenance."
+      },
+      {
+        "dimension": "condition",
+        "score": 4.5,
+        "weight": 0.07,
+        "notes": "Signs of deferred maintenance on secondary structures and weathered exterior wood."
+      }
+    ],
+    "justification": "While the property offers the 'quirky' architectural character and 'natural light' required by the model, it fails on present-fit cohesion. The clashing of the rustic redwood setting with cheap interior updates (dark laminate) and the significant safety concern of being in a high-fire-risk redwood canyon results in a sub-60 score. It is a 'project' compound rather than a turn-key match.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room & Flooring",
+        "current_state": "High-contrast dark laminate floors and beige walls; generic finishes.",
+        "proposed_change": "Replace laminate with wide-plank white oak or reclaimed wood. Strip window frames to natural wood and replace the wood stove with a modern, minimalist black hearth.",
+        "impact": "Unifies the 'Mid-Century Rustic' aesthetic and leans into the wood-heavy, cozy warmth the user desires.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Exterior Cohesion & Hardscaping",
+        "current_state": "Mismatched concrete slabs, dated brick trim, and cluttered outdoor spaces.",
+        "proposed_change": "Implement a unified landscape plan: replace mismatched concrete with slate or decomposed granite. Paint all structures (main house, stone house, A-frame) in a cohesive 'Pacific Northwest' palette (charcoal, forest green, or cedar stains) to tie the compound together.",
+        "impact": "Transforms a 'piecemeal' property into a curated, high-end mountain retreat.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "The A-Frame Ancillary Space",
+        "current_state": "A dramatic but potentially weathered guest cabin with floor-to-ceiling glass.",
+        "proposed_change": "Fully refinish the interior with plywood paneling or tongue-and-groove cedar. Add a built-in window seat/daybed to maximize the 'quirky character' and forest views.",
+        "impact": "Creates a signature, 'Instagram-worthy' architectural feature that fulfills the user's desire for non-boxy forms.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Windows & Light Optimization",
+        "current_state": "Good skylights and large windows, but frames are dated and potentially inefficient.",
+        "proposed_change": "",
+        "impact": "Further maximizes the 'abundant natural light' principle while modernizing the 1970s silhouette.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Septic capacity should be verified given the multi-structure 'compound' layout and occupancy potential.",
+      "Redwood settings are high-moisture; check for rot in sills and joists of the A-frame and stone-veneer building.",
+      "Coastal mountain grading/drainage may need attention given the mismatched hardscaping."
+    ],
+    "upside_narrative": "This is a rare 'Compound Opportunity' that perfectly matches the user's taste for quirky, multi-story, wood-focused architecture. By focusing the $150k budget on unifying the interior flooring, refreshing the A-frame, and creating a cohesive exterior color story, this property shifts from a collection of dated cabins to a sophisticated, modern-rustic estate. The 'bones' (skylights, stone, forest views) are already there; the renovation just needs to peel back the 1970s/90s layers to let the natural materials shine."
+  },
+  "brief": "# House Brief: 2510 Bean Creek Rd, Scotts Valley\n\n### Executive Summary\nThis property is a quintessential \"diamond in the rough\" redwood compound, offering high architectural character through a mix of ranch, stone, and A-frame structures. While it perfectly matches the desire for wood-centric, quirky design and abundant light, it is currently weighed down by disjointed additions and cheap interior finishes. It is a high-upside project for a buyer willing to navigate the risks of a high-fire-zone forest setting.\n\n### Aesthetic Alignment\nThe property aligns closely with your preference for **architectural character** and **natural materials**. The variety of forms\u2014specifically the A-frame and stone elements\u2014provides the non-boxy silhouette you crave. However, the \"Present-Fit\" is disrupted by \"cheap flip\" elements, such as dark laminate flooring, which clash with the organic warmth of the redwood setting.\n\n### Strengths\n*   **Architectural Diversity:** Rare \"compound\" feel with multiple distinct structures that avoid generic, boxy layouts.\n*   **Natural Light:** Excellent use of skylights and large windows that successfully bring the forest canopy indoors.\n*   **Organic Materials:** Features authentic stone work, exposed wood, and mature redwood surroundings that provide a \"cozy warmth\" foundation.\n*   **Generous Hardscape:** Large decks and outdoor transitions provide great flow for indoor-outdoor living.\n\n### Weaknesses\n*   **Material Incoherence:** The interior feels \"piecemeal\" with mismatched finishes and dated updates that don't do justice to the home's bones.\n*   **Maintenance Concerns:** Visible signs of weathering on outbuildings and potential \"deferred maintenance\" issues common in high-moisture forest environments.\n*   **Fragmented Flow:** Because the house grew through additions, the floor plan and exterior elevations lack a unified \"story.\"\n\n### Deal-Breakers\n*   **Environmental Sensitivity:** Located in a high-fire-risk redwood canyon. If your insurance tolerances or safety concerns for forest living are low, this is an immediate \"No.\"\n*   **Condition Uncertainty:** Potential for rot in sills/joists and the need to verify septic capacity for multiple structures.\n\n### Renovation Paths (Budget: $100k\u2013$200k)\nTo reach this home\u2019s **82/100 potential**, focus on \"Unification\":\n1.  **Flooring:** Replace the dark laminate with high-quality wide-plank hardwood to harmonize with the trees outside.\n2.  **A-Frame Refresh:** Turn the A-frame structure into a true focal point with modern-rustic finishes and updated glazing.\n3.  **Exterior Paint/Stain:** Apply a cohesive color palette across all structures and additions to hide the \"piecemeal\" history of the home.\n4.  **Landscape Cleanup:** Clear clutter and address drainage/grading to protect the foundations from mountain runoff.\n\n### Who This House Is For\nThis is a home for a **visionary buyer** who views real estate as a \"collection\" rather than just a residence. It suits someone who wants a retreat-like atmosphere and isn't afraid of a mid-to-high-effort renovation to strip away 1990s \"flips\" in favor of timeless mountain modernism.\n\n### Verdict\n**PROCEED WITH CAUTION.** This house offers the \"quirky wood compound\" soul you are looking for, but the current interior is a distraction. If you can handle the fire risk and have the budget for a $150k overhaul, it will become a world-class architectural asset. If you are looking for a turn-key move-in, keep looking.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.006908",
+  "scored_at": "2026-01-09T12:13:03.250552"
+}

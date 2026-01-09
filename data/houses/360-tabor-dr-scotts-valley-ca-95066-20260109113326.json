@@ -1,0 +1,245 @@
+{
+  "id": "360-tabor-dr-scotts-valley-ca-95066-20260109113326",
+  "url": "https://www.zillow.com/homedetails/360-Tabor-Dr-Scotts-Valley-CA-95066/16121812_zpid/",
+  "address": "360 Tabor Dr, Scotts Valley, CA 95066",
+  "city": "Scotts Valley",
+  "state": "CA",
+  "zip_code": "95066",
+  "price": 1100000,
+  "description": "Single family residence in Scotts Valley.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1512,
+    "lot_sqft": 10454,
+    "year_built": 1970,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/64dec904f584c0b0911eff01714a9e79-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0da63bea6ce3f57280c1ca502065d6dd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b75bf31d84f8ddf4633322a41417eadb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a8dd7fe2dab46e93ac97af789ad4f3f8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/988e1816e7785a1cef194f5e60915ab5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5273d6e56ef4c68cf7b7b4dd452c58d5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b60273436ba030cc9e827513e1938b9e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d76cc0653930abee57a11648afd86c64-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/34a3ac8b013f5c19bbb3f41dc6200eab-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5cba178ad2cbc7e363c487e7e2461018-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "narrow-plank hardwood floors",
+          "painted brick fireplace",
+          "recessed lighting"
+        ],
+        "light_quality": "excellent",
+        "condition": "updated",
+        "notes": "Spacious open-plan layout with a coastal-neutral palette. The painted white brick fireplace is a focal point and adds texture."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "hardwood floors",
+          "glass sliding door"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Seamlessly transitions from the living area with good natural light from rear glazing."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "shaker cabinets (two-tone)",
+          "subway tile backsplash",
+          "stainless steel range",
+          "butcher block insert"
+        ],
+        "light_quality": "average",
+        "condition": "recently renovated",
+        "notes": "Features a mix of grey lower and white upper cabinets. The backsplash includes a decorative glass tile inlay which feels slightly dated compared to the rest of the house."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "horizontal siding",
+          "gravel driveway",
+          "white painted brick wall"
+        ],
+        "light_quality": "bright bright",
+        "condition": "good",
+        "notes": "Mid-century ranch profile with a low-slung roofline. The white painted brick courtyard wall adds privacy but might require maintenance."
+      },
+      {
+        "room_type": "entryway_porch",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "concrete",
+          "vinyl/metal soffits",
+          "modern wall lantern"
+        ],
+        "light_quality": "indirect",
+        "condition": "good",
+        "notes": "Simple, clean entry with a modern black door that contrasts well with the tan siding."
+      },
+      {
+        "room_type": "secondary_sitting_room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "modern insert fireplace",
+          "large format windows",
+          "drywall"
+        ],
+        "light_quality": "excellent",
+        "condition": "pristine",
+        "notes": "Features a more contemporary, minimalist fireplace and large windows looking into greenery."
+      },
+      {
+        "room_type": "outdoor_utility_area",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "wood lattice",
+          "concrete block wall",
+          "wood gate"
+        ],
+        "light_quality": "shaded",
+        "condition": "fair",
+        "notes": "Shows the reality of the property boundary; utility-focused with a cinder block retaining wall."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "mid-century ranch / contemporary",
+    "red_flags": [
+      "inconsistent kitchen cabinet styles",
+      "budget glass mosaic tile strip in kitchen backsplash",
+      "heavy use of 'distressed' staging to hide simple finishes"
+    ],
+    "positive_signals": [
+      "genuine narrow-plank hardwood floors",
+      "large windows and open sightlines",
+      "clean modern fireplace updates",
+      "good indoor-outdoor flow"
+    ],
+    "renovation_state": "fully renovated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"narrow-plank hardwood floors\",\n        \"painted brick fireplace\",\n        \"recessed lighting\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"updated\",\n      \"notes\": \"Spacious open-plan layout with a coastal-neutral palette. The painted white brick fireplace is a focal point and adds texture.\"\n    },\n    {\n      \"room_type\": \"dining_area\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"hardwood floors\",\n        \"glass sliding door\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Seamlessly transitions from the living area with good natural light from rear glazing.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"shaker cabinets (two-tone)\",\n        \"subway tile backsplash\",\n        \"stainless steel range\",\n        \"butcher block insert\"\n      ],\n      \"light_quality\": \"average\",\n      \"condition\": \"recently renovated\",\n      \"notes\": \"Features a mix of grey lower and white upper cabinets. The backsplash includes a decorative glass tile inlay which feels slightly dated compared to the rest of the house.\"\n    },\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"horizontal siding\",\n        \"gravel driveway\",\n        \"white painted brick wall\"\n      ],\n      \"light_quality\": \"bright bright\",\n      \"condition\": \"good\",\n      \"notes\": \"Mid-century ranch profile with a low-slung roofline. The white painted brick courtyard wall adds privacy but might require maintenance.\"\n    },\n    {\n      \"room_type\": \"entryway_porch\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"concrete\",\n        \"vinyl/metal soffits\",\n        \"modern wall lantern\"\n      ],\n      \"light_quality\": \"indirect\",\n      \"condition\": \"good\",\n      \"notes\": \"Simple, clean entry with a modern black door that contrasts well with the tan siding.\"\n    },\n    {\n      \"room_type\": \"secondary_sitting_room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"modern insert fireplace\",\n        \"large format windows\",\n        \"drywall\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"pristine\",\n      \"notes\": \"Features a more contemporary, minimalist fireplace and large windows looking into greenery.\"\n    },\n    {\n      \"room_type\": \"outdoor_utility_area\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"wood lattice\",\n        \"concrete block wall\",\n        \"wood gate\"\n      ],\n      \"light_quality\": \"shaded\",\n      \"condition\": \"fair\",\n      \"notes\": \"Shows the reality of the property boundary; utility-focused with a cinder block retaining wall.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"mid-century ranch / contemporary\",\n  \"red_flags\": [\n    \"inconsistent kitchen cabinet styles\",\n    \"budget glass mosaic tile strip in kitchen backsplash\",\n    \"heavy use of 'distressed' staging to hide simple finishes\"\n  ],\n  \"positive_signals\": [\n    \"genuine narrow-plank hardwood floors\",\n    \"large windows and open sightlines\",\n    \"clean modern fireplace updates\",\n    \"good indoor-outdoor flow\"\n  ],\n  \"renovation_state\": \"fully renovated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.8,
+    "passed": true,
+    "violations": [
+      "Hybrid flip aesthetics - inclusion of dated mosaic tile in kitchen",
+      "Single-story layout (Soft constraint violation)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light throughout; large format windows in the secondary sitting room and glass sliders in the dining area meet the primary hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.8,
+        "weight": 0.18,
+        "notes": "Mid-century ranch profile provides more interest than a standard box, though the exterior remains somewhat generic contemporary."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.2,
+        "weight": 0.15,
+        "notes": "Mixed quality. Genuine narrow-plank hardwood is a high point, but the kitchen features budget-tier glass mosaic tile and mixed cabinet styles that lean toward 'flip-quality' finishes."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.0,
+        "weight": 0.12,
+        "notes": "The painted brick fireplace and wood floors provide warmth, though the overall palette leans slightly cool/neutral."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.5,
+        "weight": 0.1,
+        "notes": "Good indoor-outdoor flow and an open-plan living/dining area create a cohesive movement through the home."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Scotts Valley location carries inherent fire risk (Anti-principle), though specific property defensible space appears maintained."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.5,
+        "weight": 0.08,
+        "notes": "Front courtyard offers privacy, but the utility areas show cinder block walls and lattice that lack the 'natural' aesthetic preferred."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Fully renovated and turn-key, though some choices are aesthetic compromises."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light and offers genuine hardwood floors, which is a significant plus. However, it fails the 'multiple stories' soft constraint and displays several 'flip' signals\u2014specifically the inconsistent kitchen cabinetry and the dated budget tile inlay. The score is dampened by the high fire risk area and the single-story configuration, placing it in the 'Acceptable with significant compromises' range.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Pantry",
+        "current_state": "Two-tone shaker with dated glass tile inlay and butcher block insert.",
+        "proposed_change": "Streamline to a single-tone high-end wood grain or matte finish cabinet; replace the backsplash with a full-height stone or handmade zellige tile; swap butcher block for a continuous stone slab.",
+        "impact": "Eliminates the 'renovated for flip' feel and creates the 'warm natural' aesthetic the user prefers.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Ceiling",
+        "current_state": "Drywall ceilings with recessed lighting.",
+        "proposed_change": "Vault the ceiling if attic space allows, or add decorative non-structural wood box beams to the existing ceiling to introduce architectural character and warmth.",
+        "impact": "Breaks up the 'boxy' ranch feel and satisfies the user's desire for wood elements and interesting forms.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Secondary Sitting Room / Indoor-Outdoor Link",
+        "current_state": "Pristine but visually disconnected from the yard by standard windows.",
+        "proposed_change": "Replace large format windows with floor-to-ceiling black steel or wood-clad folding glass door system (NanoWall style).",
+        "impact": "Significant upgrade to natural light and creates a seamless flow to the Scotts Valley greenery.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Facade & Entry",
+        "current_state": "Tan horizontal siding and gravel driving.",
+        "proposed_change": "Replace siding with vertical Cedar or Shou Sugi Ban accents; upgrade gravel to permeable pavers with integrated lighting; add a natural wood pergola over the entryway.",
+        "impact": "Elevates the 'curb appeal' from a 1970s ranch to a high-end contemporary retreat.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Kitchen footprint is somewhat tight; significant layout changes may require moving plumbing in the slab.",
+      "Roofline is low-slung; vaulting ceilings may reveal structural constraints or require new insulation strategies.",
+      "Utility area shows a cinder block retaining wall which may need seismic retrofitting if further landscaping is planned."
+    ],
+    "upside_narrative": "This property is the perfect 'nearly-there' house. It avoids the 'gut job' headache but offers enough stylistic inconsistency to justify a meaningful transformation. Within the $150k budget, you can bridge the gap between a generic renovation and a custom architectural home. By focusing on adding wood textures, vaulting the ceiling, and upgrading the apertures (windows/doors), this house can shift from a standard suburban ranch to a warm, organic modern sanctuary that feels deeply connected to its coastal-mountain environment."
+  },
+  "brief": "# House Brief: 360 Tabor Dr, Scotts Valley\n\n## Executive Summary\nThis 3-bedroom mid-century ranch in Scotts Valley is a \"nearly-there\" property that offers exceptional light and genuine hardwood floors. While it has undergone a recent renovation, it suffers from some generic \"flip\" aesthetics that conflict with high-end architectural character. It is a solid, albeit single-story, base for someone willing to invest in surface-level refinements to achieve a custom organic-modern feel.\n\n## Aesthetic Alignment\nThe home sits at a **67.8% alignment** with your preferences. \n*   **The Good:** It avoids the \"boxy\" feel through large windows, open sightlines, and a clean, modern fireplace. The narrow-plank hardwood floors provide the natural warmth you value.\n*   **The Bad:** It violates your preference for multiple stories and features some \"cheap flip\" hallmarks\u2014specifically inconsistent kitchen cabinetry and a dated glass mosaic backsplash that detracts from the home\u2019s potential for timelessness.\n\n## Strengths\n*   **Natural Light:** High-performing apertures and thoughtful orientation ensure the \"abundant light\" requirement is met.\n*   **Material Foundation:** Unlike many renovations in this price bracket, the floors are genuine wood rather than gray laminate.\n*   **Indoor-Outdoor Flow:** The layout encourages movement between the interior and the lot, a hallmark of mid-century design.\n*   **Turn-key Infrastructure:** Most major systems appear updated, allowing budget to be spent on aesthetic upgrades rather than \"invisible\" repairs.\n\n## Weaknesses\n*   **Single-Story Layout:** Fails your soft constraint for a multi-story home; the floor plan is functional but lacks vertical architectural drama.\n*   **Inconsistent Finishes:** The kitchen is a hybrid of styles that feels unconsidered. Staging is used aggressively to mask some of the simpler, budget-grade finishes.\n*   **Fire Risk:** Located in a high-fire-risk coastal-mountain zone, which may impact insurance costs and long-term peace of mind.\n\n## Deal-Breakers\n*   **No Hard Deal-Breakers:** While the single-story nature is a violation of your \"Key Principles,\" it is a soft constraint. There are no fundamental structural or aesthetic \"fails\" that make the house unlivable or unfixable.\n\n## Renovation Paths\nTo reach this home's **78.0 Potential Score**, a budget of **$100k\u2013$200k** is recommended:\n1.  **The Kitchen Edit:** Replace the mismatched cabinetry and the mosaic backsplash with natural wood elements and stone slabs to eliminate the \"flip\" look.\n2.  **Architectural Volume:** If the structure allows, vaulting the ceilings would solve the \"boxy\" Ranch feel and create the architectural character you desire.\n3.  **Organic Texture:** Introduce exposed beams or wood-slat wall treatments to lean into the \"Warm Organic Modern\" aesthetic.\n\n## Who This House Is For\nThis house is ideal for a buyer who wants to avoid a \"gut job\" but is frustrated by generic renovations. It is for someone who prioritizes light and flow over verticality and is looking for a \"designer-ready\" canvas they can polish over 6\u201312 months.\n\n## Verdict\n**Proceed with Caution.** The house is a \"Pass\" on core requirements like light and materials, but the single-story layout and localized fire risk are significant compromises. Only pursue if you are prepared to spend an additional $150k to strip away the \"flip\" finishes and inject the architectural character that is currently missing.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.031258",
+  "scored_at": "2026-01-09T12:08:42.416389"
+}

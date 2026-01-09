@@ -1,0 +1,225 @@
+{
+  "id": "206-sunnyside-ave-campbell-ca-95008-20260109113326",
+  "url": "https://www.zillow.com/homedetails/206-Sunnyside-Ave-Campbell-CA-95008/19669301_zpid/",
+  "address": "206 Sunnyside Ave, Campbell, CA 95008",
+  "city": "Campbell",
+  "state": "CA",
+  "zip_code": "95008",
+  "price": 1684000,
+  "description": "Single family residence in Campbell.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 1864,
+    "lot_sqft": 7405,
+    "year_built": 1950,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/7b4cee690ea4011650ffe9015fccdf95-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/28c32b587f6dbccab99c1490338c33c7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/04aa72d76cec974b6c812a639a4db2c2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a5573f8dc530251d022a81147d3e3f59-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9061a267f545c45da0075be7086ed9df-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/301397e104de98289acbe99835dc78cf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d69fa754299b86cfbe101094d234023c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cdcf0e1ddcf0e4158e3795d4f2cf2e50-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b2f1bbfc30343fb255607975d87836b9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/289071c6b59fdb9b3555191f09ce4fdb-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living room",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "red oak hardwood floors",
+          "drywall",
+          "composite door"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Open concept layout with staged furniture. Uses mid-range materials common in speculative renovations."
+      },
+      {
+        "room_type": "dining area",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "hardwood floors",
+          "glass sliding door",
+          "wood beams"
+        ],
+        "light_quality": "moderate",
+        "condition": "updated",
+        "notes": "Functionally tight space tucked between living and kitchen. Dark wood accent beam adds some character but feels slightly disconnected."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "white shaker cabinets",
+          "stone counters",
+          "stainless steel appliances",
+          "recessed lighting"
+        ],
+        "light_quality": "abundant",
+        "condition": "fully renovated",
+        "notes": "Classic 'flip' kitchen package with white cabinetry and dark stone or quartz counters."
+      },
+      {
+        "room_type": "exterior (primary unit)",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "horizontal siding",
+          "brick porch",
+          "wood railing",
+          "composite shingles"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained",
+        "notes": "Olive green color scheme with traditional craftsman-lite elements like tapered columns and a front porch."
+      },
+      {
+        "room_type": "exterior (multi-unit context)",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "asphalt driveway",
+          "vinyl or wood siding",
+          "metal garage doors"
+        ],
+        "light_quality": "harsh",
+        "condition": "average",
+        "notes": "The property appears to be part of a larger complex or PUD, resulting in a paved-over 'sea of garages' aesthetic."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "craftsman-style planned unit development (PUD)",
+    "red_flags": [
+      "excessive asphalt footprint in shared areas",
+      "standard contractor-grade 'flip' finishes (white shaker/grey walls)",
+      "limited natural green space despite landscaping effort",
+      "tight interior proportions visible in dining area"
+    ],
+    "positive_signals": [
+      "real hardwood floors instead of LVP",
+      "consistent maintenance of exterior siding",
+      "recessed lighting throughout main living areas",
+      "brick porch details add charm"
+    ],
+    "renovation_state": "fully renovated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living room\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"red oak hardwood floors\",\n        \"drywall\",\n        \"composite door\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"Open concept layout with staged furniture. Uses mid-range materials common in speculative renovations.\"\n    },\n    {\n      \"room_type\": \"dining area\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"hardwood floors\",\n        \"glass sliding door\",\n        \"wood beams\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"updated\",\n      \"notes\": \"Functionally tight space tucked between living and kitchen. Dark wood accent beam adds some character but feels slightly disconnected.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"white shaker cabinets\",\n        \"stone counters\",\n        \"stainless steel appliances\",\n        \"recessed lighting\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"fully renovated\",\n      \"notes\": \"Classic 'flip' kitchen package with white cabinetry and dark stone or quartz counters.\"\n    },\n    {\n      \"room_type\": \"exterior (primary unit)\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"horizontal siding\",\n        \"brick porch\",\n        \"wood railing\",\n        \"composite shingles\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Olive green color scheme with traditional craftsman-lite elements like tapered columns and a front porch.\"\n    },\n    {\n      \"room_type\": \"exterior (multi-unit context)\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"asphalt driveway\",\n        \"vinyl or wood siding\",\n        \"metal garage doors\"\n      ],\n      \"light_quality\": \"harsh\",\n      \"condition\": \"average\",\n      \"notes\": \"The property appears to be part of a larger complex or PUD, resulting in a paved-over 'sea of garages' aesthetic.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"craftsman-style planned unit development (PUD)\",\n  \"red_flags\": [\n    \"excessive asphalt footprint in shared areas\",\n    \"standard contractor-grade 'flip' finishes (white shaker/grey walls)\",\n    \"limited natural green space despite landscaping effort\",\n    \"tight interior proportions visible in dining area\"\n  ],\n  \"positive_signals\": [\n    \"real hardwood floors instead of LVP\",\n    \"consistent maintenance of exterior siding\",\n    \"recessed lighting throughout main living areas\",\n    \"brick porch details add charm\"\n  ],\n  \"renovation_state\": \"fully renovated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Standard contractor-grade flip finishes",
+      "Excessive asphalt footprint",
+      "Tight interior spatial proportions"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.0,
+        "weight": 0.2,
+        "notes": "Abundant light in kitchen and living areas; hard constraint met but not exceptional due to PUD proximity."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.0,
+        "weight": 0.18,
+        "notes": "Craftsman-lite elements (columns/porch) add some interest, but the overall form is a standardized PUD design."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.5,
+        "weight": 0.15,
+        "notes": "Real red oak floors are a plus, but kitchen and bathrooms use generic 'flip' package materials."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.5,
+        "weight": 0.12,
+        "notes": "Lacks specific cozy features like a prominent fireplace; open concept and white shaker cabinets feel sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Functional but tight; dining area is a significant squeeze between zones."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 7.5,
+        "weight": 0.1,
+        "notes": "Campbell is a desirable area, though the 'sea of garages' PUD context lowers tranquility."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 4.5,
+        "weight": 0.08,
+        "notes": "Very limited green space; dominated by shared asphalt driveways and proximity to neighbors."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.5,
+        "weight": 0.07,
+        "notes": "Newly renovated and clean, though aesthetically uninspired."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light but falls into the 'Acceptable' range due to significant aesthetic compromises. It suffers from a generic 'contractor-flip' interior that lacks the warmth and architectural quirkiness requested in the taste model. The most significant detractor is the PUD context, which replaces private yard and garden space with a 'sea of asphalt' and shared driveways, severely impacting the score for outdoor space and character.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 62.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Dining",
+        "current_state": "Standard contractor-grade white shaker kitchen with dark counters and a cramped dining area.",
+        "proposed_change": "Introduce custom wood cabinetry or natural wood shelving to replace uppers, swap dark stone for a warm marble or butcher block island, and integrate the 'disconnected' ceiling beam with additional wood cladding or matching structural accents to define the dining space.",
+        "impact": "Shifts the aesthetic from 'generic flip' to 'custom craftsman,' aligning with the user's preference for wood elements and cozy warmth.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room & Lighting",
+        "current_state": "Functional but boxy with recessed lighting providing flat illumination.",
+        "proposed_change": "Install a large skylight or solar tubes to meet 'abundant natural light' goals; replace the standard front door with a high-end craftsman glass/wood door; add architectural texture via wall molding or a brick-clad fireplace feature.",
+        "impact": "Removes the 'cookie-cutter' feel and introduces the 'quirky character' and 'architectural interest' the user seeks.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior & Entryway",
+        "current_state": "Surrounded by asphalt with a 'sea of garages' feel; generic olive siding.",
+        "proposed_change": "Hardscape transformation: replace portion of asphalt/concrete entry with permeable pavers and lush planters; upgrade porch railing to heavy timber; repaint in a deeper, more sophisticated 'moody' palette with natural wood accents.",
+        "impact": "Mitigates the PUD/complex feel by creating a distinct, high-character private sanctuary at the threshold.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Materials & Hardware",
+        "current_state": "Mid-range composite and metal finishes.",
+        "proposed_change": "Replace all contractor-grade hardware (handles, faucets, hinges) with unlacquered brass or hand-forged iron; replace hollow-core doors with solid wood doors.",
+        "impact": "High-impact tactile upgrade that adds 'cozy warmth' and 'character' without structural demolition.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "PUD/HOA restrictions may limit exterior modifications (siding/windows)",
+      "The 'sea of garages' atmosphere is a structural site flaw that landscaping can only partially mask",
+      "Red oak floors are already finished; refinishing to a different tone may require significant sanding depth"
+    ],
+    "upside_narrative": "This house is a 'blank canvas' of high-quality basics currently wearing a generic mask. Because the bones (real hardwood, recessed lighting, updated systems) are already there, the $150k budget can be spent almost entirely on 'soul'\u2014transforming the sterile, speculative finishes into a warm, texture-rich craftsman home. By leaning into wood elements and unconventional lighting, you can turn a 'safe' renovation into a bespoke residence that defies its suburban PUD context."
+  },
+  "brief": "# House Brief: 206 Sunnyside Ave, Campbell\n\n### Executive Summary\nThis is a modern Craftsman-style PUD (Planned Unit Development) that offers practical, move-in-ready convenience at the cost of architectural soul. While it meets technical requirements for size and light, the interior suffers from a generic \"contractor-flip\" aesthetic that conflicts with your preference for warmth and character.\n\n### Aesthetic Alignment\n**Score: 5.0/10**\nThe home currently lacks the \"cozy warmth\" and \"architectural character\" you prioritize. While the exterior has charming brick accents and a Craftsman profile, the interior is dominated by sterile white shaker cabinets and \"millennial gray\" tones. It provides the \"blank canvas\" of a renovated home but lacks the exposed beams, natural wood textures, and unique forms you value.\n\n### Strengths\n*   **High-Quality Basics:** Unlike many flips, this home features real hardwood floors rather than cheap LVP, providing a premium foundation.\n*   **Natural Light:** The home passes the light constraint with large windows and well-placed recessed lighting.\n*   **Maintenance:** The exterior siding is well-maintained, and the home is fully renovated, meaning no immediate structural or systems work is required.\n*   **Flow:** The multi-story layout offers clear separation of space which aligns with your preference for non-boxy, multi-level living.\n\n### Weaknesses\n*   **The \"Sea of Asphalt\":** As a PUD, the exterior environment is dominated by shared driveways and garages. There is a significant lack of private, high-quality green space.\n*   **Generic Finishes:** The kitchen and bathrooms utilize standard, uninspired materials that feel transactional rather than artisanal.\n*   **Tight Proportions:** Certain areas, specifically the dining space, feel constricted and may struggle to accommodate larger, character-rich furniture.\n*   **Lack of Texture:** There is a distinct absence of the natural wood elements and \"soul\" requested in your taste profile.\n\n### Deal-Breakers\n*   **None.** However, the PUD/HOA context and the heavy asphalt footprint are significant \"Yellow Flags\" if you prioritize private gardening or a traditional residential yard feel.\n\n### Renovation Paths\n**The \"Soul Injection\" ($100k\u2013$200k):**\nSince the \"bones\" (floors, electric, layout) are solid, your budget can be focused entirely on aesthetics.\n*   **Woodwork:** Add box beams to the ceiling and swap generic baseboards for thicker, natural wood trim.\n*   **Kitchen Overhaul:** Replace the white shaker doors with a warm wood species (like walnut or white oak) and swap the backsplash for handmade Zellige or textured tile.\n*   **Lighting:** Replace all \"spec-builder\" light fixtures with architectural, warm-toned statement pieces.\n*   **Refinishing:** Sand and stain the existing red oak floors to a deeper, more organic matte tone.\n\n### Who This House Is For\nThis home is for a buyer who wants a low-maintenance, turn-key property in a prime Campbell location and is willing to compromise on \"curb appeal\" and yard space in exchange for interior square footage and structural reliability.\n\n### Verdict\n**PROCEED WITH CAUTION.** This house is a functional success but an aesthetic failure based on your criteria. Only pursue this if you are prepared to spend an additional $150k to strip away the \"flip\" finishes and install the character that should have been there to begin with. If \"private outdoor space\" is a high priority, this is likely a **Pass.**",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.009488",
+  "scored_at": "2026-01-09T12:12:23.369425"
+}

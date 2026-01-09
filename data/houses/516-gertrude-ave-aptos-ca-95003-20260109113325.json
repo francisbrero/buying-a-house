@@ -1,0 +1,221 @@
+{
+  "id": "516-gertrude-ave-aptos-ca-95003-20260109113325",
+  "url": "https://www.zillow.com/homedetails/516-Gertrude-Ave-Aptos-CA-95003/16134820_zpid/",
+  "address": "516 Gertrude Ave, Aptos, CA 95003",
+  "city": "Aptos",
+  "state": "CA",
+  "zip_code": "95003",
+  "price": 1495000,
+  "description": "Single family residence in Aptos.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 1824,
+    "lot_sqft": 8712,
+    "year_built": 1959,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/c4bc856e4df4d086e4724f3c705d52d4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ee15cd1be8b3194d173bb241af377ad1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0cdbc2032501427df049db6609ca404e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5ea858a010d8e35ba56a2b039e67d8bf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e4db11aad6bb566250cc7ba81e4331d3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/cffbde5cb185fb065e2e7140a074eac4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6d8024dfb492fe75bbe43f8246527111-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2274087cfd00837029809c0a79f85a32-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9073f2299be4c3f539811435cfd078a9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1da35f181f8d29937b00b41523a28cf3-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior / facade",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "cedar shakes",
+          "white trim",
+          "composition shingles",
+          "picket fencing"
+        ],
+        "light_quality": "bright direct sun",
+        "condition": "well-maintained",
+        "notes": "Classic coastal shingle-style aesthetic. The landscaping is mature but somewhat congested around the structure."
+      },
+      {
+        "room_type": "living / dining area (open concept)",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "lighter hardwood or high-quality laminate",
+          "exposed ceiling beams",
+          "drywall",
+          "glass sliding doors"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Large open volume with vaulted ceilings and exposed dark beams providing architectural interest. The space is staged with modern furniture."
+      },
+      {
+        "room_type": "kitchenette / kitchen",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "oak raised-panel cabinets",
+          "dark granite or quartz counters",
+          "standard white appliances",
+          "built-in hutch"
+        ],
+        "light_quality": "good",
+        "condition": "clean but dated",
+        "notes": "The kitchen lacks the modern upscale feel of the living area; cabinets and appliances appear base-model early 2000s."
+      },
+      {
+        "room_type": "yard / garden",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "flagstone pavers",
+          "dirt/mulch",
+          "brick tree ring"
+        ],
+        "light_quality": "dappled",
+        "condition": "average",
+        "notes": "A bit unkempt with patchy ground cover, though the mature Japanese Maple provides a nice focal point."
+      },
+      {
+        "room_type": "secondary structures / street views",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "horizontal siding",
+          "asphalt driveways"
+        ],
+        "light_quality": "bright",
+        "condition": "varied",
+        "notes": "Composite includes photos of neighboring properties or different elevations (blue cottage, peach stucco house), suggesting a neighborhood context or multi-unit property."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "Coastal Contemporary / Mid-Century hybrid",
+    "red_flags": [
+      "Inconsistent renovation quality (high-end beams vs. basic kitchen cabinets)",
+      "Small kitchen footprint for the size of the living area",
+      "Visible power lines in several exterior shots"
+    ],
+    "positive_signals": [
+      "Vaulted ceilings with architectural beams",
+      "Proximity to Seacliff Beach",
+      "Mature landscaping",
+      "Large windows and sliding doors for indoor-outdoor flow"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior / facade\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"cedar shakes\",\n        \"white trim\",\n        \"composition shingles\",\n        \"picket fencing\"\n      ],\n      \"light_quality\": \"bright direct sun\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Classic coastal shingle-style aesthetic. The landscaping is mature but somewhat congested around the structure.\"\n    },\n    {\n      \"room_type\": \"living / dining area (open concept)\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"lighter hardwood or high-quality laminate\",\n        \"exposed ceiling beams\",\n        \"drywall\",\n        \"glass sliding doors\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Large open volume with vaulted ceilings and exposed dark beams providing architectural interest. The space is staged with modern furniture.\"\n    },\n    {\n      \"room_type\": \"kitchenette / kitchen\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"oak raised-panel cabinets\",\n        \"dark granite or quartz counters\",\n        \"standard white appliances\",\n        \"built-in hutch\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"clean but dated\",\n      \"notes\": \"The kitchen lacks the modern upscale feel of the living area; cabinets and appliances appear base-model early 2000s.\"\n    },\n    {\n      \"room_type\": \"yard / garden\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"flagstone pavers\",\n        \"dirt/mulch\",\n        \"brick tree ring\"\n      ],\n      \"light_quality\": \"dappled\",\n      \"condition\": \"average\",\n      \"notes\": \"A bit unkempt with patchy ground cover, though the mature Japanese Maple provides a nice focal point.\"\n    },\n    {\n      \"room_type\": \"secondary structures / street views\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"stucco\",\n        \"horizontal siding\",\n        \"asphalt driveways\"\n      ],\n      \"light_quality\": \"bright\",\n      \"condition\": \"varied\",\n      \"notes\": \"Composite includes photos of neighboring properties or different elevations (blue cottage, peach stucco house), suggesting a neighborhood context or multi-unit property.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Coastal Contemporary / Mid-Century hybrid\",\n  \"red_flags\": [\n    \"Inconsistent renovation quality (high-end beams vs. basic kitchen cabinets)\",\n    \"Small kitchen footprint for the size of the living area\",\n    \"Visible power lines in several exterior shots\"\n  ],\n  \"positive_signals\": [\n    \"Vaulted ceilings with architectural beams\",\n    \"Proximity to Seacliff Beach\",\n    \"Mature landscaping\",\n    \"Large windows and sliding doors for indoor-outdoor flow\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.0,
+        "weight": 0.2,
+        "notes": "Abundant windows and sliding glass doors; vaulted ceilings enhance the sense of brightness."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.0,
+        "weight": 0.18,
+        "notes": "Exposed dark beams and coastal shingle exterior provide character beyond a standard boxy layout."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Significant inconsistency. High-quality beams contrast sharply with dated oak kitchen cabinets and basic white appliances."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "Wood elements and vaulted ceilings create warmth, though the kitchen feels clinical and dated rather than cozy."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Good indoor-outdoor flow in the living area, but the kitchen footprint appears cramped relative to the home's scale."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Desirable Aptos location near beach, though visible power lines and street congestion noted in vision analysis."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.0,
+        "weight": 0.08,
+        "notes": "Mature landscaping is a plus, but currently appears unkempt and congested."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.5,
+        "weight": 0.07,
+        "notes": "A 'partial' renovation leaves the home in a bifurcated state of updated living areas and dated utilities."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light and offers the desired architectural character through its exposed beams and vaulted ceilings. However, it scores in the low 60s due to the 'present-fit' requirement: there is a jarring discrepancy between the updated living spaces and the early-2000s builder-grade kitchen. As a 'Present-Fit' judge, the lack of material cohesion and the dated kitchen significantly drag down the score, as it fails to meet the 'upscale' or 'cozy' aesthetic in its current state.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen (The Critical Link)",
+        "current_state": "Dated early-2000s oak cabinets and white appliances that clash with the elevated living area.",
+        "proposed_change": "Complete overhaul: Install flat-panel white or light oak cabinetry, integrated appliances, and a waterfall island. Remove the built-in hutch to expand the workspace.",
+        "impact": "Unifies the home's aesthetic; bridges the gap between the coastal exterior and the modern vaulted interior.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Ceilings and Beams",
+        "current_state": "Existing dark beams against white drywall.",
+        "proposed_change": "Sand and refinish beams to a lighter, natural oak tone or stain them a deep walnut to match new flooring. Add slender wood slat paneling between beams in select sections.",
+        "impact": "Enhances 'Wood Elements' and 'Cozy Warmth' principles while highlighting the architectural character.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Indoor-Outdoor Flow / Landscaping",
+        "current_state": "Congested mature landscaping and patchy ground cover in the yard.",
+        "proposed_change": "Thinned-out vegetation to improve light penetration; replace flagstone with larger format concrete pavers and a modern fire pit area.",
+        "impact": "Maximizes the 'Abundant Natural Light' principle by clearing sightlines and makes the yard feel like an extension of the living room.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Primary Suite / Bathrooms",
+        "current_state": "Functional but likely inconsistent with the high-volume living space.",
+        "proposed_change": "Update bathrooms with zellige tile and wood vanities; ensure consistent flooring throughout the home to improve 'good flow'.",
+        "impact": "Removes the 'quirky' mid-renovation feel and establishes a premium 'Coastal Modern' identity.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Kitchen footprint is somewhat constrained by the current plumbing/venting stack location.",
+      "Proximity to the ocean may require high-grade corrosion-resistant materials for exterior updates.",
+      "Older 1959 wiring likely needs a panel upgrade to support modern kitchen appliances."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' that already possesses the most expensive assets: height, volume, and location. By focusing the $150k budget primarily on a high-end kitchen and cohesive flooring/finishes, the home sheds its 'dated cottage' skin and becomes a sophisticated Seacliff retreat. The quirky architecture is a benefit here, not a drawback, allowing for a custom feel that 'cookie-cutter' new builds lack."
+  },
+  "brief": "# House Brief: 516 Gertrude Ave, Aptos\n\n## Executive Summary\nA 1950s coastal hybrid offering significant architectural character and rare volume just steps from Seacliff Beach. While the home boasts the \"bones\" the user craves\u2014vaulted ceilings and abundant light\u2014it is currently held back by disjointed, dated interior finishes that lean toward \"builder-grade\" rather than \"upscale coastal.\"\n\n## Aesthetic Alignment\nThe property is a strong match for the user\u2019s preference for **architectural character** and **wood elements**. The exposed structural beams and vaulted ceilings provide a non-boxy, custom feel that avoids the \"generic flip\" look. However, the current kitchen and flooring lack the \"cozy warmth\" requested, feeling more like a mid-2000s renovation than a considered architectural space.\n\n## Strengths\n*   **Volume & Light:** Exceptional ceiling height and large glass sliders ensure the interior feels bright and airy, meeting the primary natural light requirement.\n*   **Architectural Interest:** The Mid-Century/Coastal hybrid layout is visually engaging and offers a vertical flow across its 1,824 sqft.\n*   **Location:** Situated in the desirable Seacliff area, avoiding the \"high fire risk forest\" anti-principle while remaining close to the ocean.\n*   **Curb Appeal:** Mature landscaping and a distinct silhouette provide a strong foundation for an upscale residence.\n\n## Weaknesses\n*   **Material Disconnect:** There is a jarring contrast between the high-end architectural beams and the basic, dated kitchen cabinetry and finishes.\n*   **Kitchen Constraints:** The kitchen footprint is relatively small compared to the expansive living area, and plumbing/venting stacks may limit layout changes.\n*   **Maintenance Hurdles:** Visible power lines detract from the exterior aesthetic, and the 1959-era wiring likely requires a panel upgrade to support modern luxury appliances.\n*   **Marine Environment:** Proximity to the salt air will require higher-cost, corrosion-resistant materials for any exterior or window work.\n\n## Deal-Breakers\n*   **None.** The house passes all hard constraints, though the \"present-fit\" is lower than ideal due to the renovation effort required to harmonize the aesthetics.\n\n## Renovation Paths: The \"Sophisticated Retreat\"\nWith a budget of **$100k\u2013$200k**, this home could reach its 78/100 potential:\n1.  **Kitchen Overhaul:** Replace the current builder-grade cabinets and counters with natural wood or high-end matte finishes to match the ceiling beams. \n2.  **Harmonized Flooring:** Swap disjointed flooring for wide-plank hardwood to enhance the \"cozy warmth\" principle.\n3.  **Modern Electrical:** Budget for a full panel upgrade during the kitchen remodel to ensure the 1950s infrastructure can handle modern loads.\n\n## Who This House Is For\nThis property is for a buyer who prioritizes **architectural \"bones\" and location** over a turnkey interior. It is ideal for someone willing to manage a primary kitchen and flooring renovation to unlock a custom, upscale coastal aesthetic that cannot be found in a standard subdivision.\n\n## Verdict\n**PURSUE**\u2014but only if you have the appetite for a Phase 1 renovation. You are paying for the volume, the beams, and the beach proximity. The interior is currently \"average,\" but the structure is \"exceptional.\" If you are looking for a house that is 100% finished, this will disappoint; if you want a platform to create a high-end architectural gem, this is a rare find.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:25.988863",
+  "scored_at": "2026-01-09T12:16:53.981711"
+}

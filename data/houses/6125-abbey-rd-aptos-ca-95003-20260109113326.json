@@ -1,0 +1,266 @@
+{
+  "id": "6125-abbey-rd-aptos-ca-95003-20260109113326",
+  "url": "https://www.zillow.com/homedetails/6125-Abbey-Rd-Aptos-CA-95003/16134185_zpid/",
+  "address": "6125 Abbey Rd, Aptos, CA 95003",
+  "city": "Aptos",
+  "state": "CA",
+  "zip_code": "95003",
+  "price": 1050000,
+  "description": "Single family residence in Aptos.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 2.0,
+    "sqft": 1760,
+    "lot_sqft": 10890,
+    "year_built": 1958,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/d76c84dcb40c348916a566af8c764caf-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d36cea320874ef220492ff1b496efb9c-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0fea43b73fa17378b56a91922cd212db-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/626d4f2ae625242ef88b837faf4116a9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0b4ab6479cfa01a016731bc9845ab6c4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fbb89cc17a5292a653c630a1f811eaef-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c663d1c11a121d1c59b36bf51fb2bdd1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f7b64db1f32d5a20f0ae87d7b3156c8f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c398264ae2bc31eb0daa2b7d9b43ecf1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bbad218b54ebe59a0d668db970edc05a-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front_1",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "paver stones",
+          "horizontal siding",
+          "asphalt shingles"
+        ],
+        "light_quality": "bright natural light",
+        "condition": "excellent",
+        "notes": "Professionally landscaped with high-end paver walkway; appears to be the 'after' photo of a renovation."
+      },
+      {
+        "room_type": "exterior_front_2",
+        "aesthetic_quality": 3.0,
+        "materials": [
+          "dirt",
+          "dying grass",
+          "old siding"
+        ],
+        "light_quality": "overcast",
+        "condition": "poor",
+        "notes": "The 'before' shot showing significant neglect and unfinished landscape work."
+      },
+      {
+        "room_type": "living_room_staged",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "wood beamed ceiling",
+          "LVP flooring",
+          "drywall"
+        ],
+        "light_quality": "excellent via skylights and open floor plan",
+        "condition": "newly renovated",
+        "notes": "Modernized mid-century feel with vaulted wood ceilings contrasting against white walls. Note: Likely virtual staging."
+      },
+      {
+        "room_type": "living_room_unfinished",
+        "aesthetic_quality": 2.0,
+        "materials": [
+          "exposed subfloor",
+          "tile",
+          "unfinished walls"
+        ],
+        "light_quality": "natural light from skylights",
+        "condition": "gutted",
+        "notes": "Matches the layout of the staged photo but shows the property in a mid-construction or derelict state."
+      },
+      {
+        "room_type": "bathroom",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "patterned floor tile",
+          "subway wall tile",
+          "glass shower door",
+          "shaker vanity"
+        ],
+        "light_quality": "good natural light from small window",
+        "condition": "newly renovated",
+        "notes": "Trend-heavy renovation using 'flip-standard' materials (patterned tile and grey vanity)."
+      },
+      {
+        "room_type": "exterior_blue_house",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "clapboard siding",
+          "concrete driveway"
+        ],
+        "light_quality": "direct sunlight",
+        "condition": "good",
+        "notes": "A different property structure entirely, suggesting a portfolio or multi-listing grid."
+      },
+      {
+        "room_type": "kitchen_modern_traditional",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "granite countertops",
+          "cherry cabinets",
+          "stainless steel",
+          "hardwood"
+        ],
+        "light_quality": "warm interior lighting",
+        "condition": "well-maintained 2010s era",
+        "notes": "Heavy architectural wood ceiling continues here; kitchen style is slightly dated compared to the living room Reno."
+      },
+      {
+        "room_type": "exterior_shingle",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "cedar shingles",
+          "wood pergola",
+          "wood door"
+        ],
+        "light_quality": "dim/shaded",
+        "condition": "fair",
+        "notes": "Shows signs of age and weathering on the wood elements."
+      },
+      {
+        "room_type": "exterior_ranch",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood deck",
+          "horizontal siding"
+        ],
+        "light_quality": "clear day",
+        "condition": "good",
+        "notes": "Includes a wrap-around deck with modern cable or dark wood railing."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "Mid-Century Modern / Ranch Mix",
+    "red_flags": [
+      "Inconsistent imagery showing different houses",
+      "Juxtaposition of 'before' and 'after' or 'vision' vs 'reality' photos",
+      "Typical flip materials in bathroom (patterned tile, grey shaker)",
+      "Potential virtual staging used to mask unfinished construction"
+    ],
+    "positive_signals": [
+      "Vaulted wood-clamped ceilings with skylights",
+      "High-quality hardscaping (pavers)",
+      "Open-concept floor plans"
+    ],
+    "renovation_state": "in_progress_or_composite",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior_front_1\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"paver stones\", \"horizontal siding\", \"asphalt shingles\"],\n            \"light_quality\": \"bright natural light\",\n            \"condition\": \"excellent\",\n            \"notes\": \"Professionally landscaped with high-end paver walkway; appears to be the 'after' photo of a renovation.\"\n        },\n        {\n            \"room_type\": \"exterior_front_2\",\n            \"aesthetic_quality\": 3,\n            \"materials\": [\"dirt\", \"dying grass\", \"old siding\"],\n            \"light_quality\": \"overcast\",\n            \"condition\": \"poor\",\n            \"notes\": \"The 'before' shot showing significant neglect and unfinished landscape work.\"\n        },\n        {\n            \"room_type\": \"living_room_staged\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"wood beamed ceiling\", \"LVP flooring\", \"drywall\"],\n            \"light_quality\": \"excellent via skylights and open floor plan\",\n            \"condition\": \"newly renovated\",\n            \"notes\": \"Modernized mid-century feel with vaulted wood ceilings contrasting against white walls. Note: Likely virtual staging.\"\n        },\n        {\n            \"room_type\": \"living_room_unfinished\",\n            \"aesthetic_quality\": 2,\n            \"materials\": [\"exposed subfloor\", \"tile\", \"unfinished walls\"],\n            \"light_quality\": \"natural light from skylights\",\n            \"condition\": \"gutted\",\n            \"notes\": \"Matches the layout of the staged photo but shows the property in a mid-construction or derelict state.\"\n        },\n        {\n            \"room_type\": \"bathroom\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"patterned floor tile\", \"subway wall tile\", \"glass shower door\", \"shaker vanity\"],\n            \"light_quality\": \"good natural light from small window\",\n            \"condition\": \"newly renovated\",\n            \"notes\": \"Trend-heavy renovation using 'flip-standard' materials (patterned tile and grey vanity).\"\n        },\n        {\n            \"room_type\": \"exterior_blue_house\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"clapboard siding\", \"concrete driveway\"],\n            \"light_quality\": \"direct sunlight\",\n            \"condition\": \"good\",\n            \"notes\": \"A different property structure entirely, suggesting a portfolio or multi-listing grid.\"\n        },\n        {\n            \"room_type\": \"kitchen_modern_traditional\",\n            \"aesthetic_quality\": 6,\n            \"materials\": [\"granite countertops\", \"cherry cabinets\", \"stainless steel\", \"hardwood\"],\n            \"light_quality\": \"warm interior lighting\",\n            \"condition\": \"well-maintained 2010s era\",\n            \"notes\": \"Heavy architectural wood ceiling continues here; kitchen style is slightly dated compared to the living room Reno.\"\n        },\n        {\n            \"room_type\": \"exterior_shingle\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\"cedar shingles\", \"wood pergola\", \"wood door\"],\n            \"light_quality\": \"dim/shaded\",\n            \"condition\": \"fair\",\n            \"notes\": \"Shows signs of age and weathering on the wood elements.\"\n        },\n        {\n            \"room_type\": \"exterior_ranch\",\n            \"aesthetic_quality\": 7,\n            \"materials\": [\"wood deck\", \"horizontal siding\"],\n            \"light_quality\": \"clear day\",\n            \"condition\": \"good\",\n            \"notes\": \"Includes a wrap-around deck with modern cable or dark wood railing.\"\n        }\n    ],\n    \"overall_aesthetic\": 5,\n    \"architectural_style\": \"Mid-Century Modern / Ranch Mix\",\n    \"red_flags\": [\n        \"Inconsistent imagery showing different houses\",\n        \"Juxtaposition of 'before' and 'after' or 'vision' vs 'reality' photos\",\n        \"Typical flip materials in bathroom (patterned tile, grey shaker)\",\n        \"Potential virtual staging used to mask unfinished construction\"\n    ],\n    \"positive_signals\": [\n        \"Vaulted wood-clamped ceilings with skylights\",\n        \"High-quality hardscaping (pavers)\",\n        \"Open-concept floor plans\"\n    ],\n    \"renovation_state\": \"in_progress_or_composite\",\n    \"notes\": \"The grid contains photos of multiple different properties or the same property in vastly different states (gutted vs. finished), suggesting this is a marketing collage for a contractor or investor.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 53.4,
+    "passed": true,
+    "violations": [
+      "Flip-quality renovation with cheap materials",
+      "Inconsistent/Conflicting imagery",
+      "Potentially unfinished or gut-state reality"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.0,
+        "weight": 0.2,
+        "notes": "Vaulted ceilings with skylights and large windows provide strong natural illumination, meeting the hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.0,
+        "weight": 0.18,
+        "notes": "Compelling MCM/Ranch mix with wood-beamed vaulted ceilings and non-boxy layouts."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 3.0,
+        "weight": 0.15,
+        "notes": "Significant penalty: Mix of high-end wood ceilings with 'flip-standard' patterned tiles and grey vanities. Presence of unfinished subfloors and gutted rooms in listing photos indicates low present-state quality."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 5.0,
+        "weight": 0.12,
+        "notes": "Wood ceilings offer warmth, but the 'flip-grey' palette and sterile staging create a cold atmosphere."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Open-concept layout is visible, though the inclusion of multiple different properties in the listing makes the actual flow confusing to verify."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.0,
+        "weight": 0.1,
+        "notes": "Aptos location carries inherent high fire risk, a stated anti-principle."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.0,
+        "weight": 0.08,
+        "notes": "Hardscaping (pavers) and wrap-around deck are positives, though some photos show neglected 'before' dirt lots."
+      },
+      {
+        "dimension": "condition",
+        "score": 2.0,
+        "weight": 0.07,
+        "notes": "Present-fit is severely compromised by the 'in-progress' state; half the property appears gutted while the other half is virtually staged."
+      }
+    ],
+    "justification": "While the architectural bones (skylights, wood ceilings) match the taste model, the listing is a 'Present-Fit' failure due to its mid-construction state. It violates the anti-principle of 'cheap flip finishes' (grey shaker/patterned tile) and shows conflicting imagery of a gutted interior. Since the goal is present-fit without renovation, the reality of the exposed subfloors and construction debris constitutes a major mismatch despite the 'vision' presented in staged photos.",
+    "deal_breakers": [
+      "Property appears currently uninhabitable/gutted in several photos",
+      "High fire risk zone (Aptos)"
+    ]
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Living & Dining Great Room",
+        "current_state": "Gutted or in-progress state with exposed subfloors but featuring stunning vaulted wood-beamed ceilings and skylights.",
+        "proposed_change": "Execute a 'Warm Modern' finish: Install wide-plank white oak flooring to complement the ceiling beams, replace dated windows with black-frame thin-profile units, and integrate a floor-to-ceiling focal point fireplace using natural stone or vertical wood slats.",
+        "impact": "Unlocks the architectural character the user values and creates the 'wow' factor centered on the wood elements.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Kitchen",
+        "current_state": "Dated 2010-era cherry cabinets and granite that clash with the MCM structure.",
+        "proposed_change": "Reconfigure to a more open, furniture-style kitchen. Use flat-panel walnut or white oak cabinetry and swap the heavy granite for soapstone or honed marble. Extend the natural light by adding a larger window splash-back.",
+        "impact": "Removes the 'cookie-cutter' feel and aligns the hub of the home with the architectural bones.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Second Bathroom / Finishing Touches",
+        "current_state": "Standard 'flip' finishes with trendy patterned tile and grey shakers.",
+        "proposed_change": "Swap out 'builder-grade' flip materials for more mid-century appropriate materials like zellige tile or slate to add the requested 'cozy warmth' and 'quirky character'.",
+        "impact": "Elevates the home from a generic flip to a curated architectural residence.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Inconsistent listing photos suggest the property may be a 'stalled' project; unknown plumbing/electrical status in gutted areas.",
+      "Cost of high-quality wood flooring for 1760 sqft is significant.",
+      "Potential for structural surprises given the 'gutted' state shown in some photos."
+    ],
+    "upside_narrative": "This property is the 'perfect canvas' for a Medium-tolerance renovator. It possesses the high-value architectural bones\u2014vaulted ceilings, skylights, and interesting angles\u2014that can't be added easily to a boxy house. By diverting the budget away from structural demo (which is already done) and into high-end natural materials (wood, stone, glass), this can be transformed from a neglected ranch into a sophisticated, light-filled Mid-Century sanctuary that feels custom-built."
+  },
+  "brief": "# House Brief: 6125 Abbey Rd, Aptos\n\n### Executive Summary\nThis property is a mid-construction transformation of a Mid-Century Modern ranch that has currently \"stalled.\" While it boasts the architectural \"bones\" you desire\u2014vaulted ceilings and skylights\u2014the listing is highly deceptive, mixing polished marketing photos with images of a gutted, uninhabitable interior. It is strictly a project house, not a move-in-ready home.\n\n### Aesthetic Alignment\nThe house is a stylistic \"half-match.\" It satisfies your preference for **architectural character** and **natural light** through its wood-clad vaulted ceilings, skylights, and non-boxy floor plan. However, it clashes significantly with your **Anti-Principles**: the finished portions utilize \"cheap flip\" materials (grey shaker cabinets, generic patterned tiles, and laminate-style finishes) that detract from the home\u2019s warmth and organic potential.\n\n### Strengths\n*   **High-Value Bones:** The vaulted wood ceilings and existing skylights create a sense of volume and light that is difficult to retrofit into standard ranch homes.\n*   **Hardscaping:** High-quality paver work in the exterior suggests some investment has been made in curb appeal.\n*   **Layout:** The open-concept design flows well and avoids the \"boxed-in\" feel you dislike.\n\n### Weaknesses\n*   **Inconsistent Imagery:** The listing is a confusing composite of \"vision\" vs. \"reality.\" Several photos show exposed subfloors, construction debris, and unfinished walls.\n*   **Low-End Finishes:** Where renovations *have* occurred, they rely on the \"grey-and-white flip\" palette (grey cabinets/cheap tile) which lacks the natural warmth of your preferred aesthetic.\n*   **Environmental Risk:** Located in a high fire risk zone in Aptos, which may impact insurance availability and long-term peace of mind.\n\n### Deal-Breakers\n*   **Uninhabitable State:** The house appears to be in a \"gutted\" state in several rooms. You cannot move into this home tomorrow; it is a construction site.\n*   **Misrepresentation:** The juxtaposition of virtual staging and construction photos suggests potential hidden issues or a failed DIY/contractor project.\n\n### Renovation Paths\n*   **The \"Naturalist\" Course (Recommended):** Since the home is already partially gutted, this is the perfect time to strip away the cheap \"flip\" materials. Replace the laminate/grey finishes with high-end oak flooring, natural stone countertops, and warm wood cabinetry to match the existing ceiling. Budget: **$100k\u2013$200k** to finish the job and upgrade the materials.\n\n### Who This House Is For\nThis house is **only** for a buyer with a medium-to-high renovation tolerance who sees the architectural value in the ceiling and layout. It is for someone who wants to \"choose their own adventure\" and is prepared to deal with contractors immediately upon closing.\n\n### Verdict\n**PASS** if you are looking for a turn-key home. The \"Present-Fit\" score is failing because the home is currently a shell.\n**PROCEED WITH CAUTION** if you are looking for a \"perfect canvas\" project. If you can negotiate the price down based on the unfinished state, the architectural upside is significant\u2014but do not expect to live here during the process.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.013525",
+  "scored_at": "2026-01-09T12:11:52.265653"
+}

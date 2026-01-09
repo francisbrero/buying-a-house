@@ -1,0 +1,232 @@
+{
+  "id": "23489-hutchinson-rd-los-gatos-ca-95033-20260109113326",
+  "url": "https://www.zillow.com/homedetails/23489-Hutchinson-Rd-Los-Gatos-CA-95033/16160900_zpid/",
+  "address": "23489 Hutchinson Rd, Los Gatos, CA 95033",
+  "city": "Los Gatos",
+  "state": "CA",
+  "zip_code": "95033",
+  "price": 1700000,
+  "description": "Single family residence in Los Gatos.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 2.0,
+    "sqft": 2100,
+    "lot_sqft": 43560,
+    "year_built": 1970,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/e2d3b7b7585421506520611a373a0ace-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4a37abbe2dc6a50bbc7c6c8b690be804-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/20430ba2c4935a9e6844e060d9ce3fa1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f1425773c2f7172e483c8d138480b52e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/6beeee3f7bdad7734c25113b442020ce-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9112e6d8b4d37fc8a508a3f383497f4a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/61afa8eb089d346cc2b91cc3df7fc769-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b56ca6f577104c2b9aacf5fe62570eb6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/14ebfa0d694f52f0c5806fab8443165a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/edbd9be918535e8bfda4b5e51e823507-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "wood siding",
+          "asphalt shingles",
+          "concrete driveway"
+        ],
+        "light_quality": "dappled",
+        "condition": "fair",
+        "notes": "Traditional mountain-style home set in a redwood forest. The three-car garage is prominent. Siding shows some age; gutters and roof appear functional but dated."
+      },
+      {
+        "room_type": "entryway_staircase",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "oak hardwood floors",
+          "painted wood balusters",
+          "stained wood front door"
+        ],
+        "light_quality": "bright",
+        "condition": "refreshed",
+        "notes": "Classic layout with a traditional oak door featuring leaded glass. The white paint is crisp, and floors appear to be real hardwood in good condition."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "white painted cabinetry",
+          "black granite or quartz countertops",
+          "stainless steel appliances",
+          "hardwood floors"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "U-shaped kitchen with builder-grade recessed lighting. The cabinets are dated raised-panel style but have been painted white to modernize."
+      },
+      {
+        "room_type": "dining_wet_bar_area",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "waterfall marble/quartz island",
+          "black cabinetry",
+          "wine fridge",
+          "hardwood floors"
+        ],
+        "light_quality": "excellent",
+        "condition": "fully renovated",
+        "notes": "High-end contemporary renovation in this section with an architectural triangular window and vaulted ceilings. A major contrast to the more traditional entryway."
+      },
+      {
+        "room_type": "exterior_backyard",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "wood decking",
+          "play structure",
+          "concrete pool surround"
+        ],
+        "light_quality": "abundant",
+        "condition": "well-maintained",
+        "notes": "Multi-level outdoor space including a pool and a flat area for a playground, which is rare for steep forest lots. The architecture is a mix of shed-style and traditional."
+      },
+      {
+        "room_type": "hallway_landing",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "hardwood floors",
+          "drywall",
+          "french doors"
+        ],
+        "light_quality": "moderate",
+        "condition": "clean",
+        "notes": "Simple transitional space. The scale feels slightly cramped but clean and functional."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "Mountain Contemporary / Transitional",
+    "red_flags": [
+      "Inconsistent renovation styles (traditional entry vs ultra-modern dining area)",
+      "Dated raised-panel kitchen cabinets painted over",
+      "Complex rooflines may be prone to leaf debris/leaks in a forest setting"
+    ],
+    "positive_signals": [
+      "High-quality hardwood floors throughout",
+      "Stunning natural setting with mature redwoods",
+      "Rare flat usable yard space and a pool for a hillside property",
+      "Dramatic vaulted ceilings and unique architectural window in the dining area"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"wood siding\", \"asphalt shingles\", \"concrete driveway\"],\n      \"light_quality\": \"dappled\",\n      \"condition\": \"fair\",\n      \"notes\": \"Traditional mountain-style home set in a redwood forest. The three-car garage is prominent. Siding shows some age; gutters and roof appear functional but dated.\"\n    },\n    {\n      \"room_type\": \"entryway_staircase\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"oak hardwood floors\", \"painted wood balusters\", \"stained wood front door\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"refreshed\",\n      \"notes\": \"Classic layout with a traditional oak door featuring leaded glass. The white paint is crisp, and floors appear to be real hardwood in good condition.\"\n    },\n    {\n      \"room_type\": \"kitchen\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"white painted cabinetry\", \"black granite or quartz countertops\", \"stainless steel appliances\", \"hardwood floors\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"U-shaped kitchen with builder-grade recessed lighting. The cabinets are dated raised-panel style but have been painted white to modernize.\"\n    },\n    {\n      \"room_type\": \"dining_wet_bar_area\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"waterfall marble/quartz island\", \"black cabinetry\", \"wine fridge\", \"hardwood floors\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"fully renovated\",\n      \"notes\": \"High-end contemporary renovation in this section with an architectural triangular window and vaulted ceilings. A major contrast to the more traditional entryway.\"\n    },\n    {\n      \"room_type\": \"exterior_backyard\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"wood decking\", \"play structure\", \"concrete pool surround\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Multi-level outdoor space including a pool and a flat area for a playground, which is rare for steep forest lots. The architecture is a mix of shed-style and traditional.\"\n    },\n    {\n      \"room_type\": \"hallway_landing\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"hardwood floors\", \"drywall\", \"french doors\"],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"clean\",\n      \"notes\": \"Simple transitional space. The scale feels slightly cramped but clean and functional.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"Mountain Contemporary / Transitional\",\n  \"red_flags\": [\n    \"Inconsistent renovation styles (traditional entry vs ultra-modern dining area)\",\n    \"Dated raised-panel kitchen cabinets painted over\",\n    \"Complex rooflines may be prone to leaf debris/leaks in a forest setting\"\n  ],\n  \"positive_signals\": [\n    \"High-quality hardwood floors throughout\",\n    \"Stunning natural setting with mature redwoods\",\n    \"Rare flat usable yard space and a pool for a hillside property\",\n    \"Dramatic vaulted ceilings and unique architectural window in the dining area\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.2,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Excellent in the dining/bar area with sculptural windows; however, dappled/moderate in other sections due to redwood canopy and traditional window sizing."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.0,
+        "weight": 0.18,
+        "notes": "Strong mountain contemporary profile with vaulted ceilings and unique geometries, though the garage-forward facade is somewhat utilitarian."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 5.8,
+        "weight": 0.15,
+        "notes": "Significant inconsistency. High-end waterfall marble in the bar area contrasts poorly with painted-over builder-grade cabinets in the kitchen."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.2,
+        "weight": 0.12,
+        "notes": "The hardwood floors and redwood setting provide natural warmth, though some renovated areas feel a bit sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Inconsistent flow between the traditional entryway and the ultra-modern dining wing. Some transitions feel cramped."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "High fire risk zone inherent to Los Gatos mountains; complex rooflines in a forest setting will require high maintenance for leaf debris."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.5,
+        "weight": 0.08,
+        "notes": "Exceptional for the area. Flat usable land, a pool, and mature redwoods are a rare combination for a hillside lot."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.5,
+        "weight": 0.07,
+        "notes": "A 'split-personality' condition. Some areas are premium-renovated, while the exterior siding and kitchen show clear signs of age."
+      }
+    ],
+    "justification": "The house passes the hard constraint for natural light, particularly in the dramatic dining area. However, it suffers from a significant 'Present-Fit' penalty due to the stylistic jarring between the ultra-modern bar renovation and the dated, painted-over kitchen. While the outdoor space is elite, the high fire risk area and the maintenance debt visible on the exterior siding drag the score into the 'Acceptable' rather than 'Good' range.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Dining Convergence",
+        "current_state": "Visual disconnect between the dated white U-shaped kitchen and the ultra-modern black wet bar area.",
+        "proposed_change": "Reface or replace kitchen cabinetry with dark rift-sawn oak or matte black panels to match the existing wet bar. Replace standard recessed lighting with architectural track lighting or integrated LED channels that follow the vaulted ceiling lines.",
+        "impact": "Creates a cohesive 'Great Room' flow and resolves the stylistic identity crisis between traditional and modern elements.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Architectural Wood Accents (Living/Dining)",
+        "current_state": "White drywall ceilings and painted balusters mask the mountain-contemporary character.",
+        "proposed_change": "Clad the vaulted ceilings in the dining/living areas with clear cedar or hemlock tongue-and-groove planks. Replace the traditional white painted stair balusters with vertical wood slats or thin black steel cables.",
+        "impact": "Leans into the user's preference for 'wood elements' and 'quirky character' while warming up the stark white contemporary spaces.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior & Entry Cohesion",
+        "current_state": "Dated traditional front door with leaded glass contradicts the dramatic shed-roof architecture and modern interior upgrades.",
+        "proposed_change": "Replace front door with a pivot-style natural wood door with vertical glass lites. Paint the exterior wood siding in a dark 'Iron Ore' or 'Carbon' tone to help the house recede into the redwoods and modernize the facade.",
+        "impact": "Significantly boosts curb appeal and sets the tone for a high-end forest retreat rather than a dated suburban home.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Fenestration & Light",
+        "current_state": "Standard windows in some areas don't capitalize on the forest views as well as the architectural triangular window does.",
+        "proposed_change": "Where structurally feasible, enlarge standard bedroom or hallway windows to floor-to-ceiling glass to mimic the 'forest-immersion' feel of the dining area.",
+        "impact": "Satisfies the user's priority for abundant natural light and connects the interior to the mature redwood setting.",
+        "difficulty": "heavy"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Septic system capacity and age should be verified before any interior reconfiguration.",
+      "Mountain properties are subject to strict Wildland-Urban Interface (WUI) codes which may dictate materials for exterior upgrades.",
+      "Complex rooflines in a forest increase the risk of hidden dry rot or pest damage behind existing siding."
+    ],
+    "upside_narrative": "This property is a rare find\u2014a 'Mountain Contemporary' that avoids the typical 'boxy' cabin feel. The heavy lifting (floors, some modern updates, pool maintenance) is done, allowing the $150k budget to be laser-focused on design cohesion. By aligning the kitchen\u2019s aesthetic with the existing high-end wet bar and introducing natural wood ceiling treatments, this home transforms from a 'mismatched flip' into a sophisticated, warmed-up architectural sanctuary that perfectly targets the user's desire for light, wood, and non-cookie-cutter character."
+  },
+  "brief": "# House Brief: 23489 Hutchinson Rd, Los Gatos\n\n### Executive Summary\nThis 2,100 sq. ft. mountain contemporary offers a rare combination of dramatic architectural forms and usable outdoor space in the Los Gatos hills. While it boasts exceptional natural light and high-end flooring, the interior suffers from a \"split personality\" due to inconsistent renovations. It is an ideal candidate for a buyer willing to invest in design cohesion to unlock its significant architectural potential.\n\n### Aesthetic Alignment\nThe property aligns strongly with your preference for **architectural character** and **natural light**. It avoids the \"boxy\" feel of suburban builds, utilizing vaulted ceilings and unique window placements to pull the redwood forest indoors. However, it currently falls short on \"cozy warmth\" due to some cold, mismatched finishes\u2014specifically the transition from an ultra-modern bar area to a dated, \"painted-over\" kitchen.\n\n### Strengths\n*   **Architectural Volume:** The dining and living areas feature dramatic heights and non-standard geometries that create a sense of scale.\n*   **Elite Outdoor Integration:** Unlike many hillside homes, this property features flat, usable yard space and a pool, nestled among mature redwoods.\n*   **Foundational Quality:** High-quality hardwood floors are already installed throughout, providing a solid base for further aesthetic refinement.\n*   **Natural Light:** Large window banks and thoughtful orientation ensure the home feels bright despite the dense forest canopy.\n\n### Weaknesses\n*   **Stylistic Inconsistency:** The home feels like two different houses joined together\u2014one polished and modern, the other a dated traditional style with \"landlord-special\" painted cabinetry.\n*   **Maintenance Debt:** The exterior siding and complex rooflines show signs of neglect; in a forest environment, this increases the risk of dry rot and pest intrusion.\n*   **High Fire Risk:** Located in a Wildland-Urban Interface (WUI) zone, which may lead to higher insurance premiums and strict requirements for exterior material choices.\n\n### Deal-Breakers\n*   **None identified** based on your core principles. However, the high fire risk is a known \"Anti-Principle\" for you that requires a specific comfort level with mountain living.\n\n### Renovation Paths (Estimated $100k\u2013$200k)\nTo bridge the gap between the current state and its 82/100 potential, focus on **Design Cohesion**:\n1.  **The Kitchen:** Replace the dated raised-panel cabinets with flat-front natural wood or high-quality matte cabinetry to match the modern wet bar.\n2.  **Structural Warmth:** Introduce natural wood ceiling treatments (slats or tongue-and-groove) in the vaulted areas to emphasize the \"Mountain Contemporary\" vibe.\n3.  **Exterior Hardening:** Update siding and clear defensible space to mitigate fire risk and address visible exterior wear.\n\n### Who This House Is For\nThis home is for the \"Visionary Mountain Resident.\" You must be someone who values architectural uniqueness over a turnkey experience and is comfortable managing the maintenance requirements of a forest property in exchange for a dramatic, light-filled sanctuary.\n\n### Verdict\n**PURSUE, BUT WITH DISCIPLINE.**\nThe \"bones\" of this house\u2014the light, the yard, and the non-boxy layout\u2014are nearly impossible to find at this price point in Los Gatos. However, you are paying for an unfinished vision. Only move forward if you are prepared to overhaul the kitchen and exterior to create the cohesive, warm architectural home you desire. \n\n**Next Step:** Verify septic capacity and conduct a thorough roof/siding inspection before making an offer.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.026180",
+  "scored_at": "2026-01-09T12:09:20.626607"
+}

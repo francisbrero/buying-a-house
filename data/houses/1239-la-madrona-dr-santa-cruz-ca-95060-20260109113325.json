@@ -1,0 +1,214 @@
+{
+  "id": "1239-la-madrona-dr-santa-cruz-ca-95060-20260109113325",
+  "url": "https://www.zillow.com/homedetails/1239-La-Madrona-Dr-Santa-Cruz-CA-95060/16151276_zpid/",
+  "address": "1239 La Madrona Dr, Santa Cruz, CA 95060",
+  "city": "Santa Cruz",
+  "state": "CA",
+  "zip_code": "95060",
+  "price": 1699000,
+  "description": "Single family residence on 2.53 acres lot.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 4.0,
+    "sqft": 3206,
+    "lot_sqft": 110207,
+    "year_built": 1977,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/24aaaafc342d7eea147001393dc88300-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a9a4522e031c55c5e625bd30b61b31c8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e0d34f7f45b42666688124fb72fe8b85-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9554ce1ee98ea96f993c5532e59ec6b0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ceb4b71c50a43a077d6b387b473c8bb7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/90b634ff59583c7e508be4b3fe57bcde-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1c8a5d4ebf3d6144c638f4ad18b5b397-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7e5b392b6b479cf28ed8274c285f2747-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/050d86932a489caf59d8b5d8a58131ac-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f8a92e3f8501989ce24c6ab841a6d6c8-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room_main",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "exposed wood beams",
+          "tongue and groove ceiling",
+          "wall-to-wall carpeting",
+          "stucco/plaster walls",
+          "live edge wood table"
+        ],
+        "light_quality": "abundant",
+        "condition": "dated but well-maintained",
+        "notes": "Dramatic vaulted ceilings with skylights. The heavy timber and carpet create a dated 80s aesthetic, but the architectural volume is impressive."
+      },
+      {
+        "room_type": "sunroom_bedroom_transition",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "engineered wood flooring",
+          "large scale glass sliding doors",
+          "white paint"
+        ],
+        "light_quality": "excellent",
+        "condition": "modernized",
+        "notes": "Floor-to-ceiling glass and high ceilings provide a great connection to the tree-lined exterior. Significant contrast to the carpeted areas."
+      },
+      {
+        "room_type": "exterior_front_back",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco",
+          "concrete driveway",
+          "composite shingles",
+          "wood decking",
+          "Spanish tile accents"
+        ],
+        "light_quality": "bright natural light",
+        "condition": "mixed",
+        "notes": "Multiple exterior shots show various levels of maintenance. The structure is built into a hillside, creating some awkward under-deck parking areas (carport style)."
+      },
+      {
+        "room_type": "entryway",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "ceramic floor tile",
+          "solid wood front door",
+          "clerestory windows"
+        ],
+        "light_quality": "good",
+        "condition": "original",
+        "notes": "Functional entry with transition from tile to carpet. Interesting architectural ceiling heights."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "California Coastal / 80s Contemporary",
+    "red_flags": [
+      "significant amount of wall-to-wall carpeting in main living areas",
+      "mismatched renovation styles (some rooms modern, others clearly 1980s)",
+      "under-deck parking area looks potentially damp or neglected",
+      "visible stucco staining on some exterior shots"
+    ],
+    "positive_signals": [
+      "stunning vaulted wood ceilings",
+      "multiple skylights providing natural interior light",
+      "large floor-to-ceiling windows and sliders",
+      "integrated into a lush, wooded lot with privacy",
+      "unique architectural character not found in cookie-cutter homes"
+    ],
+    "renovation_state": "partial",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room_main\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"exposed wood beams\", \"tongue and groove ceiling\", \"wall-to-wall carpeting\", \"stucco/plaster walls\", \"live edge wood table\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"dated but well-maintained\",\n      \"notes\": \"Dramatic vaulted ceilings with skylights. The heavy timber and carpet create a dated 80s aesthetic, but the architectural volume is impressive.\"\n    },\n    {\n      \"room_type\": \"sunroom_bedroom_transition\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"engineered wood flooring\", \"large scale glass sliding doors\", \"white paint\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"modernized\",\n      \"notes\": \"Floor-to-ceiling glass and high ceilings provide a great connection to the tree-lined exterior. Significant contrast to the carpeted areas.\"\n    },\n    {\n      \"room_type\": \"exterior_front_back\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"stucco\", \"concrete driveway\", \"composite shingles\", \"wood decking\", \"Spanish tile accents\"],\n      \"light_quality\": \"bright natural light\",\n      \"condition\": \"mixed\",\n      \"notes\": \"Multiple exterior shots show various levels of maintenance. The structure is built into a hillside, creating some awkward under-deck parking areas (carport style).\"\n    },\n    {\n      \"room_type\": \"entryway\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\"ceramic floor tile\", \"solid wood front door\", \"clerestory windows\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"original\",\n      \"notes\": \"Functional entry with transition from tile to carpet. Interesting architectural ceiling heights.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"California Coastal / 80s Contemporary\",\n  \"red_flags\": [\n    \"significant amount of wall-to-wall carpeting in main living areas\",\n    \"mismatched renovation styles (some rooms modern, others clearly 1980s)\",\n    \"under-deck parking area looks potentially damp or neglected\",\n    \"visible stucco staining on some exterior shots\"\n  ],\n  \"positive_signals\": [\n    \"stunning vaulted wood ceilings\",\n    \"multiple skylights providing natural interior light\",\n    \"large floor-to-ceiling windows and sliders\",\n    \"integrated into a lush, wooded lot with privacy\",\n    \"unique architectural character not found in cookie-cutter homes\"\n  ],\n  \"renovation_state\": \"partial\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 64.8,
+    "passed": true,
+    "violations": [
+      "High fire risk zone location (Santa Cruz mountains/wooded lot)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Strongest feature; abundant skylights, clerestory windows, and floor-to-ceiling glass in transitions."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.0,
+        "weight": 0.18,
+        "notes": "Distinct 80s California Contemporary with dramatic vaulted ceilings and unique hillside integration."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Significant penalty for extensive wall-to-wall carpeting and dated 80s stucco/tile; inconsistency between modernized sunroom and original entry."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.0,
+        "weight": 0.12,
+        "notes": "Exposed wood beams and tongue-and-groove ceilings provide warmth, though dampened by '80s office-like carpeting."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Multi-level hillside design is interesting but creates awkward transitions and under-deck utility areas."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.5,
+        "weight": 0.1,
+        "notes": "Significant penalty for high fire risk (wooded lot in Santa Cruz mountains) and visible dampness/stucco staining."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 6.5,
+        "weight": 0.08,
+        "notes": "Large 2.5-acre lot with privacy, though deck maintenance appears mixed and parking is suboptimal."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "Partial renovation creates a jarring 'time-capsule vs. modern' feel; exterior shows signs of neglect/weathering."
+      }
+    ],
+    "justification": "The house scores highly on architectural character and natural light, meeting the primary hard constraint. However, as a 'Present-Fit' evaluation, the score is heavily dragged down by material inconsistencies and maintenance red flags. The extensive wall-to-wall carpeting and dated 1980s finishes in the main living areas conflict with the desired aesthetic. While not a 'gray flip,' the mismatch between the upgraded sunroom and the original, damp-looking exterior areas suggests significant aesthetic and functional work is needed to make it cohesive.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Main Living & Great Room",
+        "current_state": "Dated 80s aesthetic with wall-to-wall carpeting and heavy timber saturation.",
+        "proposed_change": "Replace all carpeting with wide-plank light oak flooring; sand and lighten/clear-coat the ceiling beams; update stucco fireplace face to smooth plaster or stone.",
+        "impact": "Unlocks the 'Treehouse Modern' potential by bridging the gap between the dark rustic ceilings and the natural light from skylights.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Flooring & Material Continuity",
+        "current_state": "Dissonant mix of ceramic tile, engineered wood, and carpet creating a fragmented feel.",
+        "proposed_change": "Unify the entire level with a single flooring material that matches the existing modernized sunroom to create seamless flow.",
+        "impact": "Eliminates the 'choppy' feel of the 3,200 sqft floorplan and highlights the 'quirky character' without the 80s baggage.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Exterior & Carport/Under-deck Area",
+        "current_state": "Stained stucco and neglected under-deck parking areas that feel damp/industrial.",
+        "proposed_change": "Power wash and lime-wash/paint exterior stucco; add cedar slat screening to the carport area; integrate exterior lighting to clear dark corners.",
+        "impact": "Massively improves curb appeal and removes the 'neglected' vibe that currently drags down the property value.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Lighting & Electrical Hardware",
+        "current_state": "Likely original 1970s/80s fixtures and switches.",
+        "proposed_change": "Upgrade all lighting to modern architectural slim-profile LEDs and replace all almond-colored switches with modern matte black or white hardware.",
+        "impact": "High-impact sensory upgrade that makes a 1977 home feel premium and intentional.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Hillside construction may hide drainage or foundation settling issues near the carport.",
+      "Refinishing high vaulted ceilings requires extensive scaffolding, ballooning labor costs.",
+      "Potential for dry rot in older wood decking and exterior trim given the wooded Santa Cruz environment."
+    ],
+    "upside_narrative": "This home is a 'diamond in the rough' that perfectly aligns with the user's taste for non-boxy, architectural character. By stripping away the 80s 'carpet-and-clutter' layer, you reveal a sophisticated California Modern treehouse. The $150k budget is perfectly positioned here: it's not enough for a structural overhaul, but since the 'bones' (vaulted ceilings, skylights, floor-to-ceiling glass) are already present, the budget can be focused entirely on high-end surfaces and flow. This could easily transition from a 'dated cabin' to a 'architectural retreat' that would command a significant premium in the Santa Cruz market."
+  },
+  "brief": "# House Brief: 1239 La Madrona Dr, Santa Cruz\n\n### Executive Summary\nThis 4-bedroom \"California Modern\" treehouse offers exceptional architectural character and a deep connection to its 2.5-acre wooded lot. While its 3,200 sq. ft. frame is structurally impressive and light-filled, the interior is currently a disjointed mix of high-end wood finishes and dated 1980s elements. It is a high-upside project for a buyer willing to manage a cosmetic overhaul to unlock its full \"architectural retreat\" potential.\n\n### Aesthetic Alignment\nThe property aligns strongly with the user\u2019s preference for **non-boxy forms and natural light**. With soaring vaulted wood ceilings, multiple skylights, and floor-to-ceiling windows, the \"bones\" of the home are exactly what the user seeks. However, the current \"Present-Fit\" is marred by 1980s-era wall-to-wall carpeting and some mismatched renovations that clash with a modern, cohesive aesthetic.\n\n### Strengths\n*   **Volumetric Drama:** Vaulted ceilings and interesting geometric angles provide the \"non-boxy\" feel requested.\n*   **Natural Light:** An abundance of skylights and massive sliders ensure the interior remains bright despite the wooded setting.\n*   **Organic Materials:** Beautiful existing wood-plank ceilings and natural brick fireplaces provide the \"cozy warmth\" foundations.\n*   **Privacy:** Set on over 2.5 acres, offering a secluded, sanctuary-like atmosphere.\n\n### Weaknesses\n*   **Material Inconsistency:** The \"Renovation Whiplash\" is real\u2014some areas look modern while others feature aging carpet and dated fixtures.\n*   **Maintenance Red Flags:** Visible stucco staining and a damp-looking under-deck parking area suggest potential drainage or moisture issues common in Santa Cruz mountain properties.\n*   **High Fire Risk:** Located in a heavily wooded zone, which may impact insurance availability and require strict vegetation management.\n\n### Deal-Breakers\n*   **Location Risk:** While not a deal-breaker for the home's structure, the location in a **High Fire Risk Zone** is an anti-principle for the user and must be weighed against the architectural benefits.\n\n### Renovation Paths: The \"Modern Retreat\" ($150k - $200k)\nBecause the structural \"hard parts\" (windows, ceilings, layout) are already high-quality, the budget can be laser-focused on surfaces:\n1.  **Flooring:** Replace all wall-to-wall carpeting with wide-plank hardwood to match the existing wood ceilings. \n2.  **Exterior:** Address stucco staining and refresh the decking to improve curb appeal and prevent rot.\n3.  **Cohesion:** Standardize hardware, lighting, and paint colors to bridge the gap between the 80s elements and the modern sunroom.\n\n### Who This House Is For\nThis home is for the \"Visionary Buyer\" who prioritizes architectural soul over a move-in-ready finish. You must be comfortable managing a significant cosmetic renovation and have the appetite for the maintenance requirements of a hillside, wooded property.\n\n### Verdict\n**PROCEED WITH CAUTION.** \nThis is not a \"low-effort\" home, but it is a \"high-reward\" one. It avoids the \"cheap flip\" aesthetic the user hates and offers the \"architectural character\" they love. If a specialized inspection (drainage, foundation, and fire defensibility) comes back clean, this property represents the best path to owning a unique architectural masterpiece in Santa Cruz.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:25.986101",
+  "scored_at": "2026-01-09T12:17:37.589993"
+}

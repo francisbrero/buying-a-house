@@ -1,0 +1,218 @@
+{
+  "id": "4760-soquel-creek-rd-soquel-ca-95073-20260109113326",
+  "url": "https://www.zillow.com/homedetails/4760-Soquel-Creek-Rd-Soquel-CA-95073/16164050_zpid/",
+  "address": "4760 Soquel Creek Rd, Soquel, CA 95073",
+  "city": "Soquel",
+  "state": "CA",
+  "zip_code": "95073",
+  "price": 1495000,
+  "description": "Single family residence in Soquel.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 2432,
+    "lot_sqft": 21780,
+    "year_built": 1989,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/0710ded7786cdf48ef719f0c0de27534-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f60c8356a48906b1f1ea393fd95a2b97-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b4cdd690eb42186166a905498a3edb2f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e6dfa8e0adc99c545340db193d24d36f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d5762ba0ff77ea406ae739f7201f337b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30bae77662c4b57a31f1b89b0104c4f3-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior / site",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "wooded hillside",
+          "paved driveway",
+          "natural landscape"
+        ],
+        "light_quality": "excellent",
+        "condition": "well-maintained land",
+        "notes": "Privacy and seclusion are high; the property is surrounded by dense forest. Large asphalt driveway area with a basketball hoop."
+      },
+      {
+        "room_type": "living / dining area",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "engineered light wood flooring",
+          "wood sliding doors",
+          "plaster walls"
+        ],
+        "light_quality": "abundant",
+        "condition": "mid-range aged",
+        "notes": "Large open-plan layout. French/sliding doors provide great indoor-outdoor flow to a deck, but the interior finishes feel dated (90s era)."
+      },
+      {
+        "room_type": "kitchen",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "oak cabinetry",
+          "tile or granite-look laminate counters",
+          "stainless steel appliances",
+          "gas range"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "The kitchen island features an integrated range. Cabinetry is builder-grade honey oak from several decades ago. Functional but lacks modern aesthetic appeal."
+      },
+      {
+        "room_type": "staircase / hallway",
+        "aesthetic_quality": 3.0,
+        "materials": [
+          "wall-to-wall carpet",
+          "painted drywall"
+        ],
+        "light_quality": "dim",
+        "condition": "worn",
+        "notes": "The carpet on the stairs appears aged and standard grade. The staircase is enclosed and narrow, detracting from the open feel of the main floor."
+      },
+      {
+        "room_type": "garage / exterior facade",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "stucco",
+          "T1-11 siding",
+          "asphalt driveway"
+        ],
+        "light_quality": "flat",
+        "condition": "fair",
+        "notes": "The exterior has a utilitarian, slightly dated look with mixed siding types. Cracking is visible in the large asphalt apron."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "contemporary suburban ranch",
+    "red_flags": [
+      "cracked asphalt on the driveway",
+      "mismatched siding materials on exterior",
+      "dated honey oak cabinetry and builder-grade carpet",
+      "low-ceiling heights in some transition areas"
+    ],
+    "positive_signals": [
+      "vast private wooded lot",
+      "open floor plan with good natural light",
+      "wood-framed sliding doors provide character",
+      "large driveway and garage capacity"
+    ],
+    "renovation_state": "largely original / dated",
+    "raw_description": "```json\n{\n    \"rooms\": [\n        {\n            \"room_type\": \"exterior / site\",\n            \"aesthetic_quality\": 8,\n            \"materials\": [\"wooded hillside\", \"paved driveway\", \"natural landscape\"],\n            \"light_quality\": \"excellent\",\n            \"condition\": \"well-maintained land\",\n            \"notes\": \"Privacy and seclusion are high; the property is surrounded by dense forest. Large asphalt driveway area with a basketball hoop.\"\n        },\n        {\n            \"room_type\": \"living / dining area\",\n            \"aesthetic_quality\": 5,\n            \"materials\": [\"engineered light wood flooring\", \"wood sliding doors\", \"plaster walls\"],\n            \"light_quality\": \"abundant\",\n            \"condition\": \"mid-range aged\",\n            \"notes\": \"Large open-plan layout. French/sliding doors provide great indoor-outdoor flow to a deck, but the interior finishes feel dated (90s era).\"\n        },\n        {\n            \"room_type\": \"kitchen\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\"oak cabinetry\", \"tile or granite-look laminate counters\", \"stainless steel appliances\", \"gas range\"],\n            \"light_quality\": \"moderate\",\n            \"condition\": \"dated\",\n            \"notes\": \"The kitchen island features an integrated range. Cabinetry is builder-grade honey oak from several decades ago. Functional but lacks modern aesthetic appeal.\"\n        },\n        {\n            \"room_type\": \"staircase / hallway\",\n            \"aesthetic_quality\": 3,\n            \"materials\": [\"wall-to-wall carpet\", \"painted drywall\"],\n            \"light_quality\": \"dim\",\n            \"condition\": \"worn\",\n            \"notes\": \"The carpet on the stairs appears aged and standard grade. The staircase is enclosed and narrow, detracting from the open feel of the main floor.\"\n        },\n        {\n            \"room_type\": \"garage / exterior facade\",\n            \"aesthetic_quality\": 4,\n            \"materials\": [\"stucco\", \"T1-11 siding\", \"asphalt driveway\"],\n            \"light_quality\": \"flat\",\n            \"condition\": \"fair\",\n            \"notes\": \"The exterior has a utilitarian, slightly dated look with mixed siding types. Cracking is visible in the large asphalt apron.\"\n        }\n    ],\n    \"overall_aesthetic\": 5,\n    \"architectural_style\": \"contemporary suburban ranch\",\n    \"red_flags\": [\n        \"cracked asphalt on the driveway\",\n        \"mismatched siding materials on exterior\",\n        \"dated honey oak cabinetry and builder-grade carpet\",\n        \"low-ceiling heights in some transition areas\"\n    ],\n    \"positive_signals\": [\n        \"vast private wooded lot\",\n        \"open floor plan with good natural light\",\n        \"wood-framed sliding doors provide character\",\n        \"large driveway and garage capacity\"\n    ],\n    \"renovation_state\": \"largely original / dated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.2,
+    "passed": true,
+    "violations": [
+      "High fire risk zone location (Soquel hills/dense forest)",
+      "Dated builder-grade materials (honey oak, worn wall-to-wall carpet)"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.0,
+        "weight": 0.2,
+        "notes": "Abundant light throughout with many wood-framed sliding doors and large windows; meets the primary hard constraint."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.5,
+        "weight": 0.18,
+        "notes": "Contemporary ranch style avoids the 'boxy' trap, but the exterior facade is utilitarian with mismatched siding."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.0,
+        "weight": 0.15,
+        "notes": "Significant presence of honey oak cabinetry, laminate counters, and aged carpet detracts from the feel of quality."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "Wooded setting and wood-framed doors provide warmth, though dated interiors feel somewhat sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Good open-plan living area, but narrow, dark staircases and low-ceiling transition areas create friction."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.0,
+        "weight": 0.1,
+        "notes": "While secluded, the dense forest location represents a high fire risk, which is a specific anti-principle."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.5,
+        "weight": 0.08,
+        "notes": "Exceptional privacy and wooded lot; high-quality natural landscape and large deck area."
+      },
+      {
+        "dimension": "condition",
+        "score": 4.5,
+        "weight": 0.07,
+        "notes": "The house is functional but shows its age; cracked asphalt and worn interior finishes indicate deferred cosmetic maintenance."
+      }
+    ],
+    "justification": "While the house meets the hard constraint for natural light and offers a non-generic architectural form, it fails to achieve a 'good' score due to the heavy presence of dated, builder-grade materials and its location in a high fire risk wooded area. The present-fit is marginal because the aesthetic identity is stuck in a low-quality 90s era, requiring a near-total interior overhaul to match the user's preference for quality wood elements and cozy character.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Kitchen & Main Living Flow",
+        "current_state": "Dated honey oak cabinetry and a bulky island with a gas range in a large open space.",
+        "proposed_change": "Reface or replace cabinetry with natural wood (walnut or white oak) to match user taste. Replace laminate with soapstone or dark quartz. Relocate the range from the island to a perimeter wall if possible to create a clean 'social island' with seating.",
+        "impact": "High. It anchors the open floor plan and connects the 'wooded' exterior to the interior soul of the house.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Staircase & Vertical Circulation",
+        "current_state": "Narrow, enclosed, and covered in worn carpet.",
+        "proposed_change": "Remove carpet and install hardwood treads. If structurally feasible, open the side wall with a cable-rail or custom wood slat system to improve light penetration and architectural interest.",
+        "impact": "Significant. This removes the 'suburban builder' feel and introduces the 'quirky/architectural character' the user desires.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Facade & Arrival",
+        "current_state": "Mismatched T1-11 siding and stucco with a cracked asphalt apron.",
+        "proposed_change": "Apply a unified dark stain or paint to the siding to blend into the trees (Modern Forest HUD). Patch and seal the driveway. Add a substantial natural wood front door and oversized hardware.",
+        "impact": "High. Improves curb appeal and validates the $1.5M price point by removing the 'utilitarian' look.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Flooring & Architectural Details",
+        "current_state": "Mix of engineered wood and dated carpet.",
+        "proposed_change": "Run consistent wide-plank hardwood throughout. Add reclaimed wood beams to the vaulted ceilings in the living area to satisfy the 'exposed beams' aesthetic principle.",
+        "impact": "Medium-High. Creates the 'cozy warmth' and 'natural materials' feel sought by the user.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "1989 construction is generally solid, but 'contemporary suburban' flat roofs or complex junctions can have hidden water intrusion issues in wooded areas.",
+      "The $150k budget is tight for a 2,400 sqft home\u2014prioritizing the kitchen and stairs over a full exterior reside will be necessary.",
+      "Potential for dated plumbing/electrical behind the 90s oak cabinetry."
+    ],
+    "upside_narrative": "This property is a 'diamond in the rough' for someone who values privacy and architectural quirk but hates the 'builder-beige' 90s look. Because it already has the square footage, vaulted ceilings, and large windows, the expensive structural work is mostly done. With a $150k targeted investment in wood elements, high-end kitchen finishes, and an opened-up staircase, this transforms from a dated Soquel suburban house into a sophisticated, moody 'Forest Modern' retreat that perfectly aligns with the user's desire for warmth and natural light."
+  },
+  "brief": "# House Brief: 4760 Soquel Creek Rd, Soquel\n\n## Executive Summary\nThis 4-bedroom contemporary ranch offers a \"Forest Modern\" skeleton trapped in a dated, 1990s \"builder-grade\" skin. Located on a private, wooded lot in the Soquel hills, it boasts the vaulted ceilings and natural light you crave, but requires a significant interior overhaul to shed its honey-oak and carpeted past.\n\n## Aesthetic Alignment\nCurrently, the house is a **5.0/10** match for your taste. While it avoids being a \"boxy\" generic flip, it is saturated with \"anti-principles\" like wall-to-wall beige carpeting and basic oak cabinetry. However, its structural DNA\u2014large wood-framed sliding doors, vaulted ceilings, and interesting transitional spaces\u2014aligns perfectly with your desire for architectural character and warmth.\n\n## Strengths\n*   **Volumetric Interest:** The home features non-generic shapes, multi-story flow, and high ceilings that create a sense of scale.\n*   **Natural Light:** Excellent window placement and orientation ensure the interior feels bright despite the dense forest surroundings.\n*   **Privacy & Setting:** The vast, wooded lot provides a secluded retreat feel that modern subdivisions cannot replicate.\n*   **Functional Footprint:** With over 2,400 sqft and a large garage, the \"bones\" are substantial enough to justify a high-end renovation.\n\n## Weaknesses\n*   **Dated Finishes:** The home is a time capsule of 1989 builder choices\u2014honey oak, mismatched siding, and cracked asphalt.\n*   **Material Quality:** The current state lacks the \"cozy warmth\" of natural materials, relying instead on cheap 90s synthetics and thin wood veneers.\n*   **Exterior Maintenance:** Mismatched siding and driveway cracks suggest a need for immediate \"envelope\" attention to prevent water intrusion.\n\n## Deal-Breakers\n*   **Fire Risk:** The property is located in a high fire risk zone (dense forest). This is an \"Anti-Principle\" for you and will result in significantly higher insurance premiums and ongoing vegetation management requirements.\n\n## Renovation Paths: The \"Forest Modern\" Pivot\nTo reach its **78/100 potential**, a $150k\u2013$200k investment is required:\n1.  **The Great De-Oaking:** Replace all honey oak trim and builder-grade carpet with wide-plank hardwood to ground the space in natural materials.\n2.  **Kitchen & Stairs:** Open up the staircase to improve flow and gut the kitchen in favor of moody, high-end wood cabinetry and stone.\n3.  **The \"Lodge\" Feel:** Lean into the forest setting by staining the exterior a dark cedar or charcoal to hide the mismatched siding and make the architectural forms pop against the green backdrop.\n\n## Who This House Is For\nThis property is for a buyer who prioritizes **privacy and architectural soul** over a move-in-ready experience. You must be willing to manage a large-scale cosmetic renovation and comfortable with the inherent risks (and costs) of living in a high-fire-intensity forest zone.\n\n## Verdict\n**Proceed with Caution.** The house is architecturally \"correct\" for your taste but materially \"wrong.\" If you are prepared to spend $150k+ to strip away the 90s suburban aesthetic, you will own a stunning, light-filled forest retreat. If the fire risk or the prospect of a total interior gut-job feels daunting, keep looking.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.022648",
+  "scored_at": "2026-01-09T12:09:51.078010"
+}

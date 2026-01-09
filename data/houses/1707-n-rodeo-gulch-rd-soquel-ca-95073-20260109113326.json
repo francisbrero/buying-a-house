@@ -1,0 +1,228 @@
+{
+  "id": "1707-n-rodeo-gulch-rd-soquel-ca-95073-20260109113326",
+  "url": "https://www.zillow.com/homedetails/1707-N-Rodeo-Gulch-Rd-Soquel-CA-95073/16163931_zpid/",
+  "address": "1707 N Rodeo Gulch Rd, Soquel, CA 95073",
+  "city": "Soquel",
+  "state": "CA",
+  "zip_code": "95073",
+  "price": 1695000,
+  "description": "Single family residence in Soquel.",
+  "features": {
+    "bedrooms": 4,
+    "bathrooms": 3.0,
+    "sqft": 2800,
+    "lot_sqft": 43560,
+    "year_built": 1985,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/7a96b0ae24f2cbbf5a37abc31d321d4d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7077a6d8ec50a141a4a6ccfe1f2317d1-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/65d9f34e6ba3591fb9e7ab0fd03bf3c8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ea8df13f6c35f48379330df3dc343a3f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e6f71506b12c4c4a84e06c166adacfe7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/957c83539e520e5e26e97fb04df6576d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30bae77662c4b57a31f1b89b0104c4f3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0710ded7786cdf48ef719f0c0de27534-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/904a986ca73ca1461dc1bf7ed83093a5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d76c84dcb40c348916a566af8c764caf-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior - front facade (modern ranch)",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "painted horizontal siding",
+          "frosted glass garage door",
+          "gravel landscaping",
+          "concrete walkway"
+        ],
+        "light_quality": "excellent",
+        "condition": "fully renovated",
+        "notes": "Contemporary white and black color palette with modern lighting fixtures; high curb appeal."
+      },
+      {
+        "room_type": "exterior - front facade (stucco/mediterranean style)",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "concrete driveway",
+          "metal fencing"
+        ],
+        "light_quality": "bright",
+        "condition": "well-maintained",
+        "notes": "Unique archway features and round hedges; style is a bit dated compared to the modern-ranch photo."
+      },
+      {
+        "room_type": "exterior - backyard/patio",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "composite/wood decking",
+          "stone tile inlay",
+          "outdoor furniture"
+        ],
+        "light_quality": "bright",
+        "condition": "good",
+        "notes": "Spacious deck area with scenic wooded views; integrated umbrella and dining set."
+      },
+      {
+        "room_type": "exterior - aerial view of patio",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "large format concrete pavers",
+          "wood fencing",
+          "river rock"
+        ],
+        "light_quality": "direct sunlight",
+        "condition": "new",
+        "notes": "Professional landscape design with clean lines and distinct zones for lounging."
+      },
+      {
+        "room_type": "exterior - rural parcel/lot",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "grass",
+          "dirt trail",
+          "propane tank"
+        ],
+        "light_quality": "natural",
+        "condition": "unimproved",
+        "notes": "Rougher part of the property; shows a slope and some utility storage."
+      },
+      {
+        "room_type": "exterior - front facade (traditional ranch)",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "vinyl or fiber cement siding",
+          "paver walkway",
+          "manicured lawn"
+        ],
+        "light_quality": "clear daylight",
+        "condition": "updated",
+        "notes": "Clean, traditional suburban look with professional softscaping."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "various ranch/mid-century",
+    "red_flags": [
+      "Inconsistent styles across images suggest a multi-unit property or a compilation of different listings/projects",
+      "One image is a close-up portrait of a person (likely agent), which is a non-architectural distraction",
+      "Potential for mismatched renovation quality between the high-end modern exterior and the more basic rural plots"
+    ],
+    "positive_signals": [
+      "High-quality professional landscaping on multiple structures",
+      "Modernized facades with updated windows and garage doors",
+      "Scenic wooded surroundings and private lots",
+      "Newer roofing visible on several structures"
+    ],
+    "renovation_state": "extensive",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior - front facade (modern ranch)\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"painted horizontal siding\", \"frosted glass garage door\", \"gravel landscaping\", \"concrete walkway\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"fully renovated\",\n      \"notes\": \"Contemporary white and black color palette with modern lighting fixtures; high curb appeal.\"\n    },\n    {\n      \"room_type\": \"exterior - front facade (stucco/mediterranean style)\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"stucco\", \"concrete driveway\", \"metal fencing\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Unique archway features and round hedges; style is a bit dated compared to the modern-ranch photo.\"\n    },\n    {\n      \"room_type\": \"exterior - backyard/patio\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"composite/wood decking\", \"stone tile inlay\", \"outdoor furniture\"],\n      \"light_quality\": \"bright\",\n      \"condition\": \"good\",\n      \"notes\": \"Spacious deck area with scenic wooded views; integrated umbrella and dining set.\"\n    },\n    {\n      \"room_type\": \"exterior - aerial view of patio\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"large format concrete pavers\", \"wood fencing\", \"river rock\"],\n      \"light_quality\": \"direct sunlight\",\n      \"condition\": \"new\",\n      \"notes\": \"Professional landscape design with clean lines and distinct zones for lounging.\"\n    },\n    {\n      \"room_type\": \"exterior - rural parcel/lot\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\"grass\", \"dirt trail\", \"propane tank\"],\n      \"light_quality\": \"natural\",\n      \"condition\": \"unimproved\",\n      \"notes\": \"Rougher part of the property; shows a slope and some utility storage.\"\n    },\n    {\n      \"room_type\": \"exterior - front facade (traditional ranch)\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"vinyl or fiber cement siding\", \"paver walkway\", \"manicured lawn\"],\n      \"light_quality\": \"clear daylight\",\n      \"condition\": \"updated\",\n      \"notes\": \"Clean, traditional suburban look with professional softscaping.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"various ranch/mid-century\",\n  \"red_flags\": [\n    \"Inconsistent styles across images suggest a multi-unit property or a compilation of different listings/projects\",\n    \"One image is a close-up portrait of a person (likely agent), which is a non-architectural distraction\",\n    \"Potential for mismatched renovation quality between the high-end modern exterior and the more basic rural plots\"\n  ],\n  \"positive_signals\": [\n    \"High-quality professional landscaping on multiple structures\",\n    \"Modernized facades with updated windows and garage doors\",\n    \"Scenic wooded surroundings and private lots\",\n    \"Newer roofing visible on several structures\"\n  ],\n  \"renovation_state\": \"extensive\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Inconsistent architectural styles suggest a disjointed or fragmented property feel",
+      "High fire risk zone (wooded Soquel hills location)",
+      "Potential for disparate renovation quality across different structures"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Excellent exterior lighting and large windows on the modern-ranch facade, though heavily wooded surroundings may cast shadows."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 6.0,
+        "weight": 0.18,
+        "notes": "A confusing mix of styles (modern ranch, Mediterranean stucco, traditional ranch) creates a lack of cohesive architectural identity."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.5,
+        "weight": 0.15,
+        "notes": "Good use of horizontal siding and frosted glass, but the presence of stucco and generic vinyl siding on other parts devalues the overall feel."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "Modern exterior is sharp but borders on sterile; rural parcel looks uninviting."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 5.0,
+        "weight": 0.1,
+        "notes": "Aerial views and multiple facade types suggest a potentially disjointed layout or multiple detached structures rather than a flowing single-family home."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.0,
+        "weight": 0.1,
+        "notes": "Soquel hills are a high fire risk zone; rural sloped lot with propane storage adds safety concerns."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "High-quality hardscaping and deck areas with scenic wooded views are a strong positive."
+      },
+      {
+        "dimension": "condition",
+        "score": 7.0,
+        "weight": 0.07,
+        "notes": "Front facades appear newly renovated, though the 'rural' parts of the lot are unimproved."
+      }
+    ],
+    "justification": "The property presents as a 'Present-Fit' compromise. While the modern ranch renovation is visually appealing and features the preferred materials (wood-look siding, clean lines), the extreme inconsistency between the different building sections is a major red flag for a cohesive aesthetic. The location is highly scenic but triggers an anti-principle due to fire risk. It passes the natural light hard constraint, but the 'Identity Crisis' of the architecture keeps the score in the low 60s.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Interior Connectivity and Flow",
+        "current_state": "The listing shows inconsistent architectural styles across structures, suggesting a fragmented interior layout and potential 'identity crisis' between modern ranch and traditional elements.",
+        "proposed_change": "Harmonize the interior by installing consistent wide-plank oak flooring and adding architectural wood elements (exposed beams or wood-clad ceilings) across all living zones to bridge the different styles.",
+        "impact": "Creates the 'cozy warmth' and 'architectural character' the user seeks while masking the disparate styles of the outbuildings.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Fenestration and Light",
+        "current_state": "While some exteriors are updated, the rural/secondary structures appear to have standard, small-scale window openings.",
+        "proposed_change": "Enlarge window openings on the rear-facing walls to include black-framed steel or aluminum oversized windows that frame the wooded views.",
+        "impact": "Directly addresses the user's priority for abundant natural light and connects the interior to the high-quality 8.0/10 outdoor spaces.",
+        "difficulty": "heavy"
+      },
+      {
+        "area": "Rural Plot Integration",
+        "current_state": "Unimproved sloping land with visible propane tanks and dirt trails (rated 4/10).",
+        "proposed_change": "Screen utilities with natural cedar fencing and convert the dirt trails into tiered wood-and-stone pathways that lead to a 'quirky' destination like a wood-burning hot tub or a glass-walled studio.",
+        "impact": "Unlocks the 'quirky character' potential and ensures the 2,800sqft home feels like a cohesive estate rather than a house next to a lot.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "The presence of multiple structures with different styles suggests potential unpermitted additions or 'Frankenstein' utility connections.",
+      "Sloping lot may require expensive drainage or retaining work if expanding footprints.",
+      "A $150k budget is tight for 2,800sqft; focus must be on high-impact areas rather than a full gut of all structures."
+    ],
+    "upside_narrative": "This property offers a rare 'Compound Potential.' The heavy lifting of curb appeal and major landscaping is already done. By spending the $150k budget strategically on interior materiality (wood, glass, and stone) and unifying the scattered architectural identities, this could transform from a collection of buildings into a sophisticated, multi-generational rural retreat that perfectly matches the user's desire for warmth and character."
+  },
+  "brief": "# House Brief: 1707 N Rodeo Gulch Rd, Soquel\n\n## Executive Summary\nThis property is a fragmented rural compound that offers a high-end modern ranch exterior paired with a disjointed interior identity. While it provides the \"compound potential\" and natural beauty many seek in the Soquel hills, it suffers from an architectural identity crisis and significant environmental risk.\n\n## Aesthetic Alignment\nThe property is a bittersweet match for your tastes. It hits the **\"Architectural Character\"** requirement with interesting forms and updated wood-look siding, moving away from \"boxy\" constraints. However, the interior fails to fully deliver on the **\"Cozy warmth\"** and **\"Wood elements\"** you prioritize. You will find professional landscaping and modern windows, but the internal flow feels more like a collection of separate projects than a cohesive home.\n\n## Strengths\n*   **Curb Appeal:** Extensive exterior renovations have already been completed, featuring modern windows, updated garage doors, and high-quality landscaping.\n*   **Natural Setting:** Located on a scenic, wooded lot that provides the \"rural retreat\" atmosphere and abundant natural light through large glass apertures.\n*   **Multi-Structure Versatility:** With 2,800 sqft spread across what appears to be multiple units/structures, this is ideal for a home office, guest house, or multi-generational living.\n*   **Turnkey Exterior:** The heavy lifting regarding roofing and facade work is done, allowing you to focus your budget on the interior.\n\n## Weaknesses\n*   **Identity Crisis:** The architectural styles are inconsistent across the structures, leading to a \"Frankenstein\" feel that lacks a unified design language.\n*   **Interior/Exterior Mismatch:** The high-end modern exterior sets a promise that the more basic, \"rural-spec\" interior finishes fail to keep.\n*   **Fire Risk:** Situated in a heavily wooded Soquel canyon, this property triggers a major anti-principle regarding high fire-hazard zones.\n*   **Disorganized Presentation:** Misleading listing photos\u2014including a random portrait of the agent and inconsistent styling\u2014suggest potential issues with unpermitted work or haphazard utility connections.\n\n## Deal-Breakers\n*   **High Fire Risk:** This is a direct violation of your anti-principles. Insurance costs will be high, and the psychological burden of forest fire risk is permanent.\n\n## Renovation Paths\nTo achieve your $78.0/100$ potential score, a strategic **$150k investment** is required:\n1.  **Material Unification:** Use the budget to replace \"cheap flip\" elements with your preferred wood, glass, and stone materiality.\n2.  **The \"Golden Thread\":** Apply a consistent flooring and trim package across all structures to bridge the gap between the buildings.\n3.  **Focus on \"Warmth\":** Prioritize a stone or brick hearth and exposed beams in the primary living area to fix the current lack of \"cozy\" character.\n\n## Who This House Is For\nThis property is for a buyer who wants a \"compound\" lifestyle and is willing to overlook a high-risk location in exchange for a head-start on exterior renovations. It suits someone who enjoys a project of \"knitting\" different spaces together through interior design.\n\n## Verdict\n**Proceed with Caution.** While the house is \"Present-Fit\" (62.4), the inconsistency of the structures and the high fire risk make this a compromise. If you can stomach the insurance premiums and the work required to unify the interior, the \"Compound Potential\" is high. If you want a cohesive, low-risk home, **keep looking.**",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:26.004289",
+  "scored_at": "2026-01-09T12:13:52.389598"
+}

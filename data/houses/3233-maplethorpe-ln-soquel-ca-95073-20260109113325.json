@@ -1,0 +1,221 @@
+{
+  "id": "3233-maplethorpe-ln-soquel-ca-95073-20260109113325",
+  "url": "https://www.zillow.com/homedetails/3233-Maplethorpe-Ln-Soquel-CA-95073/16133969_zpid/",
+  "address": "3233 Maplethorpe Ln, Soquel, CA 95073",
+  "city": "Soquel",
+  "state": "CA",
+  "zip_code": "95073",
+  "price": 1559000,
+  "description": "Single family residence in Soquel.",
+  "features": {
+    "bedrooms": 5,
+    "bathrooms": 3.0,
+    "sqft": 2539,
+    "lot_sqft": 17424,
+    "year_built": 1977,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/9f6e68842feeb7e288233435fd677e4d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/df96809fea20605a6e72dad2bbfa868e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b416e6b89945d321b8717a67aba836b0-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e4326bab1b3623e0af7f74bbc822910e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fc95b7b6b09e3246cb3df416ff0aefd9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ac68a452cbe373c32351cd470a11a1bb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a770f62650c864f956891a275a214745-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/791eea75db47a2d87e84c09c729f9446-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/30bae77662c4b57a31f1b89b0104c4f3-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a902559bd507f5e74f3f2ce8b9f43d8f-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "natural oak hardwood floors",
+          "exposed beam ceilings",
+          "plaster walls",
+          "black metal lighting fixtures"
+        ],
+        "light_quality": "excellent",
+        "condition": "fully renovated",
+        "notes": "Beautiful mid-century modern aesthetic with high vaulted ceilings and clerestory windows. The integration of white beams and light oak creates an airy, voluminous feel."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "hardwood floors",
+          "modern pendant lighting"
+        ],
+        "light_quality": "abundant",
+        "condition": "updated",
+        "notes": "Open concept layout adjacent to the living area. Minimalist styling with clean sightlines throughout the main floor."
+      },
+      {
+        "room_type": "exterior_front_primary",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "horizontal wood siding",
+          "natural wood posts",
+          "black gravel landscaping",
+          "concrete pavers"
+        ],
+        "light_quality": "bright natural light",
+        "condition": "recently updated",
+        "notes": "Contemporary 'modern ranch' update with a charcoal gray and natural wood palette. The xeriscaping suggests a low-maintenance approach."
+      },
+      {
+        "room_type": "entryway",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "painted wood door with glass insert",
+          "horizontal siding",
+          "modern brass sconce"
+        ],
+        "light_quality": "shaded",
+        "condition": "excellent",
+        "notes": "Teal accent door provides a pop of color against the dark gray siding. Modern house numbers add a professional finish."
+      },
+      {
+        "room_type": "exterior_back_deck",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "wood decking",
+          "white vinyl fencing",
+          "composition shingle roof"
+        ],
+        "light_quality": "direct sunlight",
+        "condition": "well-maintained",
+        "notes": "Split-level style home with a large wrap-around deck. The design is more traditional/utilitarian compared to the stylized front."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "mid-century modern ranch",
+    "red_flags": [
+      "Discrepancy between high-end interior staging and more standard exterior finishes on some structures",
+      "Composite image includes multiple different houses, suggesting this might be a portfolio or community overview rather than a single listing"
+    ],
+    "positive_signals": [
+      "Vaulted ceilings with architectural beams",
+      "High-quality wide-plank oak flooring",
+      "Consistent modern lighting package",
+      "Good use of clerestory windows for privacy and light"
+    ],
+    "renovation_state": "fully_renovated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"natural oak hardwood floors\",\n        \"exposed beam ceilings\",\n        \"plaster walls\",\n        \"black metal lighting fixtures\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"fully renovated\",\n      \"notes\": \"Beautiful mid-century modern aesthetic with high vaulted ceilings and clerestory windows. The integration of white beams and light oak creates an airy, voluminous feel.\"\n    },\n    {\n      \"room_type\": \"dining_area\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"hardwood floors\",\n        \"modern pendant lighting\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"updated\",\n      \"notes\": \"Open concept layout adjacent to the living area. Minimalist styling with clean sightlines throughout the main floor.\"\n    },\n    {\n      \"room_type\": \"exterior_front_primary\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"horizontal wood siding\",\n        \"natural wood posts\",\n        \"black gravel landscaping\",\n        \"concrete pavers\"\n      ],\n      \"light_quality\": \"bright natural light\",\n      \"condition\": \"recently updated\",\n      \"notes\": \"Contemporary 'modern ranch' update with a charcoal gray and natural wood palette. The xeriscaping suggests a low-maintenance approach.\"\n    },\n    {\n      \"room_type\": \"entryway\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"painted wood door with glass insert\",\n        \"horizontal siding\",\n        \"modern brass sconce\"\n      ],\n      \"light_quality\": \"shaded\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Teal accent door provides a pop of color against the dark gray siding. Modern house numbers add a professional finish.\"\n    },\n    {\n      \"room_type\": \"exterior_back_deck\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"wood decking\",\n        \"white vinyl fencing\",\n        \"composition shingle roof\"\n      ],\n      \"light_quality\": \"direct sunlight\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Split-level style home with a large wrap-around deck. The design is more traditional/utilitarian compared to the stylized front.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"mid-century modern ranch\",\n  \"red_flags\": [\n    \"Discrepancy between high-end interior staging and more standard exterior finishes on some structures\",\n    \"Composite image includes multiple different houses, suggesting this might be a portfolio or community overview rather than a single listing\"\n  ],\n  \"positive_signals\": [\n    \"Vaulted ceilings with architectural beams\",\n    \"High-quality wide-plank oak flooring\",\n    \"Consistent modern lighting package\",\n    \"Good use of clerestory windows for privacy and light\"\n  ],\n  \"renovation_state\": \"fully_renovated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.2,
+    "passed": true,
+    "violations": [
+      "potential listing discrepancy - composite images suggest non-unique or portfolio representation",
+      "aesthetic mismatch between high-end interior and utilitarian exterior deck/fencing"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent use of clerestory windows and vaulted ceilings; maintains light without sacrificing privacy."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.5,
+        "weight": 0.18,
+        "notes": "Strong MCM ranch bones with exposed beams and interesting rooflines, though somewhat standard split-level massing."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 7.0,
+        "weight": 0.15,
+        "notes": "Natural oak floors and plaster are high points; white vinyl fencing and basic shingle roof on the rear are low points."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "The high contrast black/white/oak palette is clean but leans slightly clinical/gallery-like rather than inherently 'cozy'."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Open concept main floor with good sightlines; split-level design meets the multi-story preference."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.5,
+        "weight": 0.1,
+        "notes": "Soquel forest/canyon location poses significant fire risk, an explicit anti-principle in the taste model."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 5.5,
+        "weight": 0.08,
+        "notes": "Front xeriscaping is stylish; back deck is large but functional/dated compared to the interior."
+      },
+      {
+        "dimension": "condition",
+        "score": 8.0,
+        "weight": 0.07,
+        "notes": "Fully renovated state with consistent modern fixtures and high-end staging."
+      }
+    ],
+    "justification": "The home scores well on light and architectural character due to its vaulted MCM design. However, it is dragged down by two critical factors: the high fire risk typical of the Soquel hills (an anti-principle) and a notable quality drop-off between the 'designed' interior and the 'builder-grade' exterior rear finishes. The 'Vision Analysis' warning about composite images also suggests a risk that the photography may not represent the specific unit or current state accurately, necessitating a conservative score.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Rear & Decking",
+        "current_state": "Traditional white vinyl fencing and utilitarian wood decking that feels disconnected from the high-end MCM interior.",
+        "proposed_change": "Replace vinyl fencing with black cable railings or horizontal cedar slats. Resurface or stain decking to match the interior oak tones, creating a seamless indoor-outdoor flow.",
+        "impact": "High. This bridges the gap between the stylized interior and the exterior, fulfilling the 'architectural character' principle.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Clerestory & Window Expansion",
+        "current_state": "Existing clerestory windows provide good light, but lower wall sections remain closed off in secondary rooms.",
+        "proposed_change": "Incorporate larger floor-to-ceiling glass panels or bi-fold doors in the dining/living transition to the deck.",
+        "impact": "High. Maximizes 'abundant natural light' and capitalizes on the interesting rooflines of the 1977 build.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Fireplace & Texture Integration",
+        "current_state": "The interior is clean (plaster/oak) but lacks the 'cozy warmth' and 'earthy materials' the user desires.",
+        "proposed_change": "Clad the primary fireplace in vertical slim-brick or textured stone and integrate a built-in wood-storage nook.",
+        "impact": "Medium. Adds the 'quirky character' and 'natural materials' necessary to move away from a 'cookie-cutter' renovated look.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Secondary Structure / Studio",
+        "current_state": "Discrepancy in finishes between main house and secondary structures/garage.",
+        "proposed_change": "Upgrade secondary structure siding and lighting to match the 'modern ranch' charcoal and wood aesthetic of the primary entry.",
+        "impact": "Medium. Creates a cohesive estate feel rather than a single renovated house among older outbuildings.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "light",
+    "cost_class": "$50-100k",
+    "risk_notes": [
+      "The 'fully renovated' status may mean paying a premium for work you might want to alter (e.g., undoing basic 'flip' finishes to add character).",
+      "Property discrepancies in images suggest potential shared-lot or parcel complexities that need verification.",
+      "Soquel topography often carries drainage and slope stability risks for deck structural work."
+    ],
+    "upside_narrative": "This home is a 'stylized shell' that is 90% of the way there. Because the heavy lifting (floors, vaulted ceilings, beams) is finished, your budget can be surgically applied to add soul and architectural depth. By replacing the generic 'flip' elements (vinyl fences and standard doors) with organic materials like cedar, stone, and expanded glass, you can transform this from a high-end rental-look into a custom MCM retreat that perfectly captures the 'warm, natural, and quirky' aesthetic you crave."
+  },
+  "brief": "# House Brief: 3233 Maplethorpe Ln, Soquel\n\n### Executive Summary\nThis property is a renovated 5-bedroom Mid-Century Modern (MCM) ranch that offers high architectural character and excellent natural light. While the interior boasts premium finishes like vaulted ceilings and wide-plank oak, there are significant questions regarding the accuracy of the listing photos and a notable disconnect between the high-end interior and utilitarian exterior.\n\n### Aesthetic Alignment (7.0/10)\nThe home aligns well with your preference for **architectural character** and **natural materials**. It avoids the \"boxy\" feel of standard suburban builds, utilizing clerestory windows and exposed beams to create a sense of volume. The wide-plank oak flooring provides the warm, organic base you value, though some \"developer-grade\" exterior finishes (like vinyl fencing) currently dilute the overall MCM vibe.\n\n### Strengths\n*   **Architectural Soul:** The vaulted ceilings and architectural beams are permanent features that provide the \"quirky\" and interesting forms you seek.\n*   **Superior Lighting:** The use of clerestory windows and thoughtful orientation ensures abundant natural light without compromising privacy.\n*   **Move-in Ready Interior:** The heavy lifting\u2014flooring, lighting packages, and structural updates\u2014is complete and of high quality.\n*   **Flow:** The 2,539 sqft layout offers the multi-story complexity and flow you prefer over generic, single-level boxes.\n\n### Weaknesses\n*   **The \"Flip\" Disconnect:** While the interior is stylish, the exterior finishes (decking and fencing) feel standard and builder-grade, lacking the same design intentionality.\n*   **Listing Ambiguity:** Vision Analysis suggests the use of composite images or portfolio photos. The property may not look exactly as pictured, or it may be part of a multi-unit parcel.\n*   **Location Risk:** Situated in the Soquel hills, the property falls into a **high fire risk zone**, which is a primary anti-principle for your search.\n\n### Deal-Breakers\n*   **Fire Risk & Insurance:** The location in a high-fire-risk zone may lead to significant insurance premiums or difficulty securing a policy.\n*   **Identity Crisis:** If the \"composite image\" warning holds true, the actual layout or condition may differ significantly from the high-end interior shown.\n\n### Renovation Paths\nThis home is a \"stylized shell\" that requires a **$50k\u2013$100k surgical investment** to reach its full potential:\n1.  **Exterior Soul:** Replace vinyl fencing and standard decking with cedar, redwood, or stone to match the MCM interior.\n2.  **Customization:** Swap out any \"generic flip\" elements (like standard doors or hardware) for more unique, organic pieces that add the \"cozy warmth\" you crave.\n3.  **Landscape Integration:** Use the budget to bridge the gap between the modern interior and the natural Soquel surroundings.\n\n### Who This House Is For\nThis property is for a buyer who loves MCM architecture and wants to skip the \"dusty\" phase of renovation, but is willing to spend extra to refine the exterior and navigate the complexities of hill-country living and insurance.\n\n### Verdict: **PROCEED WITH CAUTION**\nThe house is aesthetically a \"Yes,\" but the listing's integrity and fire risk are \"No.\" \n**Action:** Schedule an immediate physical walkthrough to verify if the photos match the reality of this specific unit. If it passes the \"reality check,\" your focus must then shift entirely to a fire insurance quote before making an offer.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:25.997904",
+  "scored_at": "2026-01-09T12:15:02.702432"
+}

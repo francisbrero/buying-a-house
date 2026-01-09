@@ -1,0 +1,234 @@
+{
+  "id": "23492-sunset-dr-los-gatos-ca-95033-20260109113325",
+  "url": "https://www.zillow.com/homedetails/23492-Sunset-Dr-Los-Gatos-CA-95033/16161612_zpid/",
+  "address": "23492 Sunset Dr, Los Gatos, CA 95033",
+  "city": "Los Gatos",
+  "state": "CA",
+  "zip_code": "95033",
+  "price": 1465000,
+  "description": "Single family residence on 1.12 acres lot.",
+  "features": {
+    "bedrooms": 3,
+    "bathrooms": 3.0,
+    "sqft": 2037,
+    "lot_sqft": 48787,
+    "year_built": 1958,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/07c543b84664d450327ba6f3d37e63c5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2f2caab0d7dc7ee68e65e291d812a72b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e33bd5ce7602d1dcbfdd7807d2f05698-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/308ffd0205a0ee899c63d93600078865-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/49c9c2b6a9a5c07c6e1eb238a3cd2b6a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/24af07918f68b9688358d4983788e0ae-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/61afa8eb089d346cc2b91cc3df7fc769-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/e65ff2f74b781e11f4f7117c074a78f7-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/00321fccd3db1536ceb46bbb1a668c95-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/14089511f551b23d50390508f438b180-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "vertical wood siding",
+          "asphalt shingles",
+          "concrete driveway",
+          "brick chimney"
+        ],
+        "light_quality": "abundant",
+        "condition": "well-maintained",
+        "notes": "Low-slung ranch profile with mid-century daylighting. Landscaping is mature but somewhat dry."
+      },
+      {
+        "room_type": "entryway",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "ceramic floor tile",
+          "hardwood floors",
+          "hollow core wood doors",
+          "popcorn ceiling texture"
+        ],
+        "light_quality": "moderate",
+        "condition": "dated",
+        "notes": "Transition from tile to wood is uneven; lighting fixtures are dated 'boob' lights."
+      },
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "oak hardwood floors",
+          "wood-burning stove insert",
+          "white paneled accent wall",
+          "plaster/drywall"
+        ],
+        "light_quality": "good",
+        "condition": "original/vintage",
+        "notes": "Spacious layout but lacks modern finishing. The popcorn ceiling is a significant detractor."
+      },
+      {
+        "room_type": "exterior_rear_deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood decking",
+          "wood railings",
+          "large format windows"
+        ],
+        "light_quality": "excellent",
+        "condition": "fair",
+        "notes": "Multi-level deck with great forest views, though the wood appears weathered and may need staining."
+      },
+      {
+        "room_type": "exterior_a-frame_wing",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "floor-to-ceiling glass",
+          "wood beams",
+          "stone pavers"
+        ],
+        "light_quality": "excellent",
+        "condition": "good",
+        "notes": "Dramatic architectural feature with high ceilings; likely the primary value-add for the interior volume."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "Mid-Century Modern Ranch / Rustic Contemporary",
+    "red_flags": [
+      "Popcorn ceilings throughout interior",
+      "Dated hollow-core doors and basic trim",
+      "Visible window AC unit suggesting lack of central HVAC",
+      "Mixed flooring types (tile to wood) creates visual breaks"
+    ],
+    "positive_signals": [
+      "Original hardwood floors in good condition",
+      "Stunning natural setting and forest views",
+      "Dramatic high-ceiling A-frame architectural section",
+      "Large windows providing significant natural light",
+      "Expansive lot with privacy"
+    ],
+    "renovation_state": "mostly original",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"vertical wood siding\",\n        \"asphalt shingles\",\n        \"concrete driveway\",\n        \"brick chimney\"\n      ],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Low-slung ranch profile with mid-century daylighting. Landscaping is mature but somewhat dry.\"\n    },\n    {\n      \"room_type\": \"entryway\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"ceramic floor tile\",\n        \"hardwood floors\",\n        \"hollow core wood doors\",\n        \"popcorn ceiling texture\"\n      ],\n      \"light_quality\": \"moderate\",\n      \"condition\": \"dated\",\n      \"notes\": \"Transition from tile to wood is uneven; lighting fixtures are dated 'boob' lights.\"\n    },\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"oak hardwood floors\",\n        \"wood-burning stove insert\",\n        \"white paneled accent wall\",\n        \"plaster/drywall\"\n      ],\n      \"light_quality\": \"good\",\n      \"condition\": \"original/vintage\",\n      \"notes\": \"Spacious layout but lacks modern finishing. The popcorn ceiling is a significant detractor.\"\n    },\n    {\n      \"room_type\": \"exterior_rear_deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood decking\",\n        \"wood railings\",\n        \"large format windows\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"fair\",\n      \"notes\": \"Multi-level deck with great forest views, though the wood appears weathered and may need staining.\"\n    },\n    {\n      \"room_type\": \"exterior_a-frame_wing\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"floor-to-ceiling glass\",\n        \"wood beams\",\n        \"stone pavers\"\n      ],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"good\",\n      \"notes\": \"Dramatic architectural feature with high ceilings; likely the primary value-add for the interior volume.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"Mid-Century Modern Ranch / Rustic Contemporary\",\n  \"red_flags\": [\n    \"Popcorn ceilings throughout interior\",\n    \"Dated hollow-core doors and basic trim\",\n    \"Visible window AC unit suggesting lack of central HVAC\",\n    \"Mixed flooring types (tile to wood) creates visual breaks\"\n  ],\n  \"positive_signals\": [\n    \"Original hardwood floors in good condition\",\n    \"Stunning natural setting and forest views\",\n    \"Dramatic high-ceiling A-frame architectural section\",\n    \"Large windows providing significant natural light\",\n    \"Expansive lot with privacy\"\n  ],\n  \"renovation_state\": \"mostly original\",\n  \"notes\": \"This property is a quintessential 'time capsule' or 'diamond in the rough.' While the exterior architecture and site location are premium, the interior finishes (lighting, ceilings, doors) remain largely in a 1970s/80s state. It is not a flip, which is a positive for buyers wanting to add their own value without stripping away cheap new materials.\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 62.4,
+    "passed": true,
+    "violations": [
+      "Dated materials/finishes: popcorn ceilings and hollow-core doors",
+      "High fire risk zone (Los Gatos mountains/Sunset Dr)",
+      "Poor climate control: visible window AC units"
+    ],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light via floor-to-ceiling glass in the A-frame wing and large bedroom windows."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 8.0,
+        "weight": 0.18,
+        "notes": "Strong character with the A-frame section and mid-century ranch profile; very non-boxy."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Mixed quality. While hardwood is a plus, popcorn ceilings and hollow-core doors are significant detractors for present-fit."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "Wood-burning stove and forest views provide warmth, though 'cold' dated tile and lighting offset this."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Visual breaks at flooring transitions and uneven entryway flow lower the score."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 3.0,
+        "weight": 0.1,
+        "notes": "Deep in Los Gatos mountains; inherently high fire risk area which is a stated Anti-Principle."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.5,
+        "weight": 0.08,
+        "notes": "Stunning 1.12-acre lot with expansive views, though the deck needs immediate maintenance."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.0,
+        "weight": 0.07,
+        "notes": "Mostly original and well-maintained for its age, but lacks current functional standards (HVAC, finishes)."
+      }
+    ],
+    "justification": "The house has exceptional architectural bones and meets the hard constraint for natural light. However, as a 'Present-Fit' evaluation, it suffers significantly due to dated finishes\u2014specifically popcorn ceilings and hollow-core doors\u2014which create a low-quality interior feel despite the great shape of the house. The location in a high fire risk zone is a major negative weight based on the taste model.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 88.0,
+    "renovation_ideas": [
+      {
+        "area": "Ceilings and Lighting",
+        "current_state": "Popcorn ceilings throughout with dated 'boob' light fixtures and surface-mount AC units.",
+        "proposed_change": "Scrape and smooth all ceilings, install integrated recessed LED lighting, and replace hollow-core doors with solid wood shaker or slab doors.",
+        "impact": "Crucial for modernization; removes the 'cheap' 1950s feel and highlights the architectural volume of the A-frame wing.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "A-Frame Great Room",
+        "current_state": "Dramatic high ceilings and glass, but currently feels separate from the dated entry and hallway.",
+        "proposed_change": "Sand and refinish the exposed wood beams to a natural oak or walnut tone; install high-end architectural pendant lighting to draw the eye upward.",
+        "impact": "Accentuates the home's best 'quirky' asset and aligns perfectly with 'Architectural character' principles.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Flooring and Transitions",
+        "current_state": "Mismatch of dated ceramic tile and oak hardwood; uneven transitions.",
+        "proposed_change": "Carry the existing oak hardwood throughout the entry and kitchen to create a seamless flow; refinish all wood with a matte, clear sealant.",
+        "impact": "Solves the 'boxy' feel by creating visual continuity across the 'Multiple stories' and levels.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Deck and Windows",
+        "current_state": "Weathered wood decking and visible window AC units.",
+        "proposed_change": "Sand and stain the multi-level deck in a dark cedar; replace the window AC with a multi-zone mini-split system to clear the views/windows.",
+        "impact": "Leans into the 'Forest Views' and 'Natural Light' pillars while improving functional climate control.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Living Room / Cozy Warmth",
+        "current_state": "White paneled accent wall and basic wood-burning insert.",
+        "proposed_change": "Replace white paneling with vertical wood slatting or natural stone; upgrade the hearth to a more modern, blackened steel or stone aesthetic.",
+        "impact": "Delivers on the 'Cozy Warmth' and 'Natural Materials' user requirements.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Potential asbestos in popcorn ceilings given 1958 build date requires professional remediation.",
+      "Lack of central HVAC likely means electrical sub-panel upgrades are needed for a mini-split system.",
+      "Mountain location (Los Gatos) may require specific wild-fire urban interface (WUI) materials for deck/exterior upgrades."
+    ],
+    "upside_narrative": "This is a quintessential 'diamond in the rough' for a mid-century enthusiast. Because the A-frame structural work and original hardwoods are already in place, the $150k budget can be focused almost entirely on high-impact surfaces and mechanicals. By removing the 1970s-era 'fixes' (popcorn ceilings, tile, hollow doors), this house transforms from a dated mountain cabin into a sophisticated rustic-modern retreat that perfectly captures forest views and architectural volume."
+  },
+  "brief": "# House Brief: 23492 Sunset Dr, Los Gatos\n\n## Executive Summary\nThis property is a high-potential Mid-Century Modern/A-frame hybrid nestled on a private 1.12-acre forest lot. While the architectural bones and natural light are exceptional, the home is currently held back by dated 1970s interior finishes and basic mechanical systems. It is a \"diamond in the rough\" that requires a dedicated renovation budget to match its sophisticated structural potential.\n\n## Aesthetic Alignment\nThe home aligns strongly with your preference for **architectural character** and **natural light**. The dramatic A-frame section creates the non-boxy volume you value, while large windows and original hardwoods provide a foundation for a \"cozy-warm\" aesthetic. However, it currently clashes with your taste due to \"dated-builder\" elements like popcorn ceilings and hollow-core doors that detract from the home's rustic-modern potential.\n\n## Strengths\n*   **Architectural Interest:** High-vaulted A-frame ceilings and a non-generic, multi-story floor plan.\n*   **Natural Light:** Expansive windows throughout that successfully integrate the surrounding forest views.\n*   **Authenticity:** Features original hardwood floors in good condition and authentic wood elements that haven't been ruined by a \"gray-laminate\" flip.\n*   **Privacy:** A large 1.1-acre lot offering seclusion and a true mountain retreat feel.\n\n## Weaknesses\n*   **Dated Finishes:** Popcorn ceilings throughout and low-quality hollow-core doors significantly lower the \"present-fit\" quality.\n*   **Climate Control:** Lack of central HVAC (visible window AC units) suggests a need for a modern heating/cooling solution.\n*   **Material Transitions:** Choppy transitions between tile and wood flooring interrupt the visual flow.\n*   **Maintenance Hurdles:** Potential asbestos in ceilings (1958 build) and an older electrical sub-panel likely needing an upgrade.\n\n## Deal-Breakers\n*   **High Fire Risk Zone:** Located in the Los Gatos mountains; this may result in high insurance premiums and requires strict adherence to Wildfire Urban Interface (WUI) exterior maintenance.\n*   **Climate Infrastructure:** If you are looking for a \"move-in ready\" climate-controlled environment, the current window-unit setup will be a major point of friction.\n\n## Renovation Paths\nTo unlock the **88/100 potential score**, a budget of **$100k\u2013$200k** is recommended:\n1.  **Surfaces (High Impact):** Professional popcorn ceiling removal (with asbestos mitigation) and replacing all hollow-core doors with solid wood or architectural alternatives.\n2.  **Mechanicals:** Install a multi-zone mini-split HVAC system for modern comfort. \n3.  **Cohesion:** Sand and refinish the original hardwoods to a consistent tone and replace the dated tile sections to unify the floor plan.\n\n## Who This House Is For\nThis house is for an enthusiast who prioritizes **form and volume** over a turnkey interior. If you are willing to manage a significant surface-level renovation to strip away the 1970s \"clutter,\" you will be rewarded with a sophisticated, light-filled mountain modern retreat.\n\n## Verdict\n**Pursue, but with a contingency for renovation.** \nThe architectural value is rare at this price point in Los Gatos. If you can stomach the high fire-risk location and the logistical hurdle of a ceiling/HVAC overhaul, this home offers a level of character and light that a modern \"boxy\" home cannot replicate. Do not buy this if you are not prepared to renovate immediately.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-09T11:33:25.981493",
+  "scored_at": "2026-01-09T12:18:12.998653"
+}
