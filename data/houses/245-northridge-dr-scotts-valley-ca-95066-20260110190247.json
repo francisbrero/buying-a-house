@@ -1,0 +1,255 @@
+{
+  "id": "245-northridge-dr-scotts-valley-ca-95066-20260110190247",
+  "url": "https://www.zillow.com/homedetails/245-Northridge-Dr-Scotts-Valley-CA-95066/16160778_zpid/",
+  "address": "245 Northridge Dr, Scotts Valley, CA 95066",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "latitude": null,
+  "longitude": null,
+  "price": 999999,
+  "description": "Private Gated Estate on 2.78 acres of beautiful park-like land in Glenwood Acres! This property has a lot to offer and with a little TLC can become your own resort. Every room is spacious with plenty of natural light through oversized windows and skylights.",
+  "features": {
+    "bedrooms": null,
+    "bathrooms": null,
+    "sqft": null,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/64dec904f584c0b0911eff01714a9e79-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0da63bea6ce3f57280c1ca502065d6dd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fc5eb6cba8414353a07c38823482a2ae-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bf07b4a2dd734bf0bd5e11dc2e159a3f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/23a7ecf4834f329923f2e2035acf8f17-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b4822262a88162771ecd12e63f66f83b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f8a92e3f8501989ce24c6ab841a6d6c8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/c4e7093280a287bc042036b28c488410-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/eed94f780685e1290fd5ded12f20f24a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bdb4792be13416568f0bea24709e4d09-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4b7d9a9a7a43211ee31c414a32cadc82-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5cdb01db76219440bdad3e56b27d1c4e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/07c543b84664d450327ba6f3d37e63c5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2f2caab0d7dc7ee68e65e291d812a72b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f910c196f132f00a6b1f5b51828478f5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0710ded7786cdf48ef719f0c0de27534-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f60c8356a48906b1f1ea393fd95a2b97-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5fd42c60f4fb4606bf7c6f72e1f2aafa-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "medium-tone oak hardwood floors",
+          "drywall",
+          "recessed lighting"
+        ],
+        "light_quality": "excellent",
+        "condition": "modernized",
+        "notes": "Large open-plan layout connecting to dining area. High-quality recessed lighting and smooth wall finishes."
+      },
+      {
+        "room_type": "dining_area",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "hardwood floors",
+          "wood panel accent wall"
+        ],
+        "light_quality": "good",
+        "condition": "updated",
+        "notes": "Features a vintage-inspired wood slat/panel divider that adds architectural character."
+      },
+      {
+        "room_type": "crawlspace_basement",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "fiberglass insulation",
+          "concrete pad",
+          "PVC plumbing",
+          "steel jack posts"
+        ],
+        "light_quality": "low",
+        "condition": "utilitarian",
+        "notes": "Shows exposed structural and mechanical elements; indicates relatively modern plumbing (PVC) and standard pink insulation."
+      },
+      {
+        "room_type": "exterior_front",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "horizontal siding",
+          "brick chimney",
+          "gravel driveway",
+          "painted wood trim"
+        ],
+        "light_quality": "bright natural",
+        "condition": "good",
+        "notes": "Mid-century ranch influence with a prominent brick chimney and a clean, wide footprint."
+      },
+      {
+        "room_type": "exterior_rear_deck",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "red-stained wood decking",
+          "wood pergola",
+          "metal railing"
+        ],
+        "light_quality": "abundant",
+        "condition": "well-maintained",
+        "notes": "Large elevated deck with a pergola offers expansive forest views. High functional value."
+      },
+      {
+        "room_type": "garage_exterior",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "asphalt driveway",
+          "sectional garage doors",
+          "stucco/siding"
+        ],
+        "light_quality": "even",
+        "condition": "fair to good",
+        "notes": "Multiple garage bays suggesting significant storage or workshop space."
+      },
+      {
+        "room_type": "grounds_landscaping",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "stone retaining walls",
+          "river rock",
+          "mulch",
+          "established trees"
+        ],
+        "light_quality": "dappled",
+        "condition": "naturalistic",
+        "notes": "Property features a creek bed and mature redwood/oak forest setting. Landscaping is rustic and fits the environment."
+      }
+    ],
+    "overall_aesthetic": 7.0,
+    "architectural_style": "mid-century ranch / mountain contemporary",
+    "red_flags": [
+      "exposed insulation in crawlspace may indicate unfinished utility work",
+      "large asphalt/gravel areas are functional but lack high-end curb appeal",
+      "electrical wires visible over the roofline in drone shots"
+    ],
+    "positive_signals": [
+      "genuine hardwood floors (not LVP)",
+      "stunning forest views and privacy",
+      "updated interior lighting and smooth ceiling finishes",
+      "architectural character preserved through wood paneling",
+      "large windows and indoor-outdoor flow"
+    ],
+    "renovation_state": "substantially updated",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"medium-tone oak hardwood floors\", \"drywall\", \"recessed lighting\"],\n      \"light_quality\": \"excellent\",\n      \"condition\": \"modernized\",\n      \"notes\": \"Large open-plan layout connecting to dining area. High-quality recessed lighting and smooth wall finishes.\"\n    },\n    {\n      \"room_type\": \"dining_area\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"hardwood floors\", \"wood panel accent wall\"],\n      \"light_quality\": \"good\",\n      \"condition\": \"updated\",\n      \"notes\": \"Features a vintage-inspired wood slat/panel divider that adds architectural character.\"\n    },\n    {\n      \"room_type\": \"crawlspace_basement\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\"fiberglass insulation\", \"concrete pad\", \"PVC plumbing\", \"steel jack posts\"],\n      \"light_quality\": \"low\",\n      \"condition\": \"utilitarian\",\n      \"notes\": \"Shows exposed structural and mechanical elements; indicates relatively modern plumbing (PVC) and standard pink insulation.\"\n    },\n    {\n      \"room_type\": \"exterior_front\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"horizontal siding\", \"brick chimney\", \"gravel driveway\", \"painted wood trim\"],\n      \"light_quality\": \"bright natural\",\n      \"condition\": \"good\",\n      \"notes\": \"Mid-century ranch influence with a prominent brick chimney and a clean, wide footprint.\"\n    },\n    {\n      \"room_type\": \"exterior_rear_deck\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\"red-stained wood decking\", \"wood pergola\", \"metal railing\"],\n      \"light_quality\": \"abundant\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Large elevated deck with a pergola offers expansive forest views. High functional value.\"\n    },\n    {\n      \"room_type\": \"garage_exterior\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\"asphalt driveway\", \"sectional garage doors\", \"stucco/siding\"],\n      \"light_quality\": \"even\",\n      \"condition\": \"fair to good\",\n      \"notes\": \"Multiple garage bays suggesting significant storage or workshop space.\"\n    },\n    {\n      \"room_type\": \"grounds_landscaping\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\"stone retaining walls\", \"river rock\", \"mulch\", \"established trees\"],\n      \"light_quality\": \"dappled\",\n      \"condition\": \"naturalistic\",\n      \"notes\": \"Property features a creek bed and mature redwood/oak forest setting. Landscaping is rustic and fits the environment.\"\n    }\n  ],\n  \"overall_aesthetic\": 7,\n  \"architectural_style\": \"mid-century ranch / mountain contemporary\",\n  \"red_flags\": [\n    \"exposed insulation in crawlspace may indicate unfinished utility work\",\n    \"large asphalt/gravel areas are functional but lack high-end curb appeal\",\n    \"electrical wires visible over the roofline in drone shots\"\n  ],\n  \"positive_signals\": [\n    \"genuine hardwood floors (not LVP)\",\n    \"stunning forest views and privacy\",\n    \"updated interior lighting and smooth ceiling finishes\",\n    \"architectural character preserved through wood paneling\",\n    \"large windows and indoor-outdoor flow\"\n  ],\n  \"renovation_state\": \"substantially updated\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.8,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Excellent natural light with oversized windows and skylights; meets the primary hard constraint significantly."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.5,
+        "weight": 0.18,
+        "notes": "Mid-century ranch influence with interesting wood-slat dividers and a prominent brick chimney; avoids the 'boxy' anti-principle."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 7.0,
+        "weight": 0.15,
+        "notes": "Genuine oak hardwood floors are a strong positive, though exterior siding and gravel areas are more utilitarian than high-end."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.5,
+        "weight": 0.12,
+        "notes": "Wood accents and brick provide warmth, but the 'modernized' smooth white walls and recessed lighting lean slightly sterile."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 7.0,
+        "weight": 0.1,
+        "notes": "Open-plan living/dining flows well to the large rear deck, enhancing indoor-outdoor utility."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.0,
+        "weight": 0.1,
+        "notes": "Significant penalty for location: Scotts Valley/Glenwood Acres in a 2.78-acre forest is a high-risk fire zone, explicitly listed as an anti-principle. "
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 8.8,
+        "weight": 0.08,
+        "notes": "Exceptional 2.78-acre park-like lot with redwoods, a creek bed, and an expansive viewing deck."
+      },
+      {
+        "dimension": "condition",
+        "score": 6.0,
+        "weight": 0.07,
+        "notes": "Interior is updated, but 'TLC needed' mention and exposed insulation in crawlspaces suggest deferred maintenance or unfinished projects."
+      }
+    ],
+    "justification": "The house provides excellent natural light and architectural character, successfully avoiding the 'cheap flip' aesthetic by using real hardwood floors rather than gray laminate. However, the score is significantly suppressed by the high fire risk inherent to a heavily wooded Scotts Valley acreage (an anti-principle) and visible maintenance red flags like exposed crawlspace insulation and overhead power lines. While it passes the hard constraints, it is a high-maintenance property with unresolved utility aesthetics.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 82.0,
+    "renovation_ideas": [
+      {
+        "area": "Living Room & Kitchen Connection",
+        "current_state": "Modernized but standard open-plan; potentially missing the 'mountain contemporary' soul.",
+        "proposed_change": "Introduce vaulted ceiling heights or exposed dark-stained wood beams to match the mid-century ranch roots. Replace standard windows with black-frame thin-profile sliders to maximize the forest view.",
+        "impact": "Creates the 'architectural character' and 'abundant natural light' the user craves while justifying the $1M price point.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Exterior Facade & Entry",
+        "current_state": "Functional siding and brick, but lacks high-end curb appeal; asphalt and gravel feel utilitarian.",
+        "proposed_change": "",
+        "impact": "Shifts the vibe from 'suburban mountain home' to 'high-end design-forward retreat.'",
+        "difficulty": "light"
+      },
+      {
+        "area": "Dining Area & Dividers",
+        "current_state": "Vintage-inspired wood slat divider exists.",
+        "proposed_change": "Expand this theme. Use floor-to-ceiling vertical walnut slats to define the entry and dining space, integrating built-in seating or a bar area that utilizes the existing 'quirky' layout.",
+        "impact": "Drives the wood-element aesthetic principle and preserves character over cookie-cutter trends.",
+        "difficulty": "light"
+      },
+      {
+        "area": "Crawlspace & Utilities",
+        "current_state": "Exposed insulation and messy utility appearance.",
+        "proposed_change": "Professional encapsulations, properly secured insulation, and organizing mechanical runs. Given the 'medium' tolerance, this is essential for peace of mind.",
+        "impact": "Protects the hardwood floors from moisture and ensures the home's longevity in a forest environment.",
+        "difficulty": "light"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Forest environment in Scotts Valley may require strict WUI (Wildland-Urban Interface) compliance for exterior material changes.",
+      "Overhead electrical lines may restrict some vertical additions or require costly undergrounding.",
+      "The creek bed suggests potential drainage/erosion checks are needed before heavy landscape investment."
+    ],
+    "upside_narrative": "This property is a 'polishing' project rather than a 'gut rehab.' It already possesses the essential bones the user loves: real hardwoods, forest intimacy, and mid-century geometry. By investing $150k into architectural windows, premium wood cladding, and refined landscaping, this house transforms from a standard updated ranch into a bespoke 'Mountain Modern' sanctuary that feels curated rather than just renovated."
+  },
+  "brief": "# House Brief: 245 Northridge Dr, Scotts Valley\n\n### Executive Summary\nThis 2.78-acre gated estate offers a rare \"mountain contemporary\" canvas that avoids the pitfalls of cheap modern flips. While it boasts genuine hardwood floors and excellent architectural bones, it presents a classic Scotts Valley trade-off: stunning forest intimacy balanced against significant fire risk and visible utility maintenance needs.\n\n### Aesthetic Alignment\nThe property aligns strongly with your preference for **architectural character over boxy layouts**. It successfully integrates mid-century ranch geometry with expansive glazing and natural materials. Unlike many homes in this price bracket, it avoids \"gray laminate fatigue,\" opting instead for genuine hardwoods and wood paneling that provide the cozy warmth you value.\n\n### Strengths\n*   **Natural Light:** Oversized windows and skylights ensure the \"dark forest house\" trope is avoided; the interiors are bright and airy.\n*   **Quality Finishes:** Features real hardwood floors and smooth ceiling finishes rather than cheap, textured overlays.\n*   **Indoor-Outdoor Flow:** The park-like acreage and large view windows create a seamless connection to the private, wooded surroundings.\n*   **Privacy:** A gated, multi-acre lot in Glenwood Acres provides a \"resort\" feel that is difficult to replicate in denser suburban pockets.\n\n### Weaknesses\n*   **Utility Aesthetics:** Visible overhead power lines and exposed crawlspace insulation suggest deferred maintenance or unfinished utility projects.\n*   **High-Maintenance Grounds:** The large asphalt and gravel areas provide function but lack the high-end curb appeal of a finished estate.\n*   **Environmental Risks:** Positioned in a heavily wooded area, the home is subject to high fire risk and potential drainage/erosion issues near the creek bed.\n\n### Deal-Breakers\n*   **Fire Risk (Anti-Principle):** You have specifically identified \"forest location with high fire risk\" as an anti-principle. While the home is beautiful, it sits squarely in a high-risk zone, which may impact insurance availability and peace of mind.\n\n### Renovation Paths\nThis is a **\"Polishing Project,\"** not a gut rehab. With a budget of **$100k - $200k**, you could:\n1.  **Refine the Shell:** Replace standard windows with premium architectural black frames to lean into the \"Mountain Modern\" aesthetic.\n2.  **Hardscaping:** Replace the gravel/asphalt with pavers and native, fire-resistant landscaping to elevate the entrance.\n3.  **Modern Cladding:** Add premium wood or composite cladding to the exterior to highlight the interesting geometry.\n\n### Who This House Is For\nThis property is for someone who prioritizes architectural soul and forest views over easy maintenance. It is ideal for a buyer willing to manage a property's technical needs (drainage, fire clearing, utilities) in exchange for a private, sun-drenched sanctuary that feels bespoke.\n\n### Verdict\n**Proceed with Caution.** Architecturally, this house is a \"Yes\"\u2014it hits your light, wood, and character requirements perfectly. However, it triggers your fire-risk anti-principle and requires a \"polishing\" budget to reach its full potential. If you can stomach the insurance costs and the exterior maintenance, it is one of the more stylistically honest homes in the area.",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-10T19:02:47.538070",
+  "scored_at": "2026-01-10T19:04:01.816730"
+}

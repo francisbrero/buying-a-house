@@ -1,0 +1,246 @@
+{
+  "id": "21565-old-mine-rd-los-gatos-ca-95033-20260110190247",
+  "url": "https://www.zillow.com/homedetails/21565-Old-Mine-Rd-Los-Gatos-CA-95033/19752975_zpid/",
+  "address": "21565 Old Mine Rd, Los Gatos, CA 95033",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "latitude": null,
+  "longitude": null,
+  "price": 1198000,
+  "description": "Set in the desirable Aldercroft Heights neighborhood, this updated mountain home offers long-range views, privacy, and a quiet setting just minutes from downtown Los Gatos. The light-filled interior features vaulted, beamed ceilings, skylights, hardwood and stone flooring, and custom woodwork throughout.",
+  "features": {
+    "bedrooms": null,
+    "bathrooms": null,
+    "sqft": null,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/9cd4b65fb69ec9488272bf471329a486-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/59ec902b6383a3815fae49b584323249-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ed19ad02cff07ecd0764c0d09648552e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/be99fc1c0b2b07d7013cbc952219d51d-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/7031666c16ae1f6358d86dfc719c9ed5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ccaa9249463341d9d22e7834c252fc26-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5519504a0539128f86a817847cf0bda6-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/72353d804e8d5e6d30cdd3fa4065bbf4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fee0c38fa9c17e7d6bbbeeee1af06aad-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/72125cd1eb25c9816fcee66ff59958f4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/371de0b4fdbf6f02c26d72e35aa2c128-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/85ab258cb9d5efc1e8e02a96d7012cb2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/64dec904f584c0b0911eff01714a9e79-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0da63bea6ce3f57280c1ca502065d6dd-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/fc5eb6cba8414353a07c38823482a2ae-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bdb4792be13416568f0bea24709e4d09-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/4b7d9a9a7a43211ee31c414a32cadc82-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/5cdb01db76219440bdad3e56b27d1c4e-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/07c543b84664d450327ba6f3d37e63c5-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2f2caab0d7dc7ee68e65e291d812a72b-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "living_room_dining_area",
+        "aesthetic_quality": 8.0,
+        "materials": [
+          "solid hardwood floors",
+          "recessed lighting",
+          "plaster walls",
+          "wicker furniture"
+        ],
+        "light_quality": "abundant natural light",
+        "condition": "excellent",
+        "notes": "Open concept layout with a neutral, coastal-modern aesthetic. The flooring appears to be high-quality wide plank wood."
+      },
+      {
+        "room_type": "exterior_front_cabin",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "wood shingle siding",
+          "flagstone patio",
+          "river rock accents",
+          "wood posts"
+        ],
+        "light_quality": "dappled forest light",
+        "condition": "fair to good",
+        "notes": "Mix of textures including shingles and stone. The large stone patio represents a significant hardscape investment."
+      },
+      {
+        "room_type": "exterior_main_residence",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "wood siding",
+          "composition shingle roof",
+          "stone pillar accents",
+          "asphalt driveway"
+        ],
+        "light_quality": "bright direct sunlight",
+        "condition": "well-maintained",
+        "notes": "A multi-story structure with a grey-blue paint scheme and architectural stone details at the driveway entrance."
+      },
+      {
+        "room_type": "exterior_patio_deck",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "redwood decking",
+          "wood pergola",
+          "metal railing"
+        ],
+        "light_quality": "open sky exposure",
+        "condition": "good",
+        "notes": "Large outdoor living space with a pergola; paint/stain on the deck appears fresh."
+      },
+      {
+        "room_type": "unfinished_basement_crawlspace",
+        "aesthetic_quality": 2.0,
+        "materials": [
+          "concrete foundation",
+          "exposed wood joists",
+          "fiberglass insulation",
+          "ABS plumbing"
+        ],
+        "light_quality": "poor",
+        "condition": "unfinished",
+        "notes": "Shows the 'bones' of the house; plumbing looks relatively modern (plastic), but insulation is exposed."
+      },
+      {
+        "room_type": "carport",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "timber frame",
+          "corrugated roofing",
+          "lattice siding"
+        ],
+        "light_quality": "shaded",
+        "condition": "rustic",
+        "notes": "Functional but basic timber structure integrated into a sloped wooded lot."
+      }
+    ],
+    "overall_aesthetic": 6.0,
+    "architectural_style": "mountain contemporary / rustic-modern mix",
+    "red_flags": [
+      "inconsistent architectural styles across multiple buildings",
+      "exposed insulation in basement area",
+      "sloped terrain may present drainage or foundation challenges"
+    ],
+    "positive_signals": [
+      "high-quality interior hardwood flooring",
+      "expensive stone hardscaping",
+      "large windows providing canyon/mountain views",
+      "extensive outdoor living spaces (decks and pergolas)"
+    ],
+    "renovation_state": "partial (interior looks recently modernized while some exteriors remain rustic)",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"living_room_dining_area\",\n      \"aesthetic_quality\": 8,\n      \"materials\": [\n        \"solid hardwood floors\",\n        \"recessed lighting\",\n        \"plaster walls\",\n        \"wicker furniture\"\n      ],\n      \"light_quality\": \"abundant natural light\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Open concept layout with a neutral, coastal-modern aesthetic. The flooring appears to be high-quality wide plank wood.\"\n    },\n    {\n      \"room_type\": \"exterior_front_cabin\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"wood shingle siding\",\n        \"flagstone patio\",\n        \"river rock accents\",\n        \"wood posts\"\n      ],\n      \"light_quality\": \"dappled forest light\",\n      \"condition\": \"fair to good\",\n      \"notes\": \"Mix of textures including shingles and stone. The large stone patio represents a significant hardscape investment.\"\n    },\n    {\n      \"room_type\": \"exterior_main_residence\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"wood siding\",\n        \"composition shingle roof\",\n        \"stone pillar accents\",\n        \"asphalt driveway\"\n      ],\n      \"light_quality\": \"bright direct sunlight\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"A multi-story structure with a grey-blue paint scheme and architectural stone details at the driveway entrance.\"\n    },\n    {\n      \"room_type\": \"exterior_patio_deck\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"redwood decking\",\n        \"wood pergola\",\n        \"metal railing\"\n      ],\n      \"light_quality\": \"open sky exposure\",\n      \"condition\": \"good\",\n      \"notes\": \"Large outdoor living space with a pergola; paint/stain on the deck appears fresh.\"\n    },\n    {\n      \"room_type\": \"unfinished_basement_crawlspace\",\n      \"aesthetic_quality\": 2,\n      \"materials\": [\n        \"concrete foundation\",\n        \"exposed wood joists\",\n        \"fiberglass insulation\",\n        \"ABS plumbing\"\n      ],\n      \"light_quality\": \"poor\",\n      \"condition\": \"unfinished\",\n      \"notes\": \"Shows the 'bones' of the house; plumbing looks relatively modern (plastic), but insulation is exposed.\"\n    },\n    {\n      \"room_type\": \"carport\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"timber frame\",\n        \"corrugated roofing\",\n        \"lattice siding\"\n      ],\n      \"light_quality\": \"shaded\",\n      \"condition\": \"rustic\",\n      \"notes\": \"Functional but basic timber structure integrated into a sloped wooded lot.\"\n    }\n  ],\n  \"overall_aesthetic\": 6,\n  \"architectural_style\": \"mountain contemporary / rustic-modern mix\",\n  \"red_flags\": [\n    \"inconsistent architectural styles across multiple buildings\",\n    \"exposed insulation in basement area\",\n    \"sloped terrain may present drainage or foundation challenges\"\n  ],\n  \"positive_signals\": [\n    \"high-quality interior hardwood flooring\",\n    \"expensive stone hardscaping\",\n    \"large windows providing canyon/mountain views\",\n    \"extensive outdoor living spaces (decks and pergolas)\"\n  ],\n  \"renovation_state\": \"partial (interior looks recently modernized while some exteriors remain rustic)\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 67.8,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 8.5,
+        "weight": 0.2,
+        "notes": "Strongest suit of the home. Skylights, vaulted ceilings, and large windows provide the 'abundant light' requested."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 7.5,
+        "weight": 0.18,
+        "notes": "Non-boxy mountain contemporary form with interesting beamed ceilings and custom woodwork."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 6.5,
+        "weight": 0.15,
+        "notes": "High-quality wide plank hardwoods and stone, but offset by rustic/unfinished elements like the corrugated carport and exposed basement insulation."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 7.0,
+        "weight": 0.12,
+        "notes": "Natural wood elements and stone provide warmth, though the exterior paint feels a bit cold/clinical for a mountain setting."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Open concept living/dining is good, but the property appears fragmented across multiple structures with inconsistent styles."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 4.0,
+        "weight": 0.1,
+        "notes": "Significant penalty for high fire risk zone in Aldercroft Heights (Red Flag per Anti-Principles)."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.8,
+        "weight": 0.08,
+        "notes": "Excellent deck, pergola, and stone patio work; great views and privacy."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.5,
+        "weight": 0.07,
+        "notes": "Interior is well-updated, but exterior shingle siding and under-structure show signs of deferred maintenance/age."
+      }
+    ],
+    "justification": "The house meets the primary hard constraint for natural light and avoids 'cheap flip' aesthetics by using real hardwood and stone. However, it falls into the 60s due to significant locational risk (high fire zone), inconsistent character across different buildings on the lot, and 'poor' condition in structural/basement areas. It is an acceptable mountain home but requires a buyer comfortable with the trade-offs of rustic mountain living.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 78.0,
+    "renovation_ideas": [
+      {
+        "area": "Architectural Cohesion & Exterior Fa\u00e7ade",
+        "current_state": "Inconsistent mix of grey-blue siding, rustic shingles, and varied timber elements across multiple structures.",
+        "proposed_change": "Unify all buildings with a consistent 'Mountain Modern' palette. Replace the rustic wood shingles on the cabin with vertical cedar or dark metal siding to match the main house, and paint all structures in a cohesive dark earth tone (charcoal or deep forest).",
+        "impact": "Eliminates the 'patchwork' feel and creates a high-end estate atmosphere that matches the modernized interior.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Lower Level / Basement Completion",
+        "current_state": "Unfinished with exposed fiberglass insulation and visible plumbing.",
+        "proposed_change": "Properly seal, insulate, and drywall the space. Add reclaimed wood ceiling beams to satisfy the user's aesthetic and install matching wide-plank flooring.",
+        "impact": "Converts 'scary' utility space into usable square footage, potentially a cozy den or media room with mountain character.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Carport to Architectural Entryway",
+        "current_state": "Basic timber frame with corrugated roofing and dated lattice siding.",
+        "proposed_change": "Upgrade the carport with heavy-timber post-and-beam construction and an integrated lighting scheme. Replace lattice with horizontal wood slats for a more architectural, mid-century mountain feel.",
+        "impact": "Improves the 'arrival experience' and curbside character significantly.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Outdoor Living Expansion",
+        "current_state": "Existing redwood deck and pergola are in good shape but lack a 'destination' feel.",
+        "proposed_change": "Integrate a built-in stone fire pit area near the river rock accents and add large-scale glass bifold doors between the living room and deck.",
+        "impact": "Maximizes the 'abundant light' requirement and creates the seamless indoor-outdoor flow characteristic of premium Los Gatos hill properties.",
+        "difficulty": "heavy"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "The sloped terrain may hide drainage issues that require expensive French drains or retaining wall reinforcement.",
+      "Renovating the unfinished basement may trigger modern seismic retrofitting requirements given the Los Gatos mountain location.",
+      "Multiple structures may have non-permitted historical additions given the 'unknown' build date, complicating new permit pulls."
+    ],
+    "upside_narrative": "This property is the perfect 'bridge' project for a buyer with medium tolerance. The heavy lifting on the interiors (hardwoods and plaster) is already done, allowing the budget to be laser-focused on architectural cohesion. By unifying the exterior aesthetic and finishing the lower-level 'bones,' this transitions from a quirky mountain cabin to a sophisticated Mountain Contemporary estate. The combination of existing high-end stone hardscaping and the potential for dramatic wood-beam accents perfectly aligns with the user's desire for 'quirky character' over cookie-cutter design."
+  },
+  "brief": "# House Brief: 21565 Old Mine Rd, Los Gatos\n\n### Executive Summary\nThis is a partially modernized mountain retreat in Aldercroft Heights that balances high-end interior finishes with the rugged, unpredictable nature of a canyon property. While the interior boasts excellent natural light and quality materials, the property suffers from structural inconsistencies and significant environmental risks typical of the Los Gatos mountains.\n\n### Aesthetic Alignment\nThe property aligns well with the \"quaint mountain contemporary\" vision. It successfully avoids the \"cheap flip\" trap by utilizing genuine hardwood, stone flooring, and custom woodwork.\n*   **Light & Volume:** Vaulted ceilings, skylights, and large windows meet the user\u2019s demand for abundant natural light.\n*   **Materials:** The heavy use of wood beams and stone hardscaping provides the \"cozy warmth\" and \"natural materials\" requested.\n*   **Character:** The non-linear layout and multiple structures offer the quirky, non-boxy architectural interest the user prefers.\n\n### Strengths\n*   **High-End Interior Finishes:** Real hardwood and stone floors elevate the space above typical area rentals or flips.\n*   **Superior Hardscaping:** Significant investment has been made in stone patios and pergolas, creating a high-value outdoor living experience.\n*   **Exceptional Views:** Large windows and expansive decks take full advantage of the canyon and mountain vistas.\n*   **Architectural Soul:** Exposed beams and vaulted ceilings provide a sense of scale and character that generic homes lack.\n\n### Weaknesses\n*   **Architectural Incoherence:** Different structures on the lot don't \"talk\" to each other visually, leading to a fragmented aesthetic.\n*   **Structural Red Flags:** Visible exposed insulation in the basement and the home's position on a sloped terrain suggest potential drainage or foundation complexities.\n*   **Maintenance Debt:** While parts are \"updated,\" other areas (particularly the exterior and lower levels) remain rustic and arguably neglected.\n\n### Deal-Breakers\n*   **Extreme Fire Risk:** Located in a high-fire zone with dense surrounding foliage; insurance will be difficult to obtain and expensive.\n*   **Unknown Compliance:** Multiple structures and the \"unknown\" build date suggest a high probability of non-permitted additions, which could complicate future renovations.\n\n### Renovation Paths\n**The \"Unification\" Strategy (Medium Feasibility, $100k\u2013$200k):**\n1.  **Exterior Modernization:** Replace mismatched siding and paint schemes across all buildings to create a cohesive \"estate\" look.\n2.  **Basement Completion:** Seal and finish the lower-level \"bones\" to add usable square footage and address insulation/moisture concerns.\n3.  **Landscape Engineering:** Install advanced drainage (French drains) to protect the foundation from slope runoff.\n\n### Who This House Is For\nThis property is for a buyer who prioritizes views and \"vibes\" over standardized suburban safety. It suits someone with a medium tolerance for renovation projects who wants a head start on interior aesthetics but is willing to do the \"dirty work\" of structural stabilization and exterior unification.\n\n### Verdict\n**PROCEED WITH CAUTION.** The house is aesthetically \"on-point\" and passes the primary light/character filters. However, the gap between the polished interiors and the raw, potentially problematic exterior/foundation is wide. **A rigorous inspection focused on slope stability and permit history is mandatory before moving forward.**",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-10T19:02:47.544952",
+  "scored_at": "2026-01-10T19:04:42.481340"
+}

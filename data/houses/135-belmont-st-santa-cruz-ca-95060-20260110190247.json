@@ -1,0 +1,240 @@
+{
+  "id": "135-belmont-st-santa-cruz-ca-95060-20260110190247",
+  "url": "https://www.zillow.com/homedetails/135-Belmont-St-Santa-Cruz-CA-95060/16108319_zpid/",
+  "address": "135 Belmont St, Santa Cruz, CA 95060",
+  "city": "",
+  "state": "",
+  "zip_code": "",
+  "latitude": 36.988061,
+  "longitude": -122.0193611,
+  "price": 1250000,
+  "description": "Let the sunshine in! This large, newly updated Santa Cruz home is nicely located at the back of a cul-de-sac on a LARGE 7318sqft lot with gorgeous views of trees and city! This bright and cheery 2116 sqft home features four spacious bedrooms, two baths+ a HUGE family room/office/exercise room! Open floorplan with ample living room featuring a cozy fireplace and large sliding door leading to a sunny balcony with amazing views!",
+  "features": {
+    "bedrooms": null,
+    "bathrooms": null,
+    "sqft": null,
+    "lot_sqft": null,
+    "year_built": null,
+    "property_type": "",
+    "parking": "",
+    "hoa_fee": null,
+    "heating": "",
+    "cooling": "",
+    "flooring": [],
+    "appliances": []
+  },
+  "image_urls": [
+    "https://photos.zillowstatic.com/fp/f0127edc86dadbe9d82ae73130e88865-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/00fbb39d416866b2bae645fad5496d84-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/2f8944ddcba5e31e16882a6df57d32f2-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/194f54894786e3ac3ba854b13b8e349f-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/b08896844160970c2e8c173be98a1fc4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/1876f7f3bbba94b53ca0e0a1d85e41be-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/0a9920e035d37c52f0e3258b6bff4ed9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/f2f3e05ad2b456bc0de5434745aeb7de-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/9129855b1256c0bbb74306e7e792bafb-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/24aaaafc342d7eea147001393dc88300-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a9a4522e031c55c5e625bd30b61b31c8-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/8da1374951a92ebee1d2ed2eb76d3462-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/45cdc13b74e5af836fff81ec2e0fde5a-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/a3dc9c2457a1ec94ed63c143d1270f25-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/53e04ba7dc652d9e0d8f5174fb6ad27b-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/ace2af6ad86912dada80e7aef5c0b0f9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/bc05d9fd254fe0fe9900b5d5823ecfc4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/01935159e518d8ee19f0d093ed4100b4-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/d756fe6a20df5e17fb44ba34b93902e9-p_e.jpg",
+    "https://photos.zillowstatic.com/fp/663c9ec2b1e393efec3db237c652d87b-p_e.jpg"
+  ],
+  "vision_analysis": {
+    "rooms": [
+      {
+        "room_type": "exterior_front_1",
+        "aesthetic_quality": 6.0,
+        "materials": [
+          "stucco",
+          "concrete driveway",
+          "redwood-stained garage door"
+        ],
+        "light_quality": "bright direct sun",
+        "condition": "well-maintained",
+        "notes": "Large expansive concrete driveway; Mediterranean/Spanish influence with the barrel tile roof hidden in slope."
+      },
+      {
+        "room_type": "exterior_front_2",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "stucco",
+          "composite siding",
+          "white vinyl windows"
+        ],
+        "light_quality": "dappled light",
+        "condition": "aged",
+        "notes": "Property shows a mix of 70s-90s suburban styles. Landscaping is mature but looks a bit overgrown in some shots."
+      },
+      {
+        "room_type": "garage_parking_area",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "concrete",
+          "brick edging",
+          "flat roof overhang"
+        ],
+        "light_quality": "natural",
+        "condition": "fair",
+        "notes": "Showing a home gym setup in a driveway/carport area; suggests limited interior gym space or preference for outdoor workouts."
+      },
+      {
+        "room_type": "rear_elevation",
+        "aesthetic_quality": 4.0,
+        "materials": [
+          "wood decking",
+          "stucco",
+          "clay tile roof"
+        ],
+        "light_quality": "shaded",
+        "condition": "fair",
+        "notes": "The multi-unit appearance with carports underneath suggests a high-density or split-level mountain build. Decking looks weathered."
+      },
+      {
+        "room_type": "landscaping_yard",
+        "aesthetic_quality": 7.0,
+        "materials": [
+          "manicure lawn",
+          "bark mulch",
+          "stamped concrete"
+        ],
+        "light_quality": "golden hour/dusk",
+        "condition": "excellent",
+        "notes": "Twilight photography enhances the curb appeal; the stamped concrete driveway is a premium touch compared to standard asphalt."
+      },
+      {
+        "room_type": "floor_plan",
+        "aesthetic_quality": 5.0,
+        "materials": [
+          "digital rendering"
+        ],
+        "light_quality": "N/A",
+        "condition": "clear",
+        "notes": "Three-story layout indicated. Features include 3 bedrooms, 3 bathrooms, and a two-car garage. Compact footprint."
+      }
+    ],
+    "overall_aesthetic": 5.0,
+    "architectural_style": "mediterranean-suburban fusion",
+    "red_flags": [
+      "mixture of different properties in one grid suggests a multi-unit complex or a developer portfolio rather than a single family home",
+      "steep grades and retaining walls increase maintenance liability",
+      "weathered 2nd story decks may require structural inspection"
+    ],
+    "positive_signals": [
+      "mature trees and green surroundings provide privacy",
+      "tile roofs are durable and high-quality",
+      "proximity to parks (Skypark) adds functional value",
+      "stamped concrete driveways suggest pride of ownership"
+    ],
+    "renovation_state": "maintained-original",
+    "raw_description": "```json\n{\n  \"rooms\": [\n    {\n      \"room_type\": \"exterior_front_1\",\n      \"aesthetic_quality\": 6,\n      \"materials\": [\n        \"stucco\",\n        \"concrete driveway\",\n        \"redwood-stained garage door\"\n      ],\n      \"light_quality\": \"bright direct sun\",\n      \"condition\": \"well-maintained\",\n      \"notes\": \"Large expansive concrete driveway; Mediterranean/Spanish influence with the barrel tile roof hidden in slope.\"\n    },\n    {\n      \"room_type\": \"exterior_front_2\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"stucco\",\n        \"composite siding\",\n        \"white vinyl windows\"\n      ],\n      \"light_quality\": \"dappled light\",\n      \"condition\": \"aged\",\n      \"notes\": \"Property shows a mix of 70s-90s suburban styles. Landscaping is mature but looks a bit overgrown in some shots.\"\n    },\n    {\n      \"room_type\": \"garage_parking_area\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"concrete\",\n        \"brick edging\",\n        \"flat roof overhang\"\n      ],\n      \"light_quality\": \"natural\",\n      \"condition\": \"fair\",\n      \"notes\": \"Showing a home gym setup in a driveway/carport area; suggests limited interior gym space or preference for outdoor workouts.\"\n    },\n    {\n      \"room_type\": \"rear_elevation\",\n      \"aesthetic_quality\": 4,\n      \"materials\": [\n        \"wood decking\",\n        \"stucco\",\n        \"clay tile roof\"\n      ],\n      \"light_quality\": \"shaded\",\n      \"condition\": \"fair\",\n      \"notes\": \"The multi-unit appearance with carports underneath suggests a high-density or split-level mountain build. Decking looks weathered.\"\n    },\n    {\n      \"room_type\": \"landscaping_yard\",\n      \"aesthetic_quality\": 7,\n      \"materials\": [\n        \"manicure lawn\",\n        \"bark mulch\",\n        \"stamped concrete\"\n      ],\n      \"light_quality\": \"golden hour/dusk\",\n      \"condition\": \"excellent\",\n      \"notes\": \"Twilight photography enhances the curb appeal; the stamped concrete driveway is a premium touch compared to standard asphalt.\"\n    },\n    {\n      \"room_type\": \"floor_plan\",\n      \"aesthetic_quality\": 5,\n      \"materials\": [\n        \"digital rendering\"\n      ],\n      \"light_quality\": \"N/A\",\n      \"condition\": \"clear\",\n      \"notes\": \"Three-story layout indicated. Features include 3 bedrooms, 3 bathrooms, and a two-car garage. Compact footprint.\"\n    }\n  ],\n  \"overall_aesthetic\": 5,\n  \"architectural_style\": \"mediterranean-suburban fusion\",\n  \"red_flags\": [\n    \"mixture of different properties in one grid suggests a multi-unit complex or a developer portfolio rather than a single family home\",\n    \"steep grades and retaining walls increase maintenance liability\",\n    \"weathered 2nd story decks may require structural inspection\"\n  ],\n  \"positive_signals\": [\n    \"mature trees and green surroundings provide privacy\",\n    \"tile roofs are durable and high-quality\",\n    \"proximity to parks (Skypark) adds functional value\",\n    \"stamped concrete driveways suggest pride of ownership\"\n  ],\n  \"renovation_state\": \"maintained-original\"\n}\n```"
+  },
+  "present_fit_score": {
+    "score": 58.6,
+    "passed": true,
+    "violations": [],
+    "dimension_scores": [
+      {
+        "dimension": "natural_light",
+        "score": 7.5,
+        "weight": 0.2,
+        "notes": "Large sliding doors and elevated position allow for good sun exposure, though some areas appear shaded by mature trees."
+      },
+      {
+        "dimension": "architectural_character",
+        "score": 5.0,
+        "weight": 0.18,
+        "notes": "A somewhat generic 70s-90s Mediterranean-suburban fusion. lacks the unique wood beams or 'quirky character' sought in the taste model."
+      },
+      {
+        "dimension": "materials_quality",
+        "score": 4.5,
+        "weight": 0.15,
+        "notes": "Evidence of white vinyl windows and standard stucco. Weathered decking and mixed siding materials suggest lower-end exterior finishes."
+      },
+      {
+        "dimension": "warmth_coziness",
+        "score": 6.0,
+        "weight": 0.12,
+        "notes": "The fireplace and tree views provide some warmth, but the 'maintained-original' state lacks the rich wood elements desired."
+      },
+      {
+        "dimension": "layout_flow",
+        "score": 6.5,
+        "weight": 0.1,
+        "notes": "Open floor plan on the main level is a positive; however, the three-story vertical stack can feel disjointed."
+      },
+      {
+        "dimension": "location_safety",
+        "score": 6.0,
+        "weight": 0.1,
+        "notes": "Located on a cul-de-sac which is a plus, but the Santa Cruz hillside location carries inherent fire and slope stability risks."
+      },
+      {
+        "dimension": "outdoor_space",
+        "score": 7.0,
+        "weight": 0.08,
+        "notes": "Large lot with nice views and stamped concrete. Significant point loss for weathered second-story decks."
+      },
+      {
+        "dimension": "condition",
+        "score": 5.5,
+        "weight": 0.07,
+        "notes": "Dated exterior materials and aged siding. Requires immediate attention to decking and potentially retaining walls."
+      }
+    ],
+    "justification": "The house technically passes the hard constraint for natural light, but falls into the 'Marginal' category (50-59). While it offers the desired multiple stories and a cul-de-sac location, it lacks the specific architectural character and high-quality wood elements defined in the taste model. The 'maintained-original' condition and the presence of white vinyl windows/stucco suggest a more generic suburban experience than the 'interesting/quirky' preference. The low materials score and weathered exterior are significant present-fit detractors.",
+    "deal_breakers": []
+  },
+  "potential_score": {
+    "score": 68.0,
+    "renovation_ideas": [
+      {
+        "area": "Exterior Facade & Vertical Siding",
+        "current_state": "Mismatched textures: dated beige stucco and tired composite siding with white vinyl windows.",
+        "proposed_change": "Incorporate natural wood cladding (cedar or redwood) on the upper levels to bridge the 'suburban' look with Santa Cruz 'mountain' aesthetic. Paint the remaining stucco a dark, earthy charcoal to make the white windows look intentional/modern rather than cheap.",
+        "impact": "High. It transforms the 'multi-unit apartment' vibe into a cohesive, high-end architectural residence.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Second Story Decking & Indoor-Outdoor Flow",
+        "current_state": "Weathered wood decking that appears disconnected from the living space.",
+        "proposed_change": "Replace decking with thermally modified wood or composite in a 'wood-look' finish and install a large bifold door or oversized sliding glass system to the main living area.",
+        "impact": "Essential for 'Abundant Natural Light' and 'Architectural Character' principles; expands the small footprint.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Interior Warmth & Materiality",
+        "current_state": "Standard suburban drywall and neutral finishes.",
+        "proposed_change": "Add non-structural exposed wood ceiling beams in the main living area and replace flooring with wide-plank light oak. Introduce a brick or natural stone hearth to the fireplace.",
+        "impact": "Directly addresses the user's desire for 'Cozy warmth' and 'Wood elements' while removing the 'cookie-cutter' feel.",
+        "difficulty": "medium"
+      },
+      {
+        "area": "Carport/Gym Transformation",
+        "current_state": "Under-utilized concrete space with a flat roof overhang.",
+        "proposed_change": "Enclose or better define this area with architectural screening (vertical slats) and upgraded lighting to create a dedicated 'character' entryway or a proper indoor/outdoor fitness studio.",
+        "impact": "Improves the approach to the house and adds functional square footage without a full footprint expansion.",
+        "difficulty": "medium"
+      }
+    ],
+    "feasibility": "medium",
+    "cost_class": "$100-200k",
+    "risk_notes": [
+      "Steep grade and retaining walls may require expensive geo-technical inspections if structural changes are made.",
+      "Multi-story layout on a small footprint limits moving plumbing stacks, making kitchen/bath relocations costly.",
+      "Weathered decks often hide dry rot in the ledger board, which could escalate costs quickly."
+    ],
+    "upside_narrative": "This property offers a rare 'vertical' canvas in Santa Cruz that, while currently confused in style, has the 'bones' of a modern treehouse. By leaning into its multi-story Mediterranean-fusion shape and adding heavy wood elements and better glazing, you can shift it from a generic suburban unit to a warm, architectural retreat. The $150k budget is perfectly positioned to handle high-impact surfaces (siding, flooring, decks) and one major 'character' move like a bifold door system."
+  },
+  "brief": "# House Brief: 135 Belmont St, Santa Cruz\n\n### Executive Summary\nA multi-level Mediterranean-suburban hybrid located at the end of a quiet cul-de-sac, offering 2,116 sq. ft. of living space and impressive canopy views. While the home hits the \"natural light\" and \"elevation\" requirements, it currently lacks the soul and architectural warmth of your preference, presenting as a well-maintained but generic suburban dwelling.\n\n### Aesthetic Alignment\nThe house currently scores a **5.0/10** for aesthetic alignment. It captures your desire for verticality and light, but misses on materiality. Instead of the \"interesting/quirky\" wood-driven character you seek, you\u2019ll find white vinyl windows, stucco, and \"maintained-original\" finishes. It fulfills the functional requirement for multiple stories and a cozy fireplace but lacks the \"warmth\" of exposed beams or natural textures.\n\n### Strengths\n*   **Natural Light:** Large sliding glass doors and an open floor plan successfully capture sunlight and provide a \"treehouse\" feel.\n*   **The Lot:** Situated on a 7,318 sq. ft. lot at the back of a cul-de-sac, offering privacy and rare city/treetop views.\n*   **Functional Space:** Includes a \"bonus\" huge family room/office/exercise room, providing the specialized zones you value.\n*   **High-Quality Bones:** Features durable tile roofing and stamped concrete, suggesting the property hasn't been neglected.\n\n### Weaknesses\n*   **Generic Finishes:** The interior lacks the architectural character and wood elements you prefer; it feels more like a standard subdivision unit than a custom retreat.\n*   **Exterior Maintenance:** Weathered second-story decks are visible, which may hide structural issues like dry rot.\n*   **Site Complexity:** The steep grade and old retaining walls increase long-term maintenance liability and complicate future landscaping or structural additions.\n\n### Deal-Breakers\n*   **No hard deal-breakers identified.** However, the \"Mediterranean-fusion\" style may be too far removed from your preferred aesthetic to fix without a significant overhaul.\n\n### Renovation Paths\n**The \"Character Infusion\" ($100k\u2013$200k):**\nThe property has a **Potential Score of 68/100**. To bring this in line with your taste, focus on replacing generic white vinyl with dark-framed windows or wood-clad glazing. Swap interior flooring for high-quality hardwood and introduce \"heavy wood\" elements like reclaimed mantels or faux-exposed ceiling beams to break up the boxy stucco feel. A bifold door system on the main balcony would maximize the \"treehouse\" potential.\n\n### Who This House Is For\nThis home is for a buyer who prioritizes **location and light over turnkey style**. It is ideal if you are willing to look past builder-grade finishes to see the \"vertical canvas\" underneath and have the budget to perform a cosmetic \"warm-up\" of the materials.\n\n### Verdict\n**PASS (unless you are looking for a project).**\nWhile it meets your objective constraints (multi-story, cul-de-sac, bright), it fails your subjective \"Anti-Principles\" by leaning into a generic, somewhat boxy suburban aesthetic. Without a $150k+ investment in materiality, it will likely feel too \"basic\" for your tastes. **Only pursue if the view and the cul-de-sac privacy outweigh the lack of immediate architectural character.**",
+  "annotations": [],
+  "user_verdict": null,
+  "ingested_at": "2026-01-10T19:02:47.529934",
+  "scored_at": "2026-01-10T19:03:21.553742"
+}
