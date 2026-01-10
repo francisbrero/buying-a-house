@@ -543,6 +543,189 @@ def house_report(
         webbrowser.open(f"file://{path}")
 
 
+@house_app.command("process")
+def house_process(
+    data: str = typer.Option(..., "--data", "-d", help="JSON array of listings from scraper"),
+    limit: int = typer.Option(50, "--limit", "-l", help="Max listings to import"),
+    skip_scoring: bool = typer.Option(False, "--skip-scoring", help="Skip the scoring step"),
+    skip_geocode: bool = typer.Option(False, "--skip-geocode", help="Skip the geocoding step"),
+    commit: bool = typer.Option(False, "--commit", "-c", help="Git commit and push after processing"),
+    open_report: bool = typer.Option(False, "--open", help="Open report in browser when done"),
+):
+    """Process listings end-to-end: import, geocode, score, and generate report.
+
+    This is a convenience command that runs the full pipeline:
+    1. Import new listings (skips duplicates)
+    2. Geocode addresses for map display
+    3. Score all unscored houses
+    4. Generate HTML report
+    5. Optionally commit and push to GitHub
+
+    Example:
+        house process --data '[{"address": "123 Main St", ...}]' --commit
+    """
+    import subprocess
+    from datetime import datetime
+    from src.services.geocoding import geocode_address
+    from src.report import save_report
+
+    # Step 1: Import listings
+    console.print("\n[bold cyan]━━━ Step 1: Importing Listings ━━━[/bold cyan]\n")
+
+    try:
+        listings = json.loads(data)
+        if not isinstance(listings, list):
+            console.print("[red]Error: Data must be a JSON array of listings[/red]")
+            raise typer.Exit(1)
+    except json.JSONDecodeError as e:
+        console.print(f"[red]Error: Invalid JSON data: {e}[/red]")
+        raise typer.Exit(1)
+
+    listings = listings[:limit]
+    console.print(f"Processing {len(listings)} listings...\n")
+
+    imported = 0
+    skipped = 0
+    imported_ids = []
+
+    for listing in listings:
+        address = listing.get("address", "")
+        if not address:
+            console.print(f"  [yellow]⚠ Skipping listing with no address[/yellow]")
+            skipped += 1
+            continue
+
+        if store.house_exists(address):
+            console.print(f"  [dim]⊘ {address} - exists[/dim]")
+            skipped += 1
+            continue
+
+        house_id = store.generate_house_id(address)
+        house = House.create_from_zillow(
+            house_id=house_id,
+            url=listing.get("url", ""),
+            address=address,
+            price=listing.get("price"),
+            image_urls=listing.get("image_urls", []),
+            description=listing.get("description", ""),
+            features=listing.get("features", {}),
+        )
+
+        if "city" in listing:
+            house.city = listing["city"]
+        if "state" in listing:
+            house.state = listing["state"]
+        if "zip_code" in listing:
+            house.zip_code = listing["zip_code"]
+
+        store.save_house(house)
+        imported_ids.append(house_id)
+        console.print(f"  [green]✓ {address}[/green]")
+        imported += 1
+
+    console.print(f"\n[cyan]Import: {imported} new, {skipped} skipped[/cyan]")
+
+    if imported == 0:
+        console.print("\n[dim]No new listings to process.[/dim]")
+        if not skip_scoring:
+            # Still check for unscored houses
+            unscored = [h for h in store.list_houses() if h.present_fit_score is None]
+            if unscored:
+                console.print(f"[yellow]Found {len(unscored)} unscored houses. Continuing...[/yellow]")
+                imported_ids = [h.id for h in unscored]
+            else:
+                return
+
+    # Step 2: Geocode
+    if not skip_geocode:
+        console.print("\n[bold cyan]━━━ Step 2: Geocoding Addresses ━━━[/bold cyan]\n")
+
+        houses_to_geocode = [store.load_house(hid) for hid in imported_ids]
+        houses_to_geocode = [h for h in houses_to_geocode if h and (not h.latitude or not h.longitude)]
+
+        if houses_to_geocode:
+            geocoded = 0
+            for house in houses_to_geocode:
+                coords = geocode_address(house.address)
+                if coords:
+                    house.latitude, house.longitude = coords
+                    store.save_house(house)
+                    console.print(f"  [green]✓ {house.address}[/green]")
+                    geocoded += 1
+                else:
+                    console.print(f"  [yellow]⚠ {house.address} - not found[/yellow]")
+            console.print(f"\n[cyan]Geocoded: {geocoded}/{len(houses_to_geocode)}[/cyan]")
+        else:
+            console.print("[dim]All houses already geocoded.[/dim]")
+
+    # Step 3: Score
+    if not skip_scoring:
+        console.print("\n[bold cyan]━━━ Step 3: Scoring Houses ━━━[/bold cyan]\n")
+
+        from src.agents.orchestrator import Orchestrator
+        orchestrator = Orchestrator(store)
+
+        houses_to_score = [store.load_house(hid) for hid in imported_ids]
+        houses_to_score = [h for h in houses_to_score if h and h.present_fit_score is None]
+
+        if houses_to_score:
+            success = 0
+            for i, house in enumerate(houses_to_score, 1):
+                console.print(f"({i}/{len(houses_to_score)}) {house.address}")
+                try:
+                    result = orchestrator.score_house(house.id)
+                    if result:
+                        success += 1
+                        scored = store.load_house(house.id)
+                        if scored and scored.present_fit_score:
+                            pot = f"{scored.potential_score.score:.0f}" if scored.potential_score else "-"
+                            console.print(f"  [green]✓ Fit: {scored.present_fit_score.score:.0f} | Potential: {pot}[/green]")
+                    else:
+                        console.print(f"  [red]✗ Failed[/red]")
+                except Exception as e:
+                    console.print(f"  [red]✗ Error: {e}[/red]")
+
+            orchestrator.cleanup()
+            console.print(f"\n[cyan]Scored: {success}/{len(houses_to_score)}[/cyan]")
+        else:
+            console.print("[dim]All houses already scored.[/dim]")
+
+    # Step 4: Generate report
+    console.print("\n[bold cyan]━━━ Step 4: Generating Report ━━━[/bold cyan]\n")
+
+    path = save_report("report.html")
+    console.print(f"[green]✓ Report saved to: {path}[/green]")
+
+    if open_report:
+        import webbrowser
+        webbrowser.open(f"file://{path}")
+
+    # Step 5: Commit and push
+    if commit:
+        console.print("\n[bold cyan]━━━ Step 5: Committing to GitHub ━━━[/bold cyan]\n")
+
+        try:
+            date_str = datetime.now().strftime("%Y-%m-%d")
+            commit_msg = f"Update listings {date_str}: {imported} new houses"
+
+            subprocess.run(["git", "add", "-A"], check=True, capture_output=True)
+            subprocess.run(["git", "commit", "-m", commit_msg], check=True, capture_output=True)
+            subprocess.run(["git", "push"], check=True, capture_output=True)
+
+            console.print(f"[green]✓ Committed and pushed: {commit_msg}[/green]")
+        except subprocess.CalledProcessError as e:
+            console.print(f"[red]✗ Git error: {e}[/red]")
+
+    # Summary
+    console.print("\n[bold green]━━━ Processing Complete ━━━[/bold green]\n")
+    console.print(f"  New listings: {imported}")
+    if not skip_geocode:
+        console.print(f"  Report: {path}")
+    if commit:
+        console.print(f"  Pushed to GitHub ✓")
+    console.print()
+
+
 @taste_app.command("review")
 def taste_review():
     """Review recent decisions and propose taste updates."""
@@ -670,6 +853,26 @@ house report --output my-report.html
 
 # Don't open browser
 house report --no-open
+```
+
+### house process
+**Full pipeline command** - import, geocode, score, and generate report in one step.
+
+```bash
+# Process listings from scraped data
+house process --data '[{"address": "123 Main St", "price": 1500000, ...}]'
+
+# Process and auto-commit to GitHub
+house process --data '[...]' --commit
+
+# Skip geocoding (faster)
+house process --data '[...]' --skip-geocode
+
+# Skip scoring (just import and report)
+house process --data '[...]' --skip-scoring
+
+# Open report when done
+house process --data '[...]' --open
 ```
 
 ## Taste Commands
